@@ -1,0 +1,36 @@
+.stack-container {
+	@include prefix(column-count, 3);
+	@include prefix(column-gap, 0);
+	@include prefix(column-fill, 0);
+	padding-right: 20px;
+	text-overflow: none;
+	.stack-item {
+		@include prefix(column-break-inside, avoid);
+		border-radius: 4px;
+		background-color: white;
+		box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.2);
+		overflow: hidden;
+		margin-left: 10px;
+		margin-bottom: 10px;
+		.stack-image {
+			img {
+				width: 100%;
+			}
+		}
+		.stack-text {
+			padding: 10px;
+		}
+	}
+}
+
+@media #{$medium} {
+	.stack-container {
+		@include prefix(column-count, 2);
+	}
+}
+
+@media #{$small} {
+	.stack-container {
+		@include prefix(column-count, 1);
+	}
+}

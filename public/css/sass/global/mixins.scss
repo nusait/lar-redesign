@@ -1,0 +1,28 @@
+@mixin home-content-width {
+    max-width: $main-area-max-width;
+    width: 100%;
+    margin: 0 auto;
+}
+@mixin prefix($instruction, $value) {
+    -webkit-#{$instruction}: $value;
+    -moz-#{$instruction}: $value;
+    -o-#{$instruction}: $value;
+    -ms-#{$instruction}: $value;
+    #{$instruction}: $value;
+}
+@mixin slanted-shadow ($degrees, $bottom-height) {
+    &::before, &:before {
+        content: '';
+        top: 0;
+        left: -1px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 101%;
+        height: calc(100% + #{$bottom-height});
+        height: -webkit-calc(100% + #{$bottom-height});
+        z-index: -1;
+        @include transform(skewX($degrees));
+        @include prefix(transform-origin, 0px 0px);
+    }
+}

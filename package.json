@@ -1,0 +1,22 @@
+{
+  "name": "Laravel-Redesign",
+  "version": "0.0.1",
+  "description": "Redesign of DOSA in Laravel",
+  "main": "public/index.php",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nusait/lar-redesign.git"
+  },
+  "keywords": [],
+  "author": "Hao Luo",
+  "license": "BSD",
+  "readmeFilename": "readme.md",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "*",
+    "grunt-exec": "*",
+    "grunt-text-replace": "*",
+    "grunt-phpcs": "*",
+    "grunt-contrib-sass": "~0.5.0"
+  }
+}

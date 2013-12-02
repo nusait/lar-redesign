@@ -1,0 +1,117 @@
+@media #{$small}  {
+    .mobile-footer {
+        @include transition(height .2s cubic-bezier(0.55, 0.085, 0.68, 0.53));
+        background-image: url(../img/purple-background.png);
+        height: 0;
+        text-align: center;
+        html.show-top & {
+            height: 2.5em;
+        }
+        .social {
+            position: relative;
+            a {
+                display: inline-block;
+                color: transparent;
+                width: 2em;
+                height: 2em;
+                margin-top: 5px;
+                margin-left: 10px;
+                &:first-child {
+                    margin-left: 0;
+                }
+                &:before {
+                    font-family: FontAwesome;
+                    color: white;
+                    font-size: 2em;
+                }
+                &.facebook:before {
+                    content: "\f082";
+                }
+                &.twitter:before {
+                    content: "\f081";
+                }
+            }
+        }
+    }
+    .dosa-footer {
+        display: none;
+    }
+}
+@media #{$medium-and-large} {
+    .dosa-footer {
+        clear: both;
+        margin-top: 20px;
+        background-color: $dosa-footer-background-color;
+        .inner {
+            color: $dosa-footer-text-color;
+            max-width: $main-area-max-width;
+            width: 100%;
+            margin: 0 auto;
+            .details {
+                position: relative;
+                text-align: center;
+                padding: 20px;
+                border-bottom: 4px double white;
+                .address {
+                    position: absolute;
+                    left: 10px;
+                    top: 40px;
+                    text-align: left;
+                    display: inline-block;
+                }
+                .logo {
+                    // position: absolute;
+                    display: inline-block;
+                    width: 30%;
+                    max-width: 200px;
+                    a {
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+                .social {
+                    position: absolute;
+                    right: 10px;
+                    top: 40px;
+                    display: inline-block;
+                    a {
+                        display: inline-block;
+                        width: 40px;
+                        height: 40px;
+                        background-size: contain;
+                        color: transparent;
+                        &.facebook {
+                            background-image: url(../img/social/facebook-square.png);
+                        }
+                        &.twitter {
+                            background-image: url(../img/social/twitter-square.png)
+                        }
+                    }
+                }
+            }
+            .links {
+                padding-bottom: 1px;
+                text-align: center;
+                ul {
+                    padding: 0;
+                    li {
+                        display: inline-block;
+                        border-right: 1px solid white;
+                        a {
+                            color: white;
+                            text-decoration: none;
+                            padding: 10px;
+                        }
+                    }
+                    li:last-child {
+                        border-right: none;
+                    }
+                }
+            }
+        }
+    }
+    .mobile-footer {
+        display: none;
+    }
+}

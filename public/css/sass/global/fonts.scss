@@ -1,0 +1,48 @@
+@import url(//fonts.googleapis.com/css?family=Oswald:300,400);
+@import url(//fonts.googleapis.com/css?family=EB+Garamond);
+
+@mixin main-font( $weight: 300) {
+    font-family: 'Oswald', sans-serif;
+    font-weight: $weight;
+}
+body {
+    font-family: Oswald;
+    font-size: 100%;
+}
+h1 {
+    font-weight: 300;
+    font-size: 4.5em;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    font-weight: 300;
+    font-size: 1em;
+    text-transform: lowercase;
+    font-family: 'Oswald', sans-serif;
+    color: #5a308c;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 3em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #5a308c;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+@mixin display-font {
+    font-family: 'Oswald', sans-serif;
+}
+@mixin text-font {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3em;
+}
+@mixin icon($icon-code) {
+    content: "\f#{$icon-code}";
+    font-family: FontAwesome;
+}

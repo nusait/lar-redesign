@@ -1,0 +1,205 @@
+@import '../assets/scss-mixins/all';
+@import '../assets/swiper/dist/idangerous.swiper.css';
+@import 'sass/global/all';
+@import 'sass/dosa/dosa';
+@import 'sass/block/block';
+@import 'sass/meta/meta';
+@import 'sass/content/content';
+@import 'sass/department/department';
+@import 'sass/layouts/layouts';
+
+@-ms-viewport { width: device-width; }
+
+html {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+
+a {
+    text-decoration: none;
+    img {
+        border: 0;
+    }
+}
+
+body {
+    .viewport {
+        html.browser-lt-ie9 & {
+            display: none;
+        }
+        overflow: hidden;
+        html.browser-ie9 & {
+            overflow: auto;
+        }
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        .main {
+            @include transition(all 0.2s linear);
+            html.show-drawer.view-small & {
+                @include transform(translate3d(253px, 0, 0));
+                -webkit-perspective: 1000;
+                -webkit-backface-visibility: hidden;
+            }
+            // box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.6);
+            // -webkit-transition: all 0.35s linear;
+            // transition: all 0.35s linear;
+            color: rgb(255, 255, 255);
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            background-color: $bg-color;
+            .main-window {
+                position: absolute;
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                @include display(flex);
+                @include flex-direction(column);
+
+                .middle {
+                    @include flex(1);
+                    background-color: $bg-color;
+                    color: black;
+                    margin: 0;
+                    overflow: auto;
+                    -webkit-overflow-scrolling: touch;
+                    .middle-overlay {
+                        html.show-drawer & {
+                            background-color: black;
+                            opacity: 0.6;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                        }
+                    }
+                    .content {
+                        // max-width: $main-area-max-width;
+                        // width: 100%;
+                        // margin: 0 auto;
+                        .divider-h1 {
+                            margin: 0px 20px;
+                            position:relative;
+                            height: 2px;
+                            background-color: $purple;
+                        }
+                        .divider {
+                            margin: 0px 30px;
+                            position:relative;
+                            height: 1px;
+                            background-color: $purple;
+                        }
+                        h2 {
+                            margin: 8px 0 0 40px;
+                        }
+                        p {
+                            margin: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$medium-and-large} {
+    .viewport {
+        .main {
+            html.show-drawer & {
+            }
+            .main-window {
+                .middle {
+                    .content {
+                        padding-top: 40px;
+                        .title {
+                            h1 {
+                                display: none;
+                            }
+                            button.menu {
+                                display: none;
+                            }
+                        }
+                        .divider-h1 {
+                            display: none;
+                        }
+                        .divider {
+                        }
+                        h2 {
+                        }
+                        p {
+                        }
+                    }
+                }
+                footer {
+                    html.show-top & {
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$small} {
+    .viewport {
+        .main {
+            html.show-drawer & {
+            }
+            .main-window {
+                .middle {
+                    .content {
+                        .title {
+                            position: relative;
+                            //background-color: blue;
+                            margin: 5px 40px;
+                            margin-top: 20px;
+                            @include display(flex);
+                            @include flex-direction(row);
+                            @include align-items(center);
+                            h1 {
+                                //background-color: orange;
+                                display: inline-block;
+                                position: relative;
+                                color: $purple;
+                                font-size: 1.5em;
+                                left: -15px;
+                                margin-bottom: 0px;
+                                margin-top: 15px;
+                                line-height: 1.2;
+                                font-weight: 400;
+                                @include flex(1);
+                            }
+                            button.menu {
+                                -webkit-appearance: none;
+                                height: 2.5em;
+                                background-color: $purple;
+                                color: white;
+                                border: none;
+                                padding: 0px 8px;
+                                display: none;
+                            }
+                        }
+                        .divider {
+                        }
+                        h2 {
+                        }
+                        p {
+                        }
+                    }
+                }
+                footer {
+                    html.show-top & {
+
+                    }
+                }
+            }
+        }
+    }
+}

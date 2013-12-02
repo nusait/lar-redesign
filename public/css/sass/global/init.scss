@@ -1,0 +1,31 @@
+// Page wide Variable
+$main-area-max-width: 68em;
+
+
+.hidden {
+    display: none !important;
+}
+.acc-hidden {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    //opacity: 0;
+}
+body {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-text-size-adjust: none;
+    .ie-too-old {
+        display: none;
+        html.browser-lt-ie9 & {
+            display: block;
+            margin: 2em;
+        }
+    }
+}

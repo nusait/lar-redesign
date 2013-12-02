@@ -1,0 +1,141 @@
+.events-container {
+    .events {
+        margin: 0 15px 0 30px;
+        .event-item {
+            margin: 10px 0;
+            padding: 10px;
+            color: white;
+            background-color: $teal;
+            display: block;
+            @include main-font(300);
+            html.allow-hover &:hover {
+                background-color: $purple;
+            }
+            .event-date {
+                padding-right: 10px;
+                font-size: 1.8em;
+                width: 2em;
+            }
+            .event-desc {
+
+                font-size: 1.2em;
+                line-height: 1.2em;
+
+                .event-detail {
+                    font-size: 0.8em;
+                }
+            }
+            &.full-calendar {
+                text-align: center;
+                text-transform: uppercase;
+                font-size: 1.1em;
+                background-color: darken($teal, 10%);
+                padding-top: 20px;
+                padding-bottom: 20px;
+                .event-desc {
+                }
+            }
+        }
+    }
+}
+
+@media #{$medium} {
+    .events-container {
+        .events {
+            .event-item {
+                .event-date {
+                    display: block;
+                    // background-color: red;
+                    border-right: none;
+                    width: auto;
+                    text-align: center;
+                    font-size: 1.2em;
+                    border-bottom: 1px solid white;
+                }
+                .event-desc {
+                    display: block;
+                    padding: 10px 5px;
+                    // @include flex(none);
+                    .event-detail {
+                    }
+                }
+            }
+        }
+    }
+}
+@media #{$medium-and-large} {
+    .events-container {
+        .events {
+            .event-item {
+                &.full-calendar {
+                    .event-desc {
+                        border: none;
+                        display: inline-block;
+                        border-bottom: 1px solid white;
+                        border-top: 1px solid white;
+                    }
+                }
+            }
+        }
+    }
+}
+@media #{$large} {
+    .events-container {
+        .events {
+            .event-item {
+                // @include flex-direction(column);
+                &:nth-child(1) {
+                }
+                &.full-calendar {
+                    .event-desc {
+                        padding: 5px 0;
+                    }
+                }
+                .event-date {
+                    display: inline-block;
+                    vertical-align: top;
+                }
+                .event-desc {
+                    display: inline-block;
+                    width: calc(100% - 2em - 50px);
+                    width: -webkit-calc(100% - 2em - 50px);
+                    padding-left: 10px;
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-left-color: white;
+                    .event-detail {
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media #{$small} {
+    .events-container {
+        @include order(3);
+        .events {
+            margin: 0 0px 0 0px;
+            .event-item {
+                @include display(flex);
+
+                &:nth-child(1) {
+                }
+                .event-date {
+                }
+                .event-desc {
+                    @include flex(1);
+                    padding-left: 10px;
+                    border-left-style: solid;
+                    border-left-width: 1px;
+                    border-left-color: white;
+                }
+                &.full-calendar {
+                    .event-desc {
+                        border: none;
+                    }
+                }
+            }
+        }
+    }
+}

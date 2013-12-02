@@ -1,0 +1,12 @@
+{
+  "name": "package",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "2.*",
+    "scss-mixins": "*",
+    "requirejs": "*",
+    "swiper" : "*",
+    "simplecors": "*",
+    "hammerjs": "1.0.5"
+  }
+}

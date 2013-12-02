@@ -1,0 +1,13 @@
+@media #{$small} {
+    .twitter-container {
+        display: none;
+    }
+}
+.twitter-container {
+    .inner-container {
+        overflow: auto;
+        min-height: 400px;
+        margin-left: 30px;
+        margin-right: 15px;
+    }
+}

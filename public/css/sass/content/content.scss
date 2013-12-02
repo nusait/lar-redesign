@@ -1,0 +1,6 @@
+@import 'stack';
+@import 'text-info';
+
+.main-container {
+	@include home-content-width;
+}
