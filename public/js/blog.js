@@ -3,18 +3,22 @@ define(['simplecors', 'jquery'], function (Simplecors, $)
         var Blog = function () {
             this.initialize = function () {
                 var ins = this;
+                ins.hasBlog = ins.detectBlog();
                 Simplecors.ajax({
                     url: '//go.dosa.northwestern.edu/shared/sablog/posts'
                 }).done( function(data) {
                     ins.populateEntries(data);
                 });
             };
+            this.detectBlog = function () {
+
+            };
             this.showSpinner = function () {
 
-            },
+            };
             this.hideSpinner = function () {
 
-            },
+            };
             this.populateEntries = function (entries) {
                 console.log(entries);
                 $.each(entries, function (index, entry) {

@@ -1,0 +1,42 @@
+.collapsable-container {
+	.collapsable-item {
+		$plus: '067';
+		// $plus: 196;
+
+		$minus: '068';
+		// $minus: 147;
+		&.closed {
+			.collapsable-title:before {
+				@include icon($plus);
+			}
+			.collapsable-content {
+				display: none;
+			}
+		}
+		.collapsable-title:before {
+			@include icon($minus);
+		}
+
+		.collapsable-title {
+			text-transform: uppercase;
+			font-weight: 300;
+			font-size: 1.5em;
+			padding-left: 15px;
+			// padding-bottom: 15px;
+			&:before {
+				color: $department-color-1;
+				padding-right: 10px;
+			}
+			&:after {
+				content: "";
+				width: 100%;
+				border-bottom: 1px solid black;
+				display: block;
+			}
+		}
+		.collapsable-content {
+			@include text-font;
+			padding: 20px;
+		}
+	}
+}

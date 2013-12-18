@@ -1,14 +1,23 @@
-.side-bar {
-	float: left;
-	width: 20%;
-	margin-right: 10px;
-	padding: 0 20px;
-	border-right: 1px solid rgba(0, 0, 0, 0.5);
-}
 #main {
 	margin-top: 30px;
+	overflow: hidden; // make no-wrap on sidebar's float:left
 }
+
+
 @media #{$small} {
-	float: none;
-	display: block;
+.main-container {
+	@include display(flex);
+	@include flex-direction(column);
+	.sub-navigation-lvl-2-region {
+		@include order(0);
+	}
+
+	.dept-quick-links-region {
+		@include order(2);
+	}
+
+	#main {
+		@include order(1);
+	}
+}
 }

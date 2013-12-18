@@ -1,6 +1,7 @@
 @import 'stack';
 @import 'text-info';
+@import 'collapsable';
+@import 'basic';
+@import 'table';
+@import 'detail';
 
-.main-container {
-	@include home-content-width;
-}

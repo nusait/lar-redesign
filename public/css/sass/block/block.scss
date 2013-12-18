@@ -2,14 +2,23 @@
     .block {
         @include display(flex);
         @include flex-direction(column);
-        .big-list {
-            // background-color: blue;
+        .mobile-heading {
+            margin-left: 20px;
+            margin-bottom: 5px;
         }
-        .rich-extra {
-
+        .divider {
+            margin: 0 20px;
+            height: 1px;
+            background: $purple;
         }
-        .quick-links {
-
+        .big-list-region {
+            @include order(3);
+        }
+        .q-links-region {
+            @include order(1);
+        }
+        .rich-extra-region {
+            @include order(2);
         }
     }
 }
@@ -32,6 +41,7 @@
         width: 100%;
         max-width: $main-area-max-width;
         margin: 0 auto;
+        margin-top: 30px;
         margin-bottom: 30px;
         clear: both;
         // background-color: green;
@@ -40,7 +50,7 @@
             // background-color: cyan;
             display: inline-block;
             float: left;
-            h2, .divider {
+            .mobile-heading, .divider {
                 display: none;
             }
         }
@@ -49,7 +59,7 @@
             // background-color: red;
             display: inline-block;
             position: relative;
-            h2, .divider {
+            .mobile-heading, .divider {
                 display: none;
             }
         }
@@ -57,7 +67,7 @@
             width: 70%;
             // background-color: yellow;
             display: inline-block;
-            h2, .divider {
+            .mobile-heading, .divider {
                 display: none;
             }
         }

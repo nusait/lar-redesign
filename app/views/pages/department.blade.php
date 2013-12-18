@@ -177,6 +177,13 @@
                                         <li role="presentation" class="section-title">Other Stuff</li>
                                         @include('components.dosa.nuhelp-desktop')
                                       </ul>
+                                    </div><!--
+                                    --><div class="section closed">
+                                      <div class="navigation-item-title" tabindex="0"><span class="inner">More Stuff</span></div>
+                                      <ul>
+                                        <li role="presentation" class="section-title">More Stuff</li>
+                                        @include('components.dosa.nuhelp-desktop')
+                                      </ul>
                                     </div>
                                   </nav>
                                 </div>
@@ -205,14 +212,14 @@
                                       <a class="event-item">
                                           <div class="event-date">05.25</div>
                                           <div class="event-desc">
-                                            First Day at your job
+                                            This is your first Day at your job. Find out what you are going to do.
                                             <div class="event-detail">Norris Center</div>
                                           </div>
                                       </a>
                                       <a class="event-item">
                                           <div class="event-date">05.27</div>
                                           <div class="event-desc">
-                                            Mistakes on your first day at your job
+                                            Mistakes on your first day at your job. that's not going to be good!
                                             <div class="event-detail">Norris Center</div>
                                           </div>
                                       </a>
@@ -294,7 +301,7 @@ Hella locavore small batch raw denim fingerstache wayfarers.  Brunch Bushwick 8-
                               </div>
                             </div>
                         </div>
-                        <div class="footer">
+                        <div class="footer closed">
                           <div class="inner">
                             <div class="arrow-button" aria-label="open footer"></div>
                             <div class="details">

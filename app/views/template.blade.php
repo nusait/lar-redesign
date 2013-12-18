@@ -20,7 +20,7 @@
         <link rel="apple-touch-icon" href="{{asset('img/icons/icon120.png')}}" sizes="120x120">
         <link rel="apple-touch-icon" href="{{asset('img/icons/icon144.png')}}" sizes="144x144">
         <link rel="apple-touch-icon" href="{{asset('img/icons/icon152.png')}}" sizes="152x152">
-        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" />
+        <!--link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet" /-->
         <link rel="stylesheet" href="{{asset('css/main.css')}}{{'?'.rand(0,10000)}}" />
         <!--<script type="text/javascript" src="//use.typekit.net/jfq3vqp.js"></script>-->
         <!--<script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
@@ -88,7 +88,7 @@
                     <header class="mobile-header" role="banner" aria-label="banner">
                         <span class="button-container">
                             <button class="menu-drawer">
-                                <span class="acc-hidden">Menu</span><i class="icon-reorder" aria-hidden="true"><!-- keep --></i>
+                                <span class="acc-hidden">Menu</span><i class="fa fa-bars" aria-hidden="true"><!-- keep --></i>
                             </button>
                         </span>
                         <span class="logo-container">
@@ -106,7 +106,7 @@
                                 <input type="hidden" name="client" value="default_oneboxes"/>
                                 <input type="hidden" name="proxystylesheet" value="default_oneboxes"/>
                                 <input type="search" aria-label="Search Input" name="q"/>
-                                <button type="submit" aria-label="Submit Search"><i class="icon-search"><!-- keep --></i></button>
+                                <button type="submit" aria-label="Submit Search"><i class="fa fa-search"><!-- keep --></i></button>
                               </form>
                             </div>
                             <nav class="dosa-banner-navigation" role="navigation" aria-label="Student Affairs Top Links">
@@ -140,15 +140,10 @@
                           <div class="inner-right"></div>
                         </header>
                         <div class="content">
-                            <div class="title">
-                                <h1>Student Affairs</h1>
-                                <button class="menu"><span class="acc-hidden">Menu</span><i class="icon-reorder" aria-hidden="true"><!-- keep --></i></button>
-                            </div>
-                            <div class="divider-h1"></div>
                             <div class="department-header">
                               <div class="department-header-bg">
                               <div class="department-header-inner">
-                                <h2 class="department-title">Center for Awareness, Response, and Education</h2>
+                                <h2 class="department-title">SafeRide</h2>
                                 <nav class="department-nav closed" role="navigation">
                                   <button class="mobile-menu-button"></button>
                                   <div class="section closed">
@@ -160,7 +155,7 @@
                                   --><div class="section closed">
                                     <div class="navigation-item-title" tabindex="0"><span class="inner">Students</span></div>
                                     <ul>
-                                      <li role="presentation" class="section-title">Students</li>
+                                      <li role="presentation" class="section-title">Current Students</li>
                                       @include('components.dosa.topics-desktop')
                                     </ul>
                                   </div><!--
@@ -177,120 +172,64 @@
                                       <li role="presentation" class="section-title">Other Stuff</li>
                                       @include('components.dosa.nuhelp-desktop')
                                     </ul>
+                                  </div><!--
+                                  --><div class="section closed">
+                                    <div class="navigation-item-title" tabindex="0"><span class="inner">More Stuff</span></div>
+                                    <ul>
+                                      <li role="presentation" class="section-title">Other Stuff</li>
+                                      @include('components.dosa.nuhelp-desktop')
+                                    </ul>
                                   </div>
                                 </nav>
                               </div>
                               </div>
                             </div>
+                            <div class="breadcrumbs">
+                              <div class="crumb-item"><a href="">Saferide</a></div>
+                              <div class="crumb-item"><a href="">Current Student</a></div>
+                              <div class="crumb-item">Get a Room</div>
+                            </div>
                             <div class="main-container">
-
-                              <div class="side-bar">
+                              <div class="sub-navigation-lvl-2-region">
                                 <div class="sub-navigation-lvl-2-container">
-                                  <div class="sub-navigation-lvl-2-title"><span>about us</span></div>
+                                  <div class="sub-navigation-lvl-2-title"><span>current students</span></div>
                                   <nav class="sub-navigation-lvl-2">
-                                    <li><a href="">what we do</a></li>
-                                    <li><a href="">meet the staff</a></li>
-                                    <li><a href="">contact</a></li>
+                                    <li class="active"><a href="">get a room</a>
+                                      <ul class="lvl-3">
+                                        <li><a href="">Apply now</a></li>
+                                        <li><a href="">Request Special Consideration</a></li>
+                                        <li><a href="">Residence Board Contract</a></li>
+                                        <li><a href="">Rates '13-'14</a></li>
+                                        <li><a href="">Housing Options</a></li>
+                                        <li><a href="">New Student Application Procedures</a></li>
+                                      </ul>
+                                    </li>
+                                    <li><a href="">change your room</a></li>
+                                    <li><a href="">your nu home</a></li>
+                                    <li><a href="">get involved</a></li>
+                                    <li><a href="">get a job</a></li>
                                   </nav>
                                 </div>
+                              </div>
+                              <div class="dept-quick-links-region">
                                 <div class="dept-quick-links-container">
                                   <div class="dept-quick-links-title">quick links</div>
                                   <nav class="dept-quick-links">
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
-                                    <li><a href=""></a></li>
+                                    {{-- system-region department-quick-links --}}
+                                    <li><a href="http://www.google.com">Home Page</a></li>
+                                    <li><a href="http://www.google.com">Find a Job</a></li>
+                                    <li><a href="http://www.google.com">Career cat</a></li>
+                                    <li><a href="http://www.google.com">FAQs</a></li>
                                   </nav>
                                 </div>
                               </div>
+
                               <div id="main" role="main">
-                                <div class="title-lvl-2-container"><h3 class="title-lvl-2">meet the staff</h3></div>
-                                <div class="stack-container">
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/animals/" /></div>
-                                    <div class="stack-text">
-                                      <strong>Hao Luo</strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!!
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/fashion/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John Smith</strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!!  I'm going to talk a bit about myself.
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/cats/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John FINDFLSDIF</strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm quiet.
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/city/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John asdf</strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome too!!
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/abstract/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John A </strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!! And I love my job.
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/technics/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John </strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!!
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/business/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John </strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!! I love to talk about myself so I'm going to type a lot of information about myself.
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/food/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John </strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!! This internet thing is a bit confusing to me though :(
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/nightlife/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John </strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!!  I'm also sleepy!!
-                                    </div>
-                                  </div>
-                                  <div class="stack-item">
-                                    <div class="stack-image"><img src="http://lorempixel.com/360/240/animals/" /></div>
-                                    <div class="stack-text">
-                                      <strong>John </strong> <br>
-                                      <em>Title: Administrator</em> <br>
-                                      <em>Description:</em> I'm awesome!! WOW!!!
-                                    </div>
-                                  </div>
-                                </div>
+                                @yield('main-area')
                               </div>
                             </div>
                         </div>
-                        <div class="footer">
+                        <div class="footer closed">
                           <div class="inner">
                             <div class="arrow-button" aria-label="open footer"></div>
                             <div class="details">
@@ -307,10 +246,6 @@
                               </div><div class="divider"></div><!--
                               --><div class="logo">
                                 <a href="http://www.northwestern.edu"><img src="{{asset('img/nu_logo_white.png')}}" alt="Northwestern Logo" /></a>
-                              </div>
-                              <div class="social">
-                                <a class="facebook" href="http://www.facebook.com/studentaffnu" aria-label="Facebook">Facebook</a>
-                                <a class="twitter" href="http://www.twitter.com/studentaffnu" aria-label="Twitter">Twitter</a>
                               </div>
                             </div>
                             <div class="links">

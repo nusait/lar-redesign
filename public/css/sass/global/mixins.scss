@@ -10,7 +10,7 @@
     -ms-#{$instruction}: $value;
     #{$instruction}: $value;
 }
-@mixin slanted-shadow ($degrees, $bottom-height) {
+@mixin slanted-shadow ($degrees: -2deg, $bottom-height: 10px) {
     &::before, &:before {
         content: '';
         top: 0;
@@ -25,4 +25,17 @@
         @include transform(skewX($degrees));
         @include prefix(transform-origin, 0px 0px);
     }
+}
+
+@mixin sidebar {
+    float: left;
+    position: relative;
+    width: 20%;
+}
+
+@mixin card {
+    border-radius: 4px;
+    background-color: white;
+    box-shadow: -2px 2px 3px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
 }

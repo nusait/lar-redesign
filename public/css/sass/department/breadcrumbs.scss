@@ -1,0 +1,24 @@
+.breadcrumbs {
+	display: none;
+}
+
+@media #{$small} {
+	.breadcrumbs {
+		display: block;
+		font-weight: 300;
+		margin-top: 10px;
+		margin-left: 10px;
+		.crumb-item {
+			display: inline;
+			&:after {
+				@include icon(105);
+				margin-left: 5px;
+			}
+			&:last-child {
+				&:after {
+					content: '';
+				}
+			}
+		}
+	}
+}

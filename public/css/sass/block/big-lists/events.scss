@@ -48,7 +48,7 @@
                     // background-color: red;
                     border-right: none;
                     width: auto;
-                    text-align: center;
+                    text-align: left;
                     font-size: 1.2em;
                     border-bottom: 1px solid white;
                 }
@@ -82,6 +82,12 @@
 @media #{$large} {
     .events-container {
         .events {
+            min-height: 400px;
+            max-height: 500px;
+            overflow: auto;
+            &::-webkit-scrollbar {
+                display: none;
+            }
             .event-item {
                 // @include flex-direction(column);
                 &:nth-child(1) {
@@ -113,7 +119,6 @@
 
 @media #{$small} {
     .events-container {
-        @include order(3);
         .events {
             margin: 0 0px 0 0px;
             .event-item {

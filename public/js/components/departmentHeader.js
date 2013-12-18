@@ -7,10 +7,13 @@ define(['jquery'], function ($)
 				this.openSectionOnClick();
 				this.closeSectionOnClick();
 				this.toggleMobileMenuOnClick();
+				console.log('department header loaded');
 			};
+
 			this.closeAll = function () {
 				this.$el.find('.section').addClass('closed');
 			};
+
 			this.openSectionOnClick = function () {
 				var ins = this;
 				this.$el.find('.navigation-item-title').click(function () {
@@ -21,6 +24,7 @@ define(['jquery'], function ($)
 					}
 				});
 			};
+
 			this.closeSectionOnClick = function () {
 				var ins = this;
 				this.$el.find('.section-title').click(function () {
@@ -33,13 +37,15 @@ define(['jquery'], function ($)
 				    }
 				});
 			};
+
 			this.toggleMobileMenuOnClick = function () {
 				var ins = this;
 				this.$el.find('.mobile-menu-button').click(function () {
 					$(this).parent().toggleClass('closed');
-				})
-			}
+				});
+			};
 		}
+
 		return DepartmentHeader;
 	}
 );

@@ -18,6 +18,7 @@
 	.inner {
 		background-color: #612869;
 		position: relative;
+		margin-top: 30px;
 		.arrow-button {
 			position: absolute;
 			top: 0;
@@ -33,16 +34,22 @@
 			}
 		}
 		.details {
+			$details-padding-side: 20px;
+			$details-padding-vertical: 20px;
 			@include text-font;
+			font-size: 1.2em;
 			position: relative;
 			display: inline-block;
 			color: white;
-			padding: 20px 0;
-			height: 100%;
-			// width: 95%;
-			// width: calc(100% - 40px);
-			// width: -webkit-calc(100% - 40px);
-			width: 100%;
+			padding: $details-padding-vertical $details-padding-side;
+			height: 95%;
+			height: calc(100% - #{$details-padding-vertical * 2});
+			height: -webkit-calc(100% - #{$details-padding-vertical * 2});
+
+			width: 95%;
+			width: calc(100% - #{$details-padding-side * 2});
+			width: -webkit-calc(100% - #{$details-padding-side * 2});
+			// width: 100%;
 			@mixin detail-spacing {
 				$padding: 20px;
 				padding: 0 $padding;
@@ -54,8 +61,8 @@
 				position: absolute;
 				display: inline-block;
 				width: 1px;
-				height: 80%;
-				background-color: rgba(white, 0.5);
+				height: 75%;
+				background-color: rgba(white, 0.3);
 			}
 			.social {
 				display: none;
@@ -98,6 +105,8 @@
 			}
 		}
 		.links {
+			position: relative;
+			min-height: 40px;
 			padding-bottom: 1px;
 			text-align: center;
 			border-top-width: 3px;
@@ -106,10 +115,39 @@
 			@include text-font;
 			font-size: 1em;
 			.social {
-				display: none;
+				// display: block;
+
+				position: absolute;
+				top: 0;
+				right: 0;
+				margin-right: 70px;
+				a {
+				    display: inline-block;
+				    color: transparent;
+				    width: 2em;
+				    height: 2em;
+				    margin-top: 5px;
+				    margin-left: 10px;
+				    &:first-child {
+				        margin-left: 0;
+				    }
+				    &:before {
+				        font-family: FontAwesome;
+				        color: white;
+				        font-size: 2em;
+				    }
+				    &.facebook:before {
+				        content: "\f082";
+				    }
+				    &.twitter:before {
+				        content: "\f081";
+				    }
+				}
 			}
 			ul {
+				display: inline-block;
 			    padding: 0;
+			    margin: 10px;
 			    li {
 			        display: inline-block;
 			        border-right: 1px solid white;
@@ -127,7 +165,18 @@
 		}
 	}
 }
-
+@media #{$medium} {
+	.footer {
+		.inner {
+			.links {
+				font-size: 0.8em;
+				.social {
+					// font-size: 0.8em;
+				}
+			}
+		}
+	}
+}
 @media #{$small} {
 .footer {
 	&.closed {
@@ -141,6 +190,7 @@
 		}
 	}
 	.inner {
+		margin-top: 0;
 		.arrow-button {
 			&:after {
 			}
@@ -177,31 +227,7 @@
 		.links {
 			text-align: right;
 			.social {
-				display: block;
-				position: relative;
-				margin-right: 70px;
-				a {
-				    display: inline-block;
-				    color: transparent;
-				    width: 2em;
-				    height: 2em;
-				    margin-top: 5px;
-				    margin-left: 10px;
-				    &:first-child {
-				        margin-left: 0;
-				    }
-				    &:before {
-				        font-family: FontAwesome;
-				        color: white;
-				        font-size: 2em;
-				    }
-				    &.facebook:before {
-				        content: "\f082";
-				    }
-				    &.twitter:before {
-				        content: "\f081";
-				    }
-				}
+
 			}
 			ul {
 				display: none;

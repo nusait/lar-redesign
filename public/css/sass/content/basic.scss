@@ -1,0 +1,64 @@
+.basic-container {
+	@include text-font;
+	.basic-image-container {
+		float: right;
+		width: 35%;
+		margin-left: 20px;
+		.basic-image-item {
+			margin-bottom: 40px;
+
+			img {
+				width: 100%;
+			}
+
+			.basic-image-caption {
+				@include display-font;
+				font-weight: 300;
+				font-size: .8em;
+				margin-top: 5px;
+				padding: 5px;
+				p {
+					text-transform: uppercase;
+					margin: 0;
+					display: inline;
+					padding: 2px 0;
+					background-color: $purple;
+					color: white;
+					line-height: 2em;
+					box-shadow: 0.5em 0 0 $purple, -0.5em 0 0 $purple; //line-break spacing on background
+				}
+			}
+		}
+	}
+	.basic-text-container {
+		overflow: hidden;
+		margin-left: 30px;
+		margin-right: 20px;
+	}
+}
+
+@media #{$small} {
+	.basic-container {
+		.basic-image-container {
+			float: none;
+			width: 100%;
+			margin: 0;
+			.basic-image-item {
+				margin-bottom: 0;
+				img {
+				}
+				.basic-image-caption {
+					position: relative;
+					top: -30px;
+					text-align: center;
+					p {
+					}
+
+				}
+			}
+		}
+		.basic-text-container {
+
+		}
+	}
+}

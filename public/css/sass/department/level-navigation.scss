@@ -1,10 +1,116 @@
-.sub-navigation-lvl-2-container {
+.sub-navigation-lvl-2-region {
+	@include sidebar;
+	border-right: 1px solid rgba(0, 0, 0, 0.5);
 	margin-bottom: 30px;
-	.sub-navigation-lvl-2-title {
-		// background-color: red;
-		border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+	.sub-navigation-lvl-2-container {
+		padding-left: 10px;
+		padding-right: 20px;
+		margin-bottom: 30px;
+		&:after {
+			content: '';
+			display: block;
+		}
+		.sub-navigation-lvl-2-title {
+			// background-color: red;
+			border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+		}
+		.sub-navigation-lvl-2 {
+			list-style: none;
+			margin: 0;
+			font-weight: 300;
+			text-transform: uppercase;
+			li {
+				a {
+					display: block;
+					padding: 5px 0;
+				}
+				&.active > a {
+					text-decoration: underline;
+				}
+				ul {
+					list-style-type: none;
+					margin: 0;
+					padding: 0;
+					li {
+						margin: 0;
+						a {
+							font-size: 0.9em;
+							text-transform: none;
+							text-decoration: none;
+							padding: 3px 0;
+							color: gray;
+							margin-left: 10px;
+						}
+						&.active > a {
+							text-decoration: underline;
+						}
+					}
+				}
+			}
+		}
 	}
-	.sub-navigation-lvl-2 {
-		list-style: none;
+}
+
+@media #{$small} {
+	.sub-navigation-lvl-2-region {
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 0;
+		border: none;
+		.sub-navigation-lvl-2-container {
+			margin: 0 20px;
+			padding: 0;
+			&:after {
+			}
+			.sub-navigation-lvl-2-title {
+				display: none;
+			}
+			.sub-navigation-lvl-2 {
+				margin: 0;
+				padding: 0;
+				li {
+					display: none;
+				}
+				li.active {
+					margin: 0;
+					padding: 0;
+					display: block;
+					background: $department-color-1;
+
+					& > a {
+						display: block;
+						color: white;
+						text-decoration: none;
+						background-color: darken($department-color-1, 20%);
+						pointer-events: none;
+						&:before {
+							margin: 0 10px;
+							@include icon('107');
+							font-size: 1.4em;
+						}
+					}
+					&.active.closed {
+						ul {
+							display: none;
+						}
+						& > a {
+							&:before {
+								@include icon('105');
+							}
+						}
+					}
+					ul {
+						display: block;
+						li {
+							display: list-item;
+							a {
+								color: white;
+								font-size: 1em;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }

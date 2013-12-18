@@ -1,6 +1,7 @@
 .department-header {
 	clear: both;
 	position:relative;
+	margin-top: 40px;
 	.department-header-bg {
 		// position: absolute;
 		top: 0;
@@ -16,10 +17,14 @@
 		z-index: 100;
 		.department-title {
 			margin: 0 35px 0 15px;
-			padding-top: 10px;
+			padding-top: 30px;
+			padding-bottom: 10px;
 			color: white;
+			// color: black;
 			text-transform: uppercase;
-			font-size: 2.5em;
+			font-size: 3.5em;
+			line-height: 1.3em;
+			font-weight: 400;
 		}
 		.department-nav {
 			margin: 10px 35px 20px 15px;
@@ -33,14 +38,15 @@
 				display: none;
 			}
 			.section {
-				$title-font-size: 1.3em;
+				$title-font-size: 1em;
 				position: relative;
 				// background-color: red;
-				width: 25%;
+				width: 20%;
 				display: inline-block;
 				vertical-align: top;
 				z-index: 1;
 				.navigation-item-title {
+					padding: 4px 0;
 					outline: none;
 					margin: 0;
 					text-align: center;
@@ -68,6 +74,7 @@
 					background-color: #1A6E89;
 					li.section-title {
 						margin-top: 0px;
+						padding-top: 4px;
 						font-size: $title-font-size;
 						font-weight: 300;
 						text-transform: uppercase;
@@ -230,7 +237,8 @@
 							border-bottom-style: solid;
 							border-width: 1px;
 							border-color: rgba(255, 255, 255, 0.5);
-							font-size: 1.3em;
+							padding: 2px 0;
+							font-size: 1em;
 							// padding-left: 60px;
 							a {
 								width: calc(100% - 60px);

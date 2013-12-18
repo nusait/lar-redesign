@@ -16,22 +16,6 @@ Route::get('/', function()
 	return View::make('hello');
 });
 
-Route::get('division', function () {
-	return View::make('pages.division');
-});
-
-Route::get('department', function () {
-	return View::make('pages.department');
-});
-
-Route::get('stack', function () {
-	return View::make('pages.stack');
-});
-
-Route::get('basic', function () {
-
-});
-
-Route::get('faq', function () {
-
+Route::get('{type}', function ($type) {
+	return View::make('pages.' . $type);
 });

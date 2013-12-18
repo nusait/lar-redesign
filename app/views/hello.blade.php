@@ -8,10 +8,10 @@
     <h1>Laravel Redesign</h1>
     {{link_to('division', 'Division')}}
     {{link_to('department', 'Department')}}
-    {{link_to('about', 'About')}}
-    {{link_to('faqs', 'FAQs')}}
-    {{link_to('map', 'Map')}}
+    {{link_to('stack', 'Stack')}}
+    {{link_to('collapsable', 'Collapsable')}}
     {{link_to('basic', 'Basic')}}
-    {{link_to('about', 'About')}}
+    {{link_to('detail', 'Detail')}}
+    {{link_to('table', 'Table')}}
 </body>
 </html>

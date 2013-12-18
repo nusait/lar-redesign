@@ -1,0 +1,21 @@
+.detail-container {
+	.detail-main {
+		margin-left: 20px;
+	}
+	.detail-aside {
+		float: right;
+		width: 35%;
+		padding-bottom: 60px;
+		border-left: 1px solid gray;
+		.detail-item {
+			@include card;
+			margin: 0 15px;
+			.detail-img {
+
+			}
+			.detail-desc {
+				padding: 10px;
+			}
+		}
+	}
+}
