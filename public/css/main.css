@@ -209,6 +209,12 @@ p {
   html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section:nth-child(4) ul li a:hover {
     background-color: #ad3f35;
   }
+  .dosa-banner .northwestern-title {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: -20px 20px 0 10px;
+  }
   .dosa-banner .inner-right {
     background-color: #412157;
     position: absolute;

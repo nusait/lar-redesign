@@ -136,7 +136,9 @@
                                 </ul>
                               </div>
                             </nav>
+                            <div class="northwestern-title">Northwestern University</div>
                           </div>
+
                           <div class="inner-right"></div>
                         </header>
                         <div class="content">
