@@ -6,4 +6,56 @@ $teal: #317894;
 $bg-color: #eff1f1;
 $aqua: #22B9AD;
 
+$dept-purple: #5c2483;
+$dept-darkpurple: #3f1457;
+$dept-blue: #006e8b;
+$dept-green: #afbc5a;
+$dept-teal: #1cb3ab;
+
 $department-color-1: $aqua;
+
+@mixin dept-colors-main {
+	body.dept-color-1 & {
+		background-color: $dept-purple;
+	}
+	body.dept-color-2 & {
+		background-color: $dept-blue;
+	}
+	body.dept-color-3 & {
+		background-color: $dept-green;
+	}
+	body.dept-color-4 & {
+		background-color: $dept-teal;
+	}
+}
+
+@mixin dept-colors-main-darken {
+	body.dept-color-1 & {
+		background-color: darken($dept-purple, 15%);
+	}
+	body.dept-color-2 & {
+		background-color: darken($dept-blue, 15%);
+	}
+	body.dept-color-3 & {
+		background-color: darken($dept-green, 15%);
+	}
+	body.dept-color-4 & {
+		background-color: darken($dept-teal, 15%);
+	}
+}
+
+
+@mixin dept-colors-secondary {
+	body.dept-color-1 & {
+		background-color: $dept-blue;
+	}
+	body.dept-color-2 & {
+		background-color: $dept-purple;
+	}
+	body.dept-color-3 & {
+		background-color: $dept-purple;
+	}
+	body.dept-color-4 & {
+		background-color: $dept-purple;
+	}
+}

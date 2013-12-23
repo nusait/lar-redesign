@@ -23,6 +23,9 @@
 				a {
 					display: block;
 					padding: 5px 0;
+					span.lvl-nav-title-info {
+						display: none;
+					}
 				}
 				&.active > a {
 					text-decoration: underline;
@@ -71,17 +74,21 @@
 				li {
 					display: none;
 				}
+
 				li.active {
 					margin: 0;
 					padding: 0;
 					display: block;
-					background: $department-color-1;
-
+					// background: $department-color-1;
+					@include dept-colors-main;
+					span.lvl-nav-title-info {
+						display: inline;
+					}
 					& > a {
 						display: block;
 						color: white;
 						text-decoration: none;
-						background-color: darken($department-color-1, 20%);
+						@include dept-colors-main-darken;
 						pointer-events: none;
 						&:before {
 							margin: 0 10px;

@@ -25,7 +25,7 @@
         <!--<script type="text/javascript" src="//use.typekit.net/jfq3vqp.js"></script>-->
         <!--<script type="text/javascript">try{Typekit.load();}catch(e){}</script>-->
     </head>
-    <body>
+    <body class="dept-color-2">
         <div class="ie-too-old">
             <div class="flash ie-ancient">
                 <p>We're sorry, this website will not display correctly on older versions of Internet Explorer.
@@ -141,7 +141,7 @@
                         </header>
                         <div class="content">
                             <div class="department-header">
-                              <div class="department-header-bg">
+                              <div class="department-header-bg dept-color-4">
                               <div class="department-header-inner">
                                 <h2 class="department-title">SafeRide</h2>
                                 <nav class="department-nav closed" role="navigation">
@@ -155,7 +155,7 @@
                                   --><div class="section closed">
                                     <div class="navigation-item-title" tabindex="0"><span class="inner">Students</span></div>
                                     <ul>
-                                      <li role="presentation" class="section-title">Current Students</li>
+                                      <li role="presentation" class="section-title">Students</li>
                                       @include('components.dosa.topics-desktop')
                                     </ul>
                                   </div><!--
@@ -176,7 +176,7 @@
                                   --><div class="section closed">
                                     <div class="navigation-item-title" tabindex="0"><span class="inner">More Stuff</span></div>
                                     <ul>
-                                      <li role="presentation" class="section-title">Other Stuff</li>
+                                      <li role="presentation" class="section-title">More Stuff</li>
                                       @include('components.dosa.nuhelp-desktop')
                                     </ul>
                                   </div>
@@ -194,7 +194,7 @@
                                 <div class="sub-navigation-lvl-2-container">
                                   <div class="sub-navigation-lvl-2-title"><span>current students</span></div>
                                   <nav class="sub-navigation-lvl-2">
-                                    <li class="active"><a href="">get a room</a>
+                                    <li class="active"><a href=""><span class="lvl-nav-title-info">Submenu For :</span> get a room</a>
                                       <ul class="lvl-3">
                                         <li><a href="">Apply now</a></li>
                                         <li><a href="">Request Special Consideration</a></li>

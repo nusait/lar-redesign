@@ -6,13 +6,14 @@
 	.title-lvl-2 {
 		position: relative;
 		display: inline-block;
-		background-color: $department-color-1;
+		// background-color: $department-color-1;
 		color: white;
 		font-size: 2.5em;
 		font-weight: 300;
 		padding: 0 20px;
 		margin: 0 20px 20px 20px;
 		@include slanted-shadow(-5deg, 5px);
+		@include dept-colors-main;
 		&:after {
 			content: "";
 			display: block;

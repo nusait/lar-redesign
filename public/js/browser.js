@@ -5,6 +5,8 @@ define(['jquery'], function ($)
             mediaQueryMediumStart: '(min-width : 641px)',
             mediaQueryLargeStart: '(min-width : 901px)',
             onMediumLargeCallbacks: [],
+            onSmallCallbacks: [],
+
             start: function () {
                 var ins = this;
                 console.log('loaded Browser.JS!!!');
@@ -38,8 +40,16 @@ define(['jquery'], function ($)
             onMediumLargeView: function (callback) {
                 this.onMediumLargeCallbacks.push(callback);
             },
+            onSmallView: function(callback) {
+                this.onSmallCallbacks.push(callback);
+            },
             callMediumLargeCallbacks: function () {
                 this.onMediumLargeCallbacks.forEach(function (callback) {
+                    callback();
+                });
+            },
+            callSmallCallbacks: function () {
+                this.onSmallCallbacks.forEach(function (callback) {
                     callback();
                 });
             },
@@ -60,6 +70,7 @@ define(['jquery'], function ($)
                             ins.callMediumLargeCallbacks();
                         } else {
                             ins.browserViewResizeUpdate('small');
+                            ins.callSmallCallbacks();
                         }
                     });
                 } else {
