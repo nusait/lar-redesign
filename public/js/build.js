@@ -1,6 +1,6 @@
 
 /** vim: et:ts=4:sw=4:sts=4
- * @license RequireJS 2.1.8 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.
+ * @license RequireJS 2.1.9 Copyright (c) 2010-2012, The Dojo Foundation All Rights Reserved.
  * Available via the MIT or new BSD license.
  * see: http://github.com/jrburke/requirejs for details
  */
@@ -13,7 +13,7 @@ var requirejs, require, define;
 (function (global) {
     var req, s, head, baseElement, dataMain, src,
         interactiveScript, currentlyAddingScript, mainScript, subPath,
-        version = '2.1.8',
+        version = '2.1.9',
         commentRegExp = /(\/\*([\s\S]*?)\*\/|([^:]|^)\/\/(.*)$)/mg,
         cjsRequireRegExp = /[^.]\s*require\s*\(\s*["']([^'"\s]+)["']\s*\)/g,
         jsSuffixRegExp = /\.js$/,
@@ -23,7 +23,7 @@ var requirejs, require, define;
         hasOwn = op.hasOwnProperty,
         ap = Array.prototype,
         apsp = ap.splice,
-        isBrowser = !!(typeof window !== 'undefined' && navigator && window.document),
+        isBrowser = !!(typeof window !== 'undefined' && typeof navigator !== 'undefined' && window.document),
         isWebWorker = !isBrowser && typeof importScripts !== 'undefined',
         //PS3 indicates loaded and complete, but need to wait for complete
         //specifically. Sequence is 'loading', 'loaded', execution,
@@ -374,7 +374,6 @@ var requirejs, require, define;
         function hasPathFallback(id) {
             var pathConfig = getOwn(config.paths, id);
             if (pathConfig && isArray(pathConfig) && pathConfig.length > 1) {
-                removeScript(id);
                 //Pop off the first array value, since it failed, and
                 //retry
                 pathConfig.shift();
@@ -1465,6 +1464,8 @@ var requirejs, require, define;
                         var map = makeModuleMap(id, relMap, true),
                             mod = getOwn(registry, id);
 
+                        removeScript(id);
+
                         delete defined[id];
                         delete urlFetched[map.url];
                         delete undefEvents[id];
@@ -1610,7 +1611,7 @@ var requirejs, require, define;
 
                     //Join the path parts together, then figure out if baseUrl is needed.
                     url = syms.join('/');
-                    url += (ext || (/\?/.test(url) || skipExt ? '' : '.js'));
+                    url += (ext || (/^data\:|\?/.test(url) || skipExt ? '' : '.js'));
                     url = (url.charAt(0) === '/' || url.match(/^[\w\+\.\-]+:/) ? '' : config.baseUrl) + url;
                 }
 
@@ -1919,7 +1920,7 @@ var requirejs, require, define;
     }
 
     //Look for a data-main script attribute, which could also adjust the baseUrl.
-    if (isBrowser) {
+    if (isBrowser && !cfg.skipDataMain) {
         //Figure out baseUrl. Get it from the script tag with require.js in it.
         eachReverse(scripts(), function (script) {
             //Set the 'head' where we can append children by
@@ -10892,6 +10893,8 @@ define('browser',['jquery'], function ($)
             mediaQueryMediumStart: '(min-width : 641px)',
             mediaQueryLargeStart: '(min-width : 901px)',
             onMediumLargeCallbacks: [],
+            onSmallCallbacks: [],
+
             start: function () {
                 var ins = this;
                 console.log('loaded Browser.JS!!!');
@@ -10925,8 +10928,16 @@ define('browser',['jquery'], function ($)
             onMediumLargeView: function (callback) {
                 this.onMediumLargeCallbacks.push(callback);
             },
+            onSmallView: function(callback) {
+                this.onSmallCallbacks.push(callback);
+            },
             callMediumLargeCallbacks: function () {
                 this.onMediumLargeCallbacks.forEach(function (callback) {
+                    callback();
+                });
+            },
+            callSmallCallbacks: function () {
+                this.onSmallCallbacks.forEach(function (callback) {
                     callback();
                 });
             },
@@ -10947,6 +10958,7 @@ define('browser',['jquery'], function ($)
                             ins.callMediumLargeCallbacks();
                         } else {
                             ins.browserViewResizeUpdate('small');
+                            ins.callSmallCallbacks();
                         }
                     });
                 } else {
@@ -11035,11 +11047,12 @@ define('dosa',['jquery', 'hammer', 'browser'], function ($, Hammer, Browser)
                 console.log('loaded dosa hideall');
             };
             this.drawer = function () {
-                console.log($('.middle').hammer());
-
-                $('.viewport').hammer().on("swipeleft dragleft", this, function (ev) {
-                    $('html').removeClass('show-drawer');
-                    ev.gesture.stopPropagation;
+                // console.log($('.middle').hammer());
+                $('body').one('touchstart', function () {
+                    $('.viewport').hammer().on("swipeleft dragleft", this, function (ev) {
+                        $('html').removeClass('show-drawer');
+                        ev.gesture.stopPropagation;
+                    });
                 });
 
                 $('.middle-overlay').on('click', this, function (ev) {
@@ -13614,24 +13627,27 @@ define('iphoneViewportFixer',[], function() {
 
     return Fixer;
 });
-define('quicklinks',['jquery'], function ($)
+define('quicklinks',['jquery', 'browser'], function ($, Browser)
     {
         var Quicklinks = function () {
             this.updateRowHeight = function () {
-                var $qlinks = $('.q-links'),
-                    $biglist = $('.q-links').siblings('.big-list'),
-                    $rich = $('.q-links').siblings('.rich-extra'),
-                    $divider = $qlinks.find('.divider');
+                if ( ! this.existsOnPage) {
+                    return;
+                }
+                var $qlinks = $('.q-links-region'),
+                    $biglist = $qlinks.siblings('.big-list-region').children('.big-list'),
+                    $rich = $qlinks.siblings('.rich-extra-region').children('.rich-extra'),
+                    $divider = $qlinks.find('.divider'),
                     $rows = $qlinks.find('.row'),
                     $imgs = $rows.find('.link-img img');
 
-                if ($divider.css('display') != 'none'
-                    || $rows.css('display') == 'inline') {
+                if (Browser.detectView() != 'medium') {
                     $rows.removeAttr('style');
                     $imgs.removeAttr('style');
                     return;
                 }
                 var totalHeight = $biglist.height() - $rich.height() - 40;
+                // console.log($biglist.height() + ', ' + $rich.height());
                 $qlinks.find('.row').height(totalHeight / 2);
                 if ($rows.find('.link-img').height() > $rows.find('.link-img').width()) {
                     $imgs.css({
@@ -13646,11 +13662,23 @@ define('quicklinks',['jquery'], function ($)
                 }
             };
             this.initialize = function () {
+                this.existsOnPage = this.detectQuicklinks();
+
                 $(window).resize($.proxy(function () {
                     this.updateRowHeight();
                 }, this));
+
                 this.updateRowHeight();
+
+                console.log('qlinks loaded');
             };
+
+            this.detectQuicklinks = function () {
+                if ($('.q-links-region .link-img').length > 0) {
+                    return true;
+                }
+                return false;
+            }
         };
         return Quicklinks;
     }
@@ -13797,18 +13825,22 @@ define('blog',['simplecors', 'jquery'], function (Simplecors, $)
         var Blog = function () {
             this.initialize = function () {
                 var ins = this;
+                ins.hasBlog = ins.detectBlog();
                 Simplecors.ajax({
                     url: '//go.dosa.northwestern.edu/shared/sablog/posts'
                 }).done( function(data) {
                     ins.populateEntries(data);
                 });
             };
+            this.detectBlog = function () {
+
+            };
             this.showSpinner = function () {
 
-            },
+            };
             this.hideSpinner = function () {
 
-            },
+            };
             this.populateEntries = function (entries) {
                 console.log(entries);
                 $.each(entries, function (index, entry) {
@@ -13835,11 +13867,13 @@ define('mobilemenu',['jquery', 'hammer'], function ($, Hammer)
     {
         var MobileMenu = {
             initialize: function () {
-                $('.middle').hammer().on('dragup swipeup', this, function (ev) {
-                    $('html').removeClass('show-top');
-                });
-                $('.middle').hammer().on('dragdown swipedown', this, function (ev) {
-                    $('html').addClass('show-top');
+                $('body').one('touchstart', function() {
+                    $('.middle').hammer().on('dragup swipeup', this, function (ev) {
+                        $('html').removeClass('show-top');
+                    });
+                    $('.middle').hammer().on('dragdown swipedown', this, function (ev) {
+                        $('html').addClass('show-top');
+                    });
                 });
             }
         };
@@ -13872,7 +13906,132 @@ define('carouselImages',['jquery'], function ($) {
 
     return CarouselImages;
 });
-require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages'], function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages) {
+define('components/departmentHeader',['jquery'], function ($)
+	{
+		var DepartmentHeader = function () {
+			this.initialize = function () {
+				this.$el = $('.department-header');
+				this.closeAll();
+				this.openSectionOnClick();
+				this.closeSectionOnClick();
+				this.toggleMobileMenuOnClick();
+				console.log('department header loaded');
+			};
+
+			this.closeAll = function () {
+				this.$el.find('.section').addClass('closed');
+			};
+
+			this.openSectionOnClick = function () {
+				var ins = this;
+				this.$el.find('.navigation-item-title').click(function () {
+					var closed = $(this).parent().hasClass('closed');
+					ins.closeAll();
+					if (closed) {
+						$(this).parent().toggleClass('closed');
+					}
+				});
+			};
+
+			this.closeSectionOnClick = function () {
+				var ins = this;
+				this.$el.find('.section-title').click(function () {
+					$(this).parent().parent().addClass('closed');
+				});
+				$(document).click(function (ev) {
+				    var section = $('.section');
+				    if (!section.is(ev.target) && section.has(ev.target).length === 0) {
+				        section.addClass('closed');
+				    }
+				});
+			};
+
+			this.toggleMobileMenuOnClick = function () {
+				var ins = this;
+				this.$el.find('.mobile-menu-button').click(function () {
+					$(this).parent().toggleClass('closed');
+				});
+			};
+		}
+
+		return DepartmentHeader;
+	}
+);
+define('components/departmentFooter',['jquery', 'browser'], function ($, Browser)
+	{
+		var DepartmentFooter = {
+			initialize: function () {
+				var $middle = $('.middle');
+				console.log(Browser);
+				this.addMediaQueryEvents();
+				console.log(Browser);
+				$(".footer .arrow-button").click(function () {
+					$(this).parent().parent().toggleClass('closed');
+					$middle.scrollTop(99999); // Force to bottom
+				});
+			},
+
+			addMediaQueryEvents: function () {
+				var ins = this;
+				Browser.onMediumLargeView(this.close);
+			},
+
+			close: function () {
+				console.log('footer close called');
+				$('.footer').addClass('closed');
+			}
+
+		};
+		return DepartmentFooter;
+	}
+);
+define('components/collapsable',['jquery'], function ($)
+	{
+		var Collapsable = {
+			initialize: function () {
+				this.toggleOpenCloseOnClick();
+			},
+			toggleOpenCloseOnClick: function () {
+				$('.collapsable-title').click(function () {
+					$(this).parent().toggleClass('closed');
+				});
+			}
+		};
+		return Collapsable;
+	}
+);
+define('components/levelNavigation',['jquery', 'browser'], function ($, Browser)
+	{
+		var LevelNavigation = {
+			initialize: function () {
+				this.nav = $('.sub-navigation-lvl-2-container');
+				this.navExists = this.nav.length > 0;
+				console.log('level nav initialized');
+				this.nav.find('.active').click(function () {
+					$(this).toggleClass('closed');
+				});
+			},
+		};
+
+		return LevelNavigation;
+	}
+);
+define('components/table',['jquery', 'browser'], function ($, Browser)
+	{
+		Table = {
+			initialize: function () {
+				var tables = $('.sa-table');
+				this.tableExists = (tables.length > 0);
+
+
+			}
+		};
+
+		return Table;
+	}
+);
+require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table'],
+    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table) {
 
     browser = Browser.start();
 
@@ -13881,14 +14040,21 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
     quicklinks = new Quicklinks();
     twitter = new Twitter();
     blog = new Blog();
+    departmentHeader = new DepartmentHeader();
 
     carousel.initialize();
     iphoneViewportFixer.init();
     quicklinks.initialize();
     twitter.initialize();
     blog.initialize();
+    departmentHeader.initialize();
+
     MobileMenu.initialize();
     DisallowHover.initialize();
+    DepartmentFooter.initialize();
+    Collapsable.initialize();
+    LevelNavigation.initialize();
+    // Table.initialize();
 
     console.log("main.js finished loading");
 });

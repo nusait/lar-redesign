@@ -25,9 +25,7 @@ module.exports = function (grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'public/css/department.css': 'public/css/department.scss',
-                    'public/css/main.css': 'public/css/main.scss',
-                    'public/css/stack.css': 'public/css/stack.scss'
+                    'public/css/main.css': 'public/css/main.scss'
                 }
             }
         },
@@ -55,6 +53,36 @@ module.exports = function (grunt) {
             src: {
                 dir: 'src'
             }
+        },
+        requirejs: {
+            dev: {
+                options: {
+                    baseUrl: 'public/js',
+                    include: 'requireLib',
+                    mainConfigFile: 'public/js/requireconfig.js',
+                    name: 'main',
+                    out: 'public/js/build.js',
+                    optimize: 'none'
+                }
+            },
+            dist: {
+                options: {
+                    baseUrl: 'public/js',
+                    include: 'requireLib',
+                    mainConfigFile: 'public/js/requireconfig.js',
+                    name: 'main',
+                    out: 'public/js/build-min.js',
+                    optimize: 'uglify2',
+                    uglify2: {
+                        output: {
+                            beautify: false
+                        },
+                        mangle: true,
+                        warnings: false
+                    },
+                    preserveLicenseComments: false
+                }
+            }
         }
     });
 
@@ -63,5 +91,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-text-replace');
     grunt.loadNpmTasks('grunt-phpcs');
     grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-requirejs');
     grunt.registerTask('test', ['watch:phpunit']);
 };

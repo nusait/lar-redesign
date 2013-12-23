@@ -265,27 +265,13 @@
                 </div>
             </div>
         </div>
-        <!-- while local:
-        -->
-        <script id="script-dev" src="{{asset('js/requireconfig.js')}}"></script>
-        <script data-main="{{asset('js/main')}}" src="{{asset('assets/requirejs/require.js')}}"></script>
 
-        <!-- while staging (build.js or build-min.js):
-        <script src="public/js/build.js"></script>
-        -->
-
-        <!-- other -->
-        <script src="{{asset('js/app.js')}}"></script>
-        <script>
-                //<![CDATA[
-                if ( /live/.test(location.href) ) {
-                    document.write('<script src="http://' +
-                        (location.host || 'localhost').split(':')[0] +
-                        ':35729/livereload.js?snipver=1"></' +
-                        'script>'
-                    );
-                }
-                //]]>
-        </script>
+        @if (App::environment() === 'local')
+          <script id="script-dev" src="{{asset('js/requireconfig.js')}}"></script>
+          <script data-main="{{asset('js/main')}}" src="{{asset('assets/requirejs/require.js')}}"></script>
+        @else
+          <script src="{{asset('js/build-min.js')}}"></script>
+        @endif
+        
     </body>
 </html>

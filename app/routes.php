@@ -11,6 +11,11 @@
 |
 */
 
+Route::get('env', function() 
+{
+    return App::environment();
+});
+
 Route::get('/', function()
 {
 	return View::make('hello');
@@ -19,3 +24,4 @@ Route::get('/', function()
 Route::get('{type}', function ($type) {
 	return View::make('pages.' . $type);
 });
+
