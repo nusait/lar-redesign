@@ -28,7 +28,7 @@ $app->redirectIfTrailingSlash();
 
 $env = $app->detectEnvironment(array(
 
-	'local' => array('skip-saf-ngari-2.local'),
+	'local' => array('skip-saf-ngari-2.local', 'SAF-Hollywood.local'),
 
 ));
 
