@@ -1650,10 +1650,24 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   overflow: hidden;
   margin: 0 15px;
 }
+.detail-container .detail-aside .detail-item .detail-img {
+  width: 100%;
+}
 .detail-container .detail-aside .detail-item .detail-desc {
   padding: 10px;
 }
 
+@media only screen and (max-width: 640px) {
+  .detail-container .detail-aside {
+    border: none;
+    float: none;
+    width: 90%;
+    width: calc(100% - 30px);
+    width: -webkit-calc(100%-30px);
+    margin-left: 15px;
+    padding-bottom: 10px;
+  }
+}
 .department-header {
   clear: both;
   position: relative;
@@ -2170,6 +2184,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 @media only screen and (max-width: 640px) {
   .dept-quick-links-outer {
     width: 100%;
+    margin-bottom: 0;
   }
   .dept-quick-links-outer .dept-quick-links-container {
     margin-top: 20px;

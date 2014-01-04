@@ -14,10 +14,35 @@
 			@include card;
 			margin: 0 15px;
 			.detail-img {
-
+				width: 100%;
 			}
 			.detail-desc {
 				padding: 10px;
+			}
+		}
+	}
+}
+
+@media #{$small} {
+	.detail-container {
+		.detail-main {
+
+		}
+		.detail-aside {
+			border: none;
+			float: none;
+			width: 90%;
+			width: calc(100% - 30px);
+			width: -webkit-calc(100%-30px);
+			margin-left: 15px;
+			padding-bottom: 10px;
+			.detail-item {
+
+				.detail-img {
+
+				}
+				.detail-desc {
+				}
 			}
 		}
 	}

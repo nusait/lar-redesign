@@ -53,16 +53,18 @@ Route::get('basic', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
+	$BREADCRUMBS = get_region('BREADCRUMBS');
 	$DEFAULT = get_default('basic');
-	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	return View::make('template', compact('DEFAULT', 'BREADCRUMBS', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 Route::get('collapsible', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
+	$BREADCRUMBS = get_region('BREADCRUMBS');
 	$DEFAULT = get_default('collapsible');
-	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	return View::make('template', compact('DEFAULT', 'BREADCRUMBS', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 Route::get('department', function () {
@@ -76,9 +78,10 @@ Route::get('detail', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
+	$BREADCRUMBS = get_region('BREADCRUMBS');
 	$DEFAULT = get_default('detail');
 
-	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));//, 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	return View::make('template', compact('DEFAULT', 'BREADCRUMBS', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));//, 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 Route::get('division', function () {
@@ -92,9 +95,10 @@ Route::get('stack', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
+	$BREADCRUMBS = get_region('BREADCRUMBS');
 	$DEFAULT = get_default('stack');
 
-	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	return View::make('template', compact('DEFAULT', 'BREADCRUMBS', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 
