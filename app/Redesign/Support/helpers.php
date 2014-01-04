@@ -73,13 +73,17 @@ if ( ! function_exists('parse_img'))
 		$width = 640;
 		$height = 400;
 		foreach ($domdoc->getElementsByTagName('img') as $element) {
-			if ($element->getAttribute('data-width')) {
+			if ($element->hasAttribute('data-width')) {
 				$width = $element->getAttribute('data-width');
 			}
-			if ($element->getAttribute('data-height')) {
+			if ($element->hasAttribute('data-height')) {
 				$height = $element->getAttribute('data-height');
 			}
-			$element->setAttribute('src', "//www.lorempixel.com/{$width}/{$height}/cats");
+			if ($element->hasAttribute('data-src')) {
+				$element->setAttribute('data-src', "//www.lorempixel.com/{$width}/{$height}/cats");
+			} else {
+				$element->setAttribute('src', "//www.lorempixel.com/{$width}/{$height}/cats");
+			}
 		}
 		return $domdoc;
 	}

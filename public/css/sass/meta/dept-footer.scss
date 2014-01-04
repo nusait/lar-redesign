@@ -90,6 +90,9 @@
 				vertical-align: top;
 				display: inline-block;
 				@include detail-spacing;
+				a {
+					color: white;
+				}
 			}
 			.logo {
 				vertical-align: top;
