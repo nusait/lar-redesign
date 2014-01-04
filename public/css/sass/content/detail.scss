@@ -1,6 +1,9 @@
 .detail-container {
 	.detail-main {
 		margin-left: 20px;
+		padding-right: 20px;
+		@include text-font;
+		overflow: hidden;
 	}
 	.detail-aside {
 		float: right;

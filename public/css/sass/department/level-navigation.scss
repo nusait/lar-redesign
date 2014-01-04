@@ -1,4 +1,4 @@
-.sub-navigation-lvl-2-region {
+.sub-navigation-lvl-2-outer {
 	@include sidebar;
 	border-right: 1px solid rgba(0, 0, 0, 0.5);
 	margin-bottom: 30px;
@@ -55,7 +55,7 @@
 }
 
 @media #{$small} {
-	.sub-navigation-lvl-2-region {
+	.sub-navigation-lvl-2-outer {
 		width: 100%;
 		margin-top: 10px;
 		margin-bottom: 0;

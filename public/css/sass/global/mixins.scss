@@ -27,10 +27,12 @@
     }
 }
 
-@mixin sidebar {
+@mixin sidebar ($offset: '- 0px') {
     float: left;
     position: relative;
     width: 20%;
+    width: calc(20% #{$offset});
+    width: -webkit-calc(20% #{$offset});
 }
 
 @mixin card {

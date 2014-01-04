@@ -1,9 +1,11 @@
 .title-lvl-2-container {
 	// margin-left: 15px;
 	// margin-bottom: 10px;
+	// margin-top: 20px;
 	position: relative;
 	z-index: 0;
 	.title-lvl-2 {
+		margin-top: 30px;
 		position: relative;
 		display: inline-block;
 		// background-color: $department-color-1;
@@ -18,5 +20,11 @@
 			content: "";
 			display: block;
 		}
+	}
+}
+
+@media #{$small} {
+	.title-lvl-2-container {
+		margin-top: 15px;
 	}
 }

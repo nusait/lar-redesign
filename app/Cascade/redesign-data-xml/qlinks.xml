@@ -1,0 +1,55 @@
+<system-data-structure>
+	<heading>Quick Links</heading>
+	<section>
+		<label>Mission</label>
+		<photo>
+			<content/>
+			<path>/redesign-media/images/quicklinks/first-block/mission.jpg</path>
+			<link>site://SA-VP/redesign-media/images/quicklinks/first-block/mission.jpg</link>
+			<site>SA-VP</site>
+			<name>mission.jpg</name>
+			<display-name>mission.jpg</display-name>
+		</photo>
+		<alt>student affairs staff members meeting together for discussion</alt>
+		<link>http://www.northwestern.edu/studentaffairs/strategic-plan/vision-mission.html</link>
+	</section>
+	<section>
+		<label>Nuhelp</label>
+		<photo>
+			<content/>
+			<path>/redesign-media/images/quicklinks/first-block/nuhelp.jpg</path>
+			<link>site://SA-VP/redesign-media/images/quicklinks/first-block/nuhelp.jpg</link>
+			<site>SA-VP</site>
+			<name>nuhelp.jpg</name>
+			<display-name>nuhelp.jpg</display-name>
+		</photo>
+		<alt>students walking together</alt>
+		<link>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html</link>
+	</section>
+	<section>
+		<label>Social</label>
+		<photo>
+			<content/>
+			<path>/redesign-media/images/quicklinks/first-block/social.jpg</path>
+			<link>site://SA-VP/redesign-media/images/quicklinks/first-block/social.jpg</link>
+			<site>SA-VP</site>
+			<name>social.jpg</name>
+			<display-name>social.jpg</display-name>
+		</photo>
+		<alt>iphone</alt>
+		<link>http://www.northwestern.edu/studentaffairs/students/social-media.html</link>
+	</section>
+	<section>
+		<label>Giving</label>
+		<photo>
+			<content/>
+			<path>/redesign-media/images/quicklinks/first-block/giving.jpg</path>
+			<link>site://SA-VP/redesign-media/images/quicklinks/first-block/giving.jpg</link>
+			<site>SA-VP</site>
+			<name>giving.jpg</name>
+			<display-name>giving.jpg</display-name>
+		</photo>
+		<alt>wrapped birthday gift</alt>
+		<link>http://www.northwestern.edu/studentaffairs/vice-president/giving.html</link>
+	</section>
+</system-data-structure>

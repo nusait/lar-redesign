@@ -54,4 +54,12 @@ return array(
 
 	'storage' => __DIR__.'/../app/storage',
 
+	'xml' => __DIR__.'/../app/Cascade/redesign-data-xml',
+
+	'format' => __DIR__.'/../app/Cascade/redesign-formats',
+
+	'rendered' => __DIR__.'/../app/Redesign/rendered',
+
+	'region' => __DIR__.'/../app/Redesign/regions',
+
 );

@@ -1,6 +1,6 @@
 @extends('template')
 
-@section('main-area')
+@section('default')
 	<div class="title-lvl-2-container"><h3 class="title-lvl-2">get a room</h3></div>
 	<div class="basic-container">
 		<div class="basic-image-container">

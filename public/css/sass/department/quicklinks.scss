@@ -1,4 +1,4 @@
-.dept-quick-links-region {
+.dept-quick-links-outer {
 	@include sidebar;
 	z-index: 0;
 	clear: left;
@@ -37,8 +37,9 @@
 	}
 }
 
+
 @media #{$small} {
-.dept-quick-links-region {
+.dept-quick-links-outer {
 	width: 100%;
 	.dept-quick-links-container {
 		margin-top: 20px;

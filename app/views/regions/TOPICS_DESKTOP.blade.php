@@ -1,0 +1,15 @@
+<li><a href="">Get a room</a></li>
+<li><a href="">Commencement</a></li>
+<li><a href="">Diversity and Inclusion</a></li>
+<li><a href="">Employment</a></li>
+<li><a href="">Events Calendar</a></li>
+<li><a href="">First Year Experience</a></li>
+<li><a href="">Food Service</a></li>
+<li><a href="">Giving</a></li>
+<li><a href="">Involvement</a></li>
+<li><a href="">Learning Outcomes</a></li>
+<li><a href="">Living at NU</a></li>
+<li><a href="">NU Help</a></li>
+<li><a href="">Strategic Plan</a></li>
+<li><a href="">Sustainability</a></li>
+<li><a href="">Wildcat Welcome</a></li>

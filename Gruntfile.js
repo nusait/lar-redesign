@@ -3,13 +3,17 @@ module.exports = function (grunt) {
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         watch: {
-            options: {
-                livereload: true,
-            },
+
             sass: {
                 files: ['app/views/**/*', 'public/js/**/*', 'public/css/**/*.scss'],
                 tasks: ['sass:dev']
             },
+            livereload: {
+                options: {
+                    livereload: true,
+                },
+                files: ['public/css/main.css']
+            }
             // phpunit: {
             //     files: ['app/**/*.php', 'app/*.php'],
             //     tasks: ['exec:phpunit'],

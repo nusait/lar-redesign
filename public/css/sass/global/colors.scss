@@ -15,47 +15,47 @@ $dept-teal: #1cb3ab;
 $department-color-1: $aqua;
 
 @mixin dept-colors-main {
-	body.dept-color-1 & {
+	.stamp.dept-color-1 ~ .viewport & {
 		background-color: $dept-purple;
 	}
-	body.dept-color-2 & {
+	.stamp.dept-color-2 ~ .viewport & {
 		background-color: $dept-blue;
 	}
-	body.dept-color-3 & {
+	.stamp.dept-color-3 ~ .viewport & {
 		background-color: $dept-green;
 	}
-	body.dept-color-4 & {
+	.stamp.dept-color-4 ~ .viewport & {
 		background-color: $dept-teal;
 	}
 }
 
 @mixin dept-colors-main-darken {
-	body.dept-color-1 & {
+	.stamp.dept-color-1 ~ .viewport & {
 		background-color: darken($dept-purple, 15%);
 	}
-	body.dept-color-2 & {
+	.stamp.dept-color-2 ~ .viewport & {
 		background-color: darken($dept-blue, 15%);
 	}
-	body.dept-color-3 & {
+	.stamp.dept-color-3 ~ .viewport & {
 		background-color: darken($dept-green, 15%);
 	}
-	body.dept-color-4 & {
+	.stamp.dept-color-4 ~ .viewport & {
 		background-color: darken($dept-teal, 15%);
 	}
 }
 
 
 @mixin dept-colors-secondary {
-	body.dept-color-1 & {
+	.stamp.dept-color-1 ~ .viewport & {
 		background-color: $dept-blue;
 	}
-	body.dept-color-2 & {
+	.stamp.dept-color-2 ~ .viewport & {
 		background-color: $dept-purple;
 	}
-	body.dept-color-3 & {
+	.stamp.dept-color-3 ~ .viewport & {
 		background-color: $dept-purple;
 	}
-	body.dept-color-4 & {
+	.stamp.dept-color-4 ~ .viewport & {
 		background-color: $dept-purple;
 	}
 }

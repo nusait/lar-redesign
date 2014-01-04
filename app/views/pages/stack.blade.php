@@ -1,86 +1,86 @@
 @extends('template')
 
-@section('main-area')
-  <div class="title-lvl-2-container"><h3 class="title-lvl-2">Get A Room</h3></div>
+@section('default')
+  <div class="title-lvl-2-container"><h3 class="title-lvl-2">meet the staff</h3></div>
   <div class="stack-container">
-    <div class="stack-item">
+    <a class="stack-item" href="http://www.google.com">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/animals/" /></div>
       <div class="stack-text">
-        <strong>Hao Luo</strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> YAY!! I'm here!!
+        <div class="stack-title">Hao Luo</div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: YAY!! I'm here!!</div>
       </div>
-    </div>
+    </a>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/fashion/" /></div>
       <div class="stack-text">
-        <strong>John Smith</strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome!!  I'm going to talk a bit about myself.
+        <div class="stack-title">John Smith</div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome!!  I'm going to talk a bit about myself.</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/cats/" /></div>
       <div class="stack-text">
-        <strong>John FINDFLSDIF</strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm quiet.
+        <div class="stack-title">John FINDFLSDIF</div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm quiet.</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/city/" /></div>
       <div class="stack-text">
-        <strong>John asdf</strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome too!!
+        <div class="stack-title">John asdf</div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome too!!</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/abstract/" /></div>
       <div class="stack-text">
-        <strong>John A </strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome!! And I love my job.
+        <div class="stack-title">John A </div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome!! And I love my job.</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/technics/" /></div>
       <div class="stack-text">
-        <strong>John </strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome!!
+        <div class="stack-title">John </div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome!!</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/business/" /></div>
       <div class="stack-text">
-        <strong>John </strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome!! I love to talk about myself so I'm going to type a lot of information about myself.
+        <div class="stack-title">John </div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome!! I love to talk about myself so I'm going to type a lot of information about myself.</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/food/" /></div>
       <div class="stack-text">
-        <strong>John </strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome!! This internet thing is a bit confusing to me though :(
+        <div class="stack-title">John </div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome!! This internet thing is a bit confusing to me though :(</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/nightlife/" /></div>
       <div class="stack-text">
-        <strong>John </strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome!!  I'm also sleepy!!
+        <div class="stack-title">John </div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome!!  I'm also sleepy!!</div>
       </div>
     </div>
     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/animals/" /></div>
       <div class="stack-text">
-        <strong>John </strong> <br>
-        <em>Title: Administrator</em> <br>
-        <em>Description:</em> I'm awesome!! WOW!!!
+        <div class="stack-title">John </div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm awesome!! WOW!!!</div>
       </div>
     </div>
   </div>

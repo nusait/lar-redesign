@@ -1,6 +1,6 @@
 @extends('template')
 
-@section('main-area')
+@section('default')
 <div class="title-lvl-2-container"><h3 class="title-lvl-2">faq</h3></div>
 <div class="collapsable-container">
   <div class="collapsable-item closed">

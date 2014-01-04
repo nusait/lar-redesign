@@ -1,9 +1,30 @@
+$anchor-icon: 18e;
+
 .stack-container {
 	@include prefix(column-count, 3);
 	@include prefix(column-gap, 0);
 	@include prefix(column-fill, 0);
 	padding-right: 20px;
 	text-overflow: none;
+	a.stack-item {
+		display:block;
+		color: black;
+		&:hover {
+			-ms-filter: opacity(75%);
+			-webkit-filter: opacity(75%);
+			filter: opacity(75%);
+		}
+		.stack-text {
+			position: relative;
+		}
+		.stack-text:before {
+			position: absolute;
+			right: 15px;
+			@include icon($anchor-icon);
+			font-size: 20px;
+			font-weight: 20px;
+		}
+	}
 	.stack-item {
 		@include prefix(column-break-inside, avoid);
 		@include card;
