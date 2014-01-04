@@ -4,13 +4,15 @@ One of many layers to get to Cascade... if you don't know what that is, this rep
 
 ### Features:
 
-#### transform(xml, xslt, [output_file])
-`transform()` helper function (located in `app/Redesign/Support/helpers.php` if you are curious) allows you to transform any xml to html with an xslt.
-The xml file should be located in the xml folder (`app/Cascade/redesign-data-xml`).
-The xslt file should be located in the format folder (`app/Cascade/redesign-formats`).
+** transform(xml, xslt, [output_file]) **
+
+`transform()` helper function (located in `app/Redesign/Support/helpers.php` if you are curious) allows you to transform any xml to html with an xslt.  
+The xml file should be located in the xml folder (`app/Cascade/redesign-data-xml`).  
+The xslt file should be located in the format folder (`app/Cascade/redesign-formats`).  
+
 When you call this function, two things will happen.  It will write the result into a file and put it in the rendered folder (located in `app/Redesign/rendered`).  Then it will also return the result as a string.
 
-*** To Use ***
+To Use:
 
 	transform('qlink.xml', 'tran.xsl', 'qlinks.html');
 
