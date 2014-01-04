@@ -156,7 +156,7 @@
                               {{ $DEPARTMENT_QUICKLINKS }}
                             </div>
                             <div id="main" role="main">
-                              @yield('default')
+                              {{ $DEFAULT }}
                             </div>
                           </div>
                         </div>

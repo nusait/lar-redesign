@@ -1,6 +1,3 @@
-@extends('template')
-
-@section('default')
 <div class="title-lvl-2-container"><h3 class="title-lvl-2">faq</h3></div>
 <div class="collapsable-container">
   <div class="collapsable-item closed">
@@ -29,4 +26,3 @@
   	<div class="collapsable-content"></div>
   </div>
 </div>
-@stop

@@ -1,6 +1,3 @@
-@extends('template')
-
-@section('default')
   <div class="title-lvl-2-container"><h3 class="title-lvl-2">meet the staff</h3></div>
   <div class="stack-container">
     <a class="stack-item" href="http://www.google.com">
@@ -84,4 +81,3 @@
       </div>
     </div>
   </div>
-@stop

@@ -1,0 +1,14 @@
+<block-xhtml>
+	<ul>
+		<li>
+			<img src="something" data-width="640" data-height="400" alt=""/>
+		</li>
+		<li>
+			<img src="something-else" data-width="140" data-height="40" alt=""/>
+		</li>
+		<li>
+			<img src="other-things" data-width="240" data-height="400" alt=""/>
+		</li>
+	</ul>
+
+</block-xhtml>

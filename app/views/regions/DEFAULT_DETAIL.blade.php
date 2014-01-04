@@ -1,6 +1,3 @@
-@extends('template')
-
-@section('default')
 <div class="title-lvl-2-container"><h3 class="title-lvl-2">Staff Info</h3></div>
 <div class="detail-container">
 	<div class="detail-aside">
@@ -24,4 +21,3 @@
 		Bacon ipsum dolor sit amet beef shoulder frankfurter brisket short loin. Capicola shankle pork belly, turducken chuck doner leberkas short loin. Boudin strip steak pork loin shankle flank spare ribs shoulder. Ball tip leberkas beef shank jerky beef ribs tongue capicola short loin pork belly filet mignon ribeye pork doner.
 	</div>
 </div>
-@stop

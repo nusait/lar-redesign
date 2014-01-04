@@ -11,9 +11,13 @@
 |
 */
 
-// Route::get('debug', function () {
-// 	dd(transform('qlinks.xml', 'test.xsl', 'test.html'));
-// });
+Route::get('test/{name}', function ($name = null) {
+	if ( ! is_null($name)) {
+		return get_region($name);
+	}
+});
+
+
 
 share_region('FOOTER');
 share_region('COMMUNITY_DESKTOP');
@@ -49,33 +53,38 @@ Route::get('basic', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
-	return View::make('pages.basic', compact('DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	$DEFAULT = get_default('basic');
+	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 Route::get('collapsible', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
-
-	return View::make('pages.collapsible', compact('DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	$DEFAULT = get_default('collapsible');
+	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 Route::get('department', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
+	$DEFAULT = get_default('department');
 
-	return View::make('pages.department', compact('DEPARTMENT_RIBBON_NAV'));
+	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV'));
 });
 
 Route::get('detail', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
+	$DEFAULT = get_default('detail');
 
-	return View::make('pages.detail', compact('DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));//, 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));//, 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 Route::get('division', function () {
-	return View::make('pages.division');
+	$DEFAULT = get_default('division');
+
+	return View::make('template', compact('DEFAULT'));
 });
 
 Route::get('stack', function () {
@@ -83,8 +92,9 @@ Route::get('stack', function () {
 	$DEPARTMENT_RIBBON_NAV = get_region('DEPARTMENT_RIBBON_NAV');
 	$DEPARTMENT_SUB_NAV = get_region('DEPARTMENT_SUB_NAV');
 	$DEPARTMENT_QUICKLINKS = get_region('DEPARTMENT_QUICKLINKS');
+	$DEFAULT = get_default('stack');
 
-	return View::make('pages.stack', compact('DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
+	return View::make('template', compact('DEFAULT', 'DEPARTMENT_RIBBON_NAV', 'DEPARTMENT_SUB_NAV', 'DEPARTMENT_QUICKLINKS'));
 });
 
 
