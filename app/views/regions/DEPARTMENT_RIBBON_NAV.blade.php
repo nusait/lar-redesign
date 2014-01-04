@@ -13,7 +13,7 @@
           <li><a href="">What we do</a></li>
         </ul>
       </div><!--
-      --><div class="section closed">
+      --><div class="section closed active">
         <div class="navigation-item-title" tabindex="0"><span class="inner">Students</span></div>
         <ul>
           <li role="presentation" class="section-title">Students</li>

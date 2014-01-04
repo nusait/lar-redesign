@@ -1726,6 +1726,18 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   vertical-align: top;
   z-index: 1;
 }
+.stamp.dept-color-1 ~ .viewport .department-header .department-header-inner .department-nav .section.active {
+  background-color: #321447;
+}
+.stamp.dept-color-2 ~ .viewport .department-header .department-header-inner .department-nav .section.active {
+  background-color: #00313f;
+}
+.stamp.dept-color-3 ~ .viewport .department-header .department-header-inner .department-nav .section.active {
+  background-color: #848f3a;
+}
+.stamp.dept-color-4 ~ .viewport .department-header .department-header-inner .department-nav .section.active {
+  background-color: #12716c;
+}
 .department-header .department-header-inner .department-nav .section .navigation-item-title {
   padding: 4px 0;
   outline: none;

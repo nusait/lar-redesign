@@ -40,6 +40,9 @@
 				display: none;
 			}
 			.section {
+				&.active {
+					@include dept-colors-main-darken;
+				}
 				$title-font-size: 1em;
 				position: relative;
 				// background-color: red;
