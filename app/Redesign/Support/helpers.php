@@ -141,3 +141,14 @@ if ( ! function_exists('get_default'))
 		return get_region($name);
 	}
 }
+
+if ( ! function_exists('get_template'))
+{
+	function get_template() {
+		if (app('request')->get('original')) {
+			return 'template';
+		} else {
+			return 'transformed-template';
+		}
+	}
+}
