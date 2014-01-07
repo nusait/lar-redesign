@@ -29,8 +29,8 @@ If content is not defined, it will try to get the region of the same name using 
 #### Artisan Command: `template:transform`
 
 'template:transform' transforms a cascade template into laravel blade file.  
-To use: `php artisan template:transform [source-file]`   
-The source file needs to be in `app/Cascade/newest-template` directory  
+To use: `php artisan template:transform source-file[optional]`   
+The source file needs to be in `app/Cascade/newest-template` directory. Default Source filename is 'redesign-template.xml'  
 The destination file needs will be generated to `app/views/transformed-template.blade.php`  
 
 #### To change which template to use:  
