@@ -1,9 +1,9 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
-    <xsl:output method="xml" omit-xml-declaration="yes" indent="no"/>
+    <xsl:output indent="no" method="xml" omit-xml-declaration="yes"/>
     <!-- xsl:template match="system-index-block|system-data-structure" -->
     <xsl:template match="/">
         <xsl:for-each select="system-index-block/calling-page/system-page">
-            <xsl:variable name="title" select="title" />
+            <xsl:variable name="title" select="title"/>
             <xsl:for-each select="system-data-structure">
                 <div>
                     <div class="block main-block">
@@ -13,8 +13,7 @@
                                 <div class="divider"><xsl:text>&#160;</xsl:text></div>
                                 <div aria-labelledby="main-events" class="events">
                                     <xsl:apply-templates select="panel/event-set/event"/>
-                                    <a class="event-item full-calendar"
-                                        href="http://planitpurple.northwestern.edu/feed/html/447">
+                                    <a class="event-item full-calendar" href="http://planitpurple.northwestern.edu/feed/html/447">
                                         <div class="event-desc">See Full Calendar</div>
                                     </a>
                                 </div>
@@ -27,17 +26,14 @@
                                 <nav aria-labelledby="main-headlines" class="news" role="navigation">
                                     <div class="swiper-container news-img-container">
                                         <div class="swiper-wrapper">
-                                            <xsl:for-each
-                                                select="panel/carousel-image-set/carousel-section">
+                                            <xsl:for-each select="panel/carousel-image-set/carousel-section">
                                                 <div class="swiper-slide news-img">
-                                                  <img alt="{alt}" class="news-img"
-                                                  data-src="[system-asset]{photo/link}[/system-asset]"
-                                                  />
+                                                  <img alt="{alt}" class="news-img" data-height="300" data-src="[system-asset]{photo/link}[/system-asset]" data-width="750"/>
                                                 </div>
                                             </xsl:for-each>
                                         </div>
                                     </div>
-                                    <div class="pagination-container"> </div>
+                                    <div class="pagination-container"><xsl:text>&#160;</xsl:text></div>
                                     <xsl:for-each select="panel/carousel-image-set/carousel-section">
                                         <xsl:variable name="className">
                                             <xsl:choose>
@@ -62,26 +58,21 @@
                                     <xsl:value-of select="panel/quick-link-set/heading"/>
                                 </h2>
                                 <div class="divider"><xsl:text>&#160;</xsl:text></div>
-                                <nav aria-labelledby="main-quicklinks" class="quick-links"
-                                    role="navigation">
+                                <nav aria-labelledby="main-quicklinks" class="quick-links" role="navigation">
                                     <div class="row row-1">
                                         <xsl:call-template name="quicklink-section">
-                                            <xsl:with-param name="section"
-                                                select="panel/quick-link-set/section[1]"/>
+                                            <xsl:with-param name="section" select="panel/quick-link-set/section[1]"/>
                                         </xsl:call-template>
                                         <xsl:call-template name="quicklink-section">
-                                            <xsl:with-param name="section"
-                                                select="panel/quick-link-set/section[2]"/>
+                                            <xsl:with-param name="section" select="panel/quick-link-set/section[2]"/>
                                         </xsl:call-template>
                                     </div>
                                     <div class="row row-2">
                                         <xsl:call-template name="quicklink-section">
-                                            <xsl:with-param name="section"
-                                                select="panel/quick-link-set/section[3]"/>
+                                            <xsl:with-param name="section" select="panel/quick-link-set/section[3]"/>
                                         </xsl:call-template>
                                         <xsl:call-template name="quicklink-section">
-                                            <xsl:with-param name="section"
-                                                select="panel/quick-link-set/section[4]"/>
+                                            <xsl:with-param name="section" select="panel/quick-link-set/section[4]"/>
                                         </xsl:call-template>
                                     </div>
                                 </nav>
@@ -142,7 +133,7 @@
         </xsl:variable>
         <a class="link-item" href="{$href}">
             <div class="link-img">
-                <img alt="{$section/alt}" src="{$section/photo/link}"/>
+                <img alt="{$section/alt}" data-height="600" data-width="600" src="{$section/photo/link}"/>
             </div>
             <span class="link-label">
                 <xsl:choose>

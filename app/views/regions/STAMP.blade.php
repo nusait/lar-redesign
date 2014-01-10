@@ -1,1 +1,1 @@
-<div class="stamp dept-color-2" data-sitename="Student Affairs Home" data-googleanalyticsid="UA-3808778-11"></div>
+<div class="stamp dept-color-2 type-basic" data-googleanalyticsid="UA-3808778-XX" data-sitename="Sample Department"> </div>

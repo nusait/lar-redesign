@@ -54,19 +54,19 @@
           <div class="swiper-container news-img-container">
             <div class="swiper-wrapper">
                 <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/wildcat_welcome_banner.jpg')}}" alt="Wildcat Welcome"/>
+                  <img class="news-img" data-src="//www.lorempixel.com/750/300/cats" alt="Wildcat Welcome"/>
                 </div>
                 <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/career_fair.jpg')}}" alt="Career Fair"/>
+                  <img class="news-img" data-src="//www.lorempixel.com/750/300/cats" alt="Career Fair"/>
                 </div>
                 <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/nuhelp_banner.jpg')}}" alt="NU Help"/>
+                  <img class="news-img" data-src="//www.lorempixel.com/750/300/cats" alt="NU Help"/>
                 </div>
                 <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/aawh.jpg')}}" alt="African American Student Affairs Welcome Home Reception"/>
+                  <img class="news-img" data-src="//www.lorempixel.com/750/300/cats" alt="African American Student Affairs Welcome Home Reception"/>
                 </div>
                 <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/latinu_banner.jpg')}}" alt="Festival LatiNU"/>
+                  <img class="news-img" data-src="//www.lorempixel.com/750/300/cats" alt="Festival LatiNU"/>
                 </div>
             </div>
           </div>
@@ -86,12 +86,12 @@
       <div class="divider"></div>
       <nav class="quick-links" aria-labelledby="main-quicklinks" role="navigation">
           <div class="row row-1">
-            <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/mission.jpg')}}" alt="mission"/></div><span class="link-label">Mission</span></a>
-            <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/nuhelp.jpg')}}" alt="NU help"/></div><span class="link-label">Nuhelp</span></a>
+            <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="mission"/></div><span class="link-label">Mission</span></a>
+            <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="NU help"/></div><span class="link-label">Nuhelp</span></a>
           </div>
           <div class="row row-2">
-              <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/social.jpg')}}" alt="social"/></div><span class="link-label">Social</span></a>
-              <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/giving.jpg')}}" alt="giving"/></div><span class="link-label">Giving</span></a>
+              <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="social"/></div><span class="link-label">Social</span></a>
+              <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="giving"/></div><span class="link-label">Giving</span></a>
           </div>
       </nav>
     </div>
@@ -121,12 +121,12 @@
     <div class="divider"></div>
     <nav class="quick-links" aria-labelledby="main-quicklinks" role="navigation">
         <div class="row row-1">
-          <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/vice_president.jpg')}}" alt="vice president"/></div><span class="link-label">Vice President</span></a>
-          <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/dean_of_students.jpg')}}" alt="Dean of students"/></div><span class="link-label">Dean of students</span></a>
+          <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="vice president"/></div><span class="link-label">Vice President</span></a>
+          <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="Dean of students"/></div><span class="link-label">Dean of students</span></a>
         </div>
         <div class="row row-2">
-          <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/auxiliary.jpg')}}" alt="auxiliary"/></div><span class="link-label">Auxiliary</span></a>
-          <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/engagement.jpg')}}" alt="engagement"/></div><span class="link-label">Engagement</span></a>
+          <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="auxiliary"/></div><span class="link-label">Auxiliary</span></a>
+          <a href="http://google.com" class="link-item"><div class="link-img"><img src="//www.lorempixel.com/600/600/cats" alt="engagement"/></div><span class="link-label">Engagement</span></a>
         </div>
     </nav>
   </div>

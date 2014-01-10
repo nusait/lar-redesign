@@ -50,6 +50,7 @@ Route::get('basic', function ()
 
 Route::get('collapsible', function () 
 {
+	generate_shared();
 	$DEFAULT = get_default('collapsible');
 	return View::make(get_template(), compact('DEFAULT'));
 });

@@ -1,115 +1,132 @@
-<!-- START OF A PANEL BLOCK -->
-<div class="block main-block">
-  <div class="big-list-region">
-    <div class="big-list events-container">
-      <h2 id="main-events" class="mobile-heading">Events</h2>
-      <div class="divider"></div>
-      <div class="events" aria-labelledby="main-events" >
-          <a class="event-item">
-              <div class="event-date">05.21</div>
-              <div class="event-desc">
-                How to Stand Out at Your Summer Internship
-                <div class="event-detail">Norris Center</div>
-              </div>
+<div>
+  <div class="block main-block">
+    <div class="big-list-region">
+      <div class="big-list events-container">
+        <h2 class="mobile-heading" id="main-events">Events</h2>
+        <div class="divider"> </div>
+        <div aria-labelledby="main-events" class="events">
+          <a class="event-item" href="http://planitpurple.northwestern.edu/event/445957">
+            <div class="event-date">01.09</div>
+            <div class="event-desc">Winter Job &amp; Internship Fair
+              <div class="event-detail">Norris 2nd Floor</div></div>
           </a>
-          <a class="event-item">
-              <div class="event-date">05.23</div>
-              <div class="event-desc">
-                UCS Chicago Campus Tour
-                <div class="event-detail">Norris Center</div>
-              </div>
+          <a class="event-item" href="http://planitpurple.northwestern.edu/event/450274">
+            <div class="event-date">01.09</div>
+            <div class="event-desc">NU Women's Basketball vs. Purdue
+              <div class="event-detail">Welsh-Ryan Arena</div></div>
           </a>
-          <a class="event-item">
-              <div class="event-date">05.25</div>
-              <div class="event-desc">
-                This is your first Day at your job. Find out what you are going to do.
-                <div class="event-detail">Norris Center</div>
-              </div>
+          <a class="event-item" href="http://planitpurple.northwestern.edu/event/451491">
+            <div class="event-date">01.10</div>
+            <div class="event-desc">Soul On Ice Norris Ice Rink
+              <div class="event-detail">Norris-Ice Rink</div></div>
           </a>
-          <a class="event-item">
-              <div class="event-date">05.27</div>
-              <div class="event-desc">
-                Mistakes on your first day at your job. that's not going to be good!
-                <div class="event-detail">Norris Center</div>
-              </div>
+          <a class="event-item" href="http://planitpurple.northwestern.edu/event/450130">
+            <div class="event-date">01.10</div>
+            <div class="event-desc">Winter Chamber Music Festival: Miró Quartet with Shai Wosner, piano
+              <div class="event-detail">Pick-Staiger Concert Hall</div></div>
           </a>
-          <a class="event-item full-calendar">
-              <div class="event-desc">
-                Full Calendar
-              </div>
+          <a class="event-item full-calendar" href="http://planitpurple.northwestern.edu/feed/html/447">
+            <div class="event-desc">See Full Calendar</div>
           </a>
+        </div>
+      </div>
+    </div>
+    <div class="rich-extra-region">
+      <div class="rich-extra news-container">
+        <h2 class="mobile-heading" id="main-headlines">News Headlines</h2>
+        <div class="divider"> </div>
+        <nav aria-labelledby="main-headlines" class="news" role="navigation">
+          <div class="swiper-container news-img-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide news-img">
+                <img alt="row of trees on fall day" class="news-img" data-height="300" data-src="http://placehold.it/750x300" data-width="750"/>
+              </div>
+              <div class="swiper-slide news-img">
+                <img alt="loaf of baked break" class="news-img" data-height="300" data-src="http://placehold.it/750x300" data-width="750"/>
+              </div>
+            </div>
+          </div>
+          <div class="pagination-container"> </div>
+          <a class="news-item active" href="http://google.com">
+            <span class="news-label">Trees Improve Our Lives</span>
+          </a><!--
+          --><a class="news-item" href="http://google.com">
+            <span class="news-label">Bread Made Fresh</span>
+          </a>
+        </nav>
+      </div>
+    </div>
+    <div class="q-links-region">
+      <div class="q-links quicklinks-container">
+        <h2 class="mobile-heading" id="main-quicklinks">Quick Links</h2>
+        <div class="divider"> </div>
+        <nav aria-labelledby="main-quicklinks" class="quick-links" role="navigation">
+          <div class="row row-1">
+            <a class="link-item" href="https://northwestern-csm.symplicity.com/students/">
+              <div class="link-img">
+                <img alt="People riding tandem bicycle" data-height="600" data-width="600" src="http://placehold.it/600x600"/>
+              </div>
+              <span class="link-label">Bicycles</span>
+            </a>
+            <a class="link-item" href="https://northwestern-csm.symplicity.com/students/">
+              <div class="link-img">
+                <img alt="Man kicking the sky" data-height="600" data-width="600" src="http://placehold.it/600x600"/>
+              </div>
+              <span class="link-label">Exercise</span>
+            </a>
+          </div>
+          <div class="row row-2">
+            <a class="link-item" href="https://northwestern-csm.symplicity.com/students/">
+              <div class="link-img">
+                <img alt="Motorcycle racing around dirt track" data-height="600" data-width="600" src="http://placehold.it/600x600"/>
+              </div>
+              <span class="link-label">Racing</span>
+            </a>
+            <a class="link-item" href="https://northwestern-csm.symplicity.com/students/">
+              <div class="link-img">
+                <img alt="beautiful sunset" data-height="600" data-width="600" src="http://placehold.it/600x600"/>
+              </div>
+              <span class="link-label">Scenery</span>
+            </a>
+          </div>
+        </nav>
       </div>
     </div>
   </div>
-  <div class="rich-extra-region">
-    <div class="rich-extra news-container">
-      <h2 id="main-headlines" class="mobile-heading">News Headlines</h2>
-      <div class="divider"></div>
-      <nav class="news" aria-labelledby="main-headlines" role="navigation">
-          <div class="swiper-container news-img-container">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/wildcat_welcome_banner.jpg')}}" alt="Wildcat Welcome"/>
-                </div>
-                <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/career_fair.jpg')}}" alt="Career Fair"/>
-                </div>
-                <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/nuhelp_banner.jpg')}}" alt="NU Help"/>
-                </div>
-                <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/aawh.jpg')}}" alt="African American Student Affairs Welcome Home Reception"/>
-                </div>
-                <div class="swiper-slide news-img">
-                  <img class="news-img" data-src="{{asset('img/news/latinu_banner.jpg')}}" alt="Festival LatiNU"/>
-                </div>
-            </div>
-          </div>
-          <div class="pagination-container"></div>
-          <a href="#" class="news-item active"><span class="news-label">Wildcat Welcome</span></a><!--
-       --><a href="#" class="news-item"><span class="news-label">Career Fair</span></a><!--
-       --><a href="#" class="news-item"><span class="news-label">NUHelp</span></a><!--
-       --><a href="#" class="news-item"><span class="news-label">African American Student Affairs Welcome Home Reception</span></a><!--
-     --><a href="#" class="news-item"><span class="news-label">Festival LatiNU</span></a>
-      </nav>
-    </div>
-  </div>
-  <div class="q-links-region">
-    <div class="q-links quicklinks-container">
-      <h2 id="main-quicklinks" class="mobile-heading">Quick Links</h2>
-      <div class="divider"></div>
-      <nav class="quick-links" aria-labelledby="main-quicklinks" role="navigation">
-          <div class="row row-1">
-            <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/mission.jpg')}}" alt="mission"/></div><span class="link-label">Mission</span></a><!--
-            --><a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/nuhelp.jpg')}}" alt="NU help"/></div><span class="link-label">Nuhelp</span></a>
-          </div>
-          <div class="row row-2">
-            <a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/social.jpg')}}" alt="social"/></div><span class="link-label">Social</span></a><!--
-            --><a href="http://google.com" class="link-item"><div class="link-img"><img src="{{asset('img/qlinks/giving.jpg')}}" alt="giving"/></div><span class="link-label">Giving</span></a>
-          </div>
-      </nav>
-    </div>
-  </div>
-</div>
-<!-- END OF A PANEL BLOCK -->
-
-<div class="block-divider"></div>
-<div class="secondary text-block">
-  <div class="text-block">
-    <div class="main-text">
-      <h3 class="text-title">Main Text Article</h3>
-      <p>!!!!!Occupy four loko salvia hella, authentic butcher ugh Terry Richardson.  DIY post-ironic 3 wolf moon slow-carb cliche, Pinterest next level typewriter fap craft beer Thundercats lomo.  Pork belly synth keffiyeh gluten-free lomo.  Odd Future kogi Portland cardigan skateboard, Etsy Schlitz letterpress bicycle rights.  Paleo mumblecore Tumblr, deep v fanny pack biodiesel church-key cray readymade cred.  Intelligentsia Bushwick Echo Park sustainable, yr trust fund bitters hoodie.  Narwhal ethical Schlitz single-origin coffee gentrify.
-
-          Hella locavore small batch raw denim fingerstache wayfarers.  Brunch Bushwick 8-bit hashtag, artisan Wes Anderson twee Terry Richardson keffiyeh.  Banjo roof party next level aesthetic authentic Schlitz.  Sriracha pug skateboard flannel, single-origin coffee Etsy Blue Bottle.  Terry Richardson church-key artisan, polaroid street art Austin semiotics.  Retro food truck skateboard +1.  Photo booth bicycle rights pour-over letterpress, viral shabby chic sartorial.
-      </p>
-    </div>
-    <div class="side-text">
-      <h3 class="text-title">Sidebar Text</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud
-      </p>
+  <div class="block-divider"> </div>
+  <div class="secondary text-block">
+    <div class="text-block">
+      <div class="main-text">
+        <h3 class="text-title">Aliquam sit amet mauris</h3>
+        <p>
+          <span>Consider this: Since Congress named </span>
+          <a href="http://www.nps.gov/yell/index.htm">Yellowstone</a>
+          <span> the first national park in 1872, it has conferred this prized title on only 58 other sites. And most, including the </span>
+          <a href="http://www.nps.gov/grca/index.htm">Grand Canyon</a>
+          <span>, received lesser designations, like national monument, long before they officially became parks. The most recent national park — </span>
+          <a href="http://www.nps.gov/pinn/index.htm">Pinnacles,</a>
+          <span> in California — was so designated in January, after being named a national monument in 1908.</span>
+        </p>
+        <p>
+          <span>
+            <span>The </span>
+            <a href="http://www.nps.gov/history/history/hisnps/NPSHistory/philanthropy.HTM">grand philanthropic gestures</a>
+            <span> of families like the Rockefellers and Mellons, who helped build and expand the national parks, are now few and far between, and even for them it was not always easy. John D. Rockefeller Jr. </span>
+            <a href="http://www.nps.gov/grte/planyourvisit/upload/creation.pdf">spent three torturous decades</a>
+            <span> trying to overcome local opposition so he could add land to </span>
+            <a href="http://www.nps.gov/grte/index.htm">Grand Teton National Park</a>
+            <span>.</span>
+          </span>
+        </p>
+      </div>
+      <div class="side-text">
+        <h3 class="text-title">Minor Title</h3>
+        <p>
+          <span>Here in the Maine woods, Ms. Quimby is flush with land she acquired after co-founding and later selling Burt’s Bees, the skin-care company known for its lip balm. She ranks 88th on the </span>
+          <a href="http://fayranches.com/sites/default/files/2013_land_report_100_sponsored_by_fay_ranches.pdf">Land Report’s 2013 list</a>
+          <span> of the nation’s 100 largest landowners and has been trying to establish a national park for years by giving away more than 100,000 acres to the federal government.</span>
+        </p>
+      </div>
     </div>
   </div>
 </div>
