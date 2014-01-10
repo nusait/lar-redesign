@@ -55,11 +55,11 @@ Route::get('collapsible', function ()
 	return View::make(get_template(), compact('DEFAULT'));
 });
 
-Route::get('department', function () 
+Route::get('panel', function () 
 {
 	generate_shared();
 	return View::make(get_template(), [
-		'DEFAULT' => get_default('department'),
+		'DEFAULT' => get_default('panel'),
 		'DEPARTMENT_SUB_NAV' => null,
 		'DEPARTMENT_QUICKLINKS' => null,
 	]);
@@ -72,7 +72,7 @@ Route::get('detail', function ()
 	return View::make(get_template(), compact('DEFAULT'));
 });
 
-Route::get('division', function () 
+Route::get('multipanel', function () 
 {
 	generate_shared();
 	return View::make(get_template(), [
