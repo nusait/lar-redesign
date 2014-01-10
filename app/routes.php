@@ -76,7 +76,7 @@ Route::get('multipanel', function ()
 {
 	generate_shared();
 	return View::make(get_template(), [
-		'DEFAULT' => get_default('division'),
+		'DEFAULT' => get_default('multipanel'),
 		'DEPARTMENT_SUB_NAV' => null,
 		'DEPARTMENT_QUICKLINKS' => null,
 	]);
