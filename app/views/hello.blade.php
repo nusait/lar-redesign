@@ -6,8 +6,8 @@
 </head>
 <body>
     <h1>Laravel Redesign</h1>
-    {{link_to('division', 'Division')}}
-    {{link_to('department', 'Department')}}
+    {{link_to('division', 'Multipanel')}}
+    {{link_to('department', 'Panel')}}
     {{link_to('stack', 'Stack')}}
     {{link_to('collapsible', 'Collapsible')}}
     {{link_to('basic', 'Basic')}}

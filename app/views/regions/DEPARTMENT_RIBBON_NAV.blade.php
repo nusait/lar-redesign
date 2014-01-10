@@ -51,7 +51,7 @@
         <ul>
           <li role="presentation" class="section-title">Other Stuff</li>
           <li><a href="">Alumni</a></li>
-          <li><a href="">Family</a></li>
+          <li><a href="">Family</a></li>  
           <li><a href="">Graduate/Professional Students</a></li>
           <li><a href="">New Students</a></li>
           <li><a href="">Staff/Faculty</a></li>

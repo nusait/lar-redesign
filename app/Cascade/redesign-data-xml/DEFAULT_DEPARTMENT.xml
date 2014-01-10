@@ -1,0 +1,217 @@
+<system-index-block current-time="1389367036413" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="78d2fe2f8169775b5c17821b97a663a7">
+            <name>index</name>
+            <is-published>true</is-published>
+            <title>Aliquam sit amet mauris</title>
+            <keywords>some, keywords, to, include</keywords>
+            <description>Change me as this is a generic description for homepages</description>
+            <display-name>Aliquam sit</display-name>
+            <path>/index</path>
+            <site>SA-MAIN</site>
+            <link>site://SA-MAIN/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1389301530016</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1389301530016</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Panel Page Form">
+                <content-type>panel</content-type>
+                <panel>
+                    <carousel-image-set>
+                        <carousel-section>
+                            <label>Trees Improve Our Lives</label>
+                            <photo>
+                                <content/>
+                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</path>
+                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</link>
+                                <site>SA-MAIN</site>
+                                <name>trees-carousel.jpeg</name>
+                            </photo>
+                            <alt>row of trees on fall day</alt>
+                            <link>http://google.com</link>
+                        </carousel-section>
+                        <carousel-section>
+                            <label>Bread Made Fresh</label>
+                            <photo>
+                                <content/>
+                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</path>
+                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</link>
+                                <site>SA-MAIN</site>
+                                <name>bread-carousel.jpeg</name>
+                            </photo>
+                            <alt>loaf of baked break</alt>
+                            <link>http://google.com</link>
+                        </carousel-section>
+                    </carousel-image-set>
+                    <event-set>
+                        <event>
+                            <title>Winter Job &amp; Internship Fair</title>
+                            <date>01-09-2014</date>
+                            <location>Norris 2nd Floor</location>
+                            <link>http://planitpurple.northwestern.edu/event/445957</link>
+                        </event>
+                        <event>
+                            <title>NU Women's Basketball vs. Purdue</title>
+                            <date>01-09-2014</date>
+                            <location>Welsh-Ryan Arena</location>
+                            <link>http://planitpurple.northwestern.edu/event/450274</link>
+                        </event>
+                        <event>
+                            <title>Soul On Ice Norris Ice Rink</title>
+                            <date>01-10-2014</date>
+                            <location>Norris-Ice Rink</location>
+                            <link>http://planitpurple.northwestern.edu/event/451491</link>
+                        </event>
+                        <event>
+                            <title>Winter Chamber Music Festival: Miró Quartet with Shai Wosner,
+                                piano</title>
+                            <date>01-10-2014</date>
+                            <location>Pick-Staiger Concert Hall</location>
+                            <link>http://planitpurple.northwestern.edu/event/450130</link>
+                        </event>
+                    </event-set>
+                    <quick-link-set>
+                        <heading>Quick Links</heading>
+                        <section>
+                            <label>Bicycles</label>
+                            <photo>
+                                <content/>
+                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</path>
+                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</link>
+                                <site>SA-MAIN</site>
+                                <name>bike-ql.jpeg</name>
+                            </photo>
+                            <alt>People riding tandem bicycle</alt>
+                            <internal-link>
+                                <path>/</path>
+                            </internal-link>
+                            <external-link>
+                                <content>
+                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                                </content>
+                                <path>/_common/career-cat-external-link</path>
+                                <site>SA-MAIN</site>
+                                <name>career-cat-external-link</name>
+                            </external-link>
+                        </section>
+                        <section>
+                            <label>Exercise</label>
+                            <photo>
+                                <content/>
+                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</path>
+                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</link>
+                                <site>SA-MAIN</site>
+                                <name>karate-ql.jpeg</name>
+                            </photo>
+                            <alt>Man kicking the sky</alt>
+                            <internal-link>
+                                <path>/</path>
+                            </internal-link>
+                            <external-link>
+                                <content>
+                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                                </content>
+                                <path>/_common/career-cat-external-link</path>
+                                <site>SA-MAIN</site>
+                                <name>career-cat-external-link</name>
+                            </external-link>
+                        </section>
+                        <section>
+                            <label>Racing</label>
+                            <photo>
+                                <content/>
+                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</path>
+                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</link>
+                                <site>SA-MAIN</site>
+                                <name>motorcycle-ql.jpeg</name>
+                            </photo>
+                            <alt>Motorcycle racing around dirt track</alt>
+                            <internal-link>
+                                <path>/</path>
+                            </internal-link>
+                            <external-link>
+                                <content>
+                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                                </content>
+                                <path>/_common/career-cat-external-link</path>
+                                <site>SA-MAIN</site>
+                                <name>career-cat-external-link</name>
+                            </external-link>
+                        </section>
+                        <section>
+                            <label>Scenery</label>
+                            <photo>
+                                <content/>
+                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</path>
+                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</link>
+                                <site>SA-MAIN</site>
+                                <name>sunset-ql.jpeg</name>
+                            </photo>
+                            <alt>beautiful sunset</alt>
+                            <internal-link>
+                                <path>/</path>
+                            </internal-link>
+                            <external-link>
+                                <content>
+                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                                </content>
+                                <path>/_common/career-cat-external-link</path>
+                                <site>SA-MAIN</site>
+                                <name>career-cat-external-link</name>
+                            </external-link>
+                        </section>
+                    </quick-link-set>
+                </panel>
+                <main-content>
+                    <p>
+                        <span>Consider this: Since Congress named </span>
+                        <a href="http://www.nps.gov/yell/index.htm">Yellowstone</a>
+                        <span> the first national park in 1872, it has conferred this prized title
+                            on only 58 other sites. And most, including the </span>
+                        <a href="http://www.nps.gov/grca/index.htm">Grand Canyon</a>
+                        <span>, received lesser designations, like national monument, long before
+                            they officially became parks. The most recent national park — </span>
+                        <a href="http://www.nps.gov/pinn/index.htm">Pinnacles,</a>
+                        <span> in California — was so designated in January, after being named a
+                            national monument in 1908.</span>
+                    </p>
+                    <p>
+                        <span>
+                            <span>The </span>
+                            <a
+                                href="http://www.nps.gov/history/history/hisnps/NPSHistory/philanthropy.HTM"
+                                >grand philanthropic gestures</a>
+                            <span> of families like the Rockefellers and Mellons, who helped build
+                                and expand the national parks, are now few and far between, and even
+                                for them it was not always easy. John D. Rockefeller Jr. </span>
+                            <a href="http://www.nps.gov/grte/planyourvisit/upload/creation.pdf"
+                                >spent three torturous decades</a>
+                            <span> trying to overcome local opposition so he could add land
+                                to </span>
+                            <a href="http://www.nps.gov/grte/index.htm">Grand Teton National
+                                Park</a>
+                            <span>.</span>
+                        </span>
+                    </p>
+                </main-content>
+                <side-title>Minor Title</side-title>
+                <side-content>
+                    <p>
+                        <span>Here in the Maine woods, Ms. Quimby is flush with land she acquired
+                            after co-founding and later selling Burt’s Bees, the skin-care company
+                            known for its lip balm. She ranks 88th on the </span>
+                        <a
+                            href="http://fayranches.com/sites/default/files/2013_land_report_100_sponsored_by_fay_ranches.pdf"
+                            >Land Report’s 2013 list</a>
+                        <span> of the nation’s 100 largest landowners and has been trying to
+                            establish a national park for years by giving away more than 100,000
+                            acres to the federal government.</span>
+                    </p>
+                </side-content>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>

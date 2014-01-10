@@ -1,0 +1,66 @@
+<XML>
+    <STAMP>
+        <Block>
+            <system-region name="STAMP_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="STAMP_Transformed"/>
+        </Transformed>
+    </STAMP>
+    <HEAD_ELEMENTS>
+        <Block>
+            <system-region name="HEAD_ELEMENTS_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="HEAD_ELEMENTS_Transformed"/>
+        </Transformed>
+    </HEAD_ELEMENTS>
+    <DEPARTMENT_SUB_NAV>
+        <Block>
+            <system-region name="DEPARTMENT_SUB_NAV_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="DEPARTMENT_SUB_NAV_Transformed"/>
+        </Transformed>
+    </DEPARTMENT_SUB_NAV>
+    <DEPARTMENT_RIBBON_NAV>
+        <Block>
+            <system-region name="DEPARTMENT_RIBBON_NAV_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="DEPARTMENT_RIBBON_NAV_Transformed"/>
+        </Transformed>
+    </DEPARTMENT_RIBBON_NAV>
+    <DEPARTMENT_QUICKLINKS>
+        <Block>
+            <system-region name="DEPARTMENT_QUICKLINKS_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="DEPARTMENT_QUICKLINKS_Transformed"/>
+        </Transformed>
+    </DEPARTMENT_QUICKLINKS>
+    <DEFAULT>
+        <Block>
+            <system-region name="DEFAULT_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="DEFAULT_Transformed"/>
+        </Transformed>
+    </DEFAULT>
+    <FOOTER>
+        <Block>
+            <system-region name="FOOTER_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="FOOTER_Transformed"/>
+        </Transformed>
+    </FOOTER>
+    <BREADCRUMBS>
+        <Block>
+            <system-region name="BREADCRUMBS_Block"/>
+        </Block>
+        <Transformed>
+            <system-region name="BREADCRUMBS_Transformed"/>
+        </Transformed>
+    </BREADCRUMBS>
+</XML>

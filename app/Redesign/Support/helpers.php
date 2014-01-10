@@ -56,7 +56,9 @@ if ( ! function_exists('get_region'))
 		$xslt_file = format_path($xslt);
 		$blade_file = app_path('views/regions/' . $blade);
 
-		if ( File::exists( $xml_file ) and File::exists( $xslt_file ) ) {
+		$do_xslt = true;
+
+		if ( $do_xslt and File::exists( $xml_file ) and File::exists( $xslt_file ) ) {
 			return transform($xml, $xslt);
 		} elseif ( File::exists($blade_file) ) {
 			return File::get( $blade_file );
@@ -150,5 +152,28 @@ if ( ! function_exists('get_template'))
 		} else {
 			return 'transformed-template';
 		}
+	}
+}
+
+if ( ! function_exists('generate_shared')) {
+	function generate_shared() {
+		share_region('HEAD_ELEMENTS');
+		share_region('STAMP');
+		share_region('GA_TRACKING_ID', '_ga_tracking_id = 12345');
+
+		share_region('FOOTER');
+		share_region('COMMUNITY_DESKTOP');
+		share_region('COMMUNITY_MOBILE');
+		share_region('DEPARTMENTS_DESKTOP');
+		share_region('DEPARTMENTS_MOBILE');
+		share_region('NUHELP_DESKTOP');
+		share_region('NUHELP_MOBILE');
+		share_region('TOPICS_DESKTOP');
+		share_region('TOPICS_MOBILE');
+
+		share_region('DEPARTMENT_RIBBON_NAV');
+		share_region('BREADCRUMBS');
+		share_region('DEPARTMENT_SUB_NAV');
+		share_region('DEPARTMENT_QUICKLINKS');
 	}
 }

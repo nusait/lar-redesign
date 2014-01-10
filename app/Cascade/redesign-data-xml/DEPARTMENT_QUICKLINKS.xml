@@ -1,0 +1,385 @@
+<system-index-block current-time="1389364970640" name="SA-MAIN-homepage-settings-callingpage"
+    type="folder">
+    <system-folder id="7aaa5a11a57c421a41f5ad2b96adf0f6">
+        <name>programs</name>
+        <is-published>true</is-published>
+        <path>/programs</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/programs</link>
+        <created-by>cew904</created-by>
+        <created-on>1389332421056</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389332421056</last-modified>
+    </system-folder>
+    <system-folder id="7a8d89a8a57c421a41f5ad2b93b9ced6">
+        <name>alumni</name>
+        <is-published>true</is-published>
+        <path>/alumni</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/alumni</link>
+        <created-by>cew904</created-by>
+        <created-on>1389330532695</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389330532695</last-modified>
+    </system-folder>
+    <system-folder id="7a8bc8cfa57c421a41f5ad2be1a1ca7c">
+        <name>parents</name>
+        <is-published>true</is-published>
+        <path>/parents</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/parents</link>
+        <created-by>cew904</created-by>
+        <created-on>1389330417791</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389330417791</last-modified>
+    </system-folder>
+    <system-page id="78d2fe2f8169775b5c17821b97a663a7">
+        <name>index</name>
+        <is-published>true</is-published>
+        <title>Aliquam sit amet mauris</title>
+        <keywords>some, keywords, to, include</keywords>
+        <description>Change me as this is a generic description for homepages</description>
+        <display-name>Aliquam sit</display-name>
+        <path>/index</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/index</link>
+        <created-by>cew904</created-by>
+        <created-on>1389301530016</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389301530016</last-modified>
+        <dynamic-metadata>
+            <name>note</name>
+        </dynamic-metadata>
+        <system-data-structure definition-path="Redesign/Panel Page Form">
+            <content-type>panel</content-type>
+            <panel>
+                <carousel-image-set>
+                    <carousel-section>
+                        <label>Trees Improve Our Lives</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>trees-carousel.jpeg</name>
+                        </photo>
+                        <alt>row of trees on fall day</alt>
+                        <link>http://google.com</link>
+                    </carousel-section>
+                    <carousel-section>
+                        <label>Bread Made Fresh</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>bread-carousel.jpeg</name>
+                        </photo>
+                        <alt>loaf of baked break</alt>
+                        <link>http://google.com</link>
+                    </carousel-section>
+                </carousel-image-set>
+                <event-set>
+                    <event>
+                        <title>Winter Job &amp; Internship Fair</title>
+                        <date>01-09-2014</date>
+                        <location>Norris 2nd Floor</location>
+                        <link>http://planitpurple.northwestern.edu/event/445957</link>
+                    </event>
+                    <event>
+                        <title>NU Women's Basketball vs. Purdue</title>
+                        <date>01-09-2014</date>
+                        <location>Welsh-Ryan Arena</location>
+                        <link>http://planitpurple.northwestern.edu/event/450274</link>
+                    </event>
+                    <event>
+                        <title>Soul On Ice Norris Ice Rink</title>
+                        <date>01-10-2014</date>
+                        <location>Norris-Ice Rink</location>
+                        <link>http://planitpurple.northwestern.edu/event/451491</link>
+                    </event>
+                    <event>
+                        <title>Winter Chamber Music Festival: Miró Quartet with Shai Wosner,
+                            piano</title>
+                        <date>01-10-2014</date>
+                        <location>Pick-Staiger Concert Hall</location>
+                        <link>http://planitpurple.northwestern.edu/event/450130</link>
+                    </event>
+                </event-set>
+                <quick-link-set>
+                    <heading>Quick Links</heading>
+                    <section>
+                        <label>Bicycles</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>bike-ql.jpeg</name>
+                        </photo>
+                        <alt>People riding tandem bicycle</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                    <section>
+                        <label>Exercise</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>karate-ql.jpeg</name>
+                        </photo>
+                        <alt>Man kicking the sky</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                    <section>
+                        <label>Racing</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>motorcycle-ql.jpeg</name>
+                        </photo>
+                        <alt>Motorcycle racing around dirt track</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                    <section>
+                        <label>Scenery</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>sunset-ql.jpeg</name>
+                        </photo>
+                        <alt>beautiful sunset</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                </quick-link-set>
+            </panel>
+            <main-content>
+                <p>
+                    <span>Consider this: Since Congress named </span>
+                    <a href="http://www.nps.gov/yell/index.htm">Yellowstone</a>
+                    <span> the first national park in 1872, it has conferred this prized title on
+                        only 58 other sites. And most, including the </span>
+                    <a href="http://www.nps.gov/grca/index.htm">Grand Canyon</a>
+                    <span>, received lesser designations, like national monument, long before they
+                        officially became parks. The most recent national park — </span>
+                    <a href="http://www.nps.gov/pinn/index.htm">Pinnacles,</a>
+                    <span> in California — was so designated in January, after being named a
+                        national monument in 1908.</span>
+                </p>
+                <p>
+                    <span>
+                        <span>The </span>
+                        <a
+                            href="http://www.nps.gov/history/history/hisnps/NPSHistory/philanthropy.HTM"
+                            >grand philanthropic gestures</a>
+                        <span> of families like the Rockefellers and Mellons, who helped build and
+                            expand the national parks, are now few and far between, and even for
+                            them it was not always easy. John D. Rockefeller Jr. </span>
+                        <a href="http://www.nps.gov/grte/planyourvisit/upload/creation.pdf">spent
+                            three torturous decades</a>
+                        <span> trying to overcome local opposition so he could add land to </span>
+                        <a href="http://www.nps.gov/grte/index.htm">Grand Teton National Park</a>
+                        <span>.</span>
+                    </span>
+                </p>
+            </main-content>
+            <side-title>Minor Title</side-title>
+            <side-content>
+                <p>
+                    <span>Here in the Maine woods, Ms. Quimby is flush with land she acquired after
+                        co-founding and later selling Burt’s Bees, the skin-care company known for
+                        its lip balm. She ranks 88th on the </span>
+                    <a
+                        href="http://fayranches.com/sites/default/files/2013_land_report_100_sponsored_by_fay_ranches.pdf"
+                        >Land Report’s 2013 list</a>
+                    <span> of the nation’s 100 largest landowners and has been trying to establish a
+                        national park for years by giving away more than 100,000 acres to the
+                        federal government.</span>
+                </p>
+            </side-content>
+        </system-data-structure>
+    </system-page>
+    <system-folder id="6471c811a57c421a2488e6c734fcdd75">
+        <name>students</name>
+        <is-published>true</is-published>
+        <path>/students</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/students</link>
+        <created-by>cew904</created-by>
+        <created-on>1388959614934</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1388959614934</last-modified>
+    </system-folder>
+    <system-block id="01d373968169773801d70603d35776d3">
+        <name>Settings</name>
+        <path>/Settings</path>
+        <site>SA-MAIN</site>
+        <created-by>cew904</created-by>
+        <created-on>1297110757388</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1342110191857</last-modified>
+        <system-data-structure definition-path="Site Settings">
+            <googleanalyticsid>UA-3808778-11</googleanalyticsid>
+            <slug>studentaffairs</slug>
+            <sitename>Student Affairs</sitename>
+            <navigationtype>TopOnly</navigationtype>
+            <protocol>http</protocol>
+            <salogo>yes</salogo>
+            <URL>http://www.northwestern.edu/studentaffairs</URL>
+        </system-data-structure>
+    </system-block>
+    <system-folder id="635d4f4aa57c421a2488e6c7b806f6fb">
+        <name>about-us</name>
+        <is-published>true</is-published>
+        <path>/about-us</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/about-us</link>
+        <created-by>cew904</created-by>
+        <created-on>1388941496085</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1388941496085</last-modified>
+    </system-folder>
+    <system-block id="703e8b26a57c421a2488e6c78ed56399">
+        <name>NEW-settings</name>
+        <path>/NEW-settings</path>
+        <site>SA-MAIN</site>
+        <created-by>cew904</created-by>
+        <created-on>1389157583612</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389293697992</last-modified>
+        <system-data-structure definition-path="Redesign/Settings Form">
+            <redesign>
+                <sitename>Sample Department</sitename>
+                <googleanalyticsid>UA-3808778-XX</googleanalyticsid>
+                <stamp-class>dept-color-2</stamp-class>
+            </redesign>
+        </system-data-structure>
+    </system-block>
+    <calling-page>
+        <system-page current="true" id="7952ac098169775b5c17821b3c5896f9">
+            <name>index</name>
+            <is-published>true</is-published>
+            <title>Contact Us Title</title>
+            <keywords>decide, here, which, keywords, should, populate, your, page</keywords>
+            <description>Change me to page description whch Google may pass on to
+                searchers</description>
+            <display-name>Contact Us</display-name>
+            <path>/about-us/meet-the-staff/contacting-us/index</path>
+            <site>SA-MAIN</site>
+            <link>site://SA-MAIN/about-us/meet-the-staff/contacting-us/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1389309897657</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1389309940371</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Basic Page Form">
+                <content-type>basic</content-type>
+                <default>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper enim a
+                        est <a href="https://www.google.com/">scelerisque mattis</a>. Morbi non
+                        velit blandit lacus fermentum venenatis. Proin a metus mollis, porta quam
+                        fermentum, aliquet neque. Mauris interdum euismod aliquam. Sed non consequat
+                        tortor, quis ultrices elit. Nulla facilisi. <a
+                            href="https://www.google.com/">Vestibulum tempor neque</a> eget congue
+                        mattis. Curabitur nec sem eget diam posuere sodales sed eget felis. Sed
+                        velit libero, facilisis quis tellus id, sollicitudin viverra leo. Donec
+                        rhoncus egestas augue sed dapibus.:</p>
+                    <ol>
+                        <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                        <li>Aliquam tincidunt <a href="https://www.google.com/">mauris</a> eu
+                            risus.</li>
+                        <li>Vestibulum auctor dapibus neque.</li>
+                    </ol>
+                    <h2>Heading Level 2</h2>
+                    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et
+                        malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+                        ultricies eget, tempor sit amet, ante. <a href="https://www.google.com/"
+                            >Donec eu libero</a> sit amet quam egestas semper. <em>Aenean ultricies
+                            mi vitae est.</em>
+                        <a href="https://www.google.com/">Mauris placerat</a> eleifend leo. Quisque
+                        sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi,
+                        condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean
+                        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis
+                        tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar
+                        facilisis. Ut felis.</p>
+                    <h2>Also Level 2</h2>
+                    <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et
+                        malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+                        ultricies eget, tempor sit amet, ante. <a href="https://www.google.com/"
+                            >Donec eu libero</a> sit amet quam egestas semper. <em>Aenean ultricies
+                            mi vitae est.</em>
+                        <a href="https://www.google.com/">Mauris placerat</a> eleifend leo. Quisque
+                        sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi,
+                        condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean
+                        fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis
+                        tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar
+                        facilisis. Ut felis.</p>
+                </default>
+                <photo-section>
+                    <photo>
+                        <content/>
+                        <path>/_internal/redesign-base-assets/sa-main-basic/sa-main-basic-assets/600x600.jpeg</path>
+                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-basic/sa-main-basic-assets/600x600.jpeg</link>
+                        <site>SA-MAIN</site>
+                        <name>600x600.jpeg</name>
+                    </photo>
+                    <alt-text>a placeholder image of height and width 600 pixels</alt-text>
+                    <description>You'll want to swap in your own photo here</description>
+                    <internal-link>
+                        <path>/</path>
+                    </internal-link>
+                    <external-link>
+                        <path>/</path>
+                    </external-link>
+                </photo-section>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>
