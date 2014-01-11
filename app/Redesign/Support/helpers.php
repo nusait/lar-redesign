@@ -56,7 +56,7 @@ if ( ! function_exists('get_region'))
 		$xslt_file = format_path($xslt);
 		$blade_file = app_path('views/regions/' . $blade);
 
-		$do_xslt = false;
+		$do_xslt = true;
 
 		if ( $do_xslt and File::exists( $xml_file ) and File::exists( $xslt_file ) ) {
 			return transform($xml, $xslt);
