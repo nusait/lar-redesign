@@ -1,0 +1,51 @@
+<system-index-block current-time="1389487937579" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="83ee89bba57c421a41f5ad2bdf4fd235">
+            <name>index</name>
+            <is-published>true</is-published>
+            <title>ChangeMe Title</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>This is a description of the page. Change me.</description>
+            <display-name>ChangeMe</display-name>
+            <path>/_internal/redesign-base-assets/sa-main-collapsible/index</path>
+            <site>SA-MAIN</site>
+            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-collapsible/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1389487884630</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1389487884630</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Collapsible Page Form">
+                <content-type-collapsible>
+                    <value>Yes</value>
+                </content-type-collapsible>
+                <collapsible-section>
+                    <subject>This is the first FAQ</subject>
+                    <content>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam,<br/> quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse<br/> cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non<br/> proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </content>
+                </collapsible-section>
+                <collapsible-section>
+                    <subject>This is the second FAQ</subject>
+                    <content>
+                        <p>Lorem2 ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam,<br/> quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse<br/> cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non<br/> proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </content>
+                </collapsible-section>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>

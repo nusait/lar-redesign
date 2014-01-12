@@ -1,11 +1,258 @@
-<system-index-block current-time="1389198502182" name="SA-MAIN-homepage-settings-callingpage"
+<system-index-block current-time="1389488853298" name="SA-MAIN-homepage-settings-callingpage"
     type="folder">
-    <system-folder id="6471c811a57c421a2488e6c734fcdd75">
-        <name>NEW-students</name>
+    <system-folder id="7aaa5a11a57c421a41f5ad2b96adf0f6">
+        <name>programs</name>
         <is-published>true</is-published>
-        <path>/NEW-students</path>
+        <path>/programs</path>
         <site>SA-MAIN</site>
-        <link>site://SA-MAIN/NEW-students</link>
+        <link>site://SA-MAIN/programs</link>
+        <created-by>cew904</created-by>
+        <created-on>1389332421056</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389332421056</last-modified>
+    </system-folder>
+    <system-folder id="7a8d89a8a57c421a41f5ad2b93b9ced6">
+        <name>alumni</name>
+        <is-published>true</is-published>
+        <path>/alumni</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/alumni</link>
+        <created-by>cew904</created-by>
+        <created-on>1389330532695</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389330532695</last-modified>
+    </system-folder>
+    <system-folder id="7a8bc8cfa57c421a41f5ad2be1a1ca7c">
+        <name>parents</name>
+        <is-published>true</is-published>
+        <path>/parents</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/parents</link>
+        <created-by>cew904</created-by>
+        <created-on>1389330417791</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389330417791</last-modified>
+    </system-folder>
+    <system-page id="78d2fe2f8169775b5c17821b97a663a7">
+        <name>index</name>
+        <is-published>true</is-published>
+        <title>Aliquam sit amet mauris</title>
+        <keywords>some, keywords, to, include</keywords>
+        <description>Change me as this is a generic description for homepages</description>
+        <display-name>Aliquam sit</display-name>
+        <path>/index</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/index</link>
+        <created-by>cew904</created-by>
+        <created-on>1389301530016</created-on>
+        <last-modified-by>hle276</last-modified-by>
+        <last-modified>1389390452356</last-modified>
+        <dynamic-metadata>
+            <name>note</name>
+        </dynamic-metadata>
+        <system-data-structure definition-path="Redesign/Panel Page Form">
+            <content-type-panel>
+                <value>Yes</value>
+            </content-type-panel>
+            <content-type>panel</content-type>
+            <panel>
+                <carousel-image-set>
+                    <carousel-section>
+                        <label>Trees Improve Our Lives</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>trees-carousel.jpeg</name>
+                        </photo>
+                        <alt>row of trees on fall day</alt>
+                        <link>http://google.com</link>
+                    </carousel-section>
+                    <carousel-section>
+                        <label>Bread Made Fresh</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>bread-carousel.jpeg</name>
+                        </photo>
+                        <alt>loaf of baked break</alt>
+                        <link>http://google.com</link>
+                    </carousel-section>
+                </carousel-image-set>
+                <event-set>
+                    <event>
+                        <title>Winter Job &amp; Internship Fair</title>
+                        <date>01-09-2014</date>
+                        <location>Norris 2nd Floor</location>
+                        <link>http://planitpurple.northwestern.edu/event/445957</link>
+                    </event>
+                    <event>
+                        <title>NU Women's Basketball vs. Purdue</title>
+                        <date>01-09-2014</date>
+                        <location>Welsh-Ryan Arena</location>
+                        <link>http://planitpurple.northwestern.edu/event/450274</link>
+                    </event>
+                    <event>
+                        <title>Soul On Ice Norris Ice Rink</title>
+                        <date>01-10-2014</date>
+                        <location>Norris-Ice Rink</location>
+                        <link>http://planitpurple.northwestern.edu/event/451491</link>
+                    </event>
+                    <event>
+                        <title>Winter Chamber Music Festival: Miró Quartet with Shai Wosner,
+                            piano</title>
+                        <date>01-10-2014</date>
+                        <location>Pick-Staiger Concert Hall</location>
+                        <link>http://planitpurple.northwestern.edu/event/450130</link>
+                    </event>
+                </event-set>
+                <quick-link-set>
+                    <heading>Quick Links</heading>
+                    <section>
+                        <label>Bicycles</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>bike-ql.jpeg</name>
+                        </photo>
+                        <alt>People riding tandem bicycle</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                    <section>
+                        <label>Exercise</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>karate-ql.jpeg</name>
+                        </photo>
+                        <alt>Man kicking the sky</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                    <section>
+                        <label>Racing</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>motorcycle-ql.jpeg</name>
+                        </photo>
+                        <alt>Motorcycle racing around dirt track</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                    <section>
+                        <label>Scenery</label>
+                        <photo>
+                            <content/>
+                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</path>
+                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</link>
+                            <site>SA-MAIN</site>
+                            <name>sunset-ql.jpeg</name>
+                        </photo>
+                        <alt>beautiful sunset</alt>
+                        <internal-link>
+                            <path>/</path>
+                        </internal-link>
+                        <external-link>
+                            <content>
+                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
+                            </content>
+                            <path>/_common/career-cat-external-link</path>
+                            <site>SA-MAIN</site>
+                            <name>career-cat-external-link</name>
+                        </external-link>
+                    </section>
+                </quick-link-set>
+            </panel>
+            <main-content>
+                <p>
+                    <span>Consider this: Since Congress named </span>
+                    <a href="http://www.nps.gov/yell/index.htm">Yellowstone</a>
+                    <span> the first national park in 1872, it has conferred this prized title on
+                        only 58 other sites. And most, including the </span>
+                    <a href="http://www.nps.gov/grca/index.htm">Grand Canyon</a>
+                    <span>, received lesser designations, like national monument, long before they
+                        officially became parks. The most recent national park — </span>
+                    <a href="http://www.nps.gov/pinn/index.htm">Pinnacles,</a>
+                    <span> in California — was so designated in January, after being named a
+                        national monument in 1908.</span>
+                </p>
+                <p>
+                    <span>
+                        <span>The </span>
+                        <a
+                            href="http://www.nps.gov/history/history/hisnps/NPSHistory/philanthropy.HTM"
+                            >grand philanthropic gestures</a>
+                        <span> of families like the Rockefellers and Mellons, who helped build and
+                            expand the national parks, are now few and far between, and even for
+                            them it was not always easy. John D. Rockefeller Jr. </span>
+                        <a href="http://www.nps.gov/grte/planyourvisit/upload/creation.pdf">spent
+                            three torturous decades</a>
+                        <span> trying to overcome local opposition so he could add land to </span>
+                        <a href="http://www.nps.gov/grte/index.htm">Grand Teton National Park</a>
+                        <span>.</span>
+                    </span>
+                </p>
+            </main-content>
+            <side-title>Minor Title</side-title>
+            <side-content>
+                <p>
+                    <span>Here in the Maine woods, Ms. Quimby is flush with land she acquired after
+                        co-founding and later selling Burt’s Bees, the skin-care company known for
+                        its lip balm. She ranks 88th on the </span>
+                    <a
+                        href="http://fayranches.com/sites/default/files/2013_land_report_100_sponsored_by_fay_ranches.pdf"
+                        >Land Report’s 2013 list</a>
+                    <span> of the nation’s 100 largest landowners and has been trying to establish a
+                        national park for years by giving away more than 100,000 acres to the
+                        federal government.</span>
+                </p>
+            </side-content>
+        </system-data-structure>
+    </system-page>
+    <system-folder id="6471c811a57c421a2488e6c734fcdd75">
+        <name>students</name>
+        <is-published>true</is-published>
+        <path>/students</path>
+        <site>SA-MAIN</site>
+        <link>site://SA-MAIN/students</link>
         <created-by>cew904</created-by>
         <created-on>1388959614934</created-on>
         <last-modified-by>cew904</last-modified-by>
@@ -29,198 +276,12 @@
             <URL>http://www.northwestern.edu/studentaffairs</URL>
         </system-data-structure>
     </system-block>
-    <system-page id="60007eeea57c421a2488e6c76c360837">
-        <name>NEW-index</name>
-        <is-published>true</is-published>
-        <title>Safe Ride Title</title>
-        <display-name>Safe Ride</display-name>
-        <path>/NEW-index</path>
-        <site>SA-MAIN</site>
-        <link>site://SA-MAIN/NEW-index</link>
-        <created-by>cew904</created-by>
-        <created-on>1388885081685</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1389028284909</last-modified>
-        <system-data-structure definition-path="Redesign/Panel Page Form">
-            <panel>
-                <carousel-image-set>
-                    <carousel-section>
-                        <label>adsfads</label>
-                        <photo>
-                            <content/>
-                            <path>/redesign-media/images/carousel/ucsjobfair.jpg</path>
-                            <link>site://SA-VP/redesign-media/images/carousel/ucsjobfair.jpg</link>
-                            <site>SA-VP</site>
-                            <name>ucsjobfair.jpg</name>
-                        </photo>
-                        <alt>asdfad</alt>
-                        <link>asdfads</link>
-                    </carousel-section>
-                    <carousel-section>
-                        <label>asdfas</label>
-                        <photo>
-                            <content/>
-                            <path>/redesign-media/images/carousel/redwatchband.jpg</path>
-                            <link>site://SA-VP/redesign-media/images/carousel/redwatchband.jpg</link>
-                            <site>SA-VP</site>
-                            <name>redwatchband.jpg</name>
-                        </photo>
-                        <alt>adsfasf</alt>
-                        <link>asdfasdf</link>
-                    </carousel-section>
-                </carousel-image-set>
-                <event-set>
-                    <event>
-                        <title>asdf</title>
-                        <date>01-07-2014</date>
-                        <location>asdf</location>
-                        <link>asdf</link>
-                    </event>
-                    <event>
-                        <title>asdf</title>
-                        <date>01-22-2014</date>
-                        <location>asdfasf</location>
-                        <link>asdfdsaf</link>
-                    </event>
-                    <event>
-                        <title>adsfasf</title>
-                        <date>01-15-2014</date>
-                        <location>asdfaf</location>
-                        <link>asdfadsf</link>
-                    </event>
-                    <event>
-                        <title>asdfaf</title>
-                        <date>01-30-2014</date>
-                        <location>asdfa</location>
-                        <link>asdfasf</link>
-                    </event>
-                </event-set>
-                <quick-link-set>
-                    <heading>Quick Links</heading>
-                    <section>
-                        <label>Home Page</label>
-                        <photo>
-                            <content/>
-                            <path>/redesign-media/images/quicklinks/first-block/giving.jpg</path>
-                            <link>site://SA-VP/redesign-media/images/quicklinks/first-block/giving.jpg</link>
-                            <site>SA-VP</site>
-                            <name>giving.jpg</name>
-                            <display-name>giving.jpg</display-name>
-                        </photo>
-                        <alt>Home Page</alt>
-                        <internal-link>
-                            <content/>
-                            <path>/NEW-index</path>
-                            <link>site://SA-MAIN/NEW-index</link>
-                            <site>SA-MAIN</site>
-                            <name>NEW-index</name>
-                            <display-name>Safe Ride</display-name>
-                            <title>Safe Ride Title</title>
-                        </internal-link>
-                        <external-link>
-                            <path>/</path>
-                        </external-link>
-                    </section>
-                    <section>
-                        <label>Find a Job</label>
-                        <photo>
-                            <content/>
-                            <path>/redesign-media/images/quicklinks/first-block/mission.jpg</path>
-                            <link>site://SA-VP/redesign-media/images/quicklinks/first-block/mission.jpg</link>
-                            <site>SA-VP</site>
-                            <name>mission.jpg</name>
-                            <display-name>mission.jpg</display-name>
-                        </photo>
-                        <alt>Find a Job</alt>
-                        <internal-link>
-                            <content/>
-                            <path>/NEW-about-us/history/index</path>
-                            <link>site://SA-MAIN/NEW-about-us/history/index</link>
-                            <site>SA-MAIN</site>
-                            <name>index</name>
-                            <display-name>History</display-name>
-                            <title>History Title</title>
-                        </internal-link>
-                        <external-link>
-                            <path>/</path>
-                        </external-link>
-                    </section>
-                    <section>
-                        <label>Career Cat</label>
-                        <photo>
-                            <content/>
-                            <path>/redesign-media/images/quicklinks/first-block/nuhelp.jpg</path>
-                            <link>site://SA-VP/redesign-media/images/quicklinks/first-block/nuhelp.jpg</link>
-                            <site>SA-VP</site>
-                            <name>nuhelp.jpg</name>
-                            <display-name>nuhelp.jpg</display-name>
-                        </photo>
-                        <alt>Career Cat</alt>
-                        <internal-link>
-                            <path>/</path>
-                        </internal-link>
-                        <external-link>
-                            <content>
-                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                            </content>
-                            <path>/career-cat-external-link</path>
-                            <site>SA-MAIN</site>
-                            <name>career-cat-external-link</name>
-                        </external-link>
-                    </section>
-                    <section>
-                        <label>FAQs</label>
-                        <photo>
-                            <content/>
-                            <path>/redesign-media/images/quicklinks/first-block/social.jpg</path>
-                            <link>site://SA-VP/redesign-media/images/quicklinks/first-block/social.jpg</link>
-                            <site>SA-VP</site>
-                            <name>social.jpg</name>
-                            <display-name>social.jpg</display-name>
-                        </photo>
-                        <alt>FAQs</alt>
-                        <internal-link>
-                            <path>/</path>
-                        </internal-link>
-                        <external-link>
-                            <path>/</path>
-                        </external-link>
-                    </section>
-                </quick-link-set>
-            </panel>
-            <main-title>Main Title</main-title>
-            <main-content>
-                <p>
-                    <span>!!!!!Occupy four loko salvia hella, authentic butcher ugh Terry
-                        Richardson. DIY post-ironic 3 wolf moon slow-carb cliche, Pinterest next
-                        level typewriter fap craft beer Thundercats lomo. Pork belly synth keffiyeh
-                        gluten-free lomo. Odd Future kogi Portland cardigan skateboard, Etsy Schlitz
-                        letterpress bicycle rights. Paleo mumblecore Tumblr, deep v fanny pack
-                        biodiesel church-key cray readymade cred. Intelligentsia Bushwick Echo Park
-                        sustainable, yr trust fund bitters hoodie. Narwhal ethical Schlitz
-                        single-origin coffee gentrify. Hella locavore small batch raw denim
-                        fingerstache wayfarers. Brunch Bushwick 8-bit hashtag, artisan Wes Anderson
-                        twee Terry Richardson keffiyeh. Banjo roof party next level aesthetic
-                        authentic Schlitz. Sriracha pug skateboard flannel, single-origin coffee
-                        Etsy Blue Bottle. Terry Richardson church-key artisan, polaroid street art
-                        Austin semiotics. Retro food truck skateboard +1. Photo booth bicycle rights
-                        pour-over letterpress, viral shabby chic sartorial.</span>
-                </p>
-            </main-content>
-            <side-title>Sidebar Text</side-title>
-            <side-content>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud</p>
-            </side-content>
-        </system-data-structure>
-    </system-page>
     <system-folder id="635d4f4aa57c421a2488e6c7b806f6fb">
-        <name>NEW-about-us</name>
+        <name>about-us</name>
         <is-published>true</is-published>
-        <path>/NEW-about-us</path>
+        <path>/about-us</path>
         <site>SA-MAIN</site>
-        <link>site://SA-MAIN/NEW-about-us</link>
+        <link>site://SA-MAIN/about-us</link>
         <created-by>cew904</created-by>
         <created-on>1388941496085</created-on>
         <last-modified-by>cew904</last-modified-by>
@@ -233,81 +294,61 @@
         <created-by>cew904</created-by>
         <created-on>1389157583612</created-on>
         <last-modified-by>cew904</last-modified-by>
-        <last-modified>1389191454318</last-modified>
+        <last-modified>1389293697992</last-modified>
         <system-data-structure definition-path="Redesign/Settings Form">
             <redesign>
-                <sitename>Student Affairs Home</sitename>
-                <googleanalyticsid>UA-3808778-11</googleanalyticsid>
+                <sitename>Sample Department</sitename>
+                <googleanalyticsid>UA-3808778-XX</googleanalyticsid>
                 <stamp-class>dept-color-2</stamp-class>
             </redesign>
         </system-data-structure>
     </system-block>
     <calling-page>
-        <system-page current="true" id="6f3c6685a57c421a2488e6c7b662c98f">
+        <system-page current="true" id="83ee89bba57c421a41f5ad2bdf4fd235">
             <name>index</name>
             <is-published>true</is-published>
-            <title>Contact Us For Further Information</title>
-            <keywords>help, assistance, whatever</keywords>
-            <description>Getting help from us is only a small phone call away</description>
-            <display-name>Contact Us</display-name>
-            <path>/NEW-about-us/meet-the-staff/contacting-us/index</path>
+            <title>ChangeMe Title</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>This is a description of the page. Change me.</description>
+            <display-name>ChangeMe</display-name>
+            <path>/_internal/redesign-base-assets/sa-main-collapsible/index</path>
             <site>SA-MAIN</site>
-            <link>site://SA-MAIN/NEW-about-us/meet-the-staff/contacting-us/index</link>
+            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-collapsible/index</link>
             <created-by>cew904</created-by>
-            <created-on>1389140665887</created-on>
+            <created-on>1389487884630</created-on>
             <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389146870474</last-modified>
-            <dynamic-metadata>
-                <name>content-type</name>
-                <value>basic</value>
-            </dynamic-metadata>
+            <last-modified>1389488705414</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
-            <system-data-structure definition-path="Redesign/Basic Page Form">
-                <content-type>basic</content-type>
-                <default>
-                    <p>But White has bigger ambitions in Russia. He wants to win a gold medal in the
-                        Olympic debut of slopestyle, where athletes glide down a course of rails and
-                        then fly off three large jumps to perform twisting, flipping stunts.</p>
-                    <p itemprop="articleBody">It used to be White&#8217;s preferred event. He
-                        accumulated victories in all the major slopestyle contests a decade ago,
-                        including a string of X Games titles. But when the International Olympic
-                        Committee added the halfpipe, bringing snowboarding into the mainstream,
-                        White devoted himself to becoming its champion and pied piper. It paid off
-                        in millions of ways, not the least of which is the iconic status that White
-                        enjoys, from his clothing line at Target to his stature as a red-carpet
-                        regular.</p>
-                    <p itemprop="articleBody">Few other snowboarders or freeskiers are even
-                        attempting to qualify for the Olympics in both the halfpipe and the
-                        slopestyle. While there are similarities in the skill set, the training and
-                        competition schedule can be overwhelming. But White is competitive, above
-                        everything else. To him, the only glory greater than Olympic gold is the
-                        audacity of two.</p>
-                </default>
-                <photo-section>
-                    <photo>
-                        <content/>
-                        <path>/media/images/annie-scott-hall-254x300.jpg</path>
-                        <link>site://SA-DISABILITY/media/images/annie-scott-hall-254x300.jpg</link>
-                        <site>SA-DISABILITY</site>
-                        <name>annie-scott-hall-254x300.jpg</name>
-                    </photo>
-                    <alt-text>Change me to describe this photo for search englines and screen reader
-                        users</alt-text>
-                    <description>Staff Member</description>
-                    <internal-link>
-                        <path>/</path>
-                    </internal-link>
-                    <external-link>
-                        <content>
-                            <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                        </content>
-                        <path>/career-cat-external-link</path>
-                        <site>SA-MAIN</site>
-                        <name>career-cat-external-link</name>
-                    </external-link>
-                </photo-section>
+            <system-data-structure definition-path="Redesign/Collapsible Page Form">
+                <content-type-collapsible>
+                    <value>Yes</value>
+                </content-type-collapsible>
+                <collapsible-section>
+                    <subject>This is the first FAQ</subject>
+                    <content>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam,<br/> quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse<br/> cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non<br/> proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </content>
+                </collapsible-section>
+                <collapsible-section>
+                    <subject>This is the second FAQ</subject>
+                    <content>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                            eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                            ad minim veniam,<br/> quis nostrud exercitation ullamco laboris nisi ut
+                            aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
+                            reprehenderit in voluptate velit esse<br/> cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint occaecat cupidatat non<br/> proident, sunt in
+                            culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </content>
+                </collapsible-section>
             </system-data-structure>
         </system-page>
     </calling-page>

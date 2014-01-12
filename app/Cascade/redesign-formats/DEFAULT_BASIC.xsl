@@ -16,7 +16,7 @@
                                 <div class="basic-image-caption">
                                     <p>
                                         <xsl:value-of select="description"/>
-                                        <xsl:text> - </xsl:text>
+                                        <xsl:text>&#160;</xsl:text>
                                         <xsl:choose>
                                             <xsl:when test="internal-link/link">
                                                 <a href="{internal-link/link}">Internal Link</a>
@@ -26,7 +26,7 @@
                                                   >External Link</a>
                                             </xsl:when>
                                             <xsl:otherwise>
-                                                <xsl:text>No Link</xsl:text>
+                                                <xsl:text>&#160;</xsl:text>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </p>

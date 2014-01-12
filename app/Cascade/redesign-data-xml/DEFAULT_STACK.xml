@@ -1,0 +1,70 @@
+<system-index-block current-time="1389497854919" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="84859daca57c421a41f5ad2b7181da95">
+            <name>index</name>
+            <is-published>true</is-published>
+            <title>ChangeMe Title</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>Change me to page description whch Google may pass on to
+                searchers</description>
+            <display-name>ChangeMe</display-name>
+            <path>/_internal/redesign-base-assets/sa-main-stack/index</path>
+            <site>SA-MAIN</site>
+            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1389497785663</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1389497785663</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Stack Page Form">
+                <content-type-stack>
+                    <value>Yes</value>
+                </content-type-stack>
+                <stack-section>
+                    <link>http://www.google.com</link>
+                    <photo>
+                        <content/>
+                        <path>/_internal/redesign-base-assets/sa-main-stack/assets/600x600.jpeg</path>
+                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/assets/600x601.jpeg</link>
+                        <site>SA-MAIN</site>
+                        <name>600x600.jpeg</name>
+                    </photo>
+                    <photo-alt-text>1asdf</photo-alt-text>
+                    <title>asdf</title>
+                    <subtitle>dasf</subtitle>
+                    <description>adfs</description>
+                </stack-section>
+                <stack-section>
+                    <link>http://www.google.com</link>
+                    <photo>
+                        <content/>
+                        <path>/_internal/redesign-base-assets/sa-main-stack/assets/600x600.jpeg</path>
+                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/assets/600x602.jpeg</link>
+                        <site>SA-MAIN</site>
+                        <name>600x600.jpeg</name>
+                    </photo>
+                    <photo-alt-text>2adsf</photo-alt-text>
+                    <title>asdf</title>
+                    <subtitle>asdf</subtitle>
+                    <description>asdf</description>
+                </stack-section>
+                <stack-section>
+                    <link/>
+                    <photo>
+                        <content/>
+                        <path>/_internal/redesign-base-assets/sa-main-stack/assets/600x600.jpeg</path>
+                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/assets/600x603.jpeg</link>
+                        <site>SA-MAIN</site>
+                        <name>600x600.jpeg</name>
+                    </photo>
+                    <photo-alt-text>3asdf</photo-alt-text>
+                    <title>aaaaasdf</title>
+                    <subtitle>bbbbasdf</subtitle>
+                    <description>cccccadsf</description>
+                </stack-section>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>

@@ -3,8 +3,24 @@
     <xsl:output method="xml" omit-xml-declaration="yes" indent="yes"/>
     <xsl:template match="system-index-block">
         <xsl:variable name="content-type">
-            <xsl:value-of
-                select="calling-page/system-page/system-data-structure/content-type"/>
+            <!-- xsl:value-of select="calling-page/system-page/system-data-structure/content-type"/ -->
+            <xsl:choose>
+                <xsl:when test="calling-page/system-page/system-data-structure/content-type-basic"
+                    >basic</xsl:when>
+                <xsl:when test="calling-page/system-page/system-data-structure/content-type-panel"
+                    >panel</xsl:when>
+                <xsl:when test="calling-page/system-page/system-data-structure/content-type-stack"
+                    >stack</xsl:when>
+                <xsl:when
+                    test="calling-page/system-page/system-data-structure/content-type-collapsible"
+                    >collapsible</xsl:when>
+                <xsl:when test="calling-page/system-page/system-data-structure/content-type-detail"
+                    >detail</xsl:when>
+                <xsl:when
+                    test="calling-page/system-page/system-data-structure/content-type-multipanel"
+                    >multipanel</xsl:when>
+                <xsl:otherwise>none</xsl:otherwise>
+            </xsl:choose>
         </xsl:variable>
         <xsl:for-each select="system-block[system-data-structure/redesign]">
             <xsl:variable name="stamp-class" select="system-data-structure/redesign/stamp-class"/>

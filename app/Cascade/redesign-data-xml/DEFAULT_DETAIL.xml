@@ -1,0 +1,59 @@
+<system-index-block current-time="1389496164959" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="8454fc8ba57c421a41f5ad2b871b0c66">
+            <name>index</name>
+            <is-published>true</is-published>
+            <title>What We Do Title</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>Change me to page description whch Google may pass on to
+                searchers</description>
+            <display-name>What We Do</display-name>
+            <path>/about-us/what-we-do/index</path>
+            <site>SA-MAIN</site>
+            <link>site://SA-MAIN/about-us/what-we-do/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1389494598701</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1389495283812</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Detail Page Form">
+                <content-type-detail>
+                    <value>Yes</value>
+                </content-type-detail>
+                <default>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <p>consequat. Vivamus at viverra erat. Quisque lobortis justo et dui aliquet
+                        pulvinar. Ut ac nibh nulla. Ut odio massa, mollis a est a, tincidunt auctor
+                        sem. Sed a ullamcorper ipsum. Quisque venenatis luctus lacinia. Morbi eu
+                        tincidunt tellus, sed tempus felis. Vivamus at faucibus ante. Vivamus
+                        elementum suscipit mauris quis scelerisque. Nullam pharetra libero in ligula
+                        accumsan, et mollis libero accumsan. Donec ut auctor tellus.</p>
+                </default>
+                <stack-section>
+                    <photo>
+                        <content/>
+                        <path>/about-us/what-we-do/assets/ansari-aziz-pointing.jpg</path>
+                        <link>site://SA-MAIN/about-us/what-we-do/assets/ansari-aziz-pointing.jpg</link>
+                        <site>SA-MAIN</site>
+                        <name>ansari-aziz-pointing.jpg</name>
+                    </photo>
+                    <photo-alt-text>Change this alt text</photo-alt-text>
+                    <description>this is where I can talk a bit more about stuff</description>
+                </stack-section>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>
