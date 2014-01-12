@@ -1,4 +1,4 @@
-<system-index-block current-time="1389364970499" name="SA-MAIN-full-site-map-no-inline-pages"
+<system-index-block current-time="1389565445704" name="SA-MAIN-full-site-map-no-inline-pages"
     type="folder">
     <system-block id="703e8b26a57c421a2488e6c78ed56399">
         <name>NEW-settings</name>
@@ -27,44 +27,55 @@
         <last-modified-by>cew904</last-modified-by>
         <last-modified>1388941496085</last-modified>
         <system-folder id="636de6b1a57c421a2488e6c741d9f81e">
-            <name>history</name>
+            <name>collapsible</name>
             <is-published>true</is-published>
-            <path>/about-us/history</path>
+            <path>/about-us/collapsible</path>
             <site>SA-MAIN</site>
-            <link>site://SA-MAIN/about-us/history</link>
+            <link>site://SA-MAIN/about-us/collapsible</link>
             <created-by>cew904</created-by>
             <created-on>1388942583387</created-on>
             <last-modified-by>cew904</last-modified-by>
             <last-modified>1388942583387</last-modified>
-            <system-page id="794bae818169775b5c17821bd0f0d7bc">
+            <system-page id="840a1b5fa57c421a41f5ad2b7855eef4">
                 <name>index</name>
                 <is-published>true</is-published>
-                <display-name>History</display-name>
-                <path>/about-us/history/index</path>
+                <display-name>Collapsible</display-name>
+                <path>/about-us/collapsible/index</path>
                 <site>SA-MAIN</site>
-                <link>site://SA-MAIN/about-us/history/index</link>
+                <link>site://SA-MAIN/about-us/collapsible/index</link>
                 <created-by>cew904</created-by>
-                <created-on>1389309439539</created-on>
-                <last-modified-by>cew904</last-modified-by>
-                <last-modified>1389310150786</last-modified>
+                <created-on>1389489691399</created-on>
+                <last-modified-by>osi706</last-modified-by>
+                <last-modified>1389503195710</last-modified>
             </system-page>
         </system-folder>
         <system-folder id="636db41ca57c421a2488e6c753497998">
-            <name>meet-the-staff</name>
+            <name>stack</name>
             <is-published>true</is-published>
-            <path>/about-us/meet-the-staff</path>
+            <path>/about-us/stack</path>
             <site>SA-MAIN</site>
-            <link>site://SA-MAIN/about-us/meet-the-staff</link>
+            <link>site://SA-MAIN/about-us/stack</link>
             <created-by>cew904</created-by>
             <created-on>1388942570437</created-on>
             <last-modified-by>cew904</last-modified-by>
             <last-modified>1388942570437</last-modified>
+            <system-folder id="84ec4c56a57c421a41f5ad2bb59ab279">
+                <name>assets</name>
+                <is-published>true</is-published>
+                <path>/about-us/stack/assets</path>
+                <site>SA-MAIN</site>
+                <link>site://SA-MAIN/about-us/stack/assets</link>
+                <created-by>cew904</created-by>
+                <created-on>1389504515032</created-on>
+                <last-modified-by>cew904</last-modified-by>
+                <last-modified>1389504515032</last-modified>
+            </system-folder>
             <system-folder id="7a4abfd7a57c421a41f5ad2b6d9991b7">
                 <name>visiting-hours</name>
                 <is-published>true</is-published>
-                <path>/about-us/meet-the-staff/visiting-hours</path>
+                <path>/about-us/stack/visiting-hours</path>
                 <site>SA-MAIN</site>
-                <link>site://SA-MAIN/about-us/meet-the-staff/visiting-hours</link>
+                <link>site://SA-MAIN/about-us/stack/visiting-hours</link>
                 <created-by>cew904</created-by>
                 <created-on>1389326155617</created-on>
                 <last-modified-by>cew904</last-modified-by>
@@ -73,72 +84,83 @@
                     <name>index</name>
                     <is-published>true</is-published>
                     <display-name>Visiting Hours</display-name>
-                    <path>/about-us/meet-the-staff/visiting-hours/index</path>
+                    <path>/about-us/stack/visiting-hours/index</path>
                     <site>SA-MAIN</site>
-                    <link>site://SA-MAIN/about-us/meet-the-staff/visiting-hours/index</link>
+                    <link>site://SA-MAIN/about-us/stack/visiting-hours/index</link>
                     <created-by>cew904</created-by>
                     <created-on>1389326245316</created-on>
                     <last-modified-by>cew904</last-modified-by>
                     <last-modified>1389326245316</last-modified>
                 </system-page>
             </system-folder>
-            <system-folder current="true" id="6f3bf163a57c421a2488e6c7ce63f81e">
+            <system-folder id="6f3bf163a57c421a2488e6c7ce63f81e">
                 <name>contacting-us</name>
                 <is-published>true</is-published>
-                <path>/about-us/meet-the-staff/contacting-us</path>
+                <path>/about-us/stack/contacting-us</path>
                 <site>SA-MAIN</site>
-                <link>site://SA-MAIN/about-us/meet-the-staff/contacting-us</link>
+                <link>site://SA-MAIN/about-us/stack/contacting-us</link>
                 <created-by>cew904</created-by>
                 <created-on>1389140635510</created-on>
                 <last-modified-by>cew904</last-modified-by>
                 <last-modified>1389140635510</last-modified>
-                <system-page current="true" id="7952ac098169775b5c17821b3c5896f9">
+                <system-page id="7952ac098169775b5c17821b3c5896f9">
                     <name>index</name>
                     <is-published>true</is-published>
                     <display-name>Contact Us</display-name>
-                    <path>/about-us/meet-the-staff/contacting-us/index</path>
+                    <path>/about-us/stack/contacting-us/index</path>
                     <site>SA-MAIN</site>
-                    <link>site://SA-MAIN/about-us/meet-the-staff/contacting-us/index</link>
+                    <link>site://SA-MAIN/about-us/stack/contacting-us/index</link>
                     <created-by>cew904</created-by>
                     <created-on>1389309897657</created-on>
                     <last-modified-by>cew904</last-modified-by>
                     <last-modified>1389309940371</last-modified>
                 </system-page>
             </system-folder>
-            <system-page id="794c76b98169775b5c17821bb014b5af">
+            <system-page id="84b98987a57c421a41f5ad2b0d6101b1">
                 <name>index</name>
                 <is-published>true</is-published>
-                <display-name>Meet the staff</display-name>
-                <path>/about-us/meet-the-staff/index</path>
+                <display-name>Stack</display-name>
+                <path>/about-us/stack/index</path>
                 <site>SA-MAIN</site>
-                <link>site://SA-MAIN/about-us/meet-the-staff/index</link>
+                <link>site://SA-MAIN/about-us/stack/index</link>
                 <created-by>cew904</created-by>
-                <created-on>1389309490791</created-on>
+                <created-on>1389501188407</created-on>
                 <last-modified-by>cew904</last-modified-by>
-                <last-modified>1389309963736</last-modified>
+                <last-modified>1389504933205</last-modified>
             </system-page>
         </system-folder>
         <system-folder id="6371a599a57c421a2488e6c75ed6ef95">
-            <name>what-we-do</name>
+            <name>detail</name>
             <is-published>true</is-published>
-            <path>/about-us/what-we-do</path>
+            <path>/about-us/detail</path>
             <site>SA-MAIN</site>
-            <link>site://SA-MAIN/about-us/what-we-do</link>
+            <link>site://SA-MAIN/about-us/detail</link>
             <created-by>cew904</created-by>
             <created-on>1388942828902</created-on>
             <last-modified-by>cew904</last-modified-by>
             <last-modified>1388942828902</last-modified>
-            <system-page id="795438368169775b5c17821bae393068">
+            <system-folder id="845a2a0ea57c421a41f5ad2ba9c1770a">
+                <name>assets</name>
+                <is-published>true</is-published>
+                <path>/about-us/detail/assets</path>
+                <site>SA-MAIN</site>
+                <link>site://SA-MAIN/about-us/detail/assets</link>
+                <created-by>cew904</created-by>
+                <created-on>1389494937992</created-on>
+                <last-modified-by>cew904</last-modified-by>
+                <last-modified>1389494937992</last-modified>
+            </system-folder>
+            <system-page id="8454fc8ba57c421a41f5ad2b871b0c66">
                 <name>index</name>
                 <is-published>true</is-published>
-                <display-name>What we do</display-name>
-                <path>/about-us/what-we-do/index</path>
+                <display-name>Detail</display-name>
+                <path>/about-us/detail/index</path>
                 <site>SA-MAIN</site>
-                <link>site://SA-MAIN/about-us/what-we-do/index</link>
+                <link>site://SA-MAIN/about-us/detail/index</link>
                 <created-by>cew904</created-by>
-                <created-on>1389309999029</created-on>
-                <last-modified-by>cew904</last-modified-by>
-                <last-modified>1389309999029</last-modified>
+                <created-on>1389494598701</created-on>
+                <last-modified-by>osi706</last-modified-by>
+                <last-modified>1389503423387</last-modified>
             </system-page>
         </system-folder>
         <system-page id="794b0a378169775b5c17821bcb31991b">
@@ -153,6 +175,40 @@
             <last-modified-by>cew904</last-modified-by>
             <last-modified>1389310013697</last-modified>
         </system-page>
+        <system-folder id="84c34b96a57c421a41f5ad2bb476ad54">
+            <name>basic</name>
+            <is-published>true</is-published>
+            <path>/about-us/basic</path>
+            <site>SA-MAIN</site>
+            <link>site://SA-MAIN/about-us/basic</link>
+            <created-by>osi706</created-by>
+            <created-on>1389501827948</created-on>
+            <last-modified-by>osi706</last-modified-by>
+            <last-modified>1389501827948</last-modified>
+            <system-folder id="84c48a77a57c421a41f5ad2b7f5cbad9">
+                <name>assets</name>
+                <is-published>true</is-published>
+                <path>/about-us/basic/assets</path>
+                <site>SA-MAIN</site>
+                <link>site://SA-MAIN/about-us/basic/assets</link>
+                <created-by>cew904</created-by>
+                <created-on>1389501909524</created-on>
+                <last-modified-by>cew904</last-modified-by>
+                <last-modified>1389501909524</last-modified>
+            </system-folder>
+            <system-page id="84c34dc1a57c421a41f5ad2b22523012">
+                <name>index</name>
+                <is-published>true</is-published>
+                <display-name>Basic</display-name>
+                <path>/about-us/basic/index</path>
+                <site>SA-MAIN</site>
+                <link>site://SA-MAIN/about-us/basic/index</link>
+                <created-by>osi706</created-by>
+                <created-on>1389501828470</created-on>
+                <last-modified-by>osi706</last-modified-by>
+                <last-modified>1389502498447</last-modified>
+            </system-page>
+        </system-folder>
     </system-folder>
     <system-block id="01d373968169773801d70603d35776d3">
         <name>Settings</name>
@@ -343,7 +399,7 @@
                 <last-modified>1389328450277</last-modified>
             </system-page>
         </system-folder>
-        <system-folder id="6471d22ba57c421a2488e6c737513270">
+        <system-folder current="true" id="6471d22ba57c421a2488e6c737513270">
             <name>history</name>
             <is-published>true</is-published>
             <path>/students/history</path>
@@ -353,7 +409,7 @@
             <created-on>1388959617531</created-on>
             <last-modified-by>cew904</last-modified-by>
             <last-modified>1388959617531</last-modified>
-            <system-page id="7a6d47bb8169775b5c17821b85d42472">
+            <system-page current="true" id="7a6d47bb8169775b5c17821b85d42472">
                 <name>index</name>
                 <is-published>true</is-published>
                 <display-name>History</display-name>
@@ -388,8 +444,8 @@
         <link>site://SA-MAIN/index</link>
         <created-by>cew904</created-by>
         <created-on>1389301530016</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1389301530016</last-modified>
+        <last-modified-by>hle276</last-modified-by>
+        <last-modified>1389390452356</last-modified>
     </system-page>
     <system-folder id="7a8bc8cfa57c421a41f5ad2be1a1ca7c">
         <name>parents</name>
@@ -875,17 +931,17 @@
         </system-page>
     </system-folder>
     <calling-page>
-        <system-page current="true" id="7952ac098169775b5c17821b3c5896f9">
+        <system-page current="true" id="7a6d47bb8169775b5c17821b85d42472">
             <name>index</name>
             <is-published>true</is-published>
-            <display-name>Contact Us</display-name>
-            <path>/about-us/meet-the-staff/contacting-us/index</path>
+            <display-name>History</display-name>
+            <path>/students/history/index</path>
             <site>SA-MAIN</site>
-            <link>site://SA-MAIN/about-us/meet-the-staff/contacting-us/index</link>
-            <created-by>cew904</created-by>
-            <created-on>1389309897657</created-on>
-            <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389309940371</last-modified>
+            <link>site://SA-MAIN/students/history/index</link>
+            <created-by>osi706</created-by>
+            <created-on>1389328418659</created-on>
+            <last-modified-by>osi706</last-modified-by>
+            <last-modified>1389328418659</last-modified>
         </system-page>
     </calling-page>
 </system-index-block>
