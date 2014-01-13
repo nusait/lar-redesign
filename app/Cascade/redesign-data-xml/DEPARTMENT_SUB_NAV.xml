@@ -1,5 +1,40 @@
-<system-index-block current-time="1389565445704" name="SA-MAIN-full-site-map-no-inline-pages"
+<system-index-block current-time="1389645604071" name="SA-MAIN-full-site-map-no-inline-pages"
     type="folder">
+    <system-block id="89d3ede0a57c421a41f5ad2b056b3390">
+        <name>_footer</name>
+        <path>/_footer</path>
+        <site>SA-MAIN</site>
+        <created-by>cew904</created-by>
+        <created-on>1389586804140</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389588036147</last-modified>
+        <system-data-structure definition-path="Redesign/Footer Form">
+            <address-group>
+                <text-line>Vice President of Student Affairs</text-line>
+                <text-line>Rebecca Crown Evanston, IL 60208</text-line>
+                <text-line>Email: v.redmond@northwestern.edu</text-line>
+                <text-line>Phone: 847-491-5360</text-line>
+            </address-group>
+            <dosa-links>
+                <item>
+                    <label>Dosa Home</label>
+                    <link>http://www.northwestern.edu/studentaffairs/</link>
+                </item>
+                <item>
+                    <label>Dosa Events</label>
+                    <link>http://planitpurple.northwestern.edu/feed/html/447</link>
+                </item>
+                <item>
+                    <label>Campus Map</label>
+                    <link>http://maps.northwestern.edu/</link>
+                </item>
+            </dosa-links>
+            <social-links>
+                <facebook>http://www.facebook.com/studentaffnu</facebook>
+                <twitter>http://www.twitter.com/studentaffnu</twitter>
+            </social-links>
+        </system-data-structure>
+    </system-block>
     <system-block id="703e8b26a57c421a2488e6c78ed56399">
         <name>NEW-settings</name>
         <path>/NEW-settings</path>
@@ -399,7 +434,7 @@
                 <last-modified>1389328450277</last-modified>
             </system-page>
         </system-folder>
-        <system-folder current="true" id="6471d22ba57c421a2488e6c737513270">
+        <system-folder id="6471d22ba57c421a2488e6c737513270">
             <name>history</name>
             <is-published>true</is-published>
             <path>/students/history</path>
@@ -409,7 +444,7 @@
             <created-on>1388959617531</created-on>
             <last-modified-by>cew904</last-modified-by>
             <last-modified>1388959617531</last-modified>
-            <system-page current="true" id="7a6d47bb8169775b5c17821b85d42472">
+            <system-page id="7a6d47bb8169775b5c17821b85d42472">
                 <name>index</name>
                 <is-published>true</is-published>
                 <display-name>History</display-name>
@@ -513,7 +548,7 @@
                     <last-modified>1389330419798</last-modified>
                 </system-page>
             </system-folder>
-            <system-folder id="7a8bd1b7a57c421a41f5ad2ba3a87f9d">
+            <system-folder current="true" id="7a8bd1b7a57c421a41f5ad2ba3a87f9d">
                 <name>contacting-us</name>
                 <is-published>true</is-published>
                 <path>/parents/meet-the-staff/contacting-us</path>
@@ -523,7 +558,7 @@
                 <created-on>1389330420084</created-on>
                 <last-modified-by>cew904</last-modified-by>
                 <last-modified>1389330420084</last-modified>
-                <system-page id="7a8bd2e1a57c421a41f5ad2b9bf877a2">
+                <system-page current="true" id="7a8bd2e1a57c421a41f5ad2b9bf877a2">
                     <name>index</name>
                     <is-published>true</is-published>
                     <display-name>Contact Us</display-name>
@@ -931,17 +966,17 @@
         </system-page>
     </system-folder>
     <calling-page>
-        <system-page current="true" id="7a6d47bb8169775b5c17821b85d42472">
+        <system-page current="true" id="7a8bd2e1a57c421a41f5ad2b9bf877a2">
             <name>index</name>
             <is-published>true</is-published>
-            <display-name>History</display-name>
-            <path>/students/history/index</path>
+            <display-name>Contact Us</display-name>
+            <path>/parents/meet-the-staff/contacting-us/index</path>
             <site>SA-MAIN</site>
-            <link>site://SA-MAIN/students/history/index</link>
-            <created-by>osi706</created-by>
-            <created-on>1389328418659</created-on>
-            <last-modified-by>osi706</last-modified-by>
-            <last-modified>1389328418659</last-modified>
+            <link>site://SA-MAIN/parents/meet-the-staff/contacting-us/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1389330420344</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1389330420344</last-modified>
         </system-page>
     </calling-page>
 </system-index-block>
