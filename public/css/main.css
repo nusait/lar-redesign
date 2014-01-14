@@ -1999,6 +1999,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul {
   list-style-type: none;
+  display: block;
   margin: 0;
   padding: 0;
 }
