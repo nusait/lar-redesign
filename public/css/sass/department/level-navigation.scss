@@ -19,7 +19,13 @@
 			margin: 0;
 			font-weight: 300;
 			text-transform: uppercase;
+			
+
 			li {
+				ul {
+					display: none;
+				}
+
 				a {
 					display: block;
 					padding: 5px 0;
@@ -30,22 +36,24 @@
 				&.active > a {
 					text-decoration: underline;
 				}
-				ul {
-					list-style-type: none;
-					margin: 0;
-					padding: 0;
-					li {
+				&.active {
+					ul {
+						list-style-type: none;
 						margin: 0;
-						a {
-							font-size: 0.9em;
-							text-transform: none;
-							text-decoration: none;
-							padding: 3px 0;
-							color: gray;
-							margin-left: 10px;
-						}
-						&.active > a {
-							text-decoration: underline;
+						padding: 0;
+						li {
+							margin: 0;
+							a {
+								font-size: 0.9em;
+								text-transform: none;
+								text-decoration: none;
+								padding: 3px 0;
+								color: gray;
+								margin-left: 10px;
+							}
+							&.active > a {
+								text-decoration: underline;
+							}
 						}
 					}
 				}
@@ -75,7 +83,7 @@
 					display: none;
 				}
 
-				li.active {
+				li.active.has-children {
 					margin: 0;
 					padding: 0;
 					display: block;

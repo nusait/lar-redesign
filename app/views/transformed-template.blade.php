@@ -20,8 +20,8 @@
         <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon120.png" sizes="120x120">
         <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon144.png" sizes="144x144">
         <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon152.png" sizes="152x152">   
-        <link rel="stylesheet" href="//go.dosa.northwestern.edu/shared/lar-redesign/css/main.css" />
-        
+        <!-- <link rel="stylesheet" href="//go.dosa.northwestern.edu/shared/lar-redesign/css/main.css" /> -->
+        <link rel="stylesheet" href="{{asset('css/main.css')}}">
         
     </head>
     <body>
@@ -174,8 +174,12 @@
         </div>
         
         
-        <script src="//go.dosa.northwestern.edu/shared/lar-redesign/js/build-min.js"></script>
-        
+        @if (App::environment() === 'local')
+          <script id="script-dev" src="{{asset('js/requireconfig.js')}}"></script>
+          <script data-main="{{asset('js/main')}}" src="{{asset('assets/requirejs/require.js')}}"></script>
+        @else
+          <script src="{{asset('js/build-min.js')}}"></script>
+        @endif
 
         
         <script>

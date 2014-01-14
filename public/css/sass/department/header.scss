@@ -221,7 +221,7 @@
 					}
 					.navigation-item-title {
 						text-align: left;
-						color: $purple;
+						color: white;
 						&:before {
 							@include icon(107);
 							font-size: 1.4em;
@@ -235,6 +235,7 @@
 					ul {
 						position: static;
 						background-color: rgba(0, 0, 0, 0);
+						@include dept-colors-main;
 						li.section-title {
 							display: none;
 						}

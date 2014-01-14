@@ -7,6 +7,7 @@ $anchor-icon: 18e;
 	padding-right: 20px;
 	text-overflow: none;
 	a.stack-item {
+		position: relative;
 		display:block;
 		color: black;
 		&:hover {
@@ -14,14 +15,12 @@ $anchor-icon: 18e;
 			-webkit-filter: opacity(75%);
 			filter: opacity(75%);
 		}
-		.stack-text {
-			position: relative;
-		}
-		.stack-text:before {
+		&:before {
 			position: absolute;
-			right: 15px;
+			right: 10px;
+			bottom: 10px;
 			@include icon($anchor-icon);
-			font-size: 20px;
+			font-size: 30px;
 			font-weight: 20px;
 		}
 	}

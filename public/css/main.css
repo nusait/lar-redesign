@@ -2,35 +2,6 @@
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(//fonts.googleapis.com/css?family=EB+Garamond);
-.hidden {
-  display: none !important;
-}
-
-.acc-hidden {
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  position: absolute;
-}
-
-body {
-  padding: 0;
-  margin: 0;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  -webkit-text-size-adjust: none;
-}
-body .ie-too-old {
-  display: none;
-}
-html.browser-lt-ie9 body .ie-too-old {
-  display: block;
-  margin: 2em;
-}
-
 body {
   font-family: Oswald;
   font-size: 100%;
@@ -62,6 +33,39 @@ h3 {
 p {
   margin: 0;
   padding: 0;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.acc-hidden {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-text-size-adjust: none;
+}
+body .ie-too-old {
+  display: none;
+}
+html.browser-lt-ie9 body .ie-too-old {
+  display: block;
+  margin: 2em;
+}
+
+a {
+  color: #412157;
 }
 
 @media screen and (min-width: 641px) {
@@ -1404,6 +1408,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   text-overflow: none;
 }
 .stack-container a.stack-item {
+  position: relative;
   display: block;
   color: black;
 }
@@ -1412,15 +1417,13 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   -webkit-filter: opacity(75%);
   filter: opacity(75%);
 }
-.stack-container a.stack-item .stack-text {
-  position: relative;
-}
-.stack-container a.stack-item .stack-text:before {
+.stack-container a.stack-item:before {
   position: absolute;
-  right: 15px;
+  right: 10px;
+  bottom: 10px;
   content: "\f18e";
   font-family: FontAwesome;
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 20px;
 }
 .stack-container .stack-item {
@@ -1898,7 +1901,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   }
   .department-header .department-header-inner .department-nav .section .navigation-item-title {
     text-align: left;
-    color: #412157;
+    color: white;
   }
   .department-header .department-header-inner .department-nav .section .navigation-item-title:before {
     content: "\f107";
@@ -1912,6 +1915,18 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   .department-header .department-header-inner .department-nav .section ul {
     position: static;
     background-color: rgba(0, 0, 0, 0);
+  }
+  .stamp.dept-color-1 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
+    background-color: #5c2483;
+  }
+  .stamp.dept-color-2 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
+    background-color: #006e8b;
+  }
+  .stamp.dept-color-3 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
+    background-color: #afbc5a;
+  }
+  .stamp.dept-color-4 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
+    background-color: #1cb3ab;
   }
   .department-header .department-header-inner .department-nav .section ul li.section-title {
     display: none;
@@ -1969,6 +1984,9 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   font-weight: 300;
   text-transform: uppercase;
 }
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li ul {
+  display: none;
+}
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li a {
   display: block;
   padding: 5px 0;
@@ -1979,15 +1997,15 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
   text-decoration: underline;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li ul {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li ul li {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li {
   margin: 0;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li ul li a {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li a {
   font-size: 0.9em;
   text-transform: none;
   text-decoration: none;
@@ -1995,7 +2013,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   color: gray;
   margin-left: 10px;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li ul li.active > a {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li.active > a {
   text-decoration: underline;
 }
 
@@ -2020,64 +2038,64 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li {
     display: none;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children {
     margin: 0;
     padding: 0;
     display: block;
   }
-  .stamp.dept-color-1 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active {
+  .stamp.dept-color-1 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children {
     background-color: #5c2483;
   }
-  .stamp.dept-color-2 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active {
+  .stamp.dept-color-2 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children {
     background-color: #006e8b;
   }
-  .stamp.dept-color-3 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active {
+  .stamp.dept-color-3 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children {
     background-color: #afbc5a;
   }
-  .stamp.dept-color-4 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active {
+  .stamp.dept-color-4 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children {
     background-color: #1cb3ab;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active span.lvl-nav-title-info {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children span.lvl-nav-title-info {
     display: inline;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
     display: block;
     color: white;
     text-decoration: none;
     pointer-events: none;
   }
-  .stamp.dept-color-1 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
+  .stamp.dept-color-1 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
     background-color: #321447;
   }
-  .stamp.dept-color-2 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
+  .stamp.dept-color-2 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
     background-color: #00313f;
   }
-  .stamp.dept-color-3 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
+  .stamp.dept-color-3 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
     background-color: #848f3a;
   }
-  .stamp.dept-color-4 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
+  .stamp.dept-color-4 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
     background-color: #12716c;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a:before {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a:before {
     margin: 0 10px;
     content: "\f107";
     font-family: FontAwesome;
     font-size: 1.4em;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.active.closed ul {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children.active.closed ul {
     display: none;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.active.closed > a:before {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children.active.closed > a:before {
     content: "\f105";
     font-family: FontAwesome;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul {
     display: block;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li {
     display: list-item;
   }
-  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li a {
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li a {
     color: white;
     font-size: 1em;
   }
