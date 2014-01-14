@@ -36,7 +36,7 @@
 				&.active > a {
 					text-decoration: underline;
 				}
-				&.active {
+				&.active.has-children {
 					ul {
 						list-style-type: none;
 						margin: 0;

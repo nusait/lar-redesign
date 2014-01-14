@@ -1997,15 +1997,15 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
   text-decoration: underline;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li {
   margin: 0;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li a {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li a {
   font-size: 0.9em;
   text-transform: none;
   text-decoration: none;
@@ -2013,7 +2013,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   color: gray;
   margin-left: 10px;
 }
-.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active ul li.active > a {
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li.active > a {
   text-decoration: underline;
 }
 
