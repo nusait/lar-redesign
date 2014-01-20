@@ -4,6 +4,7 @@ define(['simplecors', 'jquery'], function (Simplecors, $)
             this.initialize = function () {
                 var ins = this;
                 ins.hasBlog = ins.detectBlog();
+                if (! ins.hasBlog) return;
                 Simplecors.ajax({
                     url: '//go.dosa.northwestern.edu/shared/sablog/posts'
                 }).done( function(data) {
@@ -11,7 +12,7 @@ define(['simplecors', 'jquery'], function (Simplecors, $)
                 });
             };
             this.detectBlog = function () {
-
+                return !! document.querySelector('.blog-content');
             };
             this.showSpinner = function () {
 
@@ -28,7 +29,7 @@ define(['simplecors', 'jquery'], function (Simplecors, $)
                         href: entry.link
                     }).addClass('blog-title').text(entry.title),
                     $author = $('<div></div>').addClass('blog-author'),
-                    $avatar = $('<img>').attr('src', entry.avatar),
+                    $avatar = $('<img>').attr('src', entry.avatar.replace(/^http:/, location.protocol)),
                     $text = $('<div></div>').addClass('blog-text').text(entry.description);
 
                     $author.append($avatar);

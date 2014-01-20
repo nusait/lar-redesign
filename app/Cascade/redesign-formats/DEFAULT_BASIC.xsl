@@ -9,31 +9,35 @@
             </div>
             <div class="basic-container">
                 <xsl:for-each select="system-data-structure">
-                    <div class="basic-image-container">
-                        <xsl:for-each select="photo-section">
-                            <div class="basic-image-item">
-                                <img src="{photo/link}" alt="{alt-text}"/>
-                                <div class="basic-image-caption">
-                                    <p>
-                                        <xsl:value-of select="description"/>
-                                        <xsl:text>&#160;</xsl:text>
-                                        <xsl:choose>
-                                            <xsl:when test="internal-link/link">
-                                                <a href="{internal-link/link}">Internal Link</a>
-                                            </xsl:when>
-                                            <xsl:when test="external-link/content/system-symlink">
-                                                <a href="{external-link/content/system-symlink}"
-                                                  >External Link</a>
-                                            </xsl:when>
-                                            <xsl:otherwise>
-                                                <xsl:text>&#160;</xsl:text>
-                                            </xsl:otherwise>
-                                        </xsl:choose>
-                                    </p>
+                    <xsl:if test="count(photo-section/photo/link) > 0">
+                        <div class="basic-image-container">
+                            <xsl:for-each select="photo-section">
+                                <div class="basic-image-item">
+                                    <img src="{photo/link}" alt="{alt-text}"/>
+                                    <div class="basic-image-caption">
+                                        <p>
+                                            <xsl:value-of select="description"/>
+                                            <xsl:text>&#160;</xsl:text>
+                                            <xsl:choose>
+                                                <xsl:when test="link[@type='page']">
+                                                    <a href="{link/link}">Internal Page Link</a>
+                                                </xsl:when>
+                                                <xsl:when test="link[@type='file']">
+                                                    <a href="{link/link}">Internal File Link</a>
+                                                </xsl:when>
+                                                <xsl:when test="link[@type='symlink']">
+                                                    <a href="{link/content/system-symlink}">External Symlink</a>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:text>&#160;</xsl:text>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </xsl:for-each>
-                    </div>
+                            </xsl:for-each>
+                        </div>   
+                    </xsl:if>               
                     <div class="basic-text-container">
                         <xsl:copy-of select="default/node()"/>
                     </div>

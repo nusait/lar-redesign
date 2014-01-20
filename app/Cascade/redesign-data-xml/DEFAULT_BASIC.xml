@@ -1,24 +1,27 @@
-<system-index-block current-time="1389364970715" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1390151726669" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="7952ac098169775b5c17821b3c5896f9">
+        <system-page current="true" id="a7b0102ba57c421a65919e73f65f80c3">
             <name>index</name>
             <is-published>true</is-published>
-            <title>Contact Us Title</title>
+            <title>Check Your Balance Title</title>
             <keywords>decide, here, which, keywords, should, populate, your, page</keywords>
             <description>Change me to page description whch Google may pass on to
                 searchers</description>
-            <display-name>Contact Us</display-name>
-            <path>/about-us/meet-the-staff/contacting-us/index</path>
-            <site>SA-MAIN</site>
-            <link>site://SA-MAIN/about-us/meet-the-staff/contacting-us/index</link>
-            <created-by>cew904</created-by>
-            <created-on>1389309897657</created-on>
-            <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389309940371</last-modified>
+            <display-name>Check Your Balance</display-name>
+            <path>/retail-locations/check-your-balance/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/retail-locations/check-your-balance/index</link>
+            <created-by>osi706</created-by>
+            <created-on>1390087770029</created-on>
+            <last-modified-by>osi706</last-modified-by>
+            <last-modified>1390151715825</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
             <system-data-structure definition-path="Redesign/Basic Page Form">
+                <content-type-basic>
+                    <value>Yes</value>
+                </content-type-basic>
                 <content-type>basic</content-type>
                 <default>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper enim a
@@ -62,12 +65,12 @@
                         facilisis. Ut felis.</p>
                 </default>
                 <photo-section>
-                    <photo>
+                    <photo type="file">
                         <content/>
-                        <path>/_internal/redesign-base-assets/sa-main-basic/sa-main-basic-assets/600x600.jpeg</path>
-                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-basic/sa-main-basic-assets/600x600.jpeg</link>
-                        <site>SA-MAIN</site>
-                        <name>600x600.jpeg</name>
+                        <path>/retail-locations/check-your-balance/assets/jean-ralphio-headshot.jpg</path>
+                        <link>site://SA-FOOD/retail-locations/check-your-balance/assets/jean-ralphio-headshot.jpg</link>
+                        <site>SA-FOOD</site>
+                        <name>jean-ralphio-headshot.jpg</name>
                     </photo>
                     <alt-text>a placeholder image of height and width 600 pixels</alt-text>
                     <description>You'll want to swap in your own photo here</description>
@@ -77,6 +80,9 @@
                     <external-link>
                         <path>/</path>
                     </external-link>
+                    <link>
+                        <path>/</path>
+                    </link>
                 </photo-section>
             </system-data-structure>
         </system-page>
