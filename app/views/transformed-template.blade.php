@@ -20,8 +20,8 @@
         <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon120.png" sizes="120x120">
         <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon144.png" sizes="144x144">
         <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon152.png" sizes="152x152">   
-        <!-- <link rel="stylesheet" href="//go.dosa.northwestern.edu/shared/lar-redesign/css/main.css" /> -->
-        <link rel="stylesheet" href="{{asset('css/main.css')}}">
+        <link rel="stylesheet" href="//go.dosa.northwestern.edu/shared/lar-redesign/css/main.css" />
+        
         
     </head>
     <body>
@@ -48,30 +48,7 @@
                     </form>
                     <div class="dosa-fontsize"><span class="fontsize-decrease">A</span><span class="fontsize-reset">A</span><span class="fontsize-increase">A</span></div>
                     <div class="dosa-navigation">
-                        <div class="section closed">
-                            <h2><span class="inner">Departments</span></h2>
-                            <ul>
-                                {{$DEPARTMENTS_MOBILE}}
-                            </ul>
-                        </div>
-                        <div class="section closed">
-                            <h2><span class="inner">Topics</span></h2>
-                            <ul>
-                                {{$TOPICS_MOBILE}}
-                            </ul>
-                        </div>
-                        <div class="section closed">
-                            <h2><span class="inner">Community</span></h2>
-                            <ul>
-                                {{$COMMUNITY_MOBILE}}
-                            </ul>
-                        </div>
-                        <div class="section nuhelp closed">
-                            <h2><span class="inner">NUHelp</span></h2>
-                            <ul>
-                                {{$NUHELP_MOBILE}}
-                            </ul>
-                        </div>
+                        {{$DOSA_NAV_MOBILE}}
                     </div>
                     <div class="dosa-extra">
                         <div class="nu-logo">
@@ -117,30 +94,7 @@
                                         </form>
                                     </div>
                                     <nav aria-label="Student Affairs Top Links" class="dosa-banner-navigation" role="navigation">
-                                        <div class="section closed">
-                                            <h2 tabindex="0"><span class="inner">Departments</span></h2>
-                                            <ul>
-                                                {{$DEPARTMENTS_DESKTOP}}
-                                            </ul>
-                                        </div><!--
-                          --><div class="section closed">
-                                            <h2 tabindex="0"><span class="inner">Topics</span></h2>
-                                            <ul>
-                                                {{$TOPICS_DESKTOP}}
-                                            </ul>
-                                        </div><!--
-                          --><div class="section closed">
-                                            <h2 tabindex="0"><span class="inner">Community</span></h2>
-                                            <ul>
-                                                {{$COMMUNITY_DESKTOP}}
-                                            </ul>
-                                        </div><!--
-                          --><div class="section nuhelp closed">
-                                            <h2 tabindex="0"><span class="inner">NUHelp</span></h2>
-                                            <ul>
-                                                {{$NUHELP_DESKTOP}}
-                                            </ul>
-                                        </div>
+                                        {{$DOSA_NAV_DESKTOP}}
                                     </nav>
                                     <div class="northwestern-title">Northwestern University</div>
                                 </div>
@@ -174,16 +128,28 @@
         </div>
         
         
-        @if (App::environment() === 'local')
-          <script id="script-dev" src="{{asset('js/requireconfig.js')}}"></script>
-          <script data-main="{{asset('js/main')}}" src="{{asset('assets/requirejs/require.js')}}"></script>
-        @else
-          <script src="{{asset('js/build-min.js')}}"></script>
-        @endif
+        <script src="//go.dosa.northwestern.edu/shared/lar-redesign/js/build-min.js"></script>
+        
 
         
         <script>
-            {{$GA_TRACKING_ID}}
+        
+        if (location.host === 'www.northwestern.edu') {
+        
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga(
+            'create',
+            document.getElementsByTagName('div')[0].getAttribute('data-googleanalyticsid'), 
+            'northwestern.edu'
+          );
+          ga('send', 'pageview');
+        
+        }
+  
         </script>
         
         

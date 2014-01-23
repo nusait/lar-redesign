@@ -167,14 +167,17 @@ if ( ! function_exists('generate_shared')) {
 		share_region('GA_TRACKING_ID', '_ga_tracking_id = 12345');
 
 		share_region('FOOTER');
-		share_region('COMMUNITY_DESKTOP');
-		share_region('COMMUNITY_MOBILE');
-		share_region('DEPARTMENTS_DESKTOP');
-		share_region('DEPARTMENTS_MOBILE');
-		share_region('NUHELP_DESKTOP');
-		share_region('NUHELP_MOBILE');
-		share_region('TOPICS_DESKTOP');
-		share_region('TOPICS_MOBILE');
+		// share_region('COMMUNITY_DESKTOP');
+		// share_region('COMMUNITY_MOBILE');
+		// share_region('DEPARTMENTS_DESKTOP');
+		// share_region('DEPARTMENTS_MOBILE');
+		// share_region('NUHELP_DESKTOP');
+		// share_region('NUHELP_MOBILE');
+		// share_region('TOPICS_DESKTOP');
+		// share_region('TOPICS_MOBILE');
+		// 
+		share_region('DOSA_NAV_DESKTOP');
+		share_region('DOSA_NAV_MOBILE');
 
 		share_region('DEPARTMENT_RIBBON_NAV');
 		share_region('BREADCRUMBS');

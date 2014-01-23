@@ -33,13 +33,13 @@
                                     <location>Evanston</location>
                                     <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
                                     <address>
-				<building_name>Searle Hall</building_name>
-				<address_1>633 Emerson Street</address_1>
-				<address_2>3rd Fl, Rm. 3-226</address_2>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>3rd Fl, Rm. 3-226</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
                                     <contact>
                                         <name>Courtney Albinson</name>
                                         <email>c-albinson@northwestern.edu</email>
@@ -86,13 +86,13 @@
                                     <location>Evanston</location>
                                     <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
                                     <address>
-				<building_name>Searle Hall</building_name>
-				<address_1>633 Emerson Street</address_1>
-				<address_2>CAPS Stress Management Resource Center, 3rd Fl, Rm. 3-234</address_2>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>CAPS Stress Management Resource Center, 3rd Fl, Rm. 3-234</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
                                     <contact>
                                         <name>Courtney Albinson</name>
                                         <email>c-albinson@northwestern.edu</email>
@@ -137,13 +137,13 @@
                                     <location>Evanston</location>
                                     <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
                                     <address>
-				<building_name>Searle Hall</building_name>
-				<address_1>633 Emerson Street</address_1>
-				<address_2>3rd Floor, Rm. 3-226</address_2>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>3rd Floor, Rm. 3-226</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
                                     <contact>
                                         <name>Courtney Albinson</name>
                                         <email>c-albinson@northwestern.edu</email>
@@ -180,13 +180,13 @@
                                     <location>Evanston</location>
                                     <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
                                     <address>
-				<building_name>Searle Hall</building_name>
-				<address_1>633 Emerson Street</address_1>
-				<address_2>3rd Fl, Rm. 3-226</address_2>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>3rd Fl, Rm. 3-226</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
                                     <contact>
                                         <name>Courtney Albinson</name>
                                         <email>c-albinson@northwestern.edu</email>
@@ -297,7 +297,7 @@
                                 </content-type-quick-links-block>
                                 <heading>Quick Links</heading>
                                 <section>
-                                    <label>Panel!</label>
+                                    <label>Bike</label>
                                     <photo type="file">
                                         <content/>
                                         <path>/shared-assets/homepage/quick-links/images/bike-ql.jpeg</path>
@@ -305,7 +305,7 @@
                                         <site>SA-FOOD</site>
                                         <name>bike-ql.jpeg</name>
                                     </photo>
-                                    <alt>Panel!</alt>
+                                    <alt>bike</alt>
                                     <link type="page">
                                         <content/>
                                         <path>/meal-plans/index</path>
@@ -395,7 +395,146 @@
                         <name>quick-links-block</name>
                     </q-links>
                 </panel-container>
-               <text-container><main-content><p>adsfdsaf  sdfasd</p></main-content><side-title>Side Title Here</side-title><side-content><p>sadfads asdf asf</p></side-content></text-container>
+                <panel-container>
+                    <big-list type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-twitter-block>
+                                    <value>Yes</value>
+                                </content-type-twitter-block>
+                                <twitter-link>
+                                    <href>https://twitter.com/StudentAffNU</href>
+                                    <data-widget-id>381608580614336512</data-widget-id>
+                                </twitter-link>
+                                <twitter-link>
+                                    <href>https://twitter.com/StudentAffNU</href>
+                                    <data-widget-id>381609572332363776</data-widget-id>
+                                </twitter-link>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/twitter/twitter-block</path>
+                        <site>SA-FOOD</site>
+                        <name>twitter-block</name>
+                    </big-list>
+                    <rich-extra type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-blog-block>
+                                    <value>Yes</value>
+                                </content-type-blog-block>
+                                <url>//studentaffairsnu.wordpress.com/</url>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/blog/blog-block</path>
+                        <site>SA-FOOD</site>
+                        <name>blog-block</name>
+                    </rich-extra>
+                    <q-links type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-quick-links-block>
+                                    <value>Yes</value>
+                                </content-type-quick-links-block>
+                                <heading>Quick Links</heading>
+                                <section>
+                                    <label>Bike</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/bike-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/bike-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>bike-ql.jpeg</name>
+                                    </photo>
+                                    <alt>bike</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/meal-plans/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/meal-plans/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Meal Plans</display-name>
+                                        <title>Meal Plans Title</title>
+                                        <keywords>decide, here, which, keywords, should, populate,
+                                            your, page</keywords>
+                                        <description>Change me to page description whch Google may
+                                            pass on to searchers</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Karate</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/karate-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/karate-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>karate-ql.jpeg</name>
+                                    </photo>
+                                    <alt>karate</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://en.wikipedia.org/wiki/Karate</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/quick-links/links/karate-wikipedia-link</path>
+                                        <site>SA-FOOD</site>
+                                        <name>karate-wikipedia-link</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Motorcycle</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>motorcycle-ql.jpeg</name>
+                                    </photo>
+                                    <alt>motorcycle</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/about-us/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/about-us/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>About Us</display-name>
+                                        <title>About Us Title</title>
+                                        <keywords>decide, here, which, keywords, should, populate,
+                                            your, page</keywords>
+                                        <description>Change me to page description whch Google may
+                                            pass on to searchers</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Sunset</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>sunset-ql.jpeg</name>
+                                    </photo>
+                                    <alt>sunset</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://en.wikipedia.org/wiki/Sunset</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/quick-links/links/sunset-wikipedia-link</path>
+                                        <site>SA-FOOD</site>
+                                        <name>sunset-wikipedia-link</name>
+                                    </link>
+                                </section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/quick-links/quick-links-block</path>
+                        <site>SA-FOOD</site>
+                        <name>quick-links-block</name>
+                    </q-links>
+                </panel-container>
                 <text-container>
                     <main-content/>
                     <side-title/>
