@@ -1,3 +1,11 @@
+@mixin detail-spacing {
+	float: left;
+	$padding: 20px;
+	padding: 0 $padding;
+	width: 23%;
+	width: calc(25% - #{$padding * 2});
+	width: -webkit-calc(25% - #{$padding * 2});
+}
 .footer {
 	clear: both;
 	&.closed {
@@ -42,6 +50,7 @@
 			display: inline-block;
 			color: white;
 			padding: $details-padding-vertical $details-padding-side;
+			vertical-align: top;
 			height: 95%;
 			height: calc(100% - #{$details-padding-vertical * 2});
 			height: -webkit-calc(100% - #{$details-padding-vertical * 2});
@@ -50,13 +59,7 @@
 			width: calc(100% - #{$details-padding-side * 2});
 			width: -webkit-calc(100% - #{$details-padding-side * 2});
 			// width: 100%;
-			@mixin detail-spacing {
-				$padding: 20px;
-				padding: 0 $padding;
-				width: 23%;
-				width: calc(25% - #{$padding * 2});
-				width: -webkit-calc(25% - #{$padding * 2});
-			}
+			
 			.divider {
 				position: absolute;
 				display: inline-block;
@@ -68,35 +71,40 @@
 				display: none;
 			}
 			.department-name {
+				@include detail-spacing;
 				vertical-align: top;
 				font-size: 1em;
-				@include detail-spacing;
 				display: inline-block;
+				width: calc(45% - 20px);
 				// background-color: red;
 			}
 			.address {
+				@include detail-spacing;
+				clear:left;
 				vertical-align: top;
+				width: calc(45% - 20px);
 				display: inline-block;
 				font-size: 1em;
 				word-wrap: break-word;
 				overflow-wrap: break-word;
-				@include detail-spacing;
 				// background-color: yellow;
 				a {
 					color: white;
 				}
 			}
 			.dosa-links {
+				@include detail-spacing;
 				vertical-align: top;
 				display: inline-block;
-				@include detail-spacing;
+				float: none;
 				a {
 					color: white;
 				}
 			}
 			.logo {
-				vertical-align: top;
 				@include detail-spacing;
+				vertical-align: top;
+				float: none;
 				display: inline-block;
 				// background-color: green;
 				text-align: center;
@@ -203,7 +211,6 @@
 				display: none;
 			}
 			.social {
-				// display: block;
 			}
 			.department-name {
 				display: block;
@@ -211,10 +218,8 @@
 				margin-bottom: 15px;
 			}
 			.address {
-				// display: none;
 				display: block;
 				width: auto;
-				// width: 80%;
 				a {
 				}
 			}
@@ -243,6 +248,40 @@
 			}
 		}
 
+	}
+}
+}
+@media #{$x-large} {
+.footer {
+	.inner {
+		.arrow-button {
+			&:after {
+			}
+		}
+		.details {
+			.divider {
+			}
+			.social {
+				
+			}
+			.department-name {
+				@include detail-spacing;
+				float: none;
+			}
+			.address {
+				@include detail-spacing;
+				float: none;
+				clear: none;
+				a {
+				}
+			}
+			.dosa-links {
+			}
+			.logo {
+				img {
+				}
+			}
+		}
 	}
 }
 }

@@ -12,7 +12,7 @@
 }
 @mixin text-font {
     font-family: 'EB Garamond', serif;
-    font-size: 1.3em;
+    font-size: 1.1em;
 }
 @mixin icon($icon-code) {
     content: "\f#{$icon-code}";

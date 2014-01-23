@@ -56,7 +56,7 @@ if ( ! function_exists('get_region'))
 		$xslt_file = format_path($xslt);
 		$blade_file = app_path('views/regions/' . $blade);
 
-		$do_xslt = true;
+		$do_xslt = ! app('request')->get('no_transform');
 
 		if ( $do_xslt and File::exists( $xml_file ) and File::exists( $xslt_file ) ) {
 			return transform($xml, $xslt);
@@ -152,7 +152,7 @@ if ( ! function_exists('get_default'))
 if ( ! function_exists('get_template'))
 {
 	function get_template() {
-		if (app('request')->get('original')) {
+		if (app('request')->get('original_temp')) {
 			return 'template';
 		} else {
 			return 'transformed-template';

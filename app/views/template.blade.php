@@ -47,19 +47,19 @@
                 </form>
                 <div class="dosa-fontsize"><span class="fontsize-decrease">A</span><span class="fontsize-reset">A</span><span class="fontsize-increase">A</span></div>
                 <div class="dosa-navigation">
-                  <div class="section closed">
+                  <div class="section departments closed">
                     <h2><span class="inner">Departments</span></h2>
                     <ul>
                       {{ $DEPARTMENTS_MOBILE }}
                     </ul>
                   </div>
-                  <div class="section closed">
+                  <div class="section topics closed">
                     <h2><span class="inner">Topics</span></h2>
                     <ul>
                       {{ $TOPICS_MOBILE }}
                     </ul>
                   </div>
-                  <div class="section closed">
+                  <div class="section community closed">
                     <h2><span class="inner">Community</span></h2>
                     <ul>
                       {{ $COMMUNITY_MOBILE }}
@@ -111,19 +111,19 @@
                             </div>
                             <nav class="dosa-banner-navigation" role="navigation" aria-label="Student Affairs Top Links">
 
-                            <div class="section closed">
+                            <div class="section departmentsclosed">
                                 <h2 tabindex="0"><span class="inner">Departments</span></h2>
                                 <ul>
                                   {{ $DEPARTMENTS_DESKTOP }}
                                 </ul>
                               </div><!--
-                          --><div class="section closed">
+                          --><div class="section topics closed">
                                 <h2 tabindex="0"><span class="inner">Topics</span></h2>
                                 <ul>
                                   {{ $TOPICS_DESKTOP }}
                                 </ul>
                               </div><!--
-                          --><div class="section closed">
+                          --><div class="section community closed">
                                 <h2 tabindex="0"><span class="inner">Community</span></h2>
                                 <ul>
                                   {{ $COMMUNITY_DESKTOP }}

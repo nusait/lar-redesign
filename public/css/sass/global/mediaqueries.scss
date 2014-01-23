@@ -1,7 +1,9 @@
 $break-small: 640px;
 $break-medium: 900px;
+$break-large: 1100px;
 
 $small: "only screen and (max-width : #{$break-small})";
 $medium: "only screen and (min-width : #{$break-small + 1px}) and (max-width : #{$break-medium})";
 $medium-and-large: "screen and (min-width : #{$break-small + 1px})";
 $large: "screen and (min-width : #{$break-medium + 1px})";
+$x-large: "screen and (min-width : #{$break-large + 1px})"

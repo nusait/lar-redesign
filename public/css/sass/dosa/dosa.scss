@@ -149,22 +149,22 @@ $dosa-footer-text-color: #eeeeee;
                             }
                         }
                     }
-                    &:nth-child(1) {
+                    &.departments {
                         h2 {
                             left: 0;
                         }
                     }
-                    &:nth-child(2) {
+                    &.topics {
                         h2 {
                             left: $nav-width;
                         }
                     }
-                    &:nth-child(3) {
+                    &.community {
                         h2 {
                             left: $nav-width * 2;
                         }
                     }
-                    &:nth-child(4) {
+                    &.nuhelp {
                         h2 {
                             left: $nav-width * 3;
                             background-color: $nuhelp-background;
@@ -183,10 +183,15 @@ $dosa-footer-text-color: #eeeeee;
             }
         }
         .northwestern-title {
+            @include text-font;
+            // text-transform: lowercase;
+            font-size: 1.2em;
+            font-weight: 600;
+            color: $purple;
             position: absolute;
             right: 0;
             top: 0;
-            margin: -20px 20px 0 10px;
+            margin: -5px 5px 0 10px;
         }
         .inner-right {
             background-color: $dosa-banner-background-color;

@@ -193,31 +193,36 @@ a {
   html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section ul li a:hover {
     background-color: #412157;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section:nth-child(1) h2 {
+  .dosa-banner .inner .dosa-banner-navigation .section.departments h2 {
     left: 0;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section:nth-child(2) h2 {
+  .dosa-banner .inner .dosa-banner-navigation .section.topics h2 {
     left: 5.5em;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section:nth-child(3) h2 {
+  .dosa-banner .inner .dosa-banner-navigation .section.community h2 {
     left: 11em;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section:nth-child(4) h2 {
+  .dosa-banner .inner .dosa-banner-navigation .section.nuhelp h2 {
     left: 16.5em;
     background-color: #ad3f35;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section:nth-child(4) ul {
+  .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul {
     right: 0;
     background-color: #806462;
   }
-  html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section:nth-child(4) ul li a:hover {
+  html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul li a:hover {
     background-color: #ad3f35;
   }
   .dosa-banner .northwestern-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.1em;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #412157;
     position: absolute;
     right: 0;
     top: 0;
-    margin: -20px 20px 0 10px;
+    margin: -5px 5px 0 10px;
   }
   .dosa-banner .inner-right {
     background-color: #412157;
@@ -1224,12 +1229,13 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .footer .inner .details {
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-size: 1.2em;
   position: relative;
   display: inline-block;
   color: white;
   padding: 20px 20px;
+  vertical-align: top;
   height: 95%;
   height: calc(100% - 40px);
   height: -webkit-calc(100% - 40px);
@@ -1248,45 +1254,54 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   display: none;
 }
 .footer .inner .details .department-name {
-  vertical-align: top;
-  font-size: 1em;
+  float: left;
   padding: 0 20px;
   width: 23%;
   width: calc(25% - 40px);
   width: -webkit-calc(25% - 40px);
+  vertical-align: top;
+  font-size: 1em;
   display: inline-block;
+  width: calc(45% - 20px);
 }
 .footer .inner .details .address {
+  float: left;
+  padding: 0 20px;
+  width: 23%;
+  width: calc(25% - 40px);
+  width: -webkit-calc(25% - 40px);
+  clear: left;
   vertical-align: top;
+  width: calc(45% - 20px);
   display: inline-block;
   font-size: 1em;
   word-wrap: break-word;
   overflow-wrap: break-word;
-  padding: 0 20px;
-  width: 23%;
-  width: calc(25% - 40px);
-  width: -webkit-calc(25% - 40px);
 }
 .footer .inner .details .address a {
   color: white;
 }
 .footer .inner .details .dosa-links {
-  vertical-align: top;
-  display: inline-block;
+  float: left;
   padding: 0 20px;
   width: 23%;
   width: calc(25% - 40px);
   width: -webkit-calc(25% - 40px);
+  vertical-align: top;
+  display: inline-block;
+  float: none;
 }
 .footer .inner .details .dosa-links a {
   color: white;
 }
 .footer .inner .details .logo {
-  vertical-align: top;
+  float: left;
   padding: 0 20px;
   width: 23%;
   width: calc(25% - 40px);
   width: -webkit-calc(25% - 40px);
+  vertical-align: top;
+  float: none;
   display: inline-block;
   text-align: center;
 }
@@ -1304,7 +1319,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-top-style: double;
   border-top-color: rgba(255, 255, 255, 0.5);
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   font-size: 1em;
 }
 .footer .inner .links .social {
@@ -1386,6 +1401,25 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   }
   .footer .inner .links ul {
     display: none;
+  }
+}
+@media screen and (min-width: 1101px) {
+  .footer .inner .details .department-name {
+    float: left;
+    padding: 0 20px;
+    width: 23%;
+    width: calc(25% - 40px);
+    width: -webkit-calc(25% - 40px);
+    float: none;
+  }
+  .footer .inner .details .address {
+    float: left;
+    padding: 0 20px;
+    width: 23%;
+    width: calc(25% - 40px);
+    width: -webkit-calc(25% - 40px);
+    float: none;
+    clear: none;
   }
 }
 .stack-container {
@@ -1478,7 +1512,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   width: calc(70% - 5px);
   width: -webkit-calc(70% - 5px);
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .text-block .main-text p, .text-block .main-text .text-title {
   margin: 0 20px 10px 20px;
@@ -1497,7 +1531,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-left-color: #d0ced0;
   border-left-style: solid;
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .text-block .side-text p, .text-block .side-text .text-title {
   margin: 0 27px 10px 20px;
@@ -1542,7 +1576,8 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .collapsable-container .collapsable-item .collapsable-title {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  line-height: 1.8em;
   padding-left: 15px;
 }
 .collapsable-container .collapsable-item .collapsable-title:before {
@@ -1557,13 +1592,14 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .collapsable-container .collapsable-item .collapsable-content {
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   padding: 20px;
+  padding-top: 5px;
 }
 
 .basic-container {
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .basic-container .basic-image-container {
   float: right;
@@ -1598,6 +1634,13 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin-left: 30px;
   margin-right: 20px;
 }
+.basic-container .basic-text-container a {
+  text-decoration: underline;
+  color: #006e8b;
+}
+.basic-container .basic-text-container h2 {
+  margin-bottom: 0.3em;
+}
 
 @media only screen and (max-width: 640px) {
   .basic-container .basic-image-container {
@@ -1616,7 +1659,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .sa-table {
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   width: 100%;
   margin: 0 20px;
 }
@@ -1640,7 +1683,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin-left: 20px;
   padding-right: 20px;
   font-family: 'EB Garamond', serif;
-  font-size: 1.3em;
+  font-size: 1.1em;
   overflow: hidden;
 }
 .detail-container .detail-aside {

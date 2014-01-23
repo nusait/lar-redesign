@@ -34,6 +34,14 @@
 		overflow: hidden;
 		margin-left: 30px;
 		margin-right: 20px;
+		a {
+			// font-weight: bold;
+			text-decoration: underline;
+			color: $blue;
+		}
+		h2 {
+			margin-bottom: 0.3em;
+		}
 	}
 }
 

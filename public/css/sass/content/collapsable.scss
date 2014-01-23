@@ -20,7 +20,8 @@
 		.collapsable-title {
 			text-transform: uppercase;
 			font-weight: 300;
-			font-size: 1.5em;
+			font-size: 1.3em;
+			line-height: 1.8em;
 			padding-left: 15px;
 			// padding-bottom: 15px;
 			&:before {
@@ -37,6 +38,7 @@
 		.collapsable-content {
 			@include text-font;
 			padding: 20px;
+			padding-top: 5px;
 		}
 	}
 }
