@@ -14,7 +14,7 @@
                     select="system-index-block/calling-page/system-page/system-data-structure/stack-section">
                     <xsl:variable name="elementname">
                         <xsl:choose>
-                            <xsl:when test="link != ''">
+                            <xsl:when test="link[@type]">
                                 <xsl:value-of select="'a'"/>
                             </xsl:when>
                             <xsl:otherwise>
@@ -28,16 +28,30 @@
                         </xsl:attribute>
                         <xsl:if test="$elementname = 'a'">
                             <xsl:attribute name="href">
-                                <xsl:value-of select="link"/>
+                                <xsl:choose>
+                                    <xsl:when test="link[@type='symlink']">
+                                        <xsl:value-of select="link/content/system-symlink"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="link/link"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
                             </xsl:attribute>
                         </xsl:if>
                         <div class="stack-image">
-                            <img src="{photo/link}" alt="{photo-alt-text}" data-width="600" data-height="600"/>
+                            <img src="{photo/link}" alt="{photo-alt-text}" data-width="600"
+                                data-height="600"/>
                         </div>
                         <div class="stack-text">
-                            <div class="stack-title"><xsl:value-of select="title" /></div>
-                            <div class="stack-subtitle"><xsl:value-of select="subtitle" /></div>
-                            <div class="stack-description"><xsl:value-of select="description" /></div>
+                            <div class="stack-title">
+                                <xsl:value-of select="title"/>
+                            </div>
+                            <div class="stack-subtitle">
+                                <xsl:value-of select="subtitle"/>
+                            </div>
+                            <div class="stack-description">
+                                <xsl:value-of select="description"/>
+                            </div>
                         </div>
                     </xsl:element>
                 </xsl:for-each>
