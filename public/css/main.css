@@ -1,12 +1,7 @@
 @import url(../assets/swiper/dist/idangerous.swiper.css);
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(//fonts.googleapis.com/css?family=EB+Garamond);
-body {
-  font-family: Oswald;
-  font-size: 100%;
-}
-
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 h1 {
   font-weight: 300;
   font-size: 2em;
@@ -35,6 +30,10 @@ p {
   padding: 0;
 }
 
+a {
+  color: #412157;
+}
+
 .hidden {
   display: none !important;
 }
@@ -54,6 +53,8 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
+  font-family: Oswald;
+  font-size: 100%;
   -webkit-text-size-adjust: none;
 }
 body .ie-too-old {
@@ -62,10 +63,6 @@ body .ie-too-old {
 html.browser-lt-ie9 body .ie-too-old {
   display: block;
   margin: 2em;
-}
-
-a {
-  color: #412157;
 }
 
 @media screen and (min-width: 641px) {
@@ -1639,7 +1636,24 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   color: #006e8b;
 }
 .basic-container .basic-text-container h2 {
-  margin-bottom: 0.3em;
+  font-weight: 300;
+  font-size: 1.65em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+  color: #5a308c;
+}
+.basic-container .basic-text-container h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+  color: #5a308c;
+}
+.basic-container .basic-text-container p {
+  margin: 0.7em 0;
+  padding: 0;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1682,9 +1696,33 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .detail-container .detail-main {
   margin-left: 20px;
   padding-right: 20px;
+  overflow: hidden;
   font-family: 'EB Garamond', serif;
   font-size: 1.1em;
-  overflow: hidden;
+}
+.detail-container .detail-main a {
+  text-decoration: underline;
+  color: #006e8b;
+}
+.detail-container .detail-main h2 {
+  font-weight: 300;
+  font-size: 1.65em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+  color: #5a308c;
+}
+.detail-container .detail-main h3 {
+  font-weight: 300;
+  font-size: 1.4em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+  color: #5a308c;
+}
+.detail-container .detail-main p {
+  margin: 0.7em 0;
+  padding: 0;
 }
 .detail-container .detail-aside {
   float: right;

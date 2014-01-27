@@ -29,7 +29,8 @@ module.exports = function (grunt) {
                     style: 'expanded'
                 },
                 files: {
-                    'public/css/main.css': 'public/css/main.scss'
+                    'public/css/main.css': 'public/css/main.scss',
+                    'public/css/tiny-mce.css': 'public/css/tiny-mce.scss'
                 }
             }
         },

@@ -1,5 +1,3 @@
-@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
-
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(//fonts.googleapis.com/css?family=EB+Garamond);
 
@@ -17,35 +15,4 @@
 @mixin icon($icon-code) {
     content: "\f#{$icon-code}";
     font-family: FontAwesome;
-}
-
-body {
-    font-family: Oswald;
-    font-size: 100%;
-}
-h1 {
-    font-weight: 300;
-    font-size: 2em;
-    text-transform:uppercase;
-    font-family: 'Oswald', sans-serif;
-}
-h2 {
-    font-weight: 300;
-    font-size: 1.75em;
-    text-transform: lowercase;
-    font-family: 'Oswald', sans-serif;
-    color: #5a308c;
-}
-
-h3 {
-    font-weight: 300;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-    color: #5a308c;
-}
-
-p {
-    margin: 0;
-    padding: 0;
 }

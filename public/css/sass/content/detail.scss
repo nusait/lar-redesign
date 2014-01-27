@@ -2,8 +2,9 @@
 	.detail-main {
 		margin-left: 20px;
 		padding-right: 20px;
-		@include text-font;
 		overflow: hidden;
+		@include text-font;
+		@include generic-content-style;
 	}
 	.detail-aside {
 		float: right;

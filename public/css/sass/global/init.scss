@@ -1,7 +1,39 @@
 
 // Page wide Variable
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
 $main-area-max-width: 68em;
 
+h1 {
+    font-weight: 300;
+    font-size: 2em;
+    text-transform:uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+h2 {
+    font-weight: 300;
+    font-size: 1.75em;
+    text-transform: lowercase;
+    font-family: 'Oswald', sans-serif;
+    color: #5a308c;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: #5a308c;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $purple;
+}
 
 .hidden {
     display: none !important;
@@ -21,6 +53,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
+    font-family: Oswald;
+    font-size: 100%;
     -webkit-text-size-adjust: none;
     .ie-too-old {
         display: none;
@@ -31,6 +65,3 @@ body {
     }
 }
 
-a {
-    color: $purple;
-}
