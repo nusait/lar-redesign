@@ -29,14 +29,17 @@
   font-family: "Neuton", serif;
 }
 .mceContentBody h1 {
-  margin: 5px 0;
-  font-size: 26.4 px;
+  text-decoration: line-through;
 }
 .mceContentBody h2 {
   margin: 5px 0;
-  font-size: 20.8 px;
+  font-size: 52.8 px;
+}
+.mceContentBody h3 {
+  margin: 5px 0;
+  font-size: 41.6 px;
 }
 .mceContentBody p {
   margin: 10px 0;
-  font-size: 17.6 px;
+  font-size: 35.2 px;
 }
