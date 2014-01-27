@@ -2,6 +2,10 @@
 @import url(//fonts.googleapis.com/css?family=Neuton:300,300italic);
 .mceContentBody {
   background-color: #eff1f1;
+  font-size: 1.1em;
+}
+.mceContentBody * {
+  font-family: "Neuton", serif;
 }
 .mceContentBody a {
   text-decoration: underline;
@@ -27,19 +31,4 @@
   margin: 0.7em 0;
   padding: 0;
   font-family: "Neuton", serif;
-}
-.mceContentBody h1 {
-  text-decoration: line-through;
-}
-.mceContentBody h2 {
-  margin: 5px 0;
-  font-size: 52.8 px;
-}
-.mceContentBody h3 {
-  margin: 5px 0;
-  font-size: 41.6 px;
-}
-.mceContentBody p {
-  margin: 10px 0;
-  font-size: 35.2 px;
 }
