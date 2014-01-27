@@ -1,11 +1,13 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=EB+Garamond);
-a {
+@import url(http://fonts.googleapis.com/css?family=Neuton:300,300italic);
+.mceContentBody {
+  background-color: #eff1f1;
+}
+.mceContentBody a {
   text-decoration: underline;
   color: #006e8b;
 }
-
-h2 {
+.mceContentBody h2 {
   font-weight: 300;
   font-size: 1.65em;
   text-transform: none;
@@ -13,8 +15,7 @@ h2 {
   font-family: 'Oswald', sans-serif;
   color: #5a308c;
 }
-
-h3 {
+.mceContentBody h3 {
   font-weight: 300;
   font-size: 1.4em;
   text-transform: none;
@@ -22,8 +23,8 @@ h3 {
   font-family: 'Oswald', sans-serif;
   color: #5a308c;
 }
-
-p {
+.mceContentBody p {
   margin: 0.7em 0;
   padding: 0;
+  font-family: "Neuton", serif;
 }

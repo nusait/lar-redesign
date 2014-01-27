@@ -2,4 +2,7 @@
 @import 'sass/global/colors';
 @import 'sass/content/generic-style';
 
-@include generic-content-style;
+.mceContentBody {
+	background-color: $bg-color;
+	@include generic-content-style;
+}

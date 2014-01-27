@@ -1,5 +1,9 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=EB+Garamond);
+// @import url(//fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Neuton:300,300italic);
+
+// $text-font: 'EB Garamond', serif;
+$text-font: 'Neuton', serif;
 
 @mixin main-font( $weight: 300) {
     font-family: 'Oswald', sans-serif;
@@ -9,7 +13,7 @@
     font-family: 'Oswald', sans-serif;
 }
 @mixin text-font {
-    font-family: 'EB Garamond', serif;
+    font-family: $text-font;
     font-size: 1.1em;
 }
 @mixin icon($icon-code) {

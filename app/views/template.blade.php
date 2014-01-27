@@ -47,30 +47,7 @@
                 </form>
                 <div class="dosa-fontsize"><span class="fontsize-decrease">A</span><span class="fontsize-reset">A</span><span class="fontsize-increase">A</span></div>
                 <div class="dosa-navigation">
-                  <div class="section departments closed">
-                    <h2><span class="inner">Departments</span></h2>
-                    <ul>
-                      {{ $DEPARTMENTS_MOBILE }}
-                    </ul>
-                  </div>
-                  <div class="section topics closed">
-                    <h2><span class="inner">Topics</span></h2>
-                    <ul>
-                      {{ $TOPICS_MOBILE }}
-                    </ul>
-                  </div>
-                  <div class="section community closed">
-                    <h2><span class="inner">Community</span></h2>
-                    <ul>
-                      {{ $COMMUNITY_MOBILE }}
-                    </ul>
-                  </div>
-                  <div class="section nuhelp closed">
-                    <h2><span class="inner">NUHelp</span></h2>
-                    <ul>
-                      {{ $NUHELP_MOBILE }}
-                    </ul>
-                  </div>
+                  {{$DOSA_NAV_MOBILE}}
                 </div>
                 <div class="dosa-extra">
                   <div class="nu-logo"><a href="http://www.northwestern.edu/"><img src="{{asset('img/NU_Logo_purple.png')}}" alt="" /></a></div>
@@ -110,31 +87,7 @@
                               </form>
                             </div>
                             <nav class="dosa-banner-navigation" role="navigation" aria-label="Student Affairs Top Links">
-
-                            <div class="section departmentsclosed">
-                                <h2 tabindex="0"><span class="inner">Departments</span></h2>
-                                <ul>
-                                  {{ $DEPARTMENTS_DESKTOP }}
-                                </ul>
-                              </div><!--
-                          --><div class="section topics closed">
-                                <h2 tabindex="0"><span class="inner">Topics</span></h2>
-                                <ul>
-                                  {{ $TOPICS_DESKTOP }}
-                                </ul>
-                              </div><!--
-                          --><div class="section community closed">
-                                <h2 tabindex="0"><span class="inner">Community</span></h2>
-                                <ul>
-                                  {{ $COMMUNITY_DESKTOP }}
-                                </ul>
-                              </div><!--
-                          --><div class="section nuhelp closed">
-                                <h2 tabindex="0"><span class="inner">NUHelp</span></h2>
-                                <ul>
-                                  {{ $NUHELP_DESKTOP }}
-                                </ul>
-                              </div>
+                              {{$DOSA_NAV_DESKTOP}}
                             </nav>
                             <div class="northwestern-title">Northwestern University</div>
                           </div>

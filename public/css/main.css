@@ -1,6 +1,6 @@
 @import url(../assets/swiper/dist/idangerous.swiper.css);
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=EB+Garamond);
+@import url(http://fonts.googleapis.com/css?family=Neuton:300,300italic);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 h1 {
   font-weight: 300;
@@ -211,7 +211,7 @@ html.browser-lt-ie9 body .ie-too-old {
     background-color: #ad3f35;
   }
   .dosa-banner .northwestern-title {
-    font-family: 'EB Garamond', serif;
+    font-family: "Neuton", serif;
     font-size: 1.1em;
     font-size: 1.2em;
     font-weight: 600;
@@ -513,7 +513,7 @@ html.browser-lt-ie9 body .ie-too-old {
     width: 100%;
     max-width: 68em;
     margin: 0 auto;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
     clear: both;
   }
@@ -1225,7 +1225,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   font-family: FontAwesome;
 }
 .footer .inner .details {
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
   font-size: 1.2em;
   position: relative;
@@ -1315,7 +1315,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-top-width: 3px;
   border-top-style: double;
   border-top-color: rgba(255, 255, 255, 0.5);
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
   font-size: 1em;
 }
@@ -1508,7 +1508,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   width: 70%;
   width: calc(70% - 5px);
   width: -webkit-calc(70% - 5px);
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
 }
 .text-block .main-text p, .text-block .main-text .text-title {
@@ -1527,7 +1527,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-left-width: 1px;
   border-left-color: #d0ced0;
   border-left-style: solid;
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
 }
 .text-block .side-text p, .text-block .side-text .text-title {
@@ -1588,14 +1588,14 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   display: block;
 }
 .collapsable-container .collapsable-item .collapsable-content {
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
   padding: 20px;
   padding-top: 5px;
 }
 
 .basic-container {
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
 }
 .basic-container .basic-image-container {
@@ -1654,6 +1654,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .basic-container .basic-text-container p {
   margin: 0.7em 0;
   padding: 0;
+  font-family: "Neuton", serif;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1672,7 +1673,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   }
 }
 .sa-table {
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
   width: 100%;
   margin: 0 20px;
@@ -1697,7 +1698,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin-left: 20px;
   padding-right: 20px;
   overflow: hidden;
-  font-family: 'EB Garamond', serif;
+  font-family: "Neuton", serif;
   font-size: 1.1em;
 }
 .detail-container .detail-main a {
@@ -1723,6 +1724,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .detail-container .detail-main p {
   margin: 0.7em 0;
   padding: 0;
+  font-family: "Neuton", serif;
 }
 .detail-container .detail-aside {
   float: right;
@@ -2391,6 +2393,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     order: 2;
   }
   .main-container #main {
+    margin-top: 0;
     -webkit-box-ordinal-group: 2;
     -moz-box-ordinal-group: 2;
     -ms-flex-order: 1;
