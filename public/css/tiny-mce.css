@@ -17,14 +17,26 @@
 }
 .mceContentBody h3 {
   font-weight: 300;
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-transform: none;
+  color: #12635c;
   margin: 0.3em 0;
   font-family: 'Oswald', sans-serif;
-  color: #5a308c;
 }
 .mceContentBody p {
   margin: 0.7em 0;
   padding: 0;
   font-family: "Neuton", serif;
+}
+.mceContentBody h1 {
+  margin: 5px 0;
+  font-size: 26.4 px;
+}
+.mceContentBody h2 {
+  margin: 5px 0;
+  font-size: 20.8 px;
+}
+.mceContentBody p {
+  margin: 10px 0;
+  font-size: 17.6 px;
 }

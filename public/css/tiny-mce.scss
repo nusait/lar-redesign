@@ -5,4 +5,16 @@
 .mceContentBody {
 	background-color: $bg-color;
 	@include generic-content-style;
+	h1 {
+		margin: 5px 0;
+		font-size: (1.65 * 16)px;
+	}
+	h2 {
+		margin: 5px 0;
+		font-size: (1.3 * 16)px;
+	}
+	p {
+		margin: 10px 0;
+		font-size: (1.1 * 16)px;
+	}
 }

@@ -1645,11 +1645,11 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .basic-container .basic-text-container h3 {
   font-weight: 300;
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-transform: none;
+  color: #12635c;
   margin: 0.3em 0;
   font-family: 'Oswald', sans-serif;
-  color: #5a308c;
 }
 .basic-container .basic-text-container p {
   margin: 0.7em 0;
@@ -1715,11 +1715,11 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .detail-container .detail-main h3 {
   font-weight: 300;
-  font-size: 1.4em;
+  font-size: 1.3em;
   text-transform: none;
+  color: #12635c;
   margin: 0.3em 0;
   font-family: 'Oswald', sans-serif;
-  color: #5a308c;
 }
 .detail-container .detail-main p {
   margin: 0.7em 0;
