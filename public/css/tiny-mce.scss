@@ -8,5 +8,10 @@
 	* {
 		font-family: $text-font;
 	}
+
 	@include generic-content-style;
+
+	h1, h4, h5, h6 {
+		text-decoration: line-through;
+	}
 }
