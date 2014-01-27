@@ -1,0 +1,546 @@
+<system-index-block current-time="1390453788007" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="b5bc48148169775b4f429bbbd25b1f12">
+            <name>delme-index2</name>
+            <is-published>true</is-published>
+            <title>test</title>
+            <keywords>test, this</keywords>
+            <description>this is a test</description>
+            <display-name>test</display-name>
+            <path>/delme-index2</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/delme-index2</link>
+            <created-by>cew904</created-by>
+            <created-on>1390323451863</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1390453136847</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Panel2 Page Form">
+                <content-type-panel>
+                    <value>Yes</value>
+                </content-type-panel>
+                <panel-container>
+                    <big-list type="block">
+                        <content>
+                            <planitpurple>
+                                <event>
+                                    <title>Introduction to Mindfulness - Evanston Campus</title>
+                                    <date>January 23, 2014</date>
+                                    <time>11:00 AM - 12:00 PM</time>
+                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-23 11:00</isodate>
+                                    <location>Evanston</location>
+                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                    <address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>3rd Fl, Rm. 3-226</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
+                                    <contact>
+                                        <name>Courtney Albinson</name>
+                                        <email>c-albinson@northwestern.edu</email>
+                                        <phone>8474912151</phone>
+                                    </contact>
+                                    <group>
+                                        <name>Counseling and Psychological Services</name>
+                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                    </group>
+                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/32</externalurl>
+                                    <ppurl>http://planitpurple.northwestern.edu/event/451114</ppurl>
+                                    <event_category_id>1</event_category_id>
+                                    <category-name>Academic</category-name>
+                                    <last_modified>December 23, 2013</last_modified>
+                                    <audience>Student</audience>
+                                    <cosponsors> </cosponsors>
+                                    <description>Mindfulness meditation is an empirically-supported
+                                        practice that can decrease stress, anxiety, and depression
+                                        through the cultivation of present-moment awareness,
+                                        clarity, and acceptance. Research on Mindfulness meditation
+                                        has also shown that it can decrease blood pressure, improve
+                                        immune function, and relieve chronic pain. Participants in
+                                        this multi-part workshop will be introduced to a number of
+                                        mind-body self-regulatory skills designed to improve
+                                        concentration and decrease reactivity to distressing
+                                        thoughts, emotions, and physical sensations. The
+                                        Introduction to Mindfulness workshop series will be held a
+                                        number of different times this quarter on the Chicago and
+                                        Evanston Campuses. Evanston Times and Locations:
+                                        Location: Searle Hall, 3rd Fl, Rm. 3-226, 633 Emerson St.
+                                        Times: Thursdays, 11:00 to 12:00 p.m. (A four-part workshop
+                                        series.) Group I: January 16, 23, 30, February 6Group
+                                        II: February 13, 20, 27, March 6 For more information and
+                                        registration, go
+                                        to: https://go.dosa.northwestern.edu/caps_workshops/workshops
+                                        [https://go.dosa.northwestern.edu/caps_workshops/workshops]</description>
+                                    <recurring>7994</recurring>
+                                </event>
+                                <event>
+                                    <title>Drop-In Stress Management Resource Center</title>
+                                    <date>January 23, 2014</date>
+                                    <time>1:00 PM - 3:00 PM</time>
+                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-23 13:00</isodate>
+                                    <location>Evanston</location>
+                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                    <address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>CAPS Stress Management Resource Center, 3rd Fl, Rm. 3-234</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
+                                    <contact>
+                                        <name>Courtney Albinson</name>
+                                        <email>c-albinson@northwestern.edu</email>
+                                        <phone>(847) 491-2151</phone>
+                                    </contact>
+                                    <group>
+                                        <name>Counseling and Psychological Services</name>
+                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                    </group>
+                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/26</externalurl>
+                                    <ppurl>http://planitpurple.northwestern.edu/event/451262</ppurl>
+                                    <event_category_id>5</event_category_id>
+                                    <category-name>Lectures &amp; Meetings</category-name>
+                                    <last_modified>December 23, 2013</last_modified>
+                                    <audience>Student</audience>
+                                    <cosponsors> </cosponsors>
+                                    <description>Stressed out? Come unwind during the CAPS Stress
+                                        Management Resource Center (SMRC) drop-in hours! Consult
+                                        with CAPS staff and check out the egg chairs. The SMRC is an
+                                        individualized clinic designed to help you achieve peak
+                                        performance and enhanced well-being when you need it most.
+                                        Mondays, 2:30-4:30, Tuesdays 12:00-3:00 p.m, Thursdays
+                                        1-3pm, Fridays 10:30am-12pm. The SMRC provides: - A relaxing
+                                        experience in our "egg chairs" where you can listen to our
+                                        relaxation scripts (e.g., guided meditation, autogenic
+                                        training) and/or relaxing music of your choosing (use our
+                                        iPods or bring your own if you'd like). - Biofeedback
+                                        training, an empirically-supported method of treating
+                                        stress, anxiety, and chronic pain. - Strategies to modify
+                                        thinking patterns that increase stress and interfere with
+                                        performance and relationships. For more information, go
+                                        to: https://go.dosa.northwestern.edu/caps_workshops/workshops
+                                        [https://go.dosa.northwestern.edu/caps_workshops/workshops]
+                                         </description>
+                                    <recurring>8003</recurring>
+                                </event>
+                                <event>
+                                    <title>Relaxation Techniques</title>
+                                    <date>January 24, 2014</date>
+                                    <time>3:00 AM - 4:00 PM</time>
+                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-24 03:00</isodate>
+                                    <location>Evanston</location>
+                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                    <address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>3rd Floor, Rm. 3-226</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
+                                    <contact>
+                                        <name>Courtney Albinson</name>
+                                        <email>c-albinson@northwestern.edu</email>
+                                        <phone>8474912151</phone>
+                                    </contact>
+                                    <group>
+                                        <name>Counseling and Psychological Services</name>
+                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                    </group>
+                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/24</externalurl>
+                                    <ppurl>http://planitpurple.northwestern.edu/event/451804</ppurl>
+                                    <event_category_id>5</event_category_id>
+                                    <category-name>Lectures &amp; Meetings</category-name>
+                                    <last_modified>January 14, 2014</last_modified>
+                                    <audience>Student</audience>
+                                    <cosponsors> </cosponsors>
+                                    <description>Learning ways to relax, unwind, and de-stress your
+                                        body can help you feel better, study more efficiently and
+                                        effectively, and be more healthy in mind, body, and spirit.
+                                        This module of the CAPS Stress Management Clinic teaches
+                                        students a variety of useful relaxation techniques. This
+                                        four-part workshop will be held a number of times this
+                                        quarter on Evanston Campus. Location: Searle Hall, 3rd
+                                        Floor, Rm. 3-226, 633 Emerson StreetTimes: Fridays, 3-4pm (a
+                                        four-part workshop) Group I: January 17, 24, 31, February 7
+                                        Group II: February 14, 21, 28, March 7</description>
+                                    <recurring>8005</recurring>
+                                </event>
+                                <event>
+                                    <title>Stress Strategies</title>
+                                    <date>January 24, 2014</date>
+                                    <time>1:00 PM - 2:00 PM</time>
+                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-24 13:00</isodate>
+                                    <location>Evanston</location>
+                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                    <address>
+                <building_name>Searle Hall</building_name>
+                <address_1>633 Emerson Street</address_1>
+                <address_2>3rd Fl, Rm. 3-226</address_2>
+                <city>Evanston</city>
+                <state>IL</state>
+                <zip>60208</zip>
+            </address>
+                                    <contact>
+                                        <name>Courtney Albinson</name>
+                                        <email>c-albinson@northwestern.edu</email>
+                                        <phone>8474912151</phone>
+                                    </contact>
+                                    <group>
+                                        <name>Counseling and Psychological Services</name>
+                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                    </group>
+                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/21</externalurl>
+                                    <ppurl>http://planitpurple.northwestern.edu/event/451130</ppurl>
+                                    <event_category_id>5</event_category_id>
+                                    <category-name>Lectures &amp; Meetings</category-name>
+                                    <last_modified>December 23, 2013</last_modified>
+                                    <audience>Student</audience>
+                                    <cosponsors> </cosponsors>
+                                    <description>Stress Strategies is a 4-part workshop series on
+                                        Stress Management, the Psychology of Performance, and
+                                        Emotional Intelligence. This workshop provides opportunities
+                                        to identify physical and emotional symptoms that let you
+                                        know when you are under stress, instruction in identifying
+                                        the types of situations that create stress for you, and
+                                        training in skills and techniques that will help you manage
+                                        the stress in your life more effectively. This workshop is
+                                        designed to serve as a resource for students who are
+                                        experiencing problems such as concentration difficulties,
+                                        procrastination, feelings of anxiety (including test
+                                        anxiety), or other forms of distress which arise in
+                                        connection with personal or academic stressors. This
+                                        workshop is offered by CAPS and meets once a week for four
+                                        weeks. Each session is one hour. This four-part workshop
+                                        will be held a number of different times on the Evanston
+                                        Campus. Location: Searle Hall, 3rd Floor, Rm. 3-226, 633
+                                        Emerson StreetTimes: Fridays, 1:00 to 2:00 p.m. (a four-part
+                                        workshop) Group I: January 17, 24, 31, February 7 Group
+                                        II: February 14, 21, 28, March 7</description>
+                                    <recurring>7995</recurring>
+                                </event>
+                            </planitpurple>
+                        </content>
+                        <path>/shared-assets/homepage/events/CAPS PiP Calendar Feed</path>
+                        <site>SA-FOOD</site>
+                        <name>CAPS PiP Calendar Feed</name>
+                    </big-list>
+                    <rich-extra type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-carousel-block>
+                                    <value>Yes</value>
+                                </content-type-carousel-block>
+                                <carousel-section>
+                                    <label>Bread</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/carousel/images/bread-carousel.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/carousel/images/bread-carousel.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>bread-carousel.jpeg</name>
+                                    </photo>
+                                    <alt>bread</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://en.wikipedia.org/wiki/Bread</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/carousel/links/bread-wikipedia-page</path>
+                                        <site>SA-FOOD</site>
+                                        <name>bread-wikipedia-page</name>
+                                    </link>
+                                </carousel-section>
+                                <carousel-section>
+                                    <label>Trees</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/carousel/images/trees-carousel.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/carousel/images/trees-carousel.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>trees-carousel.jpeg</name>
+                                    </photo>
+                                    <alt>trees</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/retail-locations/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/retail-locations/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Retail Locations</display-name>
+                                        <title>Retail Locations Title</title>
+                                        <keywords>decide, here, which, keywords, should, populate,
+                                            your, page</keywords>
+                                        <description>Change me to page description whch Google may
+                                            pass on to searchers</description>
+                                    </link>
+                                </carousel-section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/carousel/carousel-block</path>
+                        <site>SA-FOOD</site>
+                        <name>carousel-block</name>
+                    </rich-extra>
+                    <q-links type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-quick-links-block>
+                                    <value>Yes</value>
+                                </content-type-quick-links-block>
+                                <heading>Quick Links</heading>
+                                <section>
+                                    <label>Bike</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/bike-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/bike-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>bike-ql.jpeg</name>
+                                    </photo>
+                                    <alt>bike</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/meal-plans/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/meal-plans/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Meal Plans</display-name>
+                                        <title>Meal Plans Title</title>
+                                        <keywords>decide, here, which, keywords, should, populate,
+                                            your, page</keywords>
+                                        <description>Change me to page description whch Google may
+                                            pass on to searchers</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Karate</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/karate-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/karate-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>karate-ql.jpeg</name>
+                                    </photo>
+                                    <alt>karate</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://en.wikipedia.org/wiki/Karate</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/quick-links/links/karate-wikipedia-link</path>
+                                        <site>SA-FOOD</site>
+                                        <name>karate-wikipedia-link</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Motorcycle</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>motorcycle-ql.jpeg</name>
+                                    </photo>
+                                    <alt>motorcycle</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/about-us/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/about-us/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>About Us</display-name>
+                                        <title>About Us Title</title>
+                                        <keywords>decide, here, which, keywords, should, populate,
+                                            your, page</keywords>
+                                        <description>Change me to page description whch Google may
+                                            pass on to searchers</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Sunset</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>sunset-ql.jpeg</name>
+                                    </photo>
+                                    <alt>sunset</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://en.wikipedia.org/wiki/Sunset</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/quick-links/links/sunset-wikipedia-link</path>
+                                        <site>SA-FOOD</site>
+                                        <name>sunset-wikipedia-link</name>
+                                    </link>
+                                </section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/quick-links/quick-links-block</path>
+                        <site>SA-FOOD</site>
+                        <name>quick-links-block</name>
+                    </q-links>
+                </panel-container>
+                <panel-container>
+                    <big-list type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-twitter-block>
+                                    <value>Yes</value>
+                                </content-type-twitter-block>
+                                <twitter-link>
+                                    <href>https://twitter.com/StudentAffNU</href>
+                                    <data-widget-id>381608580614336512</data-widget-id>
+                                </twitter-link>
+                                <twitter-link>
+                                    <href>https://twitter.com/StudentAffNU</href>
+                                    <data-widget-id>381609572332363776</data-widget-id>
+                                </twitter-link>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/twitter/twitter-block</path>
+                        <site>SA-FOOD</site>
+                        <name>twitter-block</name>
+                    </big-list>
+                    <rich-extra type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-blog-block>
+                                    <value>Yes</value>
+                                </content-type-blog-block>
+                                <url>//studentaffairsnu.wordpress.com/</url>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/blog/blog-block</path>
+                        <site>SA-FOOD</site>
+                        <name>blog-block</name>
+                    </rich-extra>
+                    <q-links type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-quick-links-block>
+                                    <value>Yes</value>
+                                </content-type-quick-links-block>
+                                <heading>Quick Links</heading>
+                                <section>
+                                    <label>Bike</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/bike-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/bike-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>bike-ql.jpeg</name>
+                                    </photo>
+                                    <alt>bike</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/meal-plans/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/meal-plans/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Meal Plans</display-name>
+                                        <title>Meal Plans Title</title>
+                                        <keywords>decide, here, which, keywords, should, populate,
+                                            your, page</keywords>
+                                        <description>Change me to page description whch Google may
+                                            pass on to searchers</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Karate</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/karate-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/karate-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>karate-ql.jpeg</name>
+                                    </photo>
+                                    <alt>karate</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://en.wikipedia.org/wiki/Karate</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/quick-links/links/karate-wikipedia-link</path>
+                                        <site>SA-FOOD</site>
+                                        <name>karate-wikipedia-link</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Motorcycle</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>motorcycle-ql.jpeg</name>
+                                    </photo>
+                                    <alt>motorcycle</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/about-us/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/about-us/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>About Us</display-name>
+                                        <title>About Us Title</title>
+                                        <keywords>decide, here, which, keywords, should, populate,
+                                            your, page</keywords>
+                                        <description>Change me to page description whch Google may
+                                            pass on to searchers</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Sunset</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>sunset-ql.jpeg</name>
+                                    </photo>
+                                    <alt>sunset</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://en.wikipedia.org/wiki/Sunset</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/quick-links/links/sunset-wikipedia-link</path>
+                                        <site>SA-FOOD</site>
+                                        <name>sunset-wikipedia-link</name>
+                                    </link>
+                                </section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/quick-links/quick-links-block</path>
+                        <site>SA-FOOD</site>
+                        <name>quick-links-block</name>
+                    </q-links>
+                </panel-container>
+                <text-container>
+                    <main-content/>
+                    <side-title/>
+                    <side-content/>
+                </text-container>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>

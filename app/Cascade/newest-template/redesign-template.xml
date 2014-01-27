@@ -50,30 +50,7 @@
                     </form>
                     <div class="dosa-fontsize"><span class="fontsize-decrease">A</span><span class="fontsize-reset">A</span><span class="fontsize-increase">A</span></div>
                     <div class="dosa-navigation">
-                        <div class="section closed">
-                            <h2><span class="inner">Departments</span></h2>
-                            <ul>
-                                <system-region name="DEPARTMENTS_MOBILE"/>
-                            </ul>
-                        </div>
-                        <div class="section closed">
-                            <h2><span class="inner">Topics</span></h2>
-                            <ul>
-                                <system-region name="TOPICS_MOBILE"/>
-                            </ul>
-                        </div>
-                        <div class="section closed">
-                            <h2><span class="inner">Community</span></h2>
-                            <ul>
-                                <system-region name="COMMUNITY_MOBILE"/>
-                            </ul>
-                        </div>
-                        <div class="section nuhelp closed">
-                            <h2><span class="inner">NUHelp</span></h2>
-                            <ul>
-                                <system-region name="NUHELP_MOBILE"/>
-                            </ul>
-                        </div>
+                        <system-region name="DOSA_NAV_MOBILE"/>
                     </div>
                     <div class="dosa-extra">
                         <div class="nu-logo">
@@ -119,30 +96,7 @@
                                         </form>
                                     </div>
                                     <nav aria-label="Student Affairs Top Links" class="dosa-banner-navigation" role="navigation">
-                                        <div class="section closed">
-                                            <h2 tabindex="0"><span class="inner">Departments</span></h2>
-                                            <ul>
-                                                <system-region name="DEPARTMENTS_DESKTOP"/>
-                                            </ul>
-                                        </div><!--
-                          --><div class="section closed">
-                                            <h2 tabindex="0"><span class="inner">Topics</span></h2>
-                                            <ul>
-                                                <system-region name="TOPICS_DESKTOP"/>
-                                            </ul>
-                                        </div><!--
-                          --><div class="section closed">
-                                            <h2 tabindex="0"><span class="inner">Community</span></h2>
-                                            <ul>
-                                                <system-region name="COMMUNITY_DESKTOP"/>
-                                            </ul>
-                                        </div><!--
-                          --><div class="section nuhelp closed">
-                                            <h2 tabindex="0"><span class="inner">NUHelp</span></h2>
-                                            <ul>
-                                                <system-region name="NUHELP_DESKTOP"/>
-                                            </ul>
-                                        </div>
+                                        <system-region name="DOSA_NAV_DESKTOP"/>
                                     </nav>
                                     <div class="northwestern-title">Northwestern University</div>
                                 </div>

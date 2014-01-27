@@ -1,6 +1,6 @@
-<system-index-block current-time="1389497854919" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1390592234355" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="84859daca57c421a41f5ad2b7181da95">
+        <system-page current="true" id="c5be0c558169775b7f19efa730258f96">
             <name>index</name>
             <is-published>true</is-published>
             <title>ChangeMe Title</title>
@@ -8,13 +8,13 @@
             <description>Change me to page description whch Google may pass on to
                 searchers</description>
             <display-name>ChangeMe</display-name>
-            <path>/_internal/redesign-base-assets/sa-main-stack/index</path>
-            <site>SA-MAIN</site>
-            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/index</link>
-            <created-by>cew904</created-by>
-            <created-on>1389497785663</created-on>
-            <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389497785663</last-modified>
+            <path>/content-types/stack/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/content-types/stack/index</link>
+            <created-by>osi706</created-by>
+            <created-on>1390592003080</created-on>
+            <last-modified-by>osi706</last-modified-by>
+            <last-modified>1390592196777</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
@@ -23,46 +23,69 @@
                     <value>Yes</value>
                 </content-type-stack>
                 <stack-section>
-                    <link>http://www.google.com</link>
-                    <photo>
+                    <link type="symlink">
+                        <content>
+                            <system-symlink>http://en.wikipedia.org/wiki/Andy_Dwyer</system-symlink>
+                        </content>
+                        <path>/content-types/stack/assets/links/andy-wikipedia-link</path>
+                        <site>SA-FOOD</site>
+                        <name>andy-wikipedia-link</name>
+                    </link>
+                    <photo type="file">
                         <content/>
-                        <path>/_internal/redesign-base-assets/sa-main-stack/assets/600x600.jpeg</path>
-                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/assets/600x601.jpeg</link>
-                        <site>SA-MAIN</site>
-                        <name>600x600.jpeg</name>
+                        <path>/content-types/stack/assets/images/andy-singing.jpg</path>
+                        <link>site://SA-FOOD/content-types/stack/assets/images/andy-singing.jpg</link>
+                        <site>SA-FOOD</site>
+                        <name>andy-singing.jpg</name>
                     </photo>
-                    <photo-alt-text>1asdf</photo-alt-text>
-                    <title>asdf</title>
-                    <subtitle>dasf</subtitle>
-                    <description>adfs</description>
+                    <photo-alt-text>andy headshot</photo-alt-text>
+                    <title>Andy</title>
+                    <subtitle/>
+                    <description/>
                 </stack-section>
                 <stack-section>
-                    <link>http://www.google.com</link>
-                    <photo>
+                    <link type="page">
                         <content/>
-                        <path>/_internal/redesign-base-assets/sa-main-stack/assets/600x600.jpeg</path>
-                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/assets/600x602.jpeg</link>
-                        <site>SA-MAIN</site>
-                        <name>600x600.jpeg</name>
+                        <path>/scheduling/dates/index</path>
+                        <dynamic-metadata>
+                            <name>note</name>
+                        </dynamic-metadata>
+                        <link>site://SA-FOOD/scheduling/dates/index</link>
+                        <site>SA-FOOD</site>
+                        <name>index</name>
+                        <display-name>Dates</display-name>
+                        <title>Dates toward Redesign Deployment</title>
+                        <keywords>dates, scheduling, deployement, testing</keywords>
+                        <description>The next three weeks of work to be done before moving into
+                            production</description>
+                    </link>
+                    <photo type="file">
+                        <content/>
+                        <path>/content-types/stack/assets/images/ann-headshot.jpg</path>
+                        <link>site://SA-FOOD/content-types/stack/assets/images/ann-headshot.jpg</link>
+                        <site>SA-FOOD</site>
+                        <name>ann-headshot.jpg</name>
                     </photo>
-                    <photo-alt-text>2adsf</photo-alt-text>
-                    <title>asdf</title>
-                    <subtitle>asdf</subtitle>
-                    <description>asdf</description>
+                    <photo-alt-text>ann headshot</photo-alt-text>
+                    <title>Ann</title>
+                    <subtitle/>
+                    <description/>
                 </stack-section>
                 <stack-section>
-                    <link/>
-                    <photo>
+                    <link>
+                        <path>/</path>
+                    </link>
+                    <photo type="file">
                         <content/>
-                        <path>/_internal/redesign-base-assets/sa-main-stack/assets/600x600.jpeg</path>
-                        <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-stack/assets/600x603.jpeg</link>
-                        <site>SA-MAIN</site>
-                        <name>600x600.jpeg</name>
+                        <path>/content-types/stack/assets/images/ron-bowling.jpg</path>
+                        <link>site://SA-FOOD/content-types/stack/assets/images/ron-bowling.jpg</link>
+                        <site>SA-FOOD</site>
+                        <name>ron-bowling.jpg</name>
                     </photo>
-                    <photo-alt-text>3asdf</photo-alt-text>
-                    <title>aaaaasdf</title>
-                    <subtitle>bbbbasdf</subtitle>
-                    <description>cccccadsf</description>
+                    <photo-alt-text>ron headshot</photo-alt-text>
+                    <title>Ron</title>
+                    <subtitle/>
+                    <description/>
                 </stack-section>
             </system-data-structure>
         </system-page>

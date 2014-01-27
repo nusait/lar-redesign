@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system-data-structure>
+    <departments>
+        <link-item>
+            <label>Assessment</label>
+            <url>http://www.northwestern.edu/studentaffairs/assessment/index.html</url>
+        </link-item>
+        <link-item>
+            <label>African American Student Affairs (AASA)</label>
+            <url>http://www.northwestern.edu/msa/our-departments/aasa/</url>
+        </link-item>
+        <link-item>
+            <label>Asian/Asian American Student Affairs (A/AASA)</label>
+            <url>http://www.northwestern.edu/msa/our-departments/a-aasa/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Auxiliary Services</label>
+            <url>http://www.northwestern.edu/studentaffairs/avp-as/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Campus Inclusion and Community</label>
+            <url>http://www.northwestern.edu/inclusion/</url>
+        </link-item>
+        <link-item>
+            <label>Center for Awareness, Response, and Education (CARE)</label>
+            <url>http://www.northwestern.edu/care/get-help/report-to-police.html</url>
+        </link-item>
+        <link-item>
+            <label>Center for Student Involvement (CSI)</label>
+            <url>http://www.norris.northwestern.edu/csi/</url>
+        </link-item>
+        <link-item>
+            <label>Counseling &amp; Psychological Services (CAPS)</label>
+            <url>http://www.northwestern.edu/counseling/</url>
+        </link-item>
+        <link-item>
+            <label>Dean of Students Office</label>
+            <url>http://www.northwestern.edu/studentaffairs/dos/</url>
+        </link-item>
+        <link-item>
+            <label>Food Service</label>
+            <url>http://www.nucuisine.com/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Health Promotion and Wellness</label>
+            <url>http://www.nuhs.northwestern.edu/evanston/ed/Default.aspx</url>
+        </link-item>
+        <link-item>
+            <label>Health Service/Chicago</label>
+            <url>http://www-chicago.nuhs.northwestern.edu/</url>
+        </link-item>
+        <link-item>
+            <label>Hispanic/Latino Student Affairs (H/LSA)</label>
+            <url>http://www.northwestern.edu/msa/our-departments/hlsa/index.html</url>
+        </link-item>
+        <link-item>
+            <label>LGBT Resource Center</label>
+            <url>http://www.northwestern.edu/msa/our-departments/lgbt/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Multicultural Student Affairs</label>
+            <url>http://www.northwestern.edu/msa/</url>
+        </link-item>
+        <link-item>
+            <label>New Student and Family Programs (NSFP)</label>
+            <url>http://www.northwestern.edu/orientation/</url>
+        </link-item>
+        <link-item>
+            <label>Norris University Center</label>
+            <url>http://www.norris.northwestern.edu/</url>
+        </link-item>
+        <link-item>
+            <label>NU Help</label>
+            <url>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Off-Campus Life</label>
+            <url>http://www.northwestern.edu/offcampus/</url>
+        </link-item>
+        <link-item>
+            <label>Office of Fraternity &amp; Sorority life (OFSL)</label>
+            <url>http://www.northwestern.edu/gogreek/</url>
+        </link-item>
+        <link-item>
+            <label>Religious Life</label>
+            <url>http://www.northwestern.edu/religious-life/</url>
+        </link-item>
+        <link-item>
+            <label>Residential Services</label>
+            <url>http://www.northwestern.edu/living/</url>
+        </link-item>
+        <link-item>
+            <label>SafeRide</label>
+            <url>http://www.northwestern.edu/saferide/</url>
+        </link-item>
+        <link-item>
+            <label>Services for Students with Disabilities (SSD)</label>
+            <url>http://www.northwestern.edu/disability/</url>
+        </link-item>
+        <link-item>
+            <label>Student Affairs Information Technology</label>
+            <url>http://www.northwestern.edu/studentaffairs/sait/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Students Conduct &amp; Conflict Resolution</label>
+            <url>http://www.northwestern.edu/student-conduct/</url>
+        </link-item>
+        <link-item>
+            <label>Student Engagement</label>
+            <url>http://www.northwestern.edu/studentaffairs/avp-se/index.html#todo</url>
+        </link-item>
+        <link-item>
+            <label>University Career Services</label>
+            <url>http://www.northwestern.edu/careers/</url>
+        </link-item>
+        <link-item>
+            <label>Vice President's Office</label>
+            <url>http://www.northwestern.edu/studentaffairs/vice-president/index.html</url>
+        </link-item>
+    </departments>
+    <topics>
+        <link-item>
+            <label>Career Planning</label>
+            <url>http://www.northwestern.edu/careers/</url>
+        </link-item>
+        <link-item>
+            <label>Commencement</label>
+            <url>http://www.northwestern.edu/commencement/</url>
+        </link-item>
+        <link-item>
+            <label>Diversity and Inclusion</label>
+            <url>http://www.northwestern.edu/inclusion/</url>
+        </link-item>
+        <link-item>
+            <label>Events Calendar</label>
+            <url>http://planitpurple.northwestern.edu/feed/html/447</url>
+        </link-item>
+        <link-item>
+            <label>First Year Experience</label>
+            <url>http://www.northwestern.edu/orientation/fye/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Food Service</label>
+            <url>http://www.northwestern.edu/studentaffairs/food/</url>
+        </link-item>
+        <link-item>
+            <label>Giving</label>
+            <url>http://www.northwestern.edu/studentaffairs/vice-president/giving.html</url>
+        </link-item>
+        <link-item>
+            <label>Involvement</label>
+            <url>http://www.northwestern.edu/studentaffairs/csi/</url>
+        </link-item>
+        <link-item>
+            <label>Learning Outcomes</label>
+            <url>http://www.norris.northwestern.edu/jobs2/learning/</url>
+        </link-item>
+        <link-item>
+            <label>Living at NU</label>
+            <url>http://www.northwestern.edu/living/</url>
+        </link-item>
+        <link-item>
+            <label>NU Help</label>
+            <url>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Strategic Plan</label>
+            <url>http://www.northwestern.edu/studentaffairs/strategic-plan/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Sustainability</label>
+            <url>http://www.northwestern.edu/sustainability/</url>
+        </link-item>
+        <link-item>
+            <label>Wildcat Welcome</label>
+            <url>http://www.northwestern.edu/orientation/incoming-students/wildcat-welcome/index.html</url>
+        </link-item>
+    </topics>
+    <community>
+        <link-item>
+            <label>Alumni</label>
+            <url>http://www.northwestern.edu/alumni/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Family</label>
+            <url>http://www.northwestern.edu/studentaffairs/parents-families/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Graduate/Professional Students</label>
+            <url>http://www.northwestern.edu/gradhousing/</url>
+        </link-item>
+        <link-item>
+            <label>New Students</label>
+            <url>http://www.northwestern.edu/orientation/</url>
+        </link-item>
+        <link-item>
+            <label>Staff/Faculty</label>
+            <url>http://www.northwestern.edu/faculty-and-staff/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Students</label>
+            <url>http://www.northwestern.edu/studentaffairs/students/index.html</url>
+        </link-item>
+        <link-item>
+            <label>Division Staff</label>
+            <url>http://www.northwestern.edu/studentaffairs/staff/index.html</url>
+        </link-item>
+    </community>
+    <nuhelp>
+        <link-item>
+            <label>Immediate Assistance</label>
+            <url>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html#gethelp</url>
+        </link-item>
+        <link-item>
+            <label>Safety and Security</label>
+            <url>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html#safety</url>
+        </link-item>
+        <link-item>
+            <label>Well Being &amp; Health</label>
+            <url>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html#wellbeing</url>
+        </link-item>
+        <link-item>
+            <label>Academic Resources and Support</label>
+            <url>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html#academic</url>
+        </link-item>
+    </nuhelp>
+</system-data-structure>

@@ -23,7 +23,7 @@
                                 </xsl:choose>
                             </xsl:attribute>
                             <xsl:for-each
-                                select="big-list/content/system-data-structure">
+                                select="big-list/content/planitpurple | big-list/content/system-data-structure">
                                 <xsl:variable name="class">
                                     <xsl:text>big-list-region</xsl:text>
                                     <!--<xsl:if test="count(content-type-twitter-block) &gt; 0">
@@ -35,7 +35,7 @@
                                         <xsl:when test="count(content-type-twitter-block) &gt; 0">
                                             <xsl:call-template name="twitter"/>
                                         </xsl:when>
-                                        <xsl:when test="count(pip-feed) &gt; 0">
+                                        <xsl:when test="name(.) = 'planitpurple'">
                                             <xsl:call-template name="planitpurple"/>
                                         </xsl:when>
                                     </xsl:choose>
@@ -97,7 +97,7 @@
     </xsl:template>
     <xsl:template name="planitpurple">
         <xsl:variable name="full-calendar-href">
-            <xsl:value-of select="full-calendar"/>
+            <xsl:value-of select="event[1]/group/url"/>
         </xsl:variable>
         <div class="big-list events-container">
             <h2 class="mobile-heading" id="main-events">Events</h2>
@@ -105,7 +105,7 @@
                 <xsl:text>&#160;</xsl:text>
             </div>
             <div aria-labelledby="main-events" class="events">
-                <xsl:for-each select="pip-feed/content/planitpurple/event">
+                <xsl:for-each select="event">
                     <xsl:if test="position() &lt; 5">
                         <a class="event-item" href="{ppurl}">
                             <div class="event-date">

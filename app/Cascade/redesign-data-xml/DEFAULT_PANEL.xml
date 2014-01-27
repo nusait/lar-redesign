@@ -1,216 +1,206 @@
-<system-index-block current-time="1389367036413" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1390582132520" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="78d2fe2f8169775b5c17821b97a663a7">
-            <name>index</name>
+        <system-page current="true" id="c2168955a57c421a3e6ea3fecee17009">
+            <name>dosa</name>
             <is-published>true</is-published>
-            <title>Aliquam sit amet mauris</title>
-            <keywords>some, keywords, to, include</keywords>
-            <description>Change me as this is a generic description for homepages</description>
-            <display-name>Aliquam sit</display-name>
-            <path>/index</path>
-            <site>SA-MAIN</site>
-            <link>site://SA-MAIN/index</link>
-            <created-by>cew904</created-by>
-            <created-on>1389301530016</created-on>
+            <title>Welcome to Student Affairs</title>
+            <keywords>northwestern, student affairs</keywords>
+            <description>Homepage for the Student Affairs Division</description>
+            <display-name>Student Affairs</display-name>
+            <path>/dosa</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/dosa</link>
+            <created-by>osi706</created-by>
+            <created-on>1390530693298</created-on>
             <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389301530016</last-modified>
+            <last-modified>1390581605170</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
             <system-data-structure definition-path="Redesign/Panel Page Form">
-                <content-type>panel</content-type>
-                <panel>
-                    <carousel-image-set>
-                        <carousel-section>
-                            <label>Trees Improve Our Lives</label>
-                            <photo>
-                                <content/>
-                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</path>
-                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</link>
-                                <site>SA-MAIN</site>
-                                <name>trees-carousel.jpeg</name>
-                            </photo>
-                            <alt>row of trees on fall day</alt>
-                            <link>http://google.com</link>
-                        </carousel-section>
-                        <carousel-section>
-                            <label>Bread Made Fresh</label>
-                            <photo>
-                                <content/>
-                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</path>
-                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</link>
-                                <site>SA-MAIN</site>
-                                <name>bread-carousel.jpeg</name>
-                            </photo>
-                            <alt>loaf of baked break</alt>
-                            <link>http://google.com</link>
-                        </carousel-section>
-                    </carousel-image-set>
-                    <event-set>
-                        <event>
-                            <title>Winter Job &amp; Internship Fair</title>
-                            <date>01-09-2014</date>
-                            <location>Norris 2nd Floor</location>
-                            <link>http://planitpurple.northwestern.edu/event/445957</link>
-                        </event>
-                        <event>
-                            <title>NU Women's Basketball vs. Purdue</title>
-                            <date>01-09-2014</date>
-                            <location>Welsh-Ryan Arena</location>
-                            <link>http://planitpurple.northwestern.edu/event/450274</link>
-                        </event>
-                        <event>
-                            <title>Soul On Ice Norris Ice Rink</title>
-                            <date>01-10-2014</date>
-                            <location>Norris-Ice Rink</location>
-                            <link>http://planitpurple.northwestern.edu/event/451491</link>
-                        </event>
-                        <event>
-                            <title>Winter Chamber Music Festival: Miró Quartet with Shai Wosner,
-                                piano</title>
-                            <date>01-10-2014</date>
-                            <location>Pick-Staiger Concert Hall</location>
-                            <link>http://planitpurple.northwestern.edu/event/450130</link>
-                        </event>
-                    </event-set>
-                    <quick-link-set>
-                        <heading>Quick Links</heading>
-                        <section>
-                            <label>Bicycles</label>
-                            <photo>
-                                <content/>
-                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</path>
-                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</link>
-                                <site>SA-MAIN</site>
-                                <name>bike-ql.jpeg</name>
-                            </photo>
-                            <alt>People riding tandem bicycle</alt>
-                            <internal-link>
-                                <path>/</path>
-                            </internal-link>
-                            <external-link>
-                                <content>
-                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                                </content>
-                                <path>/_common/career-cat-external-link</path>
-                                <site>SA-MAIN</site>
-                                <name>career-cat-external-link</name>
-                            </external-link>
-                        </section>
-                        <section>
-                            <label>Exercise</label>
-                            <photo>
-                                <content/>
-                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</path>
-                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</link>
-                                <site>SA-MAIN</site>
-                                <name>karate-ql.jpeg</name>
-                            </photo>
-                            <alt>Man kicking the sky</alt>
-                            <internal-link>
-                                <path>/</path>
-                            </internal-link>
-                            <external-link>
-                                <content>
-                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                                </content>
-                                <path>/_common/career-cat-external-link</path>
-                                <site>SA-MAIN</site>
-                                <name>career-cat-external-link</name>
-                            </external-link>
-                        </section>
-                        <section>
-                            <label>Racing</label>
-                            <photo>
-                                <content/>
-                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</path>
-                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</link>
-                                <site>SA-MAIN</site>
-                                <name>motorcycle-ql.jpeg</name>
-                            </photo>
-                            <alt>Motorcycle racing around dirt track</alt>
-                            <internal-link>
-                                <path>/</path>
-                            </internal-link>
-                            <external-link>
-                                <content>
-                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                                </content>
-                                <path>/_common/career-cat-external-link</path>
-                                <site>SA-MAIN</site>
-                                <name>career-cat-external-link</name>
-                            </external-link>
-                        </section>
-                        <section>
-                            <label>Scenery</label>
-                            <photo>
-                                <content/>
-                                <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</path>
-                                <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</link>
-                                <site>SA-MAIN</site>
-                                <name>sunset-ql.jpeg</name>
-                            </photo>
-                            <alt>beautiful sunset</alt>
-                            <internal-link>
-                                <path>/</path>
-                            </internal-link>
-                            <external-link>
-                                <content>
-                                    <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                                </content>
-                                <path>/_common/career-cat-external-link</path>
-                                <site>SA-MAIN</site>
-                                <name>career-cat-external-link</name>
-                            </external-link>
-                        </section>
-                    </quick-link-set>
-                </panel>
-                <main-content>
-                    <p>
-                        <span>Consider this: Since Congress named </span>
-                        <a href="http://www.nps.gov/yell/index.htm">Yellowstone</a>
-                        <span> the first national park in 1872, it has conferred this prized title
-                            on only 58 other sites. And most, including the </span>
-                        <a href="http://www.nps.gov/grca/index.htm">Grand Canyon</a>
-                        <span>, received lesser designations, like national monument, long before
-                            they officially became parks. The most recent national park — </span>
-                        <a href="http://www.nps.gov/pinn/index.htm">Pinnacles,</a>
-                        <span> in California — was so designated in January, after being named a
-                            national monument in 1908.</span>
-                    </p>
-                    <p>
-                        <span>
-                            <span>The </span>
-                            <a
-                                href="http://www.nps.gov/history/history/hisnps/NPSHistory/philanthropy.HTM"
-                                >grand philanthropic gestures</a>
-                            <span> of families like the Rockefellers and Mellons, who helped build
-                                and expand the national parks, are now few and far between, and even
-                                for them it was not always easy. John D. Rockefeller Jr. </span>
-                            <a href="http://www.nps.gov/grte/planyourvisit/upload/creation.pdf"
-                                >spent three torturous decades</a>
-                            <span> trying to overcome local opposition so he could add land
-                                to </span>
-                            <a href="http://www.nps.gov/grte/index.htm">Grand Teton National
-                                Park</a>
-                            <span>.</span>
-                        </span>
-                    </p>
-                </main-content>
-                <side-title>Minor Title</side-title>
-                <side-content>
-                    <p>
-                        <span>Here in the Maine woods, Ms. Quimby is flush with land she acquired
-                            after co-founding and later selling Burt’s Bees, the skin-care company
-                            known for its lip balm. She ranks 88th on the </span>
-                        <a
-                            href="http://fayranches.com/sites/default/files/2013_land_report_100_sponsored_by_fay_ranches.pdf"
-                            >Land Report’s 2013 list</a>
-                        <span> of the nation’s 100 largest landowners and has been trying to
-                            establish a national park for years by giving away more than 100,000
-                            acres to the federal government.</span>
-                    </p>
-                </side-content>
+                <content-type-panel>
+                    <value>Yes</value>
+                </content-type-panel>
+                <panel-container>
+                    <big-list type="block">
+                        <content>
+                            <system-data-structure>
+                                <full-calendar>http://planitpurple.northwestern.edu/calendar/2686</full-calendar>
+                                <pip-feed type="block">
+                                    <content>
+                                        <planitpurple>
+                                            <event>
+                                                <title>My Awesome Event</title>
+                                                <date>January 24, 2014</date>
+                                                <time/>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-01-24
+                                                  00:00</isodate>
+                                                <location>Evanston</location>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                                <address>
+				<building_name>Searle Hall</building_name>
+				<address_1>633 Emerson Street</address_1>
+				<address_2/>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                                <contact>
+                                                  <name>Christopher Edward Walker</name>
+                                                  <email>cewalker@northwestern.edu</email>
+                                                  <phone>8474670846</phone>
+                                                </contact>
+                                                <group>
+                                                  <name>Division of Student Affairs Calendar</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/2686</url>
+                                                </group>
+                                                <externalurl/>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/452300</ppurl>
+                                                <event_category_id>7</event_category_id>
+                                                <category-name>Other</category-name>
+                                                <last_modified>January 23, 2014</last_modified>
+                                                <audience>Student</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>myDescription</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                            <event>
+                                                <title>Harambee</title>
+                                                <date>January 24, 2014</date>
+                                                <time>6:00 PM - 9:00 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-01-24
+                                                  18:00</isodate>
+                                                <location>Evanston</location>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
+                                                <address>
+				<building_name>Norris University Center</building_name>
+				<address_1>1999 Campus Drive</address_1>
+				<address_2>Louis Room</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                                <contact>
+                                                  <name>Charles kellom</name>
+                                                  <email>aasa@northwestern.edu</email>
+                                                  <phone>8474913610</phone>
+                                                </contact>
+                                                <group>
+                                                  <name>African American Student Affairs</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/2578</url>
+                                                </group>
+                                                <externalurl>http://www.northwestern.edu/msa/our-departments/aasa/calendar/aasa
+                                                  upcoming events/index.html</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/448299</ppurl>
+                                                <event_category_id>10</event_category_id>
+                                                <category-name>Multicultural &amp;
+                                                  Diversity</category-name>
+                                                <last_modified>January 23, 2014</last_modified>
+                                                <audience>Faculty/Staff</audience>
+                                                <audience>Student</audience>
+                                                <audience>Public</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>Swahili for “pull together,” Harambee
+                                                  is the annual kick-off event for Black History
+                                                  Month. It's co-sponsored by AASA and For Members
+                                                  Only: NU's Black Student Alliance. Come and enjoy
+                                                  free food, performances, and the presentation of
+                                                  this year’s Gardner/Exum Scholarship
+                                                  winners.</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                            <event>
+                                                <title>Safe Space Training: Students</title>
+                                                <date>February 11, 2014</date>
+                                                <time>3:00 PM - 5:00 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-02-11
+                                                  15:00</isodate>
+                                                <location>Evanston</location>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
+                                                <address>
+				<building_name>Norris University Center</building_name>
+				<address_1>1999 Campus Drive</address_1>
+				<address_2>Big Ten Room</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                                <contact>
+                                                  <name>Colleen Keefe</name>
+                                                  <email>c-keefe@northwestern.edu</email>
+                                                  <phone>+1 847 467 6200</phone>
+                                                </contact>
+                                                <group>
+                                                  <name>LGBT Resource Center</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/1169</url>
+                                                </group>
+                                                <externalurl>http://www.northwestern.edu/msa/our-departments/lgbt/training/index.html</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/450624</ppurl>
+                                                <event_category_id>10</event_category_id>
+                                                <category-name>Multicultural &amp;
+                                                  Diversity</category-name>
+                                                <last_modified>December 10, 2013</last_modified>
+                                                <audience>Student</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>The Safe Space Ally Workshops are the
+                                                  LGBT Resource Center's initiative to educate
+                                                  people who support LGBTQ individuals within our
+                                                  campus and global community. The workshops are
+                                                  divided into two, two-hour sessions: Part I-
+                                                  Creating Affirming Spaces and Part II- Ally
+                                                  Development. Unlike more visible under-represented
+                                                  groups, lesbian, gay, bisexual,transgender, and
+                                                  queer identified (LGBTQ) persons cannot be readily
+                                                  identified. Likewise, there is no easy method of
+                                                  identifying persons supportive of LGBTQ
+                                                  people. The Safe Space Ally Workshop strives to
+                                                  provide a way for Allies, no matter their sexual
+                                                  orientation or gender identity, within the
+                                                   Northwestern University community to prominently
+                                                  identify themselves. The program advances NU's
+                                                  goal of creating a campus community in which
+                                                  everyone is treated with respect and dignity and
+                                                  may participate holistically in the collegiate
+                                                  experience. Please consider this your invitation
+                                                  to participate.</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                        </planitpurple>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel1/events/CAPS PiP
+                                        Calendar Feed</path>
+                                    <site>SA-FOOD</site>
+                                    <name>CAPS PiP Calendar Feed</name>
+                                </pip-feed>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/dosa-homepage/panel1/events/dosa-pip-feed-block</path>
+                        <site>SA-FOOD</site>
+                        <name>dosa-pip-feed-block</name>
+                    </big-list>
+                    <rich-extra>
+                        <path>/</path>
+                    </rich-extra>
+                    <q-links>
+                        <path>/</path>
+                    </q-links>
+                </panel-container>
+                <panel-container>
+                    <big-list>
+                        <path>/</path>
+                    </big-list>
+                    <rich-extra>
+                        <path>/</path>
+                    </rich-extra>
+                    <q-links>
+                        <path>/</path>
+                    </q-links>
+                </panel-container>
+                <text-container>
+                    <main-content/>
+                    <side-title/>
+                    <side-content/>
+                </text-container>
             </system-data-structure>
         </system-page>
     </calling-page>

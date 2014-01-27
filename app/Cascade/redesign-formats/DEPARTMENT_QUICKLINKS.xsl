@@ -1,24 +1,25 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
     <xsl:output method="xml" omit-xml-declaration="yes" indent="yes"/>
-    <xsl:template match="system-index-block">
+    <xsl:template match="/">
         <div class="dept-quick-links-outer">
             <div class="dept-quick-links-container">
-                <xsl:for-each
-                    select="system-page/system-data-structure[panel]">
+                <xsl:for-each select="system-data-structure">
                     <!-- will only be one of such above homepages -->
                     <nav class="dept-quick-links">
                         <div class="dept-quick-links-title">
-                            <xsl:value-of select="panel/quick-link-set/heading"/>
+                            <xsl:value-of select="heading"/>
                         </div>
-                        <xsl:for-each select="panel/quick-link-set/section">
+                        <xsl:for-each select="section">
                             <xsl:variable name="href">
                                 <xsl:choose>
-                                    <xsl:when test="internal-link/link">
-                                        <xsl:value-of select="internal-link/link"/>
+                                    <xsl:when test="link[@type='page']">
+                                        <xsl:value-of select="link/link"/>
                                     </xsl:when>
-                                    <xsl:when test="external-link/content/system-symlink">
-                                        <xsl:value-of select="external-link/content/system-symlink"
-                                        />
+                                    <xsl:when test="link[@type='file']">
+                                        <xsl:value-of select="link/link"/>
+                                    </xsl:when>
+                                    <xsl:when test="link[@type='symlink']">
+                                        <xsl:value-of select="link/content/system-symlink"/>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         <xsl:text>http://www.example.com/</xsl:text>
