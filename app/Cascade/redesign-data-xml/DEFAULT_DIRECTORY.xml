@@ -1,0 +1,1197 @@
+<system-index-block current-time="1390874514142" name="ANYSITE-current-and-forward" type="folder">
+    <system-page id="c2168955a57c421a3e6ea3fecee17009">
+        <name>dosa</name>
+        <is-published>true</is-published>
+        <last-published-on>1390593350086</last-published-on>
+        <last-published-by>osi706</last-published-by>
+        <title>Welcome to Student Affairs</title>
+        <keywords>northwestern, student affairs</keywords>
+        <description>Homepage for the Student Affairs Division</description>
+        <display-name>Student Affairs</display-name>
+        <path>/dosa</path>
+        <site>SA-FOOD</site>
+        <link>site://SA-FOOD/dosa</link>
+        <created-by>osi706</created-by>
+        <created-on>1390530693298</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1390586070855</last-modified>
+        <dynamic-metadata>
+            <name>note</name>
+        </dynamic-metadata>
+        <system-data-structure definition-path="Redesign/Panel Page Form">
+            <content-type-panel>
+                <value>Yes</value>
+            </content-type-panel>
+            <panel-container>
+                <big-list type="block">
+                    <content>
+                        <system-data-structure>
+                            <full-calendar>http://planitpurple.northwestern.edu/calendar/2686</full-calendar>
+                            <pip-feed type="block">
+                                <content>
+                                    <planitpurple>
+                                        <event>
+                                            <title>Safe Space Training: Students</title>
+                                            <date>February 11, 2014</date>
+                                            <time>3:00 PM - 5:00 PM</time>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-02-11
+                                                15:00</isodate>
+                                            <location>Evanston</location>
+                                            <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
+                                            <address>
+				<building_name>Norris University Center</building_name>
+				<address_1>1999 Campus Drive</address_1>
+				<address_2>Big Ten Room</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                            <contact>
+                                                <name>Colleen Keefe</name>
+                                                <email>c-keefe@northwestern.edu</email>
+                                                <phone>+1 847 467 6200</phone>
+                                            </contact>
+                                            <group>
+                                                <name>LGBT Resource Center</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/1169</url>
+                                            </group>
+                                            <externalurl>http://www.northwestern.edu/msa/our-departments/lgbt/training/index.html</externalurl>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/450624</ppurl>
+                                            <event_category_id>10</event_category_id>
+                                            <category-name>Multicultural &amp;
+                                                Diversity</category-name>
+                                            <last_modified>December 10, 2013</last_modified>
+                                            <audience>Student</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description>The Safe Space Ally Workshops are the LGBT
+                                                Resource Center's initiative to educate people who
+                                                support LGBTQ individuals within our campus and
+                                                global community. The workshops are divided into
+                                                two, two-hour sessions: Part I- Creating Affirming
+                                                Spaces and Part II- Ally Development. Unlike more
+                                                visible under-represented groups, lesbian, gay,
+                                                bisexual,transgender, and queer identified (LGBTQ)
+                                                persons cannot be readily identified. Likewise,
+                                                there is no easy method of identifying persons
+                                                supportive of LGBTQ people. The Safe Space Ally
+                                                Workshop strives to provide a way for Allies, no
+                                                matter their sexual orientation or gender
+                                                identity, within the  Northwestern University
+                                                community to prominently identify themselves. The
+                                                program advances NU's goal of creating a campus
+                                                community in which everyone is treated with respect
+                                                and dignity and may participate holistically in the
+                                                collegiate experience. Please consider this your
+                                                invitation to participate.</description>
+                                            <recurring>0</recurring>
+                                        </event>
+                                        <event>
+                                            <title>Custom SA Event</title>
+                                            <date>February 13, 2014</date>
+                                            <time/>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-02-13
+                                                00:00</isodate>
+                                            <location>Evanston</location>
+                                            <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                            <address>
+				<building_name>Searle Hall</building_name>
+				<address_1>633 Emerson Street</address_1>
+				<address_2/>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                            <contact>
+                                                <name>Christopher Edward Walker</name>
+                                                <email>cewalker@example.com</email>
+                                                <phone/>
+                                            </contact>
+                                            <group>
+                                                <name>Division of Student Affairs Calendar</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/2686</url>
+                                            </group>
+                                            <externalurl/>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/452300</ppurl>
+                                            <event_category_id>7</event_category_id>
+                                            <category-name>Other</category-name>
+                                            <last_modified>January 24, 2014</last_modified>
+                                            <audience>Student</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description>myDescription</description>
+                                            <recurring>0</recurring>
+                                        </event>
+                                        <event>
+                                            <title>Mindfulness for Attention Problems - Evanston
+                                                Campus</title>
+                                            <date>February 17, 2014</date>
+                                            <time>1:00 PM - 2:00 PM</time>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-02-17
+                                                13:00</isodate>
+                                            <location>Evanston</location>
+                                            <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                            <address>
+				<building_name>Searle Hall</building_name>
+				<address_1>633 Emerson Street</address_1>
+				<address_2>3rd Fl, Rm. 3-226</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                            <contact>
+                                                <name>Courtney Albinson</name>
+                                                <email>c-albinson@northwestern.edu</email>
+                                                <phone>8474912151</phone>
+                                            </contact>
+                                            <group>
+                                                <name>Counseling and Psychological Services</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                            </group>
+                                            <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/43</externalurl>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/451082</ppurl>
+                                            <event_category_id>5</event_category_id>
+                                            <category-name>Lectures &amp; Meetings</category-name>
+                                            <last_modified>December 23, 2013</last_modified>
+                                            <audience>Student</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description>This workshop is designed for students who
+                                                struggle with distractibility, concentration, or
+                                                have trouble planning or completing work
+                                                assignments. Workshop participants will be
+                                                introduced to several evidence-based Mindful
+                                                Awareness Practices that have been shown to rewire
+                                                regions of the brain responsible for short-term
+                                                memory, attention, and concentration. Evanston Times
+                                                and Locations: Location: Searle Hall, 3rd Fl, Rm.
+                                                3-226, 633 Emerson St. Times: Mondays, 1:00 p.m. to
+                                                2:00 p.m (A four-part workshop series.) Group
+                                                I: January 13, 27, February 3, 10 Group II: February
+                                                17, 24, March 3, 10 For more information and
+                                                registration, go
+                                                to: https://go.dosa.northwestern.edu/caps_workshops/workshops
+                                                [https://go.dosa.northwestern.edu/caps_workshops/workshops] </description>
+                                            <recurring>7992</recurring>
+                                        </event>
+                                        <event>
+                                            <title>Last day to file ugrad financial aid applications
+                                                for Spring Quarter</title>
+                                            <date>March 3, 2014</date>
+                                            <time/>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-03-03
+                                                00:00</isodate>
+                                            <location>No Location</location>
+                                            <locationurl/>
+                                            <address>
+				<building_name/>
+				<address_1/>
+				<address_2/>
+				<city/>
+				<state/>
+				<zip/>
+			</address>
+                                            <contact>
+                                                <name>Office of the Registrar</name>
+                                                <email>nu-registrar@northwestern.edu</email>
+                                                <phone>(847)491-5234</phone>
+                                            </contact>
+                                            <group>
+                                                <name>University Academic Calendar</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/33</url>
+                                            </group>
+                                            <externalurl/>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/443789</ppurl>
+                                            <event_category_id>1</event_category_id>
+                                            <category-name>Academic</category-name>
+                                            <last_modified>May 10, 2013</last_modified>
+                                            <audience>Faculty/Staff</audience>
+                                            <audience>Student</audience>
+                                            <audience>Public</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description/>
+                                            <recurring>0</recurring>
+                                        </event>
+                                    </planitpurple>
+                                </content>
+                                <path>/shared-assets/dosa-homepage/panel1/events/dosa-pip-calendar-feed</path>
+                                <site>SA-FOOD</site>
+                                <name>dosa-pip-calendar-feed</name>
+                            </pip-feed>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/dosa-homepage/panel1/events/dosa-pip-feed-block</path>
+                    <site>SA-FOOD</site>
+                    <name>dosa-pip-feed-block</name>
+                </big-list>
+                <rich-extra type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-carousel-block>
+                                <value>Yes</value>
+                            </content-type-carousel-block>
+                            <carousel-section>
+                                <label>Black History Month</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel1/carousel/images/front-picture-martin-luther-king-jr.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel1/carousel/images/front-picture-martin-luther-king-jr.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>front-picture-martin-luther-king-jr.jpg</name>
+                                </photo>
+                                <alt>contemplative martin luther king with hands intertwined</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/msa/our-departments/aasa/bhm.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel1/carousel/links/black-history-month-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>black-history-month-link</name>
+                                </link>
+                            </carousel-section>
+                            <carousel-section>
+                                <label>Harambee Celebration!</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel1/carousel/images/Harambee-2012.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel1/carousel/images/Harambee-2012.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>Harambee-2012.jpg</name>
+                                </photo>
+                                <alt>people walking in parade smiling</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/msa/our-departments/aasa/calendar/aasa%20upcoming%20events/index.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel1/carousel/links/harambee-celebration-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>harambee-celebration-link</name>
+                                </link>
+                            </carousel-section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/dosa-homepage/panel1/carousel/dosa-carousel-block</path>
+                    <site>SA-FOOD</site>
+                    <name>dosa-carousel-block</name>
+                </rich-extra>
+                <q-links type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-quick-links-block>
+                                <value>Yes</value>
+                            </content-type-quick-links-block>
+                            <heading>Quick Links</heading>
+                            <section>
+                                <label>Mission</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/images/mission1.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel1/quick-links/images/mission1.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>mission1.jpg</name>
+                                </photo>
+                                <alt>staff discussing priorities during meeting</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/strategic-plan/vision-mission.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/links/vision-mission-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>vision-mission-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Nuhelp</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/images/nuhelp1.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel1/quick-links/images/nuhelp1.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>nuhelp1.jpg</name>
+                                </photo>
+                                <alt>two students with supportive hands</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/dos/nu-help/index.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/links/nuhelp-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>nuhelp-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Social</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/images/social1.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel1/quick-links/images/social1.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>social1.jpg</name>
+                                </photo>
+                                <alt>Hand holding up iPhone</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/students/social-media.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/links/social-media-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>social-media-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Giving</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/images/giving1.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel1/quick-links/images/giving1.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>giving1.jpg</name>
+                                </photo>
+                                <alt>Gift wrapped with bow</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/giving.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel1/quick-links/links/giving-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>giving-link</name>
+                                </link>
+                            </section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/dosa-homepage/panel1/quick-links/quick-links-block</path>
+                    <site>SA-FOOD</site>
+                    <name>quick-links-block</name>
+                </q-links>
+            </panel-container>
+            <panel-container>
+                <big-list type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-twitter-block>
+                                <value>Yes</value>
+                            </content-type-twitter-block>
+                            <twitter-link>
+                                <href>https://twitter.com/StudentAffNU</href>
+                                <data-widget-id>381608580614336512</data-widget-id>
+                            </twitter-link>
+                            <twitter-link>
+                                <href>https://twitter.com/StudentAffNU</href>
+                                <data-widget-id>381609572332363776</data-widget-id>
+                            </twitter-link>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/dosa-homepage/panel2/twitter/twitter-block</path>
+                    <site>SA-FOOD</site>
+                    <name>twitter-block</name>
+                </big-list>
+                <rich-extra type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-blog-block>
+                                <value>Yes</value>
+                            </content-type-blog-block>
+                            <url>https://studentaffairsnu.wordpress.com/</url>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/dosa-homepage/panel2/blog/blog-block</path>
+                    <site>SA-FOOD</site>
+                    <name>blog-block</name>
+                </rich-extra>
+                <q-links type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-quick-links-block>
+                                <value>Yes</value>
+                            </content-type-quick-links-block>
+                            <heading>Office</heading>
+                            <section>
+                                <label>Vice President</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/images/vice_president.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel2/office-quick-links/images/vice_president.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>vice_president.jpg</name>
+                                </photo>
+                                <alt>Patricia Telles-Irvine Headshot</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/index.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/links/vice-president-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>vice-president-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Dean of Students</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/images/dean_of_students.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel2/office-quick-links/images/dean_of_students.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>dean_of_students.jpg</name>
+                                </photo>
+                                <alt>Todd Adams headshot</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/dos/</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/links/dos-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>dos-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Student Services</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/images/auxiliary.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel2/office-quick-links/images/auxiliary.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>auxiliary.jpg</name>
+                                </photo>
+                                <alt>Julie Kirchmeier headshot</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/avp-as/index.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/links/avp-as-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>avp-as-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Student Engagement</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/images/engagement.jpg</path>
+                                    <link>site://SA-FOOD/shared-assets/dosa-homepage/panel2/office-quick-links/images/engagement.jpg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>engagement.jpg</name>
+                                </photo>
+                                <alt>Burgie Howard headshot</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.northwestern.edu/studentaffairs/avp-se/index.html</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/links/avp-se-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>avp-se-link</name>
+                                </link>
+                            </section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/dosa-homepage/panel2/office-quick-links/quick-links-block</path>
+                    <site>SA-FOOD</site>
+                    <name>quick-links-block</name>
+                </q-links>
+            </panel-container>
+            <text-container>
+                <main-content/>
+                <side-title/>
+                <side-content/>
+            </text-container>
+        </system-data-structure>
+    </system-page>
+    <system-page id="9805a16fa57c421a6edd9715b97d68ff">
+        <name>index</name>
+        <is-published>true</is-published>
+        <last-published-on>1390622004477</last-published-on>
+        <last-published-by>cew904</last-published-by>
+        <title>Welcome to Food Service</title>
+        <keywords>food, eating, northwestern, students, dining</keywords>
+        <description>You will never go hungry with all the excellent choices provided by NU Food
+            Services!</description>
+        <display-name>Food Service</display-name>
+        <path>/index</path>
+        <site>SA-FOOD</site>
+        <link>site://SA-FOOD/index</link>
+        <created-by>cew904</created-by>
+        <created-on>1389824942272</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1390621930221</last-modified>
+        <dynamic-metadata>
+            <name>note</name>
+        </dynamic-metadata>
+        <system-data-structure definition-path="Redesign/Panel Page Form">
+            <content-type-panel>
+                <value>Yes</value>
+            </content-type-panel>
+            <panel-container>
+                <big-list type="block">
+                    <content>
+                        <system-data-structure>
+                            <full-calendar>http://planitpurple.northwestern.edu/calendar/570</full-calendar>
+                            <pip-feed type="block">
+                                <content>
+                                    <planitpurple>
+                                        <event>
+                                            <title>Mindfulness for Attention Problems - Evanston
+                                                Campus</title>
+                                            <date>January 27, 2014</date>
+                                            <time>1:00 PM - 2:00 PM</time>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-01-27
+                                                13:00</isodate>
+                                            <location>Evanston</location>
+                                            <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                            <address>
+				<building_name>Searle Hall</building_name>
+				<address_1>633 Emerson Street</address_1>
+				<address_2>3rd Fl, Rm. 3-226</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                            <contact>
+                                                <name>Courtney Albinson</name>
+                                                <email>c-albinson@northwestern.edu</email>
+                                                <phone>8474912151</phone>
+                                            </contact>
+                                            <group>
+                                                <name>Counseling and Psychological Services</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                            </group>
+                                            <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/43</externalurl>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/451079</ppurl>
+                                            <event_category_id>5</event_category_id>
+                                            <category-name>Lectures &amp; Meetings</category-name>
+                                            <last_modified>December 23, 2013</last_modified>
+                                            <audience>Student</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description>This workshop is designed for students who
+                                                struggle with distractibility, concentration, or
+                                                have trouble planning or completing work
+                                                assignments. Workshop participants will be
+                                                introduced to several evidence-based Mindful
+                                                Awareness Practices that have been shown to rewire
+                                                regions of the brain responsible for short-term
+                                                memory, attention, and concentration. Evanston Times
+                                                and Locations: Location: Searle Hall, 3rd Fl, Rm.
+                                                3-226, 633 Emerson St. Times: Mondays, 1:00 p.m. to
+                                                2:00 p.m (A four-part workshop series.) Group
+                                                I: January 13, 27, February 3, 10 Group II: February
+                                                17, 24, March 3, 10 For more information and
+                                                registration, go
+                                                to: https://go.dosa.northwestern.edu/caps_workshops/workshops
+                                                [https://go.dosa.northwestern.edu/caps_workshops/workshops] </description>
+                                            <recurring>7992</recurring>
+                                        </event>
+                                        <event>
+                                            <title>Drop-In Meditation Group - Evanston
+                                                Campus</title>
+                                            <date>January 27, 2014</date>
+                                            <time>2:00 PM - 2:30 PM</time>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-01-27
+                                                14:00</isodate>
+                                            <location>Evanston</location>
+                                            <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                            <address>
+				<building_name>Searle Hall</building_name>
+				<address_1>633 Emerson Street</address_1>
+				<address_2>CAPS Stress Management Resource Center, Rm. 3-234,</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                            <contact>
+                                                <name>Courtney Albinson</name>
+                                                <email>c-albinson@northwestern.edu</email>
+                                                <phone>8474912151</phone>
+                                            </contact>
+                                            <group>
+                                                <name>Counseling and Psychological Services</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                            </group>
+                                            <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/22</externalurl>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/451098</ppurl>
+                                            <event_category_id>5</event_category_id>
+                                            <category-name>Lectures &amp; Meetings</category-name>
+                                            <last_modified>December 23, 2013</last_modified>
+                                            <audience>Student</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description>Meditation is an effective yet simple way
+                                                to deal with many life stresses. Meditation calms
+                                                the mind and the body adding energy, focus and
+                                                enjoyment to personal experience. There is a growing
+                                                body of scientific research indicating that
+                                                meditation is highly effective in reducing physical
+                                                and mental stress. School is very rewarding but is
+                                                often very challenging and stressful. We are
+                                                expanding our Stress Management Clinic to include a
+                                                Meditation Group that will provide you with an
+                                                opportunity to learn and practice a simple yet very
+                                                effective way to manage ongoing stress. Students are
+                                                welcome to attend the Drop-In Meditation Group as
+                                                often as they would like. No registration necessary.
+                                                Groups are offered on both the Evanston and Chicago
+                                                Campuses. Evanston Dates and Location: Location:
+                                                CAPS Stress Management Resource Center, Searle Hall,
+                                                3rd Floor, Rm. 3-234, 633 Emerson StreetTimes:
+                                                Mondays, 2:00 to 2:30 p.m. For more information, go
+                                                to:
+                                                https://go.dosa.northwestern.edu/caps_workshops/workshops
+                                                [https://go.dosa.northwestern.edu/caps_workshops/workshops]</description>
+                                            <recurring>7993</recurring>
+                                        </event>
+                                        <event>
+                                            <title>Drop-In Stress Management Resource Center</title>
+                                            <date>January 27, 2014</date>
+                                            <time>2:30 PM - 4:30 PM</time>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-01-27
+                                                14:30</isodate>
+                                            <location>Evanston</location>
+                                            <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                            <address>
+				<building_name>Searle Hall</building_name>
+				<address_1>633 Emerson Street</address_1>
+				<address_2>CAPS Stress Management Resource Center, 3rd Fl, Rm. 3-234</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                            <contact>
+                                                <name>Courtney Albinson</name>
+                                                <email>c-albinson@northwestern.edu</email>
+                                                <phone>(847) 491-2151</phone>
+                                            </contact>
+                                            <group>
+                                                <name>Counseling and Psychological Services</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                            </group>
+                                            <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/26</externalurl>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/451243</ppurl>
+                                            <event_category_id>5</event_category_id>
+                                            <category-name>Lectures &amp; Meetings</category-name>
+                                            <last_modified>December 23, 2013</last_modified>
+                                            <audience>Student</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description>Stressed out? Come unwind during the CAPS
+                                                Stress Management Resource Center (SMRC) drop-in
+                                                hours! Consult with CAPS staff and check out the egg
+                                                chairs. The SMRC is an individualized clinic
+                                                designed to help you achieve peak performance and
+                                                enhanced well-being when you need it most. Mondays,
+                                                2:30-4:30, Tuesdays 12:00-3:00 p.m, Thursdays 1-3pm,
+                                                Fridays 10:30am-12pm. The SMRC provides: - A
+                                                relaxing experience in our "egg chairs" where you
+                                                can listen to our relaxation scripts (e.g., guided
+                                                meditation, autogenic training) and/or relaxing
+                                                music of your choosing (use our iPods or bring your
+                                                own if you'd like). - Biofeedback training, an
+                                                empirically-supported method of treating stress,
+                                                anxiety, and chronic pain. - Strategies to modify
+                                                thinking patterns that increase stress and interfere
+                                                with performance and relationships. For more
+                                                information, go
+                                                to: https://go.dosa.northwestern.edu/caps_workshops/workshops
+                                                [https://go.dosa.northwestern.edu/caps_workshops/workshops]
+                                                 </description>
+                                            <recurring>8001</recurring>
+                                        </event>
+                                        <event>
+                                            <title>Drop-In Stress Management Resource Center</title>
+                                            <date>January 28, 2014</date>
+                                            <time>12:00 PM - 3:00 PM</time>
+                                            <isodate format="YYYY-MM-DD HH24:MI">2014-01-28
+                                                12:00</isodate>
+                                            <location>Evanston</location>
+                                            <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
+                                            <address>
+				<building_name>Searle Hall</building_name>
+				<address_1>633 Emerson Street</address_1>
+				<address_2>CAPS Stress Management Resource Center, 3rd Fl, Rm. 3-234</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                            <contact>
+                                                <name>Courtney Albinson</name>
+                                                <email>c-albinson@northwestern.edu</email>
+                                                <phone>(847) 491-2151</phone>
+                                            </contact>
+                                            <group>
+                                                <name>Counseling and Psychological Services</name>
+                                                <url>http://planitpurple.northwestern.edu/calendar/570</url>
+                                            </group>
+                                            <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/26</externalurl>
+                                            <ppurl>http://planitpurple.northwestern.edu/event/451253</ppurl>
+                                            <event_category_id>5</event_category_id>
+                                            <category-name>Lectures &amp; Meetings</category-name>
+                                            <last_modified>December 23, 2013</last_modified>
+                                            <audience>Student</audience>
+                                            <cosponsors> </cosponsors>
+                                            <description>Stressed out? Come unwind during the CAPS
+                                                Stress Management Resource Center (SMRC) drop-in
+                                                hours! Consult with CAPS staff and check out the egg
+                                                chairs. The SMRC is an individualized clinic
+                                                designed to help you achieve peak performance and
+                                                enhanced well-being when you need it most. Mondays,
+                                                2:30-4:30, Tuesdays 12:00-3:00 p.m, Thursdays 1-3pm,
+                                                Fridays 10:30am-12pm. The SMRC provides: - A
+                                                relaxing experience in our "egg chairs" where you
+                                                can listen to our relaxation scripts (e.g., guided
+                                                meditation, autogenic training) and/or relaxing
+                                                music of your choosing (use our iPods or bring your
+                                                own if you'd like). - Biofeedback training, an
+                                                empirically-supported method of treating stress,
+                                                anxiety, and chronic pain. - Strategies to modify
+                                                thinking patterns that increase stress and interfere
+                                                with performance and relationships. For more
+                                                information, go
+                                                to: https://go.dosa.northwestern.edu/caps_workshops/workshops
+                                                [https://go.dosa.northwestern.edu/caps_workshops/workshops]
+                                                 </description>
+                                            <recurring>8002</recurring>
+                                        </event>
+                                    </planitpurple>
+                                </content>
+                                <path>/shared-assets/homepage/panel1/events/caps-pip-calendar-feed</path>
+                                <site>SA-FOOD</site>
+                                <name>caps-pip-calendar-feed</name>
+                            </pip-feed>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/homepage/panel1/events/caps-pip-feed-block</path>
+                    <site>SA-FOOD</site>
+                    <name>caps-pip-feed-block</name>
+                </big-list>
+                <rich-extra type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-carousel-block>
+                                <value>Yes</value>
+                            </content-type-carousel-block>
+                            <carousel-section>
+                                <label>Bread</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/carousel/images/bread-carousel.jpeg</path>
+                                    <link>site://SA-FOOD/shared-assets/homepage/panel1/carousel/images/bread-carousel.jpeg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>bread-carousel.jpeg</name>
+                                </photo>
+                                <alt>a tasty loaf of bread</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://en.wikipedia.org/wiki/Bread</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/carousel/links/bread-wikipedia-page</path>
+                                    <site>SA-FOOD</site>
+                                    <name>bread-wikipedia-page</name>
+                                </link>
+                            </carousel-section>
+                            <carousel-section>
+                                <label>Trees</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/carousel/images/trees-carousel.jpeg</path>
+                                    <link>site://SA-FOOD/shared-assets/homepage/panel1/carousel/images/trees-carousel.jpeg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>trees-carousel.jpeg</name>
+                                </photo>
+                                <alt>multiple trees</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://en.wikipedia.org/wiki/Trees</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/carousel/links/trees-wikipedia-page</path>
+                                    <site>SA-FOOD</site>
+                                    <name>trees-wikipedia-page</name>
+                                </link>
+                            </carousel-section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/homepage/panel1/carousel/carousel-block</path>
+                    <site>SA-FOOD</site>
+                    <name>carousel-block</name>
+                </rich-extra>
+                <q-links type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-quick-links-block>
+                                <value>Yes</value>
+                            </content-type-quick-links-block>
+                            <heading>Quick Links</heading>
+                            <section>
+                                <label>Bike</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/bike-ql.jpeg</path>
+                                    <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/bike-ql.jpeg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>bike-ql.jpeg</name>
+                                </photo>
+                                <alt>bike</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://en.wikipedia.org/wiki/Bicycle</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/quick-links/links/bike-wikipedia-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>bike-wikipedia-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Karate</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/karate-ql.jpeg</path>
+                                    <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/karate-ql.jpeg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>karate-ql.jpeg</name>
+                                </photo>
+                                <alt>karate</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://en.wikipedia.org/wiki/Karate</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/quick-links/links/karate-wikipedia-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>karate-wikipedia-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Motorcycles</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/motorcycle-ql.jpeg</path>
+                                    <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/motorcycle-ql.jpeg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>motorcycle-ql.jpeg</name>
+                                </photo>
+                                <alt>motorcycle</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://en.wikipedia.org/wiki/Motorcycle</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/quick-links/links/motorcycle-wikipedia-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>motorcycle-wikipedia-link</name>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Sunset</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/sunset-ql.jpeg</path>
+                                    <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/sunset-ql.jpeg</link>
+                                    <site>SA-FOOD</site>
+                                    <name>sunset-ql.jpeg</name>
+                                </photo>
+                                <alt>sunset</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://en.wikipedia.org/wiki/Sunset</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/quick-links/links/sunset-wikipedia-link</path>
+                                    <site>SA-FOOD</site>
+                                    <name>sunset-wikipedia-link</name>
+                                </link>
+                            </section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/homepage/panel1/quick-links/quick-links-block</path>
+                    <site>SA-FOOD</site>
+                    <name>quick-links-block</name>
+                </q-links>
+            </panel-container>
+            <text-container>
+                <main-content>
+                    <p>At Northwestern University, students don’t have to sacrifice quality,
+                        freshness, innovation and variety to get the convenience they expect, and
+                        need, in a campus meal plan. The <a
+                            href="/entity/open.act?type=page&amp;id=c2168955a57c421a3e6ea3fecee17009&amp;confId=c2168956a57c421a3e6ea3fe943717d1"
+                            target="_parent">Division of Student Affairs example website</a> has
+                        more information. That’s why we’re proud to offer one of the most unique and
+                        innovative campus meal programs in the nation. NUCuisine promises innovative
+                        menu choices made from fresh, high quality ingredients, prepared by
+                        executive level chefs with impressive culinary credentials.</p>
+                </main-content>
+                <side-title>Nutrition is Vital</side-title>
+                <side-content>
+                    <p>We take a mindful approach to wellness and nutrition. So seriously, in fact,
+                        that we have on-site dietitians whose only responsibility is ensuring our
+                        students are offered a healthful diet. We are a variety of healthful menu
+                        selections including lower fat, vegetarian, vegan, and traditional menu
+                        items, even cuisine for those with special dietary or religious needs.</p>
+                </side-content>
+            </text-container>
+        </system-data-structure>
+    </system-page>
+    <system-folder current="true" id="9141f6c0a57c421a41f5ad2b1072cbc3">
+        <name>scheduling</name>
+        <is-published>true</is-published>
+        <last-published-on>1390226819286</last-published-on>
+        <last-published-by>cew904</last-published-by>
+        <path>/scheduling</path>
+        <site>SA-FOOD</site>
+        <link>site://SA-FOOD/scheduling</link>
+        <created-by>cew904</created-by>
+        <created-on>1389711455850</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389711455850</last-modified>
+        <system-folder id="c5982a738169775b7f19efa7e5b56e09">
+            <name>bugs</name>
+            <is-published>true</is-published>
+            <path>/scheduling/bugs</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/scheduling/bugs</link>
+            <created-by>osi706</created-by>
+            <created-on>1390589520424</created-on>
+            <last-modified-by>osi706</last-modified-by>
+            <last-modified>1390589520424</last-modified>
+            <system-page id="c59999e98169775b7f19efa718527539">
+                <name>index</name>
+                <is-published>true</is-published>
+                <last-published-on>1390593350086</last-published-on>
+                <last-published-by>osi706</last-published-by>
+                <title>Bugs Requiring Attention</title>
+                <keywords>decide, here, which, keywords, should, populate, your, page</keywords>
+                <description>Bug that need to be address by the WebDev team</description>
+                <display-name>Bugs</display-name>
+                <path>/scheduling/bugs/index</path>
+                <site>SA-FOOD</site>
+                <link>site://SA-FOOD/scheduling/bugs/index</link>
+                <created-by>osi706</created-by>
+                <created-on>1390589614533</created-on>
+                <last-modified-by>osi706</last-modified-by>
+                <last-modified>1390589614533</last-modified>
+                <dynamic-metadata>
+                    <name>note</name>
+                </dynamic-metadata>
+                <system-data-structure definition-path="Redesign/Basic Page Form">
+                    <content-type-basic>
+                        <value>Yes</value>
+                    </content-type-basic>
+                    <default>
+                        <p>Please list any bugs that you have found here:</p>
+                        <ul>
+                            <li>example bug one</li>
+                            <li>example bug two</li>
+                        </ul>
+                    </default>
+                    <photo-section>
+                        <photo>
+                            <path>/</path>
+                        </photo>
+                        <alt-text>Change this text to describe the photo for a screen reader
+                            user</alt-text>
+                        <description>Change this description to display underneath the
+                            text</description>
+                        <link>
+                            <path>/</path>
+                        </link>
+                    </photo-section>
+                </system-data-structure>
+            </system-page>
+        </system-folder>
+        <system-folder id="c591b8fa8169775b7f19efa742e42502">
+            <name>dates</name>
+            <is-published>true</is-published>
+            <path>/scheduling/dates</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/scheduling/dates</link>
+            <created-by>osi706</created-by>
+            <created-on>1390589098149</created-on>
+            <last-modified-by>osi706</last-modified-by>
+            <last-modified>1390589098149</last-modified>
+            <system-page id="c59252928169775b7f19efa70d5f0eef">
+                <name>index</name>
+                <is-published>true</is-published>
+                <last-published-on>1390593350086</last-published-on>
+                <last-published-by>osi706</last-published-by>
+                <title>Dates toward Redesign Deployment</title>
+                <keywords>dates, scheduling, deployement, testing</keywords>
+                <description>The next three weeks of work to be done before moving into
+                    production</description>
+                <display-name>Dates</display-name>
+                <path>/scheduling/dates/index</path>
+                <site>SA-FOOD</site>
+                <link>site://SA-FOOD/scheduling/dates/index</link>
+                <created-by>osi706</created-by>
+                <created-on>1390589137478</created-on>
+                <last-modified-by>cew904</last-modified-by>
+                <last-modified>1390856175507</last-modified>
+                <dynamic-metadata>
+                    <name>note</name>
+                </dynamic-metadata>
+                <system-data-structure definition-path="Redesign/Basic Page Form">
+                    <content-type-basic>
+                        <value>Yes</value>
+                    </content-type-basic>
+                    <default>
+                        <h2>Development</h2>
+                        <h3>January 24th - 31st</h3>
+                        <p>Marketing testing of <strong>content types</strong>: Does the Cascade
+                            implementation <em>fully</em> meeting the specifications as provided?
+                             Are there other features still required?  What is
+                                    <em><strong>not</strong></em> working? What remains to be
+                            done?</p>
+                        <p>Second paragraph</p>
+                        <h3>January 31st - February 7</h3>
+                        <p>SAIT WebDev team implements feedback from previous week, finalizes any
+                            remaining features, fixes any reported problems</p>
+                        <h3>February 7 - 14</h3>
+                        <p>Marketing has another week to test fixes and features.  Any problems or
+                            fixes reported right away to SAIT WebDev team so that issues can be
+                            corrected by end of week</p>
+                        <h2>Production</h2>
+                        <h3>Febrary 14 - ???</h3>
+                        <p>All <strong>Cascade and JavaScript code is frozen</strong>, no new
+                            features while in production and building about content, but any bug
+                            fixes will be addressed by WebDev team. Additional feature requests will
+                            be collected and added to a project request after all sites are
+                            migrated </p>
+                    </default>
+                    <photo-section>
+                        <photo>
+                            <path>/</path>
+                        </photo>
+                        <alt-text>Change this text to describe the photo for a screen reader
+                            user</alt-text>
+                        <description>Change this description to display underneath the
+                            text</description>
+                        <link>
+                            <path>/</path>
+                        </link>
+                    </photo-section>
+                </system-data-structure>
+            </system-page>
+        </system-folder>
+        <system-page current="true" id="abe74410a57c421a65919e738f720229">
+            <name>index</name>
+            <is-published>true</is-published>
+            <last-published-on>1390593350086</last-published-on>
+            <last-published-by>osi706</last-published-by>
+            <title>Scheduling</title>
+            <keywords>decide, here, which, keywords, should, populate, your, page</keywords>
+            <description>Change me to page description whch Google may pass on to
+                searchers</description>
+            <display-name>Scheduling</display-name>
+            <path>/scheduling/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/scheduling/index</link>
+            <created-by>osi706</created-by>
+            <created-on>1390158496697</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1390843706311</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Basic Page Form">
+                <content-type-basic>
+                    <value>Yes</value>
+                </content-type-basic>
+                <default>
+                    <p>Please Check out the children pages</p>
+                    <p><a
+                            href="/entity/open.act?type=page&amp;id=c59252928169775b7f19efa70d5f0eef&amp;confId=c59252928169775b7f19efa78a2873ed"
+                            target="_parent">Dates</a><br/>   The next three weeks of work to be
+                        done before moving into production</p>
+                </default>
+                <photo-section>
+                    <photo>
+                        <path>/</path>
+                    </photo>
+                    <alt-text>Change this text to describe the photo for a screen reader
+                        user</alt-text>
+                    <description>Change this description to display underneath the
+                        text</description>
+                    <link>
+                        <path>/</path>
+                    </link>
+                </photo-section>
+            </system-data-structure>
+        </system-page>
+    </system-folder>
+    <system-folder id="91428f85a57c421a41f5ad2bda07d538">
+        <name>retail-locations</name>
+        <is-published>true</is-published>
+        <path>/retail-locations</path>
+        <site>SA-FOOD</site>
+        <link>site://SA-FOOD/retail-locations</link>
+        <created-by>cew904</created-by>
+        <created-on>1389711494957</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389711494957</last-modified>
+    </system-folder>
+    <system-folder id="9141c2d8a57c421a41f5ad2b03a7128c">
+        <name>content-types</name>
+        <is-published>true</is-published>
+        <path>/content-types</path>
+        <site>SA-FOOD</site>
+        <link>site://SA-FOOD/content-types</link>
+        <created-by>cew904</created-by>
+        <created-on>1389711442562</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389711442562</last-modified>
+    </system-folder>
+    <system-folder id="91425233a57c421a41f5ad2b5ee56153">
+        <name>munch-money</name>
+        <is-published>true</is-published>
+        <path>/munch-money</path>
+        <site>SA-FOOD</site>
+        <link>site://SA-FOOD/munch-money</link>
+        <created-by>cew904</created-by>
+        <created-on>1389711479244</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389711479244</last-modified>
+    </system-folder>
+    <system-folder id="976315dfa57c421a6edd97159f90a82f">
+        <name>about-us</name>
+        <is-published>true</is-published>
+        <path>/about-us</path>
+        <site>SA-FOOD</site>
+        <link>site://SA-FOOD/about-us</link>
+        <created-by>cew904</created-by>
+        <created-on>1389814289783</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1389814289783</last-modified>
+    </system-folder>
+    <calling-page>
+        <system-page current="true" id="abe74410a57c421a65919e738f720229">
+            <name>index</name>
+            <is-published>true</is-published>
+            <last-published-on>1390593350086</last-published-on>
+            <last-published-by>osi706</last-published-by>
+            <title>Scheduling</title>
+            <keywords>decide, here, which, keywords, should, populate, your, page</keywords>
+            <description>Change me to page description whch Google may pass on to
+                searchers</description>
+            <display-name>Scheduling</display-name>
+            <path>/scheduling/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/scheduling/index</link>
+            <created-by>osi706</created-by>
+            <created-on>1390158496697</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1390843706311</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Basic Page Form">
+                <content-type-basic>
+                    <value>Yes</value>
+                </content-type-basic>
+                <default>
+                    <p>Please Check out the children pages</p>
+                    <p><a
+                            href="/entity/open.act?type=page&amp;id=c59252928169775b7f19efa70d5f0eef&amp;confId=c59252928169775b7f19efa78a2873ed"
+                            target="_parent">Dates</a><br/>   The next three weeks of work to be
+                        done before moving into production</p>
+                </default>
+                <photo-section>
+                    <photo>
+                        <path>/</path>
+                    </photo>
+                    <alt-text>Change this text to describe the photo for a screen reader
+                        user</alt-text>
+                    <description>Change this description to display underneath the
+                        text</description>
+                    <link>
+                        <path>/</path>
+                    </link>
+                </photo-section>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>
