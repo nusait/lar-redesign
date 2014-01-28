@@ -10,6 +10,12 @@
 					<p>You'll want to swap in your own photo here - No Link</p>
 				</div>
 			</div>
+			<a class="basic-image-item" href="http://www.google.com">
+				<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/600x600"/>
+				<div class="basic-image-caption">
+					<p>You'll want to swap in your own photo here - Yes Link</p>
+				</div>
+			</a>
 		</div>
 		<div class="basic-text-container">
 			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper enim a est 

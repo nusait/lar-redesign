@@ -1626,6 +1626,18 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   line-height: 2em;
   box-shadow: 0.5em 0 0 #412157, -0.5em 0 0 #412157;
 }
+.basic-container .basic-image-container a.basic-image-item:hover img {
+  box-shadow: -4px 4px 0 #317894;
+}
+.basic-container .basic-image-container a.basic-image-item img {
+  box-shadow: -4px 4px 0 gray;
+}
+.basic-container .basic-image-container a.basic-image-item .basic-image-caption p {
+  text-decoration: underline;
+  color: white;
+  background-color: #317894;
+  box-shadow: 0.5em 0 0 #317894, -0.5em 0 0 #317894;
+}
 .basic-container .basic-text-container {
   overflow: hidden;
   margin-left: 30px;
@@ -1788,15 +1800,32 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   position: relative;
   z-index: 100;
 }
-.department-header .department-header-inner .department-title {
-  margin: 0 35px 0 15px;
-  padding-top: 30px;
+.department-header .department-header-inner a.department-title {
+  display: inline-block;
+  -webkit-transition: text-shadow 0.3s;
+  transition: text-shadow 0.3s;
+  margin: 20px 35px 0 15px;
   padding-bottom: 10px;
   color: white;
   text-transform: uppercase;
   font-size: 3.5em;
   line-height: 1.3em;
   font-weight: 400;
+}
+.department-header .department-header-inner a.department-title:hover {
+  text-shadow: -4px 4px 0 #412157;
+}
+.stamp.dept-color-1 ~ .viewport .department-header .department-header-inner a.department-title:hover {
+  text-shadow: -3px 3px 0 #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .department-header .department-header-inner a.department-title:hover {
+  text-shadow: -3px 3px 0 #5c2483;
+}
+.stamp.dept-color-3 ~ .viewport .department-header .department-header-inner a.department-title:hover {
+  text-shadow: -3px 3px 0 #5c2483;
+}
+.stamp.dept-color-4 ~ .viewport .department-header .department-header-inner a.department-title:hover {
+  text-shadow: -3px 3px 0 #5c2483;
 }
 .department-header .department-header-inner .department-nav {
   margin: 10px 35px 20px 15px;
@@ -1919,8 +1948,8 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     padding-bottom: 10px;
     margin-bottom: 0px;
   }
-  .department-header .department-header-inner .department-title {
-    font-size: 2em;
+  .department-header .department-header-inner a.department-title {
+    font-size: 2.2em;
   }
   .department-header .department-header-inner .department-nav {
     position: relative;
@@ -2302,9 +2331,12 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   .dept-quick-links-outer {
     width: 100%;
     margin-bottom: 0;
+    padding-top: 0;
+    margin-top: 20px;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
   }
   .dept-quick-links-outer .dept-quick-links-container {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-right: 0;
   }
   .dept-quick-links-outer .dept-quick-links-container:before {

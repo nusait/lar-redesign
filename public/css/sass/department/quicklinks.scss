@@ -42,8 +42,11 @@
 .dept-quick-links-outer {
 	width: 100%;
 	margin-bottom: 0;
+	padding-top: 0;
+	margin-top: 20px;
+	box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.4);
 	.dept-quick-links-container {
-		margin-top: 20px;
+		margin-top: 0px;
 		margin-right: 0;
 		&:before {
 			display: none;

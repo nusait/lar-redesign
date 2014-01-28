@@ -4,34 +4,33 @@
 	margin-top: 40px;
 	margin-bottom: 15px;
 	.department-header-bg {
-		// position: absolute;
 		top: 0;
-		// background-color: $department-color-1;
 		width: 100%;
 		padding-bottom: 10px;
-		// margin-bottom: -10px;
 		z-index: -1;
-		@include dept-colors-main;
+		@include dept-colors-main(background-color);
 	}
 	.department-header-inner {
 		@include home-content-width;
 		position: relative;
 		z-index: 100;
-		.department-title {
-			margin: 0 35px 0 15px;
-			padding-top: 30px;
+		a.department-title {
+			display: inline-block;
+			@include transition(text-shadow 0.3s);
+			margin: 20px 35px 0 15px;
 			padding-bottom: 10px;
 			color: white;
-			// color: black;
 			text-transform: uppercase;
 			font-size: 3.5em;
 			line-height: 1.3em;
 			font-weight: 400;
+			&:hover {
+				text-shadow: -4px 4px 0 $purple;
+				@include dept-colors-secondary(text-shadow, -3px 3px 0);
+			}
 		}
 		.department-nav {
 			margin: 10px 35px 20px 15px;
-			// padding-top: 10px;
-			// padding-bottom: 10px;
 			border-top-style: solid;
 			border-bottom-style: solid;
 			border-width: 1px;
@@ -41,11 +40,10 @@
 			}
 			.section {
 				&.active {
-					@include dept-colors-main-darken;
+					@include dept-colors-main-darken(background-color);
 				}
 				$title-font-size: 1em;
 				position: relative;
-				// background-color: red;
 				width: 20%;
 				display: inline-block;
 				vertical-align: top;
@@ -76,8 +74,7 @@
 					position: absolute;
 					top: 0;
 					display: block;
-					// background-color: #1A6E89;
-					@include dept-colors-secondary;
+					@include dept-colors-secondary(background-color);
 					li.section-title {
 						margin-top: 0px;
 						padding-top: 4px;
@@ -152,8 +149,8 @@
 			margin-bottom: 0px;
 		}
 		.department-header-inner {
-			.department-title {
-				font-size: 2em;
+			a.department-title {
+				font-size: 2.2em;
 			}
 			.department-nav {
 				position: relative;
@@ -235,7 +232,7 @@
 					ul {
 						position: static;
 						background-color: rgba(0, 0, 0, 0);
-						@include dept-colors-main;
+						@include dept-colors-main(background-color);
 						li.section-title {
 							display: none;
 						}

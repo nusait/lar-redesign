@@ -89,7 +89,7 @@
 					padding: 0;
 					display: block;
 					// background: $department-color-1;
-					@include dept-colors-main;
+					@include dept-colors-main(background-color);
 					span.lvl-nav-title-info {
 						display: inline;
 					}
@@ -97,7 +97,7 @@
 						display: block;
 						color: white;
 						text-decoration: none;
-						@include dept-colors-main-darken;
+						@include dept-colors-main-darken(background-color);
 						pointer-events: none;
 						&:before {
 							margin: 0 10px;

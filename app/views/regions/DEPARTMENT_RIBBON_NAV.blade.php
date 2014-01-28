@@ -1,7 +1,7 @@
 <div class="department-header">
   <div class="department-header-bg">
     <div class="department-header-inner">
-      <h2 class="department-title">Sample Department</h2>
+      <a class="department-title" href="http://www.google.com">Sample Department</a>
       <nav class="department-nav closed" role="navigation">
         <button class="mobile-menu-button"> </button>
         <div class="section closed">

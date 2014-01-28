@@ -29,6 +29,25 @@
 				}
 			}
 		}
+
+		a.basic-image-item{
+			&:hover {
+				img{
+					box-shadow: -4px 4px 0 $teal;
+				}
+			}
+			img {
+				box-shadow: -4px 4px 0 gray;
+			}
+			.basic-image-caption {
+				p {
+					text-decoration: underline;
+					color: white;
+					background-color: $teal;
+					box-shadow: 0.5em 0 0 $teal, -0.5em 0 0 $teal;
+				}
+			}
+		}
 	}
 	.basic-text-container {
 		overflow: hidden;
