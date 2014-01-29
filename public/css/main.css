@@ -1,6 +1,6 @@
 @import url(../assets/swiper/dist/idangerous.swiper.css);
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=Neuton:300,300italic);
+@import url(//fonts.googleapis.com/css?family=Neuton:200,400);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 h1 {
   font-weight: 300;
@@ -213,6 +213,7 @@ html.browser-lt-ie9 body .ie-too-old {
   .dosa-banner .northwestern-title {
     font-family: "Neuton", serif;
     font-size: 1.1em;
+    font-weight: 200;
     font-size: 1.2em;
     font-weight: 600;
     color: #412157;
@@ -1227,6 +1228,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .footer .inner .details {
   font-family: "Neuton", serif;
   font-size: 1.1em;
+  font-weight: 200;
   font-size: 1.2em;
   position: relative;
   display: inline-block;
@@ -1317,6 +1319,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-top-color: rgba(255, 255, 255, 0.5);
   font-family: "Neuton", serif;
   font-size: 1.1em;
+  font-weight: 200;
   font-size: 1em;
 }
 .footer .inner .links .social {
@@ -1510,6 +1513,54 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   width: -webkit-calc(70% - 5px);
   font-family: "Neuton", serif;
   font-size: 1.1em;
+  font-weight: 200;
+}
+.text-block .main-text table.sa-table {
+  font-family: "Neuton", serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  width: 100%;
+  margin: 0 20px;
+}
+.text-block .main-text table.sa-table tbody th {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  text-align: left;
+  background-color: #412157;
+}
+.text-block .main-text table.sa-table tbody tr:nth-child(2n) {
+  background-color: #d0ced0;
+}
+.text-block .main-text table.sa-table tbody tr td {
+  padding: 10px;
+  vertical-align: text-top;
+}
+.text-block .main-text a {
+  text-decoration: underline;
+  color: #006e8b;
+}
+.text-block .main-text h2 {
+  font-weight: 300;
+  font-size: 1.65em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+  color: #5a308c;
+}
+.text-block .main-text h3 {
+  font-weight: 300;
+  font-size: 1.3em;
+  text-transform: none;
+  color: #12635c;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+}
+.text-block .main-text p {
+  margin: 0.7em 0;
+  padding: 0;
+  font-family: "Neuton", serif;
 }
 .text-block .main-text p, .text-block .main-text .text-title {
   margin: 0 20px 10px 20px;
@@ -1529,6 +1580,54 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-left-style: solid;
   font-family: "Neuton", serif;
   font-size: 1.1em;
+  font-weight: 200;
+}
+.text-block .side-text table.sa-table {
+  font-family: "Neuton", serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  width: 100%;
+  margin: 0 20px;
+}
+.text-block .side-text table.sa-table tbody th {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  text-align: left;
+  background-color: #412157;
+}
+.text-block .side-text table.sa-table tbody tr:nth-child(2n) {
+  background-color: #d0ced0;
+}
+.text-block .side-text table.sa-table tbody tr td {
+  padding: 10px;
+  vertical-align: text-top;
+}
+.text-block .side-text a {
+  text-decoration: underline;
+  color: #006e8b;
+}
+.text-block .side-text h2 {
+  font-weight: 300;
+  font-size: 1.65em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+  color: #5a308c;
+}
+.text-block .side-text h3 {
+  font-weight: 300;
+  font-size: 1.3em;
+  text-transform: none;
+  color: #12635c;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+}
+.text-block .side-text p {
+  margin: 0.7em 0;
+  padding: 0;
+  font-family: "Neuton", serif;
 }
 .text-block .side-text p, .text-block .side-text .text-title {
   margin: 0 27px 10px 20px;
@@ -1590,6 +1689,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .collapsable-container .collapsable-item .collapsable-content {
   font-family: "Neuton", serif;
   font-size: 1.1em;
+  font-weight: 200;
   padding: 20px;
   padding-top: 5px;
 }
@@ -1597,6 +1697,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .basic-container {
   font-family: "Neuton", serif;
   font-size: 1.1em;
+  font-weight: 200;
 }
 .basic-container .basic-image-container {
   float: right;
@@ -1643,6 +1744,28 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin-left: 30px;
   margin-right: 20px;
 }
+.basic-container .basic-text-container table.sa-table {
+  font-family: "Neuton", serif;
+  font-size: 1.1em;
+  font-weight: 200;
+  width: 100%;
+  margin: 0 20px;
+}
+.basic-container .basic-text-container table.sa-table tbody th {
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  text-align: left;
+  background-color: #412157;
+}
+.basic-container .basic-text-container table.sa-table tbody tr:nth-child(2n) {
+  background-color: #d0ced0;
+}
+.basic-container .basic-text-container table.sa-table tbody tr td {
+  padding: 10px;
+  vertical-align: text-top;
+}
 .basic-container .basic-text-container a {
   text-decoration: underline;
   color: #006e8b;
@@ -1684,13 +1807,22 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     text-align: center;
   }
 }
-.sa-table {
+.detail-container .detail-main {
+  margin-left: 20px;
+  padding-right: 20px;
+  overflow: hidden;
   font-family: "Neuton", serif;
   font-size: 1.1em;
+  font-weight: 200;
+}
+.detail-container .detail-main table.sa-table {
+  font-family: "Neuton", serif;
+  font-size: 1.1em;
+  font-weight: 200;
   width: 100%;
   margin: 0 20px;
 }
-.sa-table thead tr th {
+.detail-container .detail-main table.sa-table tbody th {
   font-family: 'Oswald', sans-serif;
   color: white;
   font-weight: 300;
@@ -1698,20 +1830,12 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   text-align: left;
   background-color: #412157;
 }
-.sa-table tbody tr:nth-child(2n) {
+.detail-container .detail-main table.sa-table tbody tr:nth-child(2n) {
   background-color: #d0ced0;
 }
-.sa-table tbody tr td {
+.detail-container .detail-main table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
-}
-
-.detail-container .detail-main {
-  margin-left: 20px;
-  padding-right: 20px;
-  overflow: hidden;
-  font-family: "Neuton", serif;
-  font-size: 1.1em;
 }
 .detail-container .detail-main a {
   text-decoration: underline;

@@ -1,4 +1,29 @@
 @mixin generic-content-style {
+	table.sa-table {
+		@include text-font;
+		width: 100%;
+		margin: 0 20px;
+		tbody {
+			th {
+				@include display-font;
+				color: white;
+				font-weight: 300;
+				padding: 10px;
+				text-align: left;
+				background-color: $purple;
+			}
+			tr {
+				&:nth-child(2n) {
+					background-color: lighten($gray, 30%);
+				}
+				td {
+					padding: 10px;
+					vertical-align: text-top;
+
+				}
+			}
+		}
+	}
 	a {
 		text-decoration: underline;
 		color: $blue;

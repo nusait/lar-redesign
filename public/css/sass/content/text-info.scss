@@ -6,6 +6,7 @@
 	width: 100%;
 	margin-bottom: 20px;
 	.main-text {
+		@include generic-content-style;
 		display: inline-block;
 		width: $main-area-width;
 		width: calc(#{$main-area-width} - 5px);
@@ -22,6 +23,7 @@
 		}
 	}
 	.side-text {
+		@include generic-content-style;
 		position: absolute;
 		top: 0;
 		right: 0;
