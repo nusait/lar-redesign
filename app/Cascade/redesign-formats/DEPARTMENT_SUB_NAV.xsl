@@ -10,7 +10,7 @@
                         </span>
                     </div>
                     <nav class="sub-navigation-lvl-2">
-                        <xsl:for-each select="system-folder">
+                        <xsl:for-each select="system-folder[name != 'assets']">
                             <xsl:choose>
                                 <xsl:when test="descendant::system-page[@current='true']">
                                     <li>
