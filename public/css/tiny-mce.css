@@ -1,21 +1,21 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=Neuton:200,400);
+@import url(//fonts.googleapis.com/css?family=Vollkorn:400italic,400,700);
 .mceContentBody {
   background-color: #eff1f1;
   font-size: 1.1em;
 }
 .mceContentBody * {
-  font-family: "Neuton", serif;
+  font-family: "Vollkorn", serif;
 }
 .mceContentBody table.sa-table {
-  font-family: "Neuton", serif;
+  font-family: "Vollkorn", serif;
   font-size: 1.1em;
   font-weight: 200;
   width: 100%;
   margin: 0 20px;
 }
 .mceContentBody table.sa-table tbody th {
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
   color: white;
   font-weight: 300;
   padding: 10px;
@@ -52,7 +52,7 @@
 .mceContentBody p {
   margin: 0.7em 0;
   padding: 0;
-  font-family: "Neuton", serif;
+  font-family: "Vollkorn", serif;
 }
 .mceContentBody h1, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6 {
   text-decoration: line-through;
