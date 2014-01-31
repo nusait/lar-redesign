@@ -2584,6 +2584,7 @@ html.browser-ie9 body .viewport {
 body .viewport .main {
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  overflow: auto;
   color: white;
   position: absolute;
   top: 0;

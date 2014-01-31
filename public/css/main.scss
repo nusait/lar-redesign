@@ -26,10 +26,10 @@ body {
         html.browser-lt-ie9 & {
             display: none;
         }
-        overflow: hidden;
         html.browser-ie9 & {
             overflow: auto;
         }
+        overflow: hidden;
         position: absolute;
         top: 0;
         bottom: 0;
@@ -45,6 +45,7 @@ body {
             // box-shadow: -2px 0px 15px rgba(0, 0, 0, 0.6);
             // -webkit-transition: all 0.35s linear;
             // transition: all 0.35s linear;
+            overflow: auto;
             color: rgb(255, 255, 255);
             position: absolute;
             top: 0;
