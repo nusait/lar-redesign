@@ -3,7 +3,6 @@ $anchor-icon: 18e;
 .stack-container {
 	@include prefix(column-count, 3);
 	@include prefix(column-gap, 0);
-	@include prefix(column-fill, 0);
 	padding-right: 20px;
 	text-overflow: none;
 	a.stack-item {

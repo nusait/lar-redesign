@@ -1433,11 +1433,6 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   -o-column-gap: 0;
   -ms-column-gap: 0;
   column-gap: 0;
-  -webkit-column-fill: 0;
-  -moz-column-fill: 0;
-  -o-column-fill: 0;
-  -ms-column-fill: 0;
-  column-fill: 0;
   padding-right: 20px;
   text-overflow: none;
 }
