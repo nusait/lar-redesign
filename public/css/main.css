@@ -1,6 +1,6 @@
 @import url(../assets/swiper/dist/idangerous.swiper.css);
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=Vollkorn:400italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 h1 {
   font-weight: 300;
@@ -211,8 +211,8 @@ html.browser-lt-ie9 body .ie-too-old {
     background-color: #ad3f35;
   }
   .dosa-banner .northwestern-title {
-    font-family: "Vollkorn", serif;
-    font-size: 1.1em;
+    font-family: "Lora", serif;
+    font-size: 0.95em;
     font-weight: 200;
     font-size: 1.2em;
     font-weight: 400;
@@ -1226,8 +1226,8 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   font-family: FontAwesome;
 }
 .footer .inner .details {
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
   font-size: 1.2em;
   position: relative;
@@ -1317,8 +1317,8 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-top-width: 3px;
   border-top-style: double;
   border-top-color: rgba(255, 255, 255, 0.5);
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
   font-size: 1em;
 }
@@ -1506,13 +1506,13 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   width: 70%;
   width: calc(70% - 5px);
   width: -webkit-calc(70% - 5px);
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
 }
 .text-block .main-text table.sa-table {
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0 20px;
@@ -1555,7 +1555,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .text-block .main-text p {
   margin: 0.7em 0;
   padding: 0;
-  font-family: "Vollkorn", serif;
+  font-family: "Lora", serif;
 }
 .text-block .main-text p, .text-block .main-text .text-title {
   margin: 0 20px 10px 20px;
@@ -1573,13 +1573,13 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   border-left-width: 1px;
   border-left-color: #d0ced0;
   border-left-style: solid;
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
 }
 .text-block .side-text table.sa-table {
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0 20px;
@@ -1622,7 +1622,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .text-block .side-text p {
   margin: 0.7em 0;
   padding: 0;
-  font-family: "Vollkorn", serif;
+  font-family: "Lora", serif;
 }
 .text-block .side-text p, .text-block .side-text .text-title {
   margin: 0 27px 10px 20px;
@@ -1682,16 +1682,16 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   display: block;
 }
 .collapsable-container .collapsable-item .collapsable-content {
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
   padding: 20px;
   padding-top: 5px;
 }
 
 .basic-container {
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
 }
 .basic-container .basic-image-container {
@@ -1740,8 +1740,8 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin-right: 20px;
 }
 .basic-container .basic-text-container table.sa-table {
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0 20px;
@@ -1784,7 +1784,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .basic-container .basic-text-container p {
   margin: 0.7em 0;
   padding: 0;
-  font-family: "Vollkorn", serif;
+  font-family: "Lora", serif;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1806,13 +1806,13 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin-left: 20px;
   padding-right: 20px;
   overflow: hidden;
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
 }
 .detail-container .detail-main table.sa-table {
-  font-family: "Vollkorn", serif;
-  font-size: 1.1em;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0 20px;
@@ -1855,7 +1855,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .detail-container .detail-main p {
   margin: 0.7em 0;
   padding: 0;
-  font-family: "Vollkorn", serif;
+  font-family: "Lora", serif;
 }
 .detail-container .detail-aside {
   float: right;

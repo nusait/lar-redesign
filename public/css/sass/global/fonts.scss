@@ -1,8 +1,11 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=Vollkorn:400italic,400,700);
+// @import url(//fonts.googleapis.com/css?family=Vollkorn:400italic,400,700);
+// @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Lora:400,700);
 
 $display-font: 'Oswald', sans-serif;
-$text-font: 'Vollkorn', serif;
+// $text-font: 'Vollkorn', serif;
+$text-font: 'Lora', serif;
 
 @mixin main-font( $weight: 300) {
     font-family: $display-font;
@@ -13,7 +16,7 @@ $text-font: 'Vollkorn', serif;
 }
 @mixin text-font {
     font-family: $text-font;
-    font-size: 1.1em;
+    font-size: 0.95em;
     font-weight: 200;
 }
 @mixin icon($icon-code) {
