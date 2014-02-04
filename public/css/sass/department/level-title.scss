@@ -14,7 +14,7 @@
 		font-weight: 300;
 		padding: 0 20px;
 		margin: 0 20px 20px 20px;
-		@include slanted-shadow(-5deg, 5px);
+		@include slanted-shadow(-5deg, 5px, $university);
 		@include dept-colors-main(background-color);
 		&:after {
 			content: "";

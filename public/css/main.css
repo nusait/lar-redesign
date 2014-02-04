@@ -1,6 +1,6 @@
 @import url(../assets/swiper/dist/idangerous.swiper.css);
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(//fonts.googleapis.com/css?family=Lora:400,700);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
 h1 {
   font-weight: 300;
@@ -901,7 +901,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     width: 100%;
   }
   .blog-container .blog-content .blog-entry .blog-text {
-    color: #514e50;
+    color: #4b4a4b;
   }
   .blog-container .blog-content .blog-entry .blog-date {
     border-top-width: 0px;
@@ -986,7 +986,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     background-color: #317894;
   }
   .news-container .news .news-item:nth-child(3n+2) {
-    background-color: #858084;
+    background-color: #7e7d7e;
   }
 
   .swiper-container, .swiper-slide {
@@ -1229,7 +1229,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   font-family: "Lora", serif;
   font-size: 0.95em;
   font-weight: 200;
-  font-size: 1.2em;
+  font-size: 0.8em;
   position: relative;
   display: inline-block;
   color: white;
@@ -1238,6 +1238,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   height: 95%;
   height: calc(100% - 40px);
   height: -webkit-calc(100% - 40px);
+  line-height: 1.6em;
   width: 95%;
   width: calc(100% - 40px);
   width: -webkit-calc(100% - 40px);
@@ -1526,7 +1527,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   background-color: #3b1151;
 }
 .text-block .main-text table.sa-table tbody tr:nth-child(2n) {
-  background-color: #d0ced0;
+  background-color: #cacaca;
 }
 .text-block .main-text table.sa-table tbody tr td {
   padding: 10px;
@@ -1562,7 +1563,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .text-block .main-text .text-title {
   font-size: 2.3em;
-  color: #373537;
+  color: #313131;
 }
 .text-block .side-text {
   position: absolute;
@@ -1571,7 +1572,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   width: 30%;
   display: inline-block;
   border-left-width: 1px;
-  border-left-color: #d0ced0;
+  border-left-color: #cacaca;
   border-left-style: solid;
   font-family: "Lora", serif;
   font-size: 0.95em;
@@ -1593,7 +1594,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   background-color: #3b1151;
 }
 .text-block .side-text table.sa-table tbody tr:nth-child(2n) {
-  background-color: #d0ced0;
+  background-color: #cacaca;
 }
 .text-block .side-text table.sa-table tbody tr td {
   padding: 10px;
@@ -1629,7 +1630,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .text-block .side-text .text-title {
   font-size: 1.8em;
-  color: #373537;
+  color: #313131;
 }
 
 @media only screen and (max-width: 640px) {
@@ -1755,7 +1756,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   background-color: #3b1151;
 }
 .basic-container .basic-text-container table.sa-table tbody tr:nth-child(2n) {
-  background-color: #d0ced0;
+  background-color: #cacaca;
 }
 .basic-container .basic-text-container table.sa-table tbody tr td {
   padding: 10px;
@@ -1826,7 +1827,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   background-color: #3b1151;
 }
 .detail-container .detail-main table.sa-table tbody tr:nth-child(2n) {
-  background-color: #d0ced0;
+  background-color: #cacaca;
 }
 .detail-container .detail-main table.sa-table tbody tr td {
   padding: 10px;
@@ -2039,7 +2040,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   top: 0;
   left: -1px;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   width: 100%;
   height: 101%;
   height: calc(100% + 10px);
@@ -2351,7 +2352,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   top: 0;
   left: -1px;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #c1c0c0;
   width: 100%;
   height: 101%;
   height: calc(100% + 5px);
@@ -2407,7 +2408,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   top: 0;
   left: -1px;
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #c1c0c0;
   width: 100%;
   height: 101%;
   height: calc(100% + 10px);

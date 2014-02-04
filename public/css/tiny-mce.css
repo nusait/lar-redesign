@@ -1,5 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(http://fonts.googleapis.com/css?family=Lora:400,700);
+@import url(//fonts.googleapis.com/css?family=Lora:400,700);
 .mceContentBody {
   background-color: #eff1f1;
   font-size: 1.1em;
@@ -23,7 +23,7 @@
   background-color: #3b1151;
 }
 .mceContentBody table.sa-table tbody tr:nth-child(2n) {
-  background-color: #d0ced0;
+  background-color: #cacaca;
 }
 .mceContentBody table.sa-table tbody tr td {
   padding: 10px;

@@ -1,3 +1,5 @@
+$footer-background-color: $purple;
+
 @mixin detail-spacing {
 	float: left;
 	$padding: 20px;
@@ -24,7 +26,7 @@
 		}
 	}
 	.inner {
-		background-color: $purple;
+		background-color: $footer-background-color;
 		position: relative;
 		margin-top: 30px;
 		.arrow-button {
@@ -45,7 +47,7 @@
 			$details-padding-side: 20px;
 			$details-padding-vertical: 20px;
 			@include text-font;
-			font-size: 1.2em;
+			font-size: 0.8em;
 			position: relative;
 			display: inline-block;
 			color: white;
@@ -54,6 +56,7 @@
 			height: 95%;
 			height: calc(100% - #{$details-padding-vertical * 2});
 			height: -webkit-calc(100% - #{$details-padding-vertical * 2});
+			line-height: 1.6em;
 
 			width: 95%;
 			width: calc(100% - #{$details-padding-side * 2});
