@@ -89,5 +89,10 @@ Route::get('stack', function ()
 	return View::make(get_template(), compact('DEFAULT'));
 });
 
+Route::get('form', function () {
+	generate_shared();
+	$DEFAULT = get_default('form');
+	return View::make(get_template(), compact('DEFAULT'));
+});
 
 
