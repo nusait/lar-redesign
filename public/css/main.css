@@ -1737,7 +1737,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .basic-container .basic-text-container {
   overflow: hidden;
-  margin-left: 30px;
+  margin-left: 20px;
   margin-right: 20px;
 }
 .basic-container .basic-text-container table.sa-table {
@@ -1889,6 +1889,16 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     padding-bottom: 10px;
   }
 }
+.basic-container .section-container {
+  clear: right;
+}
+.basic-container .section-container .basic-heading-container {
+  margin-left: 20px;
+}
+.basic-container .section-container .basic-heading-container h2 {
+  margin-top: 0;
+}
+
 .department-header {
   clear: both;
   position: relative;
