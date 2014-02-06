@@ -95,4 +95,9 @@ Route::get('form', function () {
 	return View::make(get_template(), compact('DEFAULT'));
 });
 
+Route::get('section', function () {
+	generate_shared();
+	$DEFAULT = get_default('section');
+	return View::make(get_template(), compact('DEFAULT'));
+});
 

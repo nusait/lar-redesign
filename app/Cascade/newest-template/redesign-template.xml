@@ -45,6 +45,7 @@
                     <div class="dosa-logo">Student Affairs</div>
                     <form action="http://googlesearch.northwestern.edu/search" method="get">
                         <input name="client" type="hidden" value="default_oneboxes"/>
+                        <input name="site" type="hidden" value="sa_default"/>
                         <input name="proxystylesheet" type="hidden" value="default_oneboxes"/>
                         <input aria-label="Search Input" class="search" name="q" placeholder="Search" type="search"/>
                     </form>
@@ -90,6 +91,7 @@
                                     <div class="search">
                                         <form action="http://googlesearch.northwestern.edu/search" method="get">
                                             <input name="client" type="hidden" value="default_oneboxes"/>
+                                            <input name="site" type="hidden" value="sa_default"/>
                                             <input name="proxystylesheet" type="hidden" value="default_oneboxes"/>
                                             <input aria-label="Search Input" name="q" type="search"/>
                                             <button aria-label="Submit Search" type="submit"><i class="fa fa-search"><!-- keep --></i></button>
