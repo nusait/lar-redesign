@@ -5,12 +5,13 @@
             <xsl:value-of
                 select="system-block/system-data-structure/redesign/sitename"/>
         </xsl:variable>
+        <xsl:variable name="sitelink" select="system-page[name='index']/link" />
         <div class="department-header">
             <div class="department-header-bg">
                 <div class="department-header-inner">
-                    <h2 class="department-title">
+                    <a class="department-title" href="{$sitelink}">
                         <xsl:value-of select="$sitename" />
-                    </h2>
+                    </a>
                     <nav class="department-nav closed" role="navigation">
                         <button class="mobile-menu-button"><xsl:text>&#160;</xsl:text></button>
                         <xsl:for-each select="system-folder">

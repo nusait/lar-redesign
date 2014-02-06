@@ -1,0 +1,29 @@
+<system-index-block current-time="1391703751992" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="07ff6740a57c421a4c5cba16907a04e7">
+            <name>index</name>
+            <is-published>true</is-published>
+            <title>ChangeMe Title</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>Change me to page description that Google may pass on to
+                searchers</description>
+            <display-name>ChangeMe </display-name>
+            <path>/content-types/machform/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/content-types/machform/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1391703582483</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1391703582483</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Machform page form">
+                <content-type-machform>
+                    <value>Yes</value>
+                </content-type-machform>
+                <form-id>14117</form-id>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>

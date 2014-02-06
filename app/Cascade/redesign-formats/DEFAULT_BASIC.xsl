@@ -12,32 +12,47 @@
                     <xsl:if test="count(photo-section/photo/link) > 0">
                         <div class="basic-image-container">
                             <xsl:for-each select="photo-section">
-                                <div class="basic-image-item">
+                                <xsl:variable name="element">
+                                    <xsl:choose>
+                                        <xsl:when
+                                            test="link[@type='symlink'] or link[@type='file'] or link[@type='page']">
+                                            <xsl:value-of select="'a'"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:value-of select="'div'"/>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </xsl:variable>
+                                <xsl:element name="{$element}">
+                                    <xsl:attribute name="class">
+                                        <xsl:value-of select="'basic-image-item'"/>
+                                    </xsl:attribute>
+                                    <xsl:if test="$element = 'a'">
+                                        <xsl:attribute name="href">
+                                            <xsl:choose>
+                                                <xsl:when test="link[@type='page']">
+                                                  <xsl:value-of select="link/link"/>
+                                                </xsl:when>
+                                                <xsl:when test="link[@type='file']">
+                                                  <xsl:value-of select="link/link"/>
+                                                </xsl:when>
+                                                <xsl:when test="link[@type='symlink']">
+                                                  <xsl:value-of select="link/content/system-symlink"
+                                                  />
+                                                </xsl:when>
+                                            </xsl:choose>
+                                        </xsl:attribute>
+                                    </xsl:if>
                                     <img src="{photo/link}" alt="{alt-text}"/>
                                     <div class="basic-image-caption">
                                         <p>
                                             <xsl:value-of select="description"/>
-                                            <xsl:text>&#160;</xsl:text>
-                                            <xsl:choose>
-                                                <xsl:when test="link[@type='page']">
-                                                    <a href="{link/link}">Internal Page Link</a>
-                                                </xsl:when>
-                                                <xsl:when test="link[@type='file']">
-                                                    <a href="{link/link}">Internal File Link</a>
-                                                </xsl:when>
-                                                <xsl:when test="link[@type='symlink']">
-                                                    <a href="{link/content/system-symlink}">External Symlink</a>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                    <xsl:text>&#160;</xsl:text>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
                                         </p>
                                     </div>
-                                </div>
+                                </xsl:element>
                             </xsl:for-each>
-                        </div>   
-                    </xsl:if>               
+                        </div>
+                    </xsl:if>
                     <div class="basic-text-container">
                         <xsl:copy-of select="default/node()"/>
                     </div>

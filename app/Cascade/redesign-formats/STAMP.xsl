@@ -18,6 +18,10 @@
                     >detail</xsl:when>
                 <xsl:when test="calling-page/system-page/system-data-structure/content-type-directory"
                     >directory</xsl:when>
+                <xsl:when test="calling-page/system-page/system-data-structure/content-type-machform"
+                    >machform</xsl:when>
+                <xsl:when test="calling-page/system-page/system-data-structure/content-type-section"
+                    >section</xsl:when>
                 <xsl:when
                     test="calling-page/system-page/system-data-structure/content-type-multipanel"
                     >multipanel</xsl:when>
