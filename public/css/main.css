@@ -1907,6 +1907,9 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   width: 100%;
   float: none;
 }
+.basic-container .section-container .basic-image-container.image-top .basic-image-item {
+  margin-bottom: 10px;
+}
 .basic-container .section-container .basic-image-container.image-top .basic-image-caption {
   display: none;
 }

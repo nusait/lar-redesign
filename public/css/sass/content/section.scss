@@ -4,6 +4,9 @@
 		.basic-image-container.image-top {
 			width: 100%;
 			float: none;
+			.basic-image-item {
+				margin-bottom: 10px;
+			}
 			.basic-image-caption {
 				display: none;
 			}
