@@ -1903,8 +1903,15 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .basic-container .section-container {
   clear: right;
 }
+.basic-container .section-container .basic-image-container.image-top {
+  width: 100%;
+  float: none;
+}
+.basic-container .section-container .basic-image-container.image-top .basic-image-caption {
+  display: none;
+}
 .basic-container .section-container .basic-heading-container {
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  border-top: 1px dotted rgba(180, 180, 180, 0.7);
   margin-left: 20px;
 }
 .basic-container .section-container .basic-heading-container h2 {

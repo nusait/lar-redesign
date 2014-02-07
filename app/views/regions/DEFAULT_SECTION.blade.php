@@ -4,9 +4,9 @@
 		<div class="basic-heading-container">
 			<h2>Some Heading</h2>
 		</div>
-		<div class="basic-image-container">
+		<div class="basic-image-container image-top">
 			<div class="basic-image-item">
-				<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/600x600"/>
+				<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/800x250"/>
 				<div class="basic-image-caption">
 					<p>You'll want to swap in your own photo here - No Link</p>
 				</div>
@@ -32,9 +32,9 @@
 		<div class="basic-heading-container">
 			<h2>Some Heading</h2>
 		</div>
-		<div class="basic-image-container">
+		<div class="basic-image-container image-top">
 			<div class="basic-image-item">
-				<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/600x600"/>
+				<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/800x250"/>
 				<div class="basic-image-caption">
 					<p>You'll want to swap in your own photo here - No Link</p>
 				</div>
