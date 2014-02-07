@@ -1,5 +1,8 @@
 <div class="title-lvl-2-container"><h3 class="title-lvl-2">faq</h3></div>
 <div class="collapsable-container">
+  <div class="collapsible-text">
+    THIS is Some Text!!
+  </div>
   <div class="collapsable-item closed">
   	<div class="collapsable-title">Who are we?</div>
   	<div class="collapsable-content">

@@ -1,10 +1,21 @@
 .basic-container {
 	.section-container {
 		clear: right;
+		// .basic-image-container {
+		// 	width: 100%;
+		// 	float: none;
+		// }
 		.basic-heading-container {
+			border-top: 1px solid rgba(0, 0, 0, 0.5);
 			margin-left: 20px;
 			h2 {
-				margin-top: 0;
+				margin-top: 10px;
+			}
+
+		}
+		&:first-child {
+			.basic-heading-container {
+				border-top: none;
 			}
 		}
 	}

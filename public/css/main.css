@@ -1654,6 +1654,13 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     font-size: 1.8em;
   }
 }
+.collapsable-container .collapsible-text {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
 .collapsable-container .collapsable-item.closed .collapsable-title:before {
   content: "\f067";
   font-family: FontAwesome;
@@ -1798,6 +1805,7 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
     margin: 0;
   }
   .basic-container .basic-image-container .basic-image-item {
+    display: inline-block;
     margin-bottom: 0;
   }
   .basic-container .basic-image-container .basic-image-item .basic-image-caption {
@@ -1896,10 +1904,14 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   clear: right;
 }
 .basic-container .section-container .basic-heading-container {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
   margin-left: 20px;
 }
 .basic-container .section-container .basic-heading-container h2 {
-  margin-top: 0;
+  margin-top: 10px;
+}
+.basic-container .section-container:first-child .basic-heading-container {
+  border-top: none;
 }
 
 .department-header {
