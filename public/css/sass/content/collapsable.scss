@@ -1,4 +1,9 @@
 .collapsable-container {
+	.collapsible-text {
+		@include text-font;
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
 	.collapsable-item {
 		$plus: '067';
 		// $plus: 196;
