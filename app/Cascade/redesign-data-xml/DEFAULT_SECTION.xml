@@ -1,0 +1,115 @@
+<system-index-block current-time="1391797008580" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="093bde068169775b19a3bffb5dafffa2">
+            <name>index</name>
+            <is-published>true</is-published>
+            <last-published-on>1391795647906</last-published-on>
+            <last-published-by>cew904</last-published-by>
+            <title>Section Title</title>
+            <keywords>decide, here, which, keywords, should, populate, your, page</keywords>
+            <description>Change me to page description whch Google may pass on to
+                searchers</description>
+            <display-name>Section</display-name>
+            <path>/content-types/section/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/content-types/section/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1391724322193</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1391796976480</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Section Page Form">
+                <content-type-section>
+                    <value>Yes</value>
+                </content-type-section>
+                <show-first-section-heading>
+                    <value>Yes</value>
+                </show-first-section-heading>
+                <section>
+                    <section-heading>Funding for Students</section-heading>
+                    <default>
+                        <p>We are happy to refer students to academic support/resources available at
+                            Northwestern to assist with achieving their academic goals.</p>
+                        <p>MSA offers a limited amount of funding for students with demonstrated
+                            financial need to support academic tutoring. For further information
+                            about academic support and referrals, email <a
+                                href="mailto:msa@northwestern.edu">msa@northwestern.edu</a>.</p>
+                        <p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Suspendisse porttitor est ut vestibulum condimentum. Ut velit est,
+                                viverra at convallis quis, dictum at tellus. Nam mi est, condimentum
+                                et rutrum eget, volutpat iaculis metus. Etiam porttitor elit id
+                                varius posuere. In interdum tempus neque, nec molestie nisl ultrices
+                                quis. Vivamus orci lacus, imperdiet quis orci in, imperdiet mollis
+                                sem. Cras leo lorem, gravida vel ultricies non, sollicitudin sed
+                                leo. Nullam iaculis augue ultricies bibendum gravida. Nam porta vel
+                                nisl a vehicula. Donec rutrum eget massa ac aliquam. Aliquam lacinia
+                                libero diam, a adipiscing erat vehicula sit amet. Curabitur urna
+                                libero, interdum non nisl ac, ullamcorper pulvinar odio. Duis tempor
+                                mattis tellus, vitae condimentum elit scelerisque at. Etiam
+                                scelerisque placerat porttitor. Quisque eget libero euismod, cursus
+                                nulla ut, blandit sem. Duis a libero eget nulla elementum dictum non
+                                eu ligula.</span>
+                        </p>
+                    </default>
+                    <photo type="file">
+                        <content/>
+                        <path>/content-types/section/assets/reel_2.jpg</path>
+                        <link>site://SA-FOOD/content-types/section/assets/reel_2.jpg</link>
+                        <site>SA-FOOD</site>
+                        <name>reel_2.jpg</name>
+                    </photo>
+                    <placement>
+                        <value>top</value>
+                    </placement>
+                    <alt-text>Change Me Alt Text</alt-text>
+                    <description>This text should not show up, hide with CSS</description>
+                </section>
+                <section>
+                    <section-heading>Training Opportunities</section-heading>
+                    <default>
+                        <p>
+                            <span>MSA provides large and small scale training opportunities for
+                                faculty, staff, and students around a variety of issues relating to
+                                diversity, social justice, and awareness.</span>
+                        </p>
+                        <p>
+                            <span>
+                                <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                    Suspendisse porttitor est ut vestibulum condimentum. Ut velit
+                                    est, viverra at convallis quis, dictum at tellus. Nam mi est,
+                                    condimentum et rutrum eget, volutpat iaculis metus. Etiam
+                                    porttitor elit id varius posuere. In interdum tempus neque, nec
+                                    molestie nisl ultrices quis. Vivamus orci lacus, imperdiet quis
+                                    orci in, imperdiet mollis sem. Cras leo lorem, gravida vel
+                                    ultricies non, sollicitudin sed leo. Nullam iaculis augue
+                                    ultricies bibendum gravida. Nam porta vel nisl a vehicula. Donec
+                                    rutrum eget massa ac aliquam. Aliquam lacinia libero diam, a
+                                    adipiscing erat vehicula sit amet. Curabitur urna libero,
+                                    interdum non nisl ac, ullamcorper pulvinar odio. Duis tempor
+                                    mattis tellus, vitae condimentum elit scelerisque at. Etiam
+                                    scelerisque placerat porttitor. Quisque eget libero euismod,
+                                    cursus nulla ut, blandit sem. Duis a libero eget nulla elementum
+                                    dictum non eu ligula.</span>
+                            </span>
+                        </p>
+                    </default>
+                    <photo type="file">
+                        <content/>
+                        <path>/content-types/section/assets/TAJ-Presenting-2012.jpg</path>
+                        <link>site://SA-FOOD/content-types/section/assets/TAJ-Presenting-2012.jpg</link>
+                        <site>SA-FOOD</site>
+                        <name>TAJ-Presenting-2012.jpg</name>
+                    </photo>
+                    <placement>
+                        <value>right</value>
+                    </placement>
+                    <alt-text>Change this alt text</alt-text>
+                    <description>Here is a description</description>
+                </section>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>

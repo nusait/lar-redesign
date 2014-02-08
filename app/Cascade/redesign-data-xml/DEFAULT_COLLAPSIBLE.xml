@@ -1,19 +1,21 @@
-<system-index-block current-time="1389487937579" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1391792150809" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="83ee89bba57c421a41f5ad2bdf4fd235">
+        <system-page current="true" id="c5a79df98169775b7f19efa772fb8f2b">
             <name>index</name>
             <is-published>true</is-published>
-            <title>ChangeMe Title</title>
+            <last-published-on>1391726153651</last-published-on>
+            <last-published-by>osi706</last-published-by>
+            <title>Collapsible Title</title>
             <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
             <description>This is a description of the page. Change me.</description>
-            <display-name>ChangeMe</display-name>
-            <path>/_internal/redesign-base-assets/sa-main-collapsible/index</path>
-            <site>SA-MAIN</site>
-            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-collapsible/index</link>
-            <created-by>cew904</created-by>
-            <created-on>1389487884630</created-on>
+            <display-name>Collapsible</display-name>
+            <path>/content-types/collapsible/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/content-types/collapsible/index</link>
+            <created-by>osi706</created-by>
+            <created-on>1390590533044</created-on>
             <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389487884630</last-modified>
+            <last-modified>1391792114995</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
@@ -21,6 +23,21 @@
                 <content-type-collapsible>
                     <value>Yes</value>
                 </content-type-collapsible>
+                <introduction>
+                    <p>
+                        <span>Donec pretium fringilla sapien varius scelerisque. Fusce et urna
+                            sollicitudin, sagittis turpis eu, laoreet diam. Etiam a elementum risus.
+                            Sed bibendum odio turpis, quis pretium purus pellentesque eu. Nulla
+                            venenatis arcu laoreet ultrices vulputate. Vestibulum nisi turpis,
+                            volutpat ut euismod non, volutpat sit amet dolor. Donec hendrerit
+                            sollicitudin nisl ut vehicula. Morbi urna erat, hendrerit eget urna at,
+                            porttitor placerat mi. Vivamus pretium volutpat tincidunt. Suspendisse
+                            nec libero eget dolor interdum vehicula. Curabitur et ultricies diam.
+                            Nullam fringilla condimentum nisl. Sed sollicitudin augue nec mauris
+                            commodo, eu mattis urna pellentesque. Duis facilisis enim et pharetra
+                            tempus.</span>
+                    </p>
+                </introduction>
                 <collapsible-section>
                     <subject>This is the first FAQ</subject>
                     <content>
@@ -36,7 +53,7 @@
                 <collapsible-section>
                     <subject>This is the second FAQ</subject>
                     <content>
-                        <p>Lorem2 ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
                             eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim
                             ad minim veniam,<br/> quis nostrud exercitation ullamco laboris nisi ut
                             aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
