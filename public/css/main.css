@@ -1040,6 +1040,37 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   }
 
   /** Used by Swiper **/
+  .swiper-direction {
+    position: absolute;
+    top: 23%;
+    z-index: 100;
+    height: 40%;
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+  }
+  .swiper-direction:hover .icon {
+    color: white;
+  }
+  .swiper-direction .icon {
+    color: #3b1151;
+    font-size: 3em;
+    line-height: 3em;
+  }
+
+  .swiper-prev .prev-icon:after {
+    content: "\f053";
+    font-family: FontAwesome;
+  }
+
+  .swiper-next {
+    right: 0;
+  }
+  .swiper-next .next-icon:after {
+    content: "\f054";
+    font-family: FontAwesome;
+  }
+
   .pagination-container {
     position: absolute;
     left: 10px;

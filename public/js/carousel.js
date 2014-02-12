@@ -36,6 +36,13 @@ define(['jquery', 'swiper', 'browser'], function ($, Swiper, Browser)
                         ins.changeActiveLabel(swiper.activeLoopIndex);
                     }
                 });
+                $('.swiper-direction').on('click', function() {
+                    if ($(this).data('direction') == 'prev') {
+                        swiper.swipePrev();
+                    } else {
+                        swiper.swipeNext();
+                    }
+                });
                 ins.changeActiveLabel(swiper.activeLoopIndex);
             },
             this.addMediaQueryEvents = function () {
