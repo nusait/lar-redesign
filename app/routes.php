@@ -45,14 +45,16 @@ Route::get('basic', function ()
 {
 	generate_shared();
 	$DEFAULT = get_default('basic');
-	return View::make(get_template(), compact('DEFAULT'));
+	$type = 'basic';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
 Route::get('collapsible', function () 
 {
 	generate_shared();
 	$DEFAULT = get_default('collapsible');
-	return View::make(get_template(), compact('DEFAULT'));
+	$type = 'collapsible';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
 Route::get('panel', function () 
@@ -62,6 +64,7 @@ Route::get('panel', function ()
 		'DEFAULT' => get_default('panel'),
 		'DEPARTMENT_SUB_NAV' => null,
 		'DEPARTMENT_QUICKLINKS' => null,
+		'type' => 'panel'
 	]);
 });
 
@@ -69,7 +72,8 @@ Route::get('detail', function ()
 {
 	generate_shared();
 	$DEFAULT = get_default('detail');
-	return View::make(get_template(), compact('DEFAULT'));
+	$type = 'detail';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
 Route::get('multipanel', function () 
@@ -79,6 +83,7 @@ Route::get('multipanel', function ()
 		'DEFAULT' => get_default('multipanel'),
 		'DEPARTMENT_SUB_NAV' => null,
 		'DEPARTMENT_QUICKLINKS' => null,
+		'type' => 'multipanel'
 	]);
 });
 
@@ -86,18 +91,21 @@ Route::get('stack', function ()
 {
 	generate_shared();
 	$DEFAULT = get_default('stack');
-	return View::make(get_template(), compact('DEFAULT'));
+	$type = 'stack';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
 Route::get('form', function () {
 	generate_shared();
 	$DEFAULT = get_default('form');
-	return View::make(get_template(), compact('DEFAULT'));
+	$tyle = 'form';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
 Route::get('section', function () {
 	generate_shared();
 	$DEFAULT = get_default('section');
-	return View::make(get_template(), compact('DEFAULT'));
+	$type = 'section';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 

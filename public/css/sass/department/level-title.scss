@@ -26,5 +26,8 @@
 @media #{$small} {
 	.title-lvl-2-container {
 		margin-top: 15px;
+		.title-lvl-2 {
+			font-size: 2em;
+		}
 	}
 }

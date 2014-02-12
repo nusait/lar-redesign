@@ -60,11 +60,11 @@ body {
                 bottom: 0;
                 left: 0;
                 right: 0;
-                @include display(flex);
-                @include flex-direction(column);
+                // @include display(flex);
+                // @include flex-direction(column);
 
                 .middle {
-                    @include flex(1);
+                    // @include flex(1);
                     background-color: $bg-color;
                     color: black;
                     margin: 0;
@@ -144,12 +144,14 @@ body {
 }
 
 @media #{$small} {
+body {
     .viewport {
         .main {
             html.show-drawer & {
             }
             .main-window {
                 .middle {
+                    margin-top: 50px;
                     .content {
                         .title {
                             position: relative;
@@ -207,4 +209,5 @@ body {
             }
         }
     }
+}
 }

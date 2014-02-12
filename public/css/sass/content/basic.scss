@@ -6,7 +6,6 @@
 		margin-left: 20px;
 		.basic-image-item {
 			margin-bottom: 30px;
-
 			img {
 				width: 100%;
 			}
@@ -64,23 +63,53 @@
 			float: none;
 			width: 100%;
 			margin: 0;
-			.basic-image-item {
-				display: inline-block;
-				margin-bottom: 0;
-				img {
+			position:relative;
+			user-select: none;
+			&.show-arrow-overlay {
+				&:after {
+					opacity: 0.5;
 				}
-				.basic-image-caption {
-					position: relative;
-					top: -30px;
-					text-align: center;
-					p {
-					}
+			}
 
+			&:after {
+				@include transition(opacity 0.5s);
+				position: absolute;
+				z-index: 4;
+				height: 3em;
+				width: 100%;
+				font-family: FontAwesome;
+				content: '\f07e swipe';
+				font-size: 3em;
+				line-height: 3em;
+				text-align: center;
+				margin: 0 auto;
+				opacity: 0;
+				background: rgba(255, 255, 255, 0.8);
+				top: 0;
+			}
+			.basic-image-wrapper {
+				a.basic-image-item {
+					display:inline-block;
+				}
+				.basic-image-item {
+					display: inline-block;
+					margin-bottom: 0;
+					overflow:hidden;
+					// width: 80%;
+					img {
+					}
+					.basic-image-caption {
+						position: relative;
+						top: -30px;
+						text-align: center;
+						p {
+						}
+					}
 				}
 			}
 		}
 		.basic-text-container {
-
+			@include generic-content-style-small;
 		}
 	}
 }

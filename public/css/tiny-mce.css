@@ -12,7 +12,7 @@
   font-size: 0.95em;
   font-weight: 200;
   width: 100%;
-  margin: 0 20px;
+  margin: 0;
 }
 .mceContentBody table.sa-table tbody th {
   font-family: "Oswald", sans-serif;
@@ -21,6 +21,9 @@
   padding: 10px;
   text-align: left;
   background-color: #3b1151;
+}
+.mceContentBody table.sa-table tbody th .table-dropdown {
+  display: none;
 }
 .mceContentBody table.sa-table tbody tr:nth-child(2n) {
   background-color: #cacaca;

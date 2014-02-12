@@ -2,10 +2,13 @@
 	table.sa-table {
 		@include text-font;
 		width: 100%;
-		margin: 0 20px;
+		margin: 0;
 		tbody {
 			th {
 				@include display-font;
+				.table-dropdown {
+					display: none;
+				}
 				color: white;
 				font-weight: 300;
 				padding: 10px;
@@ -50,5 +53,67 @@
 	    margin: 0.7em 0;
 	    padding: 0;
 	    font-family: $text-font;
+	}
+}
+
+@mixin generic-content-style-small {
+	table.sa-table {
+		position: relative;
+		tbody {
+			tr {
+				th {
+					position: relative;
+					&.table-category:after {
+						position: absolute;
+						right: 10px;
+						top: 5px;
+						@include icon(107);
+						font-size: 2em;
+						z-index: 0;
+					}
+
+					.table-dropdown {
+						display: block;
+						position: absolute;
+						background-color: $purple;
+						top: 0;
+						left: 0;
+						right: 0;
+						z-index: 1;
+						.dropdown-category {
+							cursor: pointer;
+							padding: 5px 10px 5px 10px;
+							&:first-child {
+								padding-top: 10px;
+							}
+							&:active {
+								background-color: green;
+							}
+							&:hover {
+								background-color: darken($purple, 5%);
+							}
+						}
+						.close-button {
+							position: absolute;
+							right: 0;
+							top: 0;
+							padding: 5px 10px;
+							&:after {
+								@include icon(106);
+								font-size: 2em;
+							}
+						}
+						
+						&.closed {
+							display: none;
+						}
+					}
+				}
+			}
+			tr {
+				td {
+				}
+			}
+		}
 	}
 }

@@ -1,5 +1,5 @@
-require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms'],
-    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms) {
+require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms', 'components/basicImage'],
+    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms, BasicImage) {
 
     browser = Browser.start();
 
@@ -24,7 +24,12 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
     LevelNavigation.initialize();
 
     Machforms.makeForm();
-    // Table.initialize();
+    BasicImage.initialize();
+    
+    window.tables = [];
+    $('.sa-table').each(function (index, table) {
+        new Table($(table));
+    });
 
     console.log("main.js finished loading");
 });
