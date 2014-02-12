@@ -60,3 +60,6 @@
 .mceContentBody h1, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6 {
   text-decoration: line-through;
 }
+.mceContentBody a[target=_blank], .mceContentBody a[target=blank] {
+  text-decoration: line-through;
+}

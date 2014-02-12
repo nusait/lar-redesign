@@ -14,4 +14,7 @@
 	h1, h4, h5, h6 {
 		text-decoration: line-through;
 	}
+	a[target=_blank], a[target=blank] {
+		text-decoration: line-through;
+	}
 }
