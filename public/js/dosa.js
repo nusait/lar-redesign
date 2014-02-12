@@ -33,17 +33,43 @@ define(['jquery', 'hammer', 'browser'], function ($, Hammer, Browser)
                 $(".dosa h2").on("click", function () {
                     $(this).parent().toggleClass('closed');
                 });
-                $(".dosa-banner .section").hover(function () {
-                    $(this).removeClass('closed');
-                }, function () {
-                    $(this).addClass('closed');
+
+                // $(".dosa-banner .section").on('click', function (ev) {
+                //     $(this).addClass('closed');
+                //     ev.stopPropagation();
+                // });
+                
+                // $(".dosa-banner .section h2").focus(function () {
+                //     target = $(this).parent();
+                //     ins.hideAll();
+                //     target.removeClass('closed');
+                // });
+
+                $(".dosa-banner .section h2").on('click', function (ev) {
+                    ev.preventDefault();
+                    console.log($(this).parent().hasClass('closed'));
+                    if ( ! $(this).parent().hasClass('closed')) {
+                        $(this).parent().addClass('closed');
+                    } else {
+                        ins.hideAll();
+                        $(this).parent().removeClass('closed');
+                    }
                 });
 
-                $(".dosa-banner .section h2").focus(function () {
-                    target = $(this).parent();
-                    ins.hideAll();
-                    target.removeClass('closed');
+                $(document).click(function (ev) {
+                    var section = $('.dosa-banner .section');
+                    if (!section.is(ev.target) && section.has(ev.target).length === 0) {
+                        section.addClass('closed');
+                    }
                 });
+
+                // $(".dosa-banner .section").hover(function () {
+                //     $(this).removeClass('closed');
+                // }, function () {
+                //     $(this).addClass('closed');
+                // });
+
+                
             };
 
             this.initialize();

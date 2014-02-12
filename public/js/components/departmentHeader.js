@@ -31,7 +31,7 @@ define(['jquery'], function ($)
 					$(this).parent().parent().addClass('closed');
 				});
 				$(document).click(function (ev) {
-				    var section = $('.section');
+				    var section = $('.department-header .section');
 				    if (!section.is(ev.target) && section.has(ev.target).length === 0) {
 				        section.addClass('closed');
 				    }
