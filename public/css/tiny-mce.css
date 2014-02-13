@@ -55,6 +55,9 @@
   padding: 10px;
   vertical-align: text-top;
 }
+.mceContentBody .map-wrapper {
+  width: 100%;
+}
 .mceContentBody a {
   text-decoration: underline;
   color: #006e8b;

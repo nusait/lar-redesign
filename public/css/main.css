@@ -1591,6 +1591,9 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   padding: 10px;
   vertical-align: text-top;
 }
+.text-block .main-text .map-wrapper {
+  width: 100%;
+}
 .text-block .main-text a {
   text-decoration: underline;
   color: #006e8b;
@@ -1683,6 +1686,9 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .text-block .side-text table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
+}
+.text-block .side-text .map-wrapper {
+  width: 100%;
 }
 .text-block .side-text a {
   text-decoration: underline;
@@ -1882,6 +1888,9 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   padding: 10px;
   vertical-align: text-top;
 }
+.basic-container .basic-text-container .map-wrapper {
+  width: 100%;
+}
 .basic-container .basic-text-container a {
   text-decoration: underline;
   color: #006e8b;
@@ -1906,6 +1915,12 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin: 0.7em 0;
   padding: 0;
   font-family: "Lora", serif;
+}
+.basic-container .basic-text-container .before-text {
+  margin-bottom: 10px;
+}
+.basic-container .basic-text-container .after-text {
+  margin-top: 10px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -2056,6 +2071,9 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .detail-container .detail-main table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
+}
+.detail-container .detail-main .map-wrapper {
+  width: 100%;
 }
 .detail-container .detail-main a {
   text-decoration: underline;

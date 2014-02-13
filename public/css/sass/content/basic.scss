@@ -54,6 +54,12 @@
 		margin-left: 20px;
 		margin-right: 20px;
 		@include generic-content-style;
+		.before-text {
+			margin-bottom: 10px;
+		}
+		.after-text {
+			margin-top: 10px;
+		}
 	}
 }
 

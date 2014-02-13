@@ -109,3 +109,10 @@ Route::get('section', function () {
 	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
+Route::get('map', function () {
+	 generate_shared();
+	 $DEFAULT = get_default('map');
+	 $type = 'map';
+	 return View::make(get_template(), compact('DEFAULT', 'type'));
+});
+
