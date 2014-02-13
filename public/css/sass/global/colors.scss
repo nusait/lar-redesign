@@ -2,7 +2,8 @@ $presidential: #5C2483;
 $homecoming: #9560A4;
 $primal: #3B1151;
 $dillo: #46BAB8;
-$deering: #98A822;
+$deering: #7EA641;
+// $deering: #00A67C;
 $lakefill: #007B9A;
 $rock: #7E7D7E;
 $university: #C1C0C0;
@@ -18,11 +19,11 @@ $bg-color: #eff1f1;
 $aqua: #22B9AD;
 $blue: #006e8b;
 
-$dept-purple: #5c2483;
-$dept-darkpurple: #3f1457;
+$dept-purple: $primal;
+$dept-lightpurple: $presidential;
 $dept-blue: #006e8b;
-$dept-green: #afbc5a;
-$dept-teal: #1cb3ab;
+$dept-green: $deering;
+$dept-teal: $dillo;
 
 $department-color-1: $aqua;
 

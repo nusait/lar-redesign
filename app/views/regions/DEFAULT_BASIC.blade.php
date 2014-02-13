@@ -7,7 +7,7 @@
 			<!--THIS IS NEW -->
 			<div class="basic-image-wrapper">
 				<div class="basic-image-item">
-					<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/600x400"/>
+					<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/600x600"/>
 					<div class="basic-image-caption">
 						<p>You'll want to swap in your own photo here - No Link</p>
 					</div>

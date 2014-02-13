@@ -20,10 +20,33 @@
   font-weight: 300;
   padding: 10px;
   text-align: left;
-  background-color: #3b1151;
 }
 .mceContentBody table.sa-table tbody th .table-dropdown {
   display: none;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #46bab8;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #3b1151;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #3b1151;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #3b1151;
 }
 .mceContentBody table.sa-table tbody tr:nth-child(2n) {
   background-color: #cacaca;

@@ -52,8 +52,8 @@
       <div class="divider"></div>
       <nav class="news" aria-labelledby="main-headlines" role="navigation">
           <div class="swiper-container news-img-container">
-            <div class="swiper-prev swiper-direction" data-direction="prev"><div class="prev-icon icon"></div></div>
-            <div class="swiper-next swiper-direction" data-direction="next"><div class="next-icon icon"></div></div>
+            <div class="swiper-prev swiper-direction" data-direction="prev"><div class="prev-icon icon"> </div></div>
+            <div class="swiper-next swiper-direction" data-direction="next"><div class="next-icon icon"> </div></div>
             <div class="swiper-wrapper">
                 <div class="swiper-slide news-img">
                   <img class="news-img" data-src="//placehold.it/750x300" alt="Wildcat Welcome"/>

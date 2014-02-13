@@ -13,7 +13,10 @@
 				font-weight: 300;
 				padding: 10px;
 				text-align: left;
-				background-color: $purple;
+				@include dept-colors-main(background-color);
+			}
+			th[scope=row] {
+				@include dept-colors-secondary(background-color);
 			}
 			tr {
 				&:nth-child(2n) {

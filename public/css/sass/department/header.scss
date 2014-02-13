@@ -25,8 +25,9 @@
 			line-height: 1.3em;
 			font-weight: 300;
 			&:hover {
-				text-shadow: -4px 4px 0 $purple;
-				@include dept-colors-secondary(text-shadow, -3px 3px 0);
+				// text-shadow: -4px 4px 0 $purple;
+				// text-decoration: underline;
+				// @include dept-colors-secondary(text-shadow, -3px 3px 0);
 			}
 		}
 		.department-nav {
@@ -98,6 +99,9 @@
 							&:active {
 								color: $purple;
 							}
+							&:hover {
+								text-decoration: underline;
+							}	
 						}
 					}
 					@include slanted-shadow(-2deg, 10px);
