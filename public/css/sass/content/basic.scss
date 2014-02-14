@@ -60,6 +60,26 @@
 		.after-text {
 			margin-top: 10px;
 		}
+		.map-wrapper {
+			width: 100%;
+		}
+		.video-wrapper {
+			position: relative;
+			width: 80%;
+			padding-bottom: 47.25%;
+			margin: 30px auto;
+			// padding-bottom: 56.25%;
+			height: 0; 
+			overflow: hidden;
+			iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+		}
+
 	}
 }
 
@@ -116,6 +136,11 @@
 		}
 		.basic-text-container {
 			@include generic-content-style-small;
+			.video-wrapper {
+				width: 95%;
+				padding-bottom: 55.25%;
+				margin: 15px 0;
+			}
 		}
 	}
 }

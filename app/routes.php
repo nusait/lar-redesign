@@ -116,3 +116,10 @@ Route::get('map', function () {
 	 return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
+Route::get('video', function () {
+	generate_shared();
+	$DEFAULT = get_default('video');
+	$type = 'video';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
+});
+

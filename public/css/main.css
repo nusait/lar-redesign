@@ -1591,9 +1591,6 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   padding: 10px;
   vertical-align: text-top;
 }
-.text-block .main-text .map-wrapper {
-  width: 100%;
-}
 .text-block .main-text a {
   text-decoration: underline;
   color: #006e8b;
@@ -1686,9 +1683,6 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .text-block .side-text table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
-}
-.text-block .side-text .map-wrapper {
-  width: 100%;
 }
 .text-block .side-text a {
   text-decoration: underline;
@@ -1888,9 +1882,6 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   padding: 10px;
   vertical-align: text-top;
 }
-.basic-container .basic-text-container .map-wrapper {
-  width: 100%;
-}
 .basic-container .basic-text-container a {
   text-decoration: underline;
   color: #006e8b;
@@ -1921,6 +1912,24 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .basic-container .basic-text-container .after-text {
   margin-top: 10px;
+}
+.basic-container .basic-text-container .map-wrapper {
+  width: 100%;
+}
+.basic-container .basic-text-container .video-wrapper {
+  position: relative;
+  width: 80%;
+  padding-bottom: 47.25%;
+  margin: 30px auto;
+  height: 0;
+  overflow: hidden;
+}
+.basic-container .basic-text-container .video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 @media only screen and (max-width: 640px) {
@@ -2015,6 +2024,11 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   .basic-container .basic-text-container table.sa-table tbody tr th .table-dropdown.closed {
     display: none;
   }
+  .basic-container .basic-text-container .video-wrapper {
+    width: 95%;
+    padding-bottom: 55.25%;
+    margin: 15px 0;
+  }
 }
 .detail-container .detail-main {
   margin-left: 20px;
@@ -2071,9 +2085,6 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 .detail-container .detail-main table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
-}
-.detail-container .detail-main .map-wrapper {
-  width: 100%;
 }
 .detail-container .detail-main a {
   text-decoration: underline;
