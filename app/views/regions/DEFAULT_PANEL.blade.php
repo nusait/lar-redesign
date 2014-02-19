@@ -1,6 +1,18 @@
 <div>
   <div class="block main-block">
     <div class="big-list-region">
+      <!-- <div class="big-list generic-container">
+        <h2 class="mobile-heading">Announcements</h2>
+        <div class="divider"></div>
+        <div class="generic-list">
+          <div class="generic-item">
+            
+          </div>
+          <div class="generic-item"></div>
+          <div class="generic-item"></div>
+          <div class="generic-item"></div>
+        </div>
+      </div> -->
       <div class="big-list events-container">
         <h2 class="mobile-heading" id="main-events">Events</h2>
         <div class="divider"> </div>

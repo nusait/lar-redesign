@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(../assets/swiper/dist/idangerous.swiper.css);
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(//fonts.googleapis.com/css?family=Lora:400,700);
@@ -1616,6 +1617,78 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   padding: 0;
   font-family: "Lora", serif;
 }
+.text-block .main-text blockquote {
+  position: relative;
+  left: 5px;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 98%;
+  width: calc(100% - 5px);
+  width: -webkit-calc(100% - 5px);
+  background-color: lightgray;
+}
+.stamp.dept-color-1 ~ .viewport .text-block .main-text blockquote {
+  box-shadow: -5px 5px 0px #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .text-block .main-text blockquote {
+  box-shadow: -5px 5px 0px #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .text-block .main-text blockquote {
+  box-shadow: -5px 5px 0px #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .text-block .main-text blockquote {
+  box-shadow: -5px 5px 0px #46bab8;
+}
+.text-block .main-text blockquote p {
+  display: block;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-style: italic;
+}
+.stamp.dept-color-1 ~ .viewport .text-block .main-text blockquote p {
+  color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .text-block .main-text blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-3 ~ .viewport .text-block .main-text blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-4 ~ .viewport .text-block .main-text blockquote p {
+  color: #3b1151;
+}
+.text-block .main-text blockquote:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.text-block .main-text blockquote:after {
+  content: '“';
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.stamp.dept-color-1 ~ .viewport .text-block .main-text blockquote:after {
+  color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .text-block .main-text blockquote:after {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .text-block .main-text blockquote:after {
+  color: #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .text-block .main-text blockquote:after {
+  color: #46bab8;
+}
 .text-block .main-text p, .text-block .main-text .text-title {
   margin: 0 20px 10px 20px;
 }
@@ -1708,6 +1781,78 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin: 0.7em 0;
   padding: 0;
   font-family: "Lora", serif;
+}
+.text-block .side-text blockquote {
+  position: relative;
+  left: 5px;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 98%;
+  width: calc(100% - 5px);
+  width: -webkit-calc(100% - 5px);
+  background-color: lightgray;
+}
+.stamp.dept-color-1 ~ .viewport .text-block .side-text blockquote {
+  box-shadow: -5px 5px 0px #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .text-block .side-text blockquote {
+  box-shadow: -5px 5px 0px #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .text-block .side-text blockquote {
+  box-shadow: -5px 5px 0px #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .text-block .side-text blockquote {
+  box-shadow: -5px 5px 0px #46bab8;
+}
+.text-block .side-text blockquote p {
+  display: block;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-style: italic;
+}
+.stamp.dept-color-1 ~ .viewport .text-block .side-text blockquote p {
+  color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .text-block .side-text blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-3 ~ .viewport .text-block .side-text blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-4 ~ .viewport .text-block .side-text blockquote p {
+  color: #3b1151;
+}
+.text-block .side-text blockquote:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.text-block .side-text blockquote:after {
+  content: '“';
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.stamp.dept-color-1 ~ .viewport .text-block .side-text blockquote:after {
+  color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .text-block .side-text blockquote:after {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .text-block .side-text blockquote:after {
+  color: #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .text-block .side-text blockquote:after {
+  color: #46bab8;
 }
 .text-block .side-text p, .text-block .side-text .text-title {
   margin: 0 27px 10px 20px;
@@ -1907,6 +2052,78 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   padding: 0;
   font-family: "Lora", serif;
 }
+.basic-container .basic-text-container blockquote {
+  position: relative;
+  left: 5px;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 98%;
+  width: calc(100% - 5px);
+  width: -webkit-calc(100% - 5px);
+  background-color: lightgray;
+}
+.stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container blockquote {
+  box-shadow: -5px 5px 0px #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container blockquote {
+  box-shadow: -5px 5px 0px #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .basic-container .basic-text-container blockquote {
+  box-shadow: -5px 5px 0px #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .basic-container .basic-text-container blockquote {
+  box-shadow: -5px 5px 0px #46bab8;
+}
+.basic-container .basic-text-container blockquote p {
+  display: block;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-style: italic;
+}
+.stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container blockquote p {
+  color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-3 ~ .viewport .basic-container .basic-text-container blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-4 ~ .viewport .basic-container .basic-text-container blockquote p {
+  color: #3b1151;
+}
+.basic-container .basic-text-container blockquote:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.basic-container .basic-text-container blockquote:after {
+  content: '“';
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container blockquote:after {
+  color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container blockquote:after {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .basic-container .basic-text-container blockquote:after {
+  color: #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .basic-container .basic-text-container blockquote:after {
+  color: #46bab8;
+}
 .basic-container .basic-text-container .before-text {
   margin-bottom: 10px;
 }
@@ -1915,6 +2132,9 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
 }
 .basic-container .basic-text-container .map-wrapper {
   width: 100%;
+}
+.basic-container .basic-text-container .map-wrapper #featureListPanel {
+  display: none;
 }
 .basic-container .basic-text-container .video-wrapper {
   position: relative;
@@ -2110,6 +2330,78 @@ html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-
   margin: 0.7em 0;
   padding: 0;
   font-family: "Lora", serif;
+}
+.detail-container .detail-main blockquote {
+  position: relative;
+  left: 5px;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 98%;
+  width: calc(100% - 5px);
+  width: -webkit-calc(100% - 5px);
+  background-color: lightgray;
+}
+.stamp.dept-color-1 ~ .viewport .detail-container .detail-main blockquote {
+  box-shadow: -5px 5px 0px #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .detail-container .detail-main blockquote {
+  box-shadow: -5px 5px 0px #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .detail-container .detail-main blockquote {
+  box-shadow: -5px 5px 0px #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .detail-container .detail-main blockquote {
+  box-shadow: -5px 5px 0px #46bab8;
+}
+.detail-container .detail-main blockquote p {
+  display: block;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-style: italic;
+}
+.stamp.dept-color-1 ~ .viewport .detail-container .detail-main blockquote p {
+  color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .detail-container .detail-main blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-3 ~ .viewport .detail-container .detail-main blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-4 ~ .viewport .detail-container .detail-main blockquote p {
+  color: #3b1151;
+}
+.detail-container .detail-main blockquote:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.detail-container .detail-main blockquote:after {
+  content: '“';
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.stamp.dept-color-1 ~ .viewport .detail-container .detail-main blockquote:after {
+  color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .detail-container .detail-main blockquote:after {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .detail-container .detail-main blockquote:after {
+  color: #7ea641;
+}
+.stamp.dept-color-4 ~ .viewport .detail-container .detail-main blockquote:after {
+  color: #46bab8;
 }
 .detail-container .detail-aside {
   float: right;

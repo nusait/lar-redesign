@@ -62,6 +62,9 @@
 		}
 		.map-wrapper {
 			width: 100%;
+			#featureListPanel {
+				display: none;
+			}
 		}
 		.video-wrapper {
 			position: relative;
@@ -121,7 +124,6 @@
 					display: inline-block;
 					margin-bottom: 0;
 					overflow:hidden;
-					// width: 80%;
 					img {
 					}
 					.basic-image-caption {

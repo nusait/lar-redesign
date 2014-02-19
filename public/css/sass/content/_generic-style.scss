@@ -58,6 +58,48 @@
 	    padding: 0;
 	    font-family: $text-font;
 	}
+
+	blockquote {
+		position: relative;
+		left: 5px;
+		@include dept-colors-main(box-shadow, -5px 5px 0px);
+		margin: 10px 0;
+		padding: 10px 0;
+		width: 98%;
+		width: calc(100% - 5px);
+		width: -webkit-calc(100% - 5px);
+		background-color: lightgray;
+		p {
+			display: block;
+			margin: 0 20px;
+			margin-top: 5px;
+			margin-left: 40px;
+			font-style: italic;
+			@include dept-colors-secondary(color);
+		}
+		
+		&:before {
+			content: '';
+			position: absolute;
+			top: -20px;
+			right: 40px;
+			border-width: 10px;
+			border-style: solid;
+			border-color: lightgray;
+			border-left: 10px solid transparent;
+			border-top: 10px solid transparent;
+			border-right: 10px solid transparent;
+		}
+
+		&:after {
+			content: '“';
+			font-size: 5em;
+			position: absolute;
+			top: 0;
+			left: 5px;
+			@include dept-colors-main(color);
+		}
+	}
 }
 
 @mixin generic-content-style-small {
