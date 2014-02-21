@@ -505,7 +505,7 @@ html.browser-lt-ie9 body .ie-too-old {
     max-width: 64.6em;
     border-top: 5px double #bbbbbb;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
     right: 12px;
   }
 
@@ -666,6 +666,119 @@ html.allow-hover .events-container .events .event-item:hover {
   margin-right: 15px;
 }
 
+.generic-container .generic-list {
+  margin: 0 15px 0 30px;
+}
+.generic-container .generic-list .generic-item {
+  margin: 10px 0;
+  padding: 10px;
+  color: white;
+  background-color: #317894;
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+html.allow-hover .generic-container .generic-list .generic-item:hover {
+  background-color: #3b1151;
+}
+.generic-container .generic-list .generic-item .generic-icon {
+  padding-right: 10px;
+}
+.generic-container .generic-list .generic-item .generic-text {
+  font-size: 1.5em;
+}
+
+@media only screen and (min-width: 641px) and (max-width: 900px) {
+  .generic-container .generic-list .generic-item .generic-icon {
+    text-align: center;
+    display: block;
+    border-right: none;
+    width: auto;
+    font-size: 1.5em;
+    border-radius: 100px;
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 1.5em;
+  }
+  .generic-container .generic-list .generic-item .generic-text {
+    display: block;
+    font-size: 1.6em;
+    padding: 10px 5px;
+  }
+}
+@media screen and (min-width: 901px) {
+  .generic-container .generic-list {
+    min-height: 400px;
+    max-height: 500px;
+  }
+  .generic-container .generic-list::-webkit-scrollbar {
+    display: none;
+  }
+  .generic-container .generic-list .generic-item .generic-icon {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #317894;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    margin-left: -30px;
+    border-radius: 200px;
+    border: 2px solid white;
+    text-align: center;
+  }
+  .generic-container .generic-list .generic-item .generic-icon i {
+    font-size: 1.8em;
+    line-height: 1.8em;
+  }
+  .generic-container .generic-list .generic-item .generic-text {
+    display: inline-block;
+    width: calc(100% - 50px);
+    width: -webkit-calc(100% - 50px);
+    padding-left: 5px;
+    font-size: 1.8em;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .generic-container .generic-list {
+    margin: 0;
+  }
+  .generic-container .generic-list .generic-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+  }
+  .generic-container .generic-list .generic-item .generic-icon {
+    padding: 0;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 200px;
+    width: 50px;
+    height: 50px;
+    line-height: 1.7em;
+    font-size: 1.7em;
+  }
+  .generic-container .generic-list .generic-item .generic-text {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -ms-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: flex;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 1.5em;
+  }
+}
 .quicklinks-container .quick-links {
   text-align: center;
 }
@@ -1384,11 +1497,23 @@ html.allow-hover .events-container .events .event-item:hover {
   color: white;
   font-size: 2em;
 }
-.footer .inner .links .social a.facebook:before {
+.footer .inner .links .social a[href*=".twitter.com"]:before {
+  content: "\f081";
+}
+.footer .inner .links .social a[href*=".facebook.com"]:before {
   content: "\f082";
 }
-.footer .inner .links .social a.twitter:before {
-  content: "\f081";
+.footer .inner .links .social a[href*=".pinterest.com"]:before {
+  content: "\f0d3";
+}
+.footer .inner .links .social a[href*=".linkedin.com"]:before {
+  content: "\f08c";
+}
+.footer .inner .links .social a[href*=".vimeo.com"]:before {
+  content: "\f16a";
+}
+.footer .inner .links .social a[href*=".youtube.com"]:before {
+  content: "\f16a";
 }
 .footer .inner .links ul {
   display: inline-block;
@@ -3156,6 +3281,10 @@ html.allow-hover .events-container .events .event-item:hover {
 #main {
   margin-top: 30px;
   overflow: hidden;
+}
+
+.stamp.type-panel ~ * #main {
+  overflow: visible;
 }
 
 @media only screen and (max-width: 640px) {

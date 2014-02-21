@@ -1,19 +1,29 @@
 <div>
   <div class="block main-block">
     <div class="big-list-region">
-      <!-- <div class="big-list generic-container">
+      <div class="big-list generic-container">
         <h2 class="mobile-heading">Announcements</h2>
         <div class="divider"></div>
         <div class="generic-list">
-          <div class="generic-item">
-            
-          </div>
-          <div class="generic-item"></div>
-          <div class="generic-item"></div>
-          <div class="generic-item"></div>
+          <a class="generic-item" href="http://www.google.com">
+            <div class="generic-icon"><i class="fa fa-exclamation"></i></div>
+            <div class="generic-text">Emergency /After Hours</div>
+          </a>
+          <a class="generic-item" href="http://www.google.com">
+            <div class="generic-icon"><i class="fa fa-ambulance"></i></div>
+            <div class="generic-text">Urgent Medical Care</div>
+          </a>
+          <a class="generic-item" href="http://www.google.com">
+            <div class="generic-icon"><i class="fa fa-user-md"></i></div>
+            <div class="generic-text">Flu shots available</div>
+          </a>
+          <a class="generic-item" href="http://www.google.com">
+            <div class="generic-icon"><i class="fa fa-medkit"></i></div>
+            <div class="generic-text">Pharmacy</div>
+          </a>
         </div>
-      </div> -->
-      <div class="big-list events-container">
+      </div>
+      <!--<div class="big-list events-container">
         <h2 class="mobile-heading" id="main-events">Events</h2>
         <div class="divider"> </div>
         <div aria-labelledby="main-events" class="events">
@@ -41,7 +51,7 @@
             <div class="event-desc">See Full Calendar</div>
           </a>
         </div>
-      </div>
+      </div>-->
     </div>
     <div class="rich-extra-region">
       <div class="rich-extra news-container">

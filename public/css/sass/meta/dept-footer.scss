@@ -150,12 +150,30 @@ $footer-background-color: $purple;
 				        color: white;
 				        font-size: 2em;
 				    }
-				    &.facebook:before {
-				        content: "\f082";
-				    }
-				    &.twitter:before {
-				        content: "\f081";
-				    }
+				    // &.facebook:before {
+				    //     content: "\f082";
+				    // }
+				    // &.twitter:before {
+				    //     content: "\f081";
+				    // }
+				}
+				a[href*=".twitter.com"]:before {
+					content: "\f081";
+				}
+				a[href*=".facebook.com"]:before {
+					content: "\f082";
+				}
+				a[href*=".pinterest.com"]:before {
+					content: "\f0d3";
+				}
+				a[href*=".linkedin.com"]:before {
+					content: "\f08c";
+				}
+				a[href*=".vimeo.com"]:before {
+					content: "\f16a";
+				}
+				a[href*=".youtube.com"]:before {
+					content: "\f16a";
 				}
 			}
 			ul {

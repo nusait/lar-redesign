@@ -3,6 +3,10 @@
 	overflow: hidden; // make no-wrap on sidebar's float:left
 }
 
+.stamp.type-panel ~ * #main{
+	overflow: visible;
+}
+
 
 @media #{$small} {
 .main-container {
