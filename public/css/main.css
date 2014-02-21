@@ -673,7 +673,7 @@ html.allow-hover .events-container .events .event-item:hover {
   margin: 10px 0;
   padding: 10px;
   color: white;
-  background-color: #317894;
+  background-color: #46bab8;
   display: block;
   font-family: "Oswald", sans-serif;
   font-weight: 300;
@@ -707,7 +707,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .generic-container .generic-list .generic-item .generic-text {
     display: block;
     font-size: 1.6em;
-    padding: 10px 5px;
+    padding: 0 5px;
   }
 }
 @media screen and (min-width: 901px) {
@@ -718,10 +718,16 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .generic-container .generic-list::-webkit-scrollbar {
     display: none;
   }
+  .generic-container .generic-list .generic-item {
+    padding: 25px 0;
+    position: relative;
+  }
   .generic-container .generic-list .generic-item .generic-icon {
     display: inline-block;
-    vertical-align: top;
-    background-color: #317894;
+    position: absolute;
+    top: 50%;
+    margin-top: -25px;
+    background-color: #46bab8;
     width: 50px;
     height: 50px;
     padding: 0;
@@ -736,6 +742,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .generic-container .generic-list .generic-item .generic-text {
     display: inline-block;
+    margin-left: 30px;
     width: calc(100% - 50px);
     width: -webkit-calc(100% - 50px);
     padding-left: 5px;
