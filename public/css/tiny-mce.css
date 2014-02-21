@@ -20,7 +20,7 @@
   color: white;
   font-weight: 300;
   padding: 10px;
-  text-align: left;
+  text-align: center;
 }
 .mceContentBody table.sa-table tbody th .table-dropdown {
   display: none;
@@ -32,10 +32,13 @@
   background-color: #006e8b;
 }
 .stamp.dept-color-3 ~ .viewport .mceContentBody table.sa-table tbody th {
-  background-color: #7ea641;
+  background-color: #5c2483;
 }
 .stamp.dept-color-4 ~ .viewport .mceContentBody table.sa-table tbody th {
   background-color: #46bab8;
+}
+.mceContentBody table.sa-table tbody th[scope=row] {
+  text-align: left;
 }
 .stamp.dept-color-1 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
   background-color: #006e8b;
@@ -44,13 +47,13 @@
   background-color: #3b1151;
 }
 .stamp.dept-color-3 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
-  background-color: #3b1151;
+  background-color: #007b9a;
 }
 .stamp.dept-color-4 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
   background-color: #3b1151;
 }
 .mceContentBody table.sa-table tbody tr:nth-child(2n) {
-  background-color: #cacaca;
+  background-color: #e4e3e4;
 }
 .mceContentBody table.sa-table tbody tr td {
   padding: 10px;
@@ -66,19 +69,31 @@
   text-transform: none;
   margin: 0.3em 0;
   font-family: 'Oswald', sans-serif;
-  color: #5a308c;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody h2 {
+  color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody h2 {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody h2 {
+  color: #5c2483;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody h2 {
+  color: #46bab8;
 }
 .mceContentBody h3 {
   font-weight: 300;
   font-size: 1.3em;
   text-transform: none;
-  color: #12635c;
+  color: #646464;
   margin: 0.3em 0;
   font-family: 'Oswald', sans-serif;
 }
 .mceContentBody p {
   margin: 0.7em 0;
   padding: 0;
+  line-height: 1.4em;
   font-family: "Lora", serif;
 }
 .mceContentBody blockquote {
@@ -98,7 +113,7 @@
   box-shadow: -5px 5px 0px #006e8b;
 }
 .stamp.dept-color-3 ~ .viewport .mceContentBody blockquote {
-  box-shadow: -5px 5px 0px #7ea641;
+  box-shadow: -5px 5px 0px #5c2483;
 }
 .stamp.dept-color-4 ~ .viewport .mceContentBody blockquote {
   box-shadow: -5px 5px 0px #46bab8;
@@ -117,7 +132,7 @@
   color: #3b1151;
 }
 .stamp.dept-color-3 ~ .viewport .mceContentBody blockquote p {
-  color: #3b1151;
+  color: #007b9a;
 }
 .stamp.dept-color-4 ~ .viewport .mceContentBody blockquote p {
   color: #3b1151;
@@ -148,7 +163,7 @@
   color: #006e8b;
 }
 .stamp.dept-color-3 ~ .viewport .mceContentBody blockquote:after {
-  color: #7ea641;
+  color: #5c2483;
 }
 .stamp.dept-color-4 ~ .viewport .mceContentBody blockquote:after {
   color: #46bab8;

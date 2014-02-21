@@ -30,7 +30,8 @@
 			padding-left: 15px;
 			// padding-bottom: 15px;
 			&:before {
-				color: $department-color-1;
+				@include dept-colors-main(color);
+				// color: $department-color-1;
 				padding-right: 10px;
 			}
 			&:after {

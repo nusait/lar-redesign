@@ -12,15 +12,16 @@
 				color: white;
 				font-weight: 300;
 				padding: 10px;
-				text-align: left;
+				text-align: center;
 				@include dept-colors-main(background-color);
 			}
 			th[scope=row] {
 				@include dept-colors-secondary(background-color);
+            text-align: left;
 			}
 			tr {
 				&:nth-child(2n) {
-					background-color: lighten($gray, 30%);
+					background-color: lighten($gray, 40%);
 				}
 				td {
 					padding: 10px;
@@ -41,14 +42,14 @@
 	    text-transform: none;
 	    margin: 0.3em 0;
 	    font-family: 'Oswald', sans-serif;
-	    color: #5a308c;
+	    @include dept-colors-main(color); 
 	}
 
 	h3 {
 	    font-weight: 300;
 	    font-size: 1.3em;
 	    text-transform: none;
-	    color: darken($aqua, 20%);
+	    color: darken($gray, 10%);
 	    margin: 0.3em 0;
 	    font-family: 'Oswald', sans-serif;
 	}
@@ -56,6 +57,7 @@
 	p {
 	    margin: 0.7em 0;
 	    padding: 0;
+	    line-height: 1.4em;
 	    font-family: $text-font;
 	}
 

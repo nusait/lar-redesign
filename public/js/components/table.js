@@ -3,7 +3,7 @@ define(['jquery', 'browser'], function ($, Browser)
 		Table = function ($table) {
 			this.$table;
 			this.headerCols = [];
-			this.categories = [];
+			this.categories = {};
 			this.initialize($table);
 		};
 
@@ -41,9 +41,11 @@ define(['jquery', 'browser'], function ($, Browser)
 							name: $(cell).text(),
 							col: coli
 						};
-						ins.categories.push(cat);
+						ins.categories['col' + coli] = cat;
 					};
 					if( $(cell).is('th[scope=row]') ) {
+						ins.$table.find('.table-category.col' + coli).removeClass('table-category');
+						delete ins.categories['col' + coli];
 						$(cell).addClass('rowhead');
 					}
 					$(cell).addClass('col' + (coli));
@@ -54,7 +56,7 @@ define(['jquery', 'browser'], function ($, Browser)
 		Table.prototype.destroy = function () {
 			this.$table.find('.table-dropdown').remove();
 			this.$table.find('td,th').removeClass('hidden');
-			this.categories = [];
+			this.categories = {};
 			this.$table.off();
 		};
 
@@ -63,7 +65,7 @@ define(['jquery', 'browser'], function ($, Browser)
 		};
 
 		Table.prototype.hideInactiveColumns = function () {
-			var $heads = this.$table.find('.colhead').not('.active');
+			var $heads = this.$table.find('.table-category').not('.active');
 			var ins = this;
 			$heads.each(function (index, head) {
 				var i = $(head).data('col');
@@ -79,11 +81,11 @@ define(['jquery', 'browser'], function ($, Browser)
 		Table.prototype.injectDropdown = function () {
 			var dropdown = $('<div class="table-dropdown closed"></div>');
 			var catdiv;
-			for (var i = 0; i < this.categories.length; i++) {
-				category = this.categories[i].name;
-				catdiv = $('<div class="dropdown-category" data-index="' + this.categories[i].col+ '"></div>');
-				dropdown.append(catdiv.text(category));
-			}
+         for (prop in this.categories) {
+            category = this.categories[prop];
+            catdiv = $('<div class="dropdown-category" data-index="' + category.col+ '"></div>');
+            dropdown.append(catdiv.text(category.name));
+         }
 			dropdown.append('<div class="close-button"></div>');
 			this.$table.find('.table-category').append(dropdown);
 		};

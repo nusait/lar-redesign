@@ -16,89 +16,98 @@ $purple: $primal;
 $gray: $rock;
 $teal: #317894;
 $bg-color: #eff1f1;
+// $bg-color: white;
 $aqua: #22B9AD;
 $blue: #006e8b;
 
 $dept-purple: $primal;
 $dept-lightpurple: $presidential;
 $dept-blue: #006e8b;
-$dept-green: $deering;
+$dept-green: $presidential;
 $dept-teal: $dillo;
 
-$department-color-1: $aqua;
+$department-color-1-main: $primal;
+$department-color-1-secondary: #006e8b;
+$department-color-2-main: #006e8b;
+$department-color-2-secondary: $primal;
+$department-color-3-main: $presidential;
+$department-color-3-secondary: $lakefill;
+$department-color-4-main: $dillo;
+$department-color-4-secondary: $primal;
+
 
 @mixin dept-colors-main($prop, $before:null, $after:null) {
 	.stamp.dept-color-1 ~ .viewport & {
-		#{$prop}: $before $dept-purple $after;
+		#{$prop}: $before $department-color-1-main $after;
 	}
 	.stamp.dept-color-2 ~ .viewport & {
-		#{$prop}: $before $dept-blue $after;
+		#{$prop}: $before $department-color-2-main $after;
 	}
 	.stamp.dept-color-3 ~ .viewport & {
-		#{$prop}: $before $dept-green $after;
+		#{$prop}: $before $department-color-3-main $after;
 	}
 	.stamp.dept-color-4 ~ .viewport & {
-		#{$prop}: $before $dept-teal $after;
+		#{$prop}: $before $department-color-4-main $after;
 	}
 }
 
 @mixin dept-colors-main-darken($prop, $value: 15%) {
 	.stamp.dept-color-1 ~ .viewport & {
-		#{$prop}: darken($dept-purple, $value);
+		#{$prop}: darken($department-color-1-main, $value);
 	}
 	.stamp.dept-color-2 ~ .viewport & {
-		#{$prop}: darken($dept-blue, $value);
+		#{$prop}: darken($department-color-2-main, $value);
 	}
 	.stamp.dept-color-3 ~ .viewport & {
-		#{$prop}: darken($dept-green, $value);
+		#{$prop}: darken($department-color-3-main, $value);
 	}
 	.stamp.dept-color-4 ~ .viewport & {
-		#{$prop}: darken($dept-teal, $value);
+		#{$prop}: darken($department-color-4-main, $value);
 	}
 }
 
 @mixin dept-colors-main-lighten($prop, $value: 15%) {
 	.stamp.dept-color-1 ~ .viewport & {
-		#{$prop}: lighten($dept-purple, $value);
+		#{$prop}: lighten($department-color-1-main, $value);
 	}
 	.stamp.dept-color-2 ~ .viewport & {
-		#{$prop}: lighten($dept-blue, $value);
+		#{$prop}: lighten($department-color-2-main, $value);
 	}
 	.stamp.dept-color-3 ~ .viewport & {
-		#{$prop}: lighten($dept-green, $value);
+		#{$prop}: lighten($department-color-3-main, $value);
 	}
 	.stamp.dept-color-4 ~ .viewport & {
-		#{$prop}: lighten($dept-teal, $value);
+		#{$prop}: lighten($department-color-4-main, $value);
 	}
 }
 
 
 @mixin dept-colors-secondary($prop, $before:null, $after:null) {
 	.stamp.dept-color-1 ~ .viewport & {
-		#{$prop}: $before $dept-blue $after;
+		#{$prop}: $before $department-color-1-secondary $after;
 	}
 	.stamp.dept-color-2 ~ .viewport & {
-		#{$prop}: $before $dept-purple $after;
+		#{$prop}: $before $department-color-2-secondary $after;
 	}
 	.stamp.dept-color-3 ~ .viewport & {
-		#{$prop}: $before $dept-purple $after;
+		#{$prop}: $before $department-color-3-secondary $after;
 	}
 	.stamp.dept-color-4 ~ .viewport & {
-		#{$prop}: $before $dept-purple $after;
+		#{$prop}: $before $department-color-4-secondary $after;
 	}
 }
 
 @mixin dept-colors-secondary-lighten($prop, $value: 15%) {
 	.stamp.dept-color-1 ~ .viewport & {
-		#{$prop}: lighten($dept-blue, $value);
+		#{$prop}: lighten($department-color-1-secondary, $value);
 	}
 	.stamp.dept-color-2 ~ .viewport & {
-		#{$prop}: lighten($dept-purple, $value);
+		#{$prop}: lighten($department-color-2-secondary, $value);
 	}
 	.stamp.dept-color-3 ~ .viewport & {
-		#{$prop}: lighten($dept-purple, $value);
+		#{$prop}: lighten($department-color-3-secondary, $value);
 	}
 	.stamp.dept-color-4 ~ .viewport & {
-		#{$prop}: lighten($dept-purple, $value);
+		#{$prop}: lighten($department-color-4-secondary, $value);
 	}
 }

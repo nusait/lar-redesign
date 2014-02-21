@@ -45,10 +45,12 @@
 					eu risus.</li>
 				<li>Vestibulum auctor dapibus neque.</li>
 			</ol>
+			<h2> This is a Heading 2</h2>
+			<h3> This is Heading 3</h3>
 			<table class="sa-table">
 				<tbody>
 					<tr>
-						<th scope="col"></th>
+						<th scope="col">Something</th>
 						<th scope="col">Noise</th>
 						<th scope="col">Feet</th>
 						<th scope="col">Color</th>

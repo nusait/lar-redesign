@@ -17,14 +17,15 @@
 				margin-top: 5px;
 				padding: 5px;
 				p {
+					$text-bg-color: darken($rock, 20%);
 					text-transform: uppercase;
 					margin: 0;
 					display: inline;
 					padding: 2px 0;
-					background-color: $purple;
+					background-color: $text-bg-color;
 					color: white;
 					line-height: 2em;
-					box-shadow: 0.5em 0 0 $purple, -0.5em 0 0 $purple; //line-break spacing on background
+					box-shadow: 0.5em 0 0 $text-bg-color, -0.5em 0 0 $text-bg-color; //line-break spacing on background
 				}
 			}
 		}
@@ -106,8 +107,9 @@
 				z-index: 4;
 				height: 3em;
 				width: 100%;
-				font-family: FontAwesome;
-				content: '\f07e swipe';
+				font-family: $display-font;
+				// content: '\f07e';
+				content: '← SWIPE →';
 				font-size: 3em;
 				line-height: 3em;
 				text-align: center;

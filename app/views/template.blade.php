@@ -25,7 +25,7 @@
 
     </head>
     <body>
-        <div class="stamp dept-color-3 type-{{$type}}"></div>
+        <div class="stamp dept-color-2 type-{{$type}}"></div>
         <div class="ie-too-old">
             <div class="flash ie-ancient">
                 <p>We're sorry, this website will not display correctly on older versions of Internet Explorer.
