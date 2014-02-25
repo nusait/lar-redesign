@@ -1,0 +1,36 @@
+<system-index-block current-time="1392325663034" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="2d0757aaa57c421a2e9f443432a437d6">
+            <name>index</name>
+            <is-published>true</is-published>
+            <title>Map Title</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>Change me to page description that Google may pass on to
+                searchers</description>
+            <display-name>Map</display-name>
+            <path>/content-types/map/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/content-types/map/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1392324859617</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1392325019472</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Map Page Form">
+                <content-type-mao>
+                    <value>Yes</value>
+                </content-type-mao>
+                <top-text>
+                    <p>This is some top text</p>
+                </top-text>
+                <map-id>zK5Z_vvM4yAM.kg870fooceco</map-id>
+                <height>300</height>
+                <bottom-text>
+                    <p>This is some bottom text</p>
+                </bottom-text>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>

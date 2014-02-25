@@ -1,0 +1,40 @@
+<system-index-block current-time="1392415276809" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="3253f92d8169775b677bb8fe4c9aa568">
+            <name>index</name>
+            <is-published>true</is-published>
+            <last-published-on>1392414956431</last-published-on>
+            <last-published-by>cew904</last-published-by>
+            <title>Video Title</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>Change me to page description that Google may pass on to
+                searchers</description>
+            <display-name>Video</display-name>
+            <path>/content-types/video/index</path>
+            <site>SA-FOOD</site>
+            <link>site://SA-FOOD/content-types/video/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1392413767920</created-on>
+            <last-modified-by>hle276</last-modified-by>
+            <last-modified>1392415254542</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/Video Page Form">
+                <content-type-video>
+                    <value>Yes</value>
+                </content-type-video>
+                <top-text>
+                    <p>This is some top text</p>
+                </top-text>
+                <type>
+                    <value>vimeo</value>
+                </type>
+                <video-id>74904021</video-id>
+                <bottom-text>
+                    <p>This is some bottom text</p>
+                </bottom-text>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>
