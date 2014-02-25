@@ -22,8 +22,7 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:attribute>
-                            <xsl:for-each
-                                select="big-list/content/system-data-structure">
+                            <xsl:for-each select="big-list/content/system-data-structure">
                                 <xsl:variable name="class">
                                     <xsl:text>big-list-region</xsl:text>
                                     <!--<xsl:if test="count(content-type-twitter-block) &gt; 0">
@@ -37,6 +36,9 @@
                                         </xsl:when>
                                         <xsl:when test="count(pip-feed) &gt; 0">
                                             <xsl:call-template name="planitpurple"/>
+                                        </xsl:when>
+                                        <xsl:when test="count(content-type-callouts-block) &gt; 0">
+                                            <xsl:call-template name="callouts"/>
                                         </xsl:when>
                                     </xsl:choose>
                                 </div>
@@ -94,6 +96,42 @@
                 </div>
             </xsl:for-each>
         </xsl:for-each>
+    </xsl:template>
+    <xsl:template name="callouts">
+        <div class="big-list generic-container">
+            <h2 class="mobile-heading">
+                <xsl:value-of select="heading"/>
+            </h2>
+            <div class="divider"><xsl:value-of select="'&#xA;'"/></div>
+            <div class="generic-list">
+                <xsl:for-each select="section">
+                    <xsl:variable name="icon-classname" select="icon-classname"/>
+                    <xsl:variable name="href">
+                        <xsl:choose>
+                            <xsl:when test="link[@type='page']">
+                                <xsl:value-of select="link/link"/>
+                            </xsl:when>
+                            <xsl:when test="link[@type='file']">
+                                <xsl:value-of select="link/link"/>
+                            </xsl:when>
+                            <xsl:when test="link[@type='symlink']">
+                                <xsl:value-of select="link/content/system-symlink"/>
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <a class="generic-item" href="{$href}">
+                        <div class="generic-icon">
+                            <i class="fa fa-{$icon-classname}">
+                                <xsl:value-of select="'&#xA;'"/>
+                            </i>
+                        </div>
+                        <div class="generic-text">
+                            <xsl:value-of select="label"/>
+                        </div>
+                    </a>
+                </xsl:for-each>
+            </div>
+        </div>
     </xsl:template>
     <xsl:template name="planitpurple">
         <xsl:variable name="full-calendar-href">
@@ -207,8 +245,12 @@
             </div>
             <nav aria-labelledby="main-headlines" class="news" role="navigation">
                 <div class="swiper-container news-img-container">
-                    <div class="swiper-prev swiper-direction" data-direction="prev"><div class="prev-icon icon"> </div></div>
-                    <div class="swiper-next swiper-direction" data-direction="next"><div class="next-icon icon"> </div></div>
+                    <div class="swiper-prev swiper-direction" data-direction="prev">
+                        <div class="prev-icon icon"> </div>
+                    </div>
+                    <div class="swiper-next swiper-direction" data-direction="next">
+                        <div class="next-icon icon"> </div>
+                    </div>
                     <div class="swiper-wrapper">
                         <xsl:for-each select="carousel-section">
                             <div class="swiper-slide news-img">

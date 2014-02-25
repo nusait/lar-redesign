@@ -1,19 +1,21 @@
-<system-index-block current-time="1390582132520" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1393366941204" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="c2168955a57c421a3e6ea3fecee17009">
-            <name>dosa</name>
+        <system-page current="true" id="9805a16fa57c421a6edd9715b97d68ff">
+            <name>index</name>
             <is-published>true</is-published>
-            <title>Welcome to Student Affairs</title>
-            <keywords>northwestern, student affairs</keywords>
-            <description>Homepage for the Student Affairs Division</description>
-            <display-name>Student Affairs</display-name>
-            <path>/dosa</path>
+            <last-published-on>1392414956431</last-published-on>
+            <last-published-by>cew904</last-published-by>
+            <title>2014 Commencement</title>
+            <keywords>commencement, northwestern, students, graduation, class of 2014</keywords>
+            <description>Northwestern's 2014 Commencement Information</description>
+            <display-name>Food Service</display-name>
+            <path>/index</path>
             <site>SA-FOOD</site>
-            <link>site://SA-FOOD/dosa</link>
-            <created-by>osi706</created-by>
-            <created-on>1390530693298</created-on>
+            <link>site://SA-FOOD/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1389824942272</created-on>
             <last-modified-by>cew904</last-modified-by>
-            <last-modified>1390581605170</last-modified>
+            <last-modified>1393366922937</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
@@ -25,179 +27,240 @@
                     <big-list type="block">
                         <content>
                             <system-data-structure>
-                                <full-calendar>http://planitpurple.northwestern.edu/calendar/2686</full-calendar>
-                                <pip-feed type="block">
-                                    <content>
-                                        <planitpurple>
-                                            <event>
-                                                <title>My Awesome Event</title>
-                                                <date>January 24, 2014</date>
-                                                <time/>
-                                                <isodate format="YYYY-MM-DD HH24:MI">2014-01-24
-                                                  00:00</isodate>
-                                                <location>Evanston</location>
-                                                <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
-                                                <address>
-				<building_name>Searle Hall</building_name>
-				<address_1>633 Emerson Street</address_1>
-				<address_2/>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
-                                                <contact>
-                                                  <name>Christopher Edward Walker</name>
-                                                  <email>cewalker@northwestern.edu</email>
-                                                  <phone>8474670846</phone>
-                                                </contact>
-                                                <group>
-                                                  <name>Division of Student Affairs Calendar</name>
-                                                  <url>http://planitpurple.northwestern.edu/calendar/2686</url>
-                                                </group>
-                                                <externalurl/>
-                                                <ppurl>http://planitpurple.northwestern.edu/event/452300</ppurl>
-                                                <event_category_id>7</event_category_id>
-                                                <category-name>Other</category-name>
-                                                <last_modified>January 23, 2014</last_modified>
-                                                <audience>Student</audience>
-                                                <cosponsors> </cosponsors>
-                                                <description>myDescription</description>
-                                                <recurring>0</recurring>
-                                            </event>
-                                            <event>
-                                                <title>Harambee</title>
-                                                <date>January 24, 2014</date>
-                                                <time>6:00 PM - 9:00 PM</time>
-                                                <isodate format="YYYY-MM-DD HH24:MI">2014-01-24
-                                                  18:00</isodate>
-                                                <location>Evanston</location>
-                                                <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
-                                                <address>
-				<building_name>Norris University Center</building_name>
-				<address_1>1999 Campus Drive</address_1>
-				<address_2>Louis Room</address_2>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
-                                                <contact>
-                                                  <name>Charles kellom</name>
-                                                  <email>aasa@northwestern.edu</email>
-                                                  <phone>8474913610</phone>
-                                                </contact>
-                                                <group>
-                                                  <name>African American Student Affairs</name>
-                                                  <url>http://planitpurple.northwestern.edu/calendar/2578</url>
-                                                </group>
-                                                <externalurl>http://www.northwestern.edu/msa/our-departments/aasa/calendar/aasa
-                                                  upcoming events/index.html</externalurl>
-                                                <ppurl>http://planitpurple.northwestern.edu/event/448299</ppurl>
-                                                <event_category_id>10</event_category_id>
-                                                <category-name>Multicultural &amp;
-                                                  Diversity</category-name>
-                                                <last_modified>January 23, 2014</last_modified>
-                                                <audience>Faculty/Staff</audience>
-                                                <audience>Student</audience>
-                                                <audience>Public</audience>
-                                                <cosponsors> </cosponsors>
-                                                <description>Swahili for “pull together,” Harambee
-                                                  is the annual kick-off event for Black History
-                                                  Month. It's co-sponsored by AASA and For Members
-                                                  Only: NU's Black Student Alliance. Come and enjoy
-                                                  free food, performances, and the presentation of
-                                                  this year’s Gardner/Exum Scholarship
-                                                  winners.</description>
-                                                <recurring>0</recurring>
-                                            </event>
-                                            <event>
-                                                <title>Safe Space Training: Students</title>
-                                                <date>February 11, 2014</date>
-                                                <time>3:00 PM - 5:00 PM</time>
-                                                <isodate format="YYYY-MM-DD HH24:MI">2014-02-11
-                                                  15:00</isodate>
-                                                <location>Evanston</location>
-                                                <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
-                                                <address>
-				<building_name>Norris University Center</building_name>
-				<address_1>1999 Campus Drive</address_1>
-				<address_2>Big Ten Room</address_2>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
-                                                <contact>
-                                                  <name>Colleen Keefe</name>
-                                                  <email>c-keefe@northwestern.edu</email>
-                                                  <phone>+1 847 467 6200</phone>
-                                                </contact>
-                                                <group>
-                                                  <name>LGBT Resource Center</name>
-                                                  <url>http://planitpurple.northwestern.edu/calendar/1169</url>
-                                                </group>
-                                                <externalurl>http://www.northwestern.edu/msa/our-departments/lgbt/training/index.html</externalurl>
-                                                <ppurl>http://planitpurple.northwestern.edu/event/450624</ppurl>
-                                                <event_category_id>10</event_category_id>
-                                                <category-name>Multicultural &amp;
-                                                  Diversity</category-name>
-                                                <last_modified>December 10, 2013</last_modified>
-                                                <audience>Student</audience>
-                                                <cosponsors> </cosponsors>
-                                                <description>The Safe Space Ally Workshops are the
-                                                  LGBT Resource Center's initiative to educate
-                                                  people who support LGBTQ individuals within our
-                                                  campus and global community. The workshops are
-                                                  divided into two, two-hour sessions: Part I-
-                                                  Creating Affirming Spaces and Part II- Ally
-                                                  Development. Unlike more visible under-represented
-                                                  groups, lesbian, gay, bisexual,transgender, and
-                                                  queer identified (LGBTQ) persons cannot be readily
-                                                  identified. Likewise, there is no easy method of
-                                                  identifying persons supportive of LGBTQ
-                                                  people. The Safe Space Ally Workshop strives to
-                                                  provide a way for Allies, no matter their sexual
-                                                  orientation or gender identity, within the
-                                                   Northwestern University community to prominently
-                                                  identify themselves. The program advances NU's
-                                                  goal of creating a campus community in which
-                                                  everyone is treated with respect and dignity and
-                                                  may participate holistically in the collegiate
-                                                  experience. Please consider this your invitation
-                                                  to participate.</description>
-                                                <recurring>0</recurring>
-                                            </event>
-                                        </planitpurple>
-                                    </content>
-                                    <path>/shared-assets/dosa-homepage/panel1/events/CAPS PiP
-                                        Calendar Feed</path>
-                                    <site>SA-FOOD</site>
-                                    <name>CAPS PiP Calendar Feed</name>
-                                </pip-feed>
+                                <content-type-callouts-block>
+                                    <value>Yes</value>
+                                </content-type-callouts-block>
+                                <heading>Announcements</heading>
+                                <section>
+                                    <label>Emergency /After Hours</label>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Food Service</display-name>
+                                        <title>2014 Commencement</title>
+                                        <keywords>commencement, northwestern, students, graduation,
+                                            class of 2014</keywords>
+                                        <description>Northwestern's 2014 Commencement
+                                            Information</description>
+                                    </link>
+                                    <icon-classname>exclamation</icon-classname>
+                                </section>
+                                <section>
+                                    <label>Urgent Medical Care</label>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Food Service</display-name>
+                                        <title>2014 Commencement</title>
+                                        <keywords>commencement, northwestern, students, graduation,
+                                            class of 2014</keywords>
+                                        <description>Northwestern's 2014 Commencement
+                                            Information</description>
+                                    </link>
+                                    <icon-classname>ambulance</icon-classname>
+                                </section>
+                                <section>
+                                    <label>Flu shots available</label>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Food Service</display-name>
+                                        <title>2014 Commencement</title>
+                                        <keywords>commencement, northwestern, students, graduation,
+                                            class of 2014</keywords>
+                                        <description>Northwestern's 2014 Commencement
+                                            Information</description>
+                                    </link>
+                                    <icon-classname>user-md</icon-classname>
+                                </section>
+                                <section>
+                                    <label>Pharmacy</label>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Food Service</display-name>
+                                        <title>2014 Commencement</title>
+                                        <keywords>commencement, northwestern, students, graduation,
+                                            class of 2014</keywords>
+                                        <description>Northwestern's 2014 Commencement
+                                            Information</description>
+                                    </link>
+                                    <icon-classname>medkit</icon-classname>
+                                </section>
                             </system-data-structure>
                         </content>
-                        <path>/shared-assets/dosa-homepage/panel1/events/dosa-pip-feed-block</path>
+                        <path>/shared-assets/homepage/panel1/callouts/callouts-block</path>
                         <site>SA-FOOD</site>
-                        <name>dosa-pip-feed-block</name>
+                        <name>callouts-block</name>
                     </big-list>
-                    <rich-extra>
-                        <path>/</path>
+                    <rich-extra type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-carousel-block>
+                                    <value>Yes</value>
+                                </content-type-carousel-block>
+                                <carousel-section>
+                                    <label>And the 2014 Commencement Speaker is...</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/colbert_main_lg.jpg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/panel1/carousel/images/colbert_main_lg.jpg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>colbert_main_lg.jpg</name>
+                                    </photo>
+                                    <alt>Stephen Colbert, our 2012 commencement speaker</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/newscenter/stories/2008/05/commencement.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/nu-commencementspeaker</path>
+                                        <site>SA-FOOD</site>
+                                        <name>nu-commencementspeaker</name>
+                                    </link>
+                                </carousel-section>
+                                <carousel-section>
+                                    <label>Getting excited for June!</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/gradsexcited.jpg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/panel1/carousel/images/gradsexcited.jpg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>gradsexcited.jpg</name>
+                                    </photo>
+                                    <alt>grads excited for june</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/newscenter/stories/2008/05/commencement.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/nu-commencementspeaker</path>
+                                        <site>SA-FOOD</site>
+                                        <name>nu-commencementspeaker</name>
+                                    </link>
+                                </carousel-section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/carousel/carousel-block</path>
+                        <site>SA-FOOD</site>
+                        <name>carousel-block</name>
                     </rich-extra>
-                    <q-links>
-                        <path>/</path>
-                    </q-links>
-                </panel-container>
-                <panel-container>
-                    <big-list>
-                        <path>/</path>
-                    </big-list>
-                    <rich-extra>
-                        <path>/</path>
-                    </rich-extra>
-                    <q-links>
-                        <path>/</path>
+                    <q-links type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-quick-links-block>
+                                    <value>Yes</value>
+                                </content-type-quick-links-block>
+                                <heading>Quick Links</heading>
+                                <section>
+                                    <label>Maps</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/maps.jpg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/maps.jpg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>maps.jpg</name>
+                                    </photo>
+                                    <alt>maps for commencement</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/commencement/maps/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/maps-link</path>
+                                        <site>SA-FOOD</site>
+                                        <name>maps-link</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>General Info</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/geninfo.jpg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/geninfo.jpg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>geninfo.jpg</name>
+                                    </photo>
+                                    <alt>general information about commencement</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/commencement/general-info/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/general-info</path>
+                                        <site>SA-FOOD</site>
+                                        <name>general-info</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Photo Gallery</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/gallery.jpg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/gallery.jpg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>gallery.jpg</name>
+                                    </photo>
+                                    <alt>photos from commencement</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/commencement/photos/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/photo-gallery</path>
+                                        <site>SA-FOOD</site>
+                                        <name>photo-gallery</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Future Dates</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/2017classphoto2.jpg</path>
+                                        <link>site://SA-FOOD/shared-assets/homepage/panel1/quick-links/images/2017classphoto2.jpg</link>
+                                        <site>SA-FOOD</site>
+                                        <name>2017classphoto2.jpg</name>
+                                    </photo>
+                                    <alt>future commencement dates</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/commencement/schedule/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/future-dates</path>
+                                        <site>SA-FOOD</site>
+                                        <name>future-dates</name>
+                                    </link>
+                                </section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/quick-links/quick-links-block</path>
+                        <site>SA-FOOD</site>
+                        <name>quick-links-block</name>
                     </q-links>
                 </panel-container>
                 <text-container>
-                    <main-content/>
+                    <main-content>
+                        <center id="yui_3_6_0_1_1391801389074_149"/>
+                    </main-content>
                     <side-title/>
                     <side-content/>
                 </text-container>
