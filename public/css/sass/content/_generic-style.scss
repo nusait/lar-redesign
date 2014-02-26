@@ -102,6 +102,11 @@
 			@include dept-colors-main(color);
 		}
 	}
+	.column-list {
+		&.column-list-3 {
+			@include column-count(3);
+		}
+	}
 }
 
 @mixin generic-content-style-small {

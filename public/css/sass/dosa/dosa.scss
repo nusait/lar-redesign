@@ -103,6 +103,17 @@ $dosa-footer-text-color: #eeeeee;
                             display: none;
                         }
                     }
+
+                    html.allow-hover &:hover {
+                        h2 {
+                            background-color: desaturate($purple, 30%);
+                        }
+
+                        ul {
+                            display: block;
+                        }
+                    }
+
                     h2 {
                         position: absolute;
                         top: 5px;
@@ -116,6 +127,13 @@ $dosa-footer-text-color: #eeeeee;
                         text-transform: uppercase;
                         color: white;
                         z-index: 80;
+                    }
+                    ul.departments-list {
+                        -moz-column-count:3; /* Firefox */
+                        -webkit-column-count:3; /* Safari and Chrome */
+                        column-count:3;
+                        width: 150%;
+                        right: 0;
                     }
                     ul {
                         position: absolute;

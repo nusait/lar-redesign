@@ -54,6 +54,7 @@ body {
             right: 0;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
             background-color: $bg-color;
+            -webkit-overflow-scrolling: touch;
             .main-window {
                 position: absolute;
                 top: 0;
@@ -69,7 +70,6 @@ body {
                     color: black;
                     margin: 0;
                     overflow: auto;
-                    -webkit-overflow-scrolling: touch;
                     .middle-overlay {
                         html.show-drawer & {
                             background-color: black;

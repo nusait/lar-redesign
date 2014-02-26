@@ -150,6 +150,12 @@ html.browser-lt-ie9 body .ie-too-old {
   .dosa-banner .inner .dosa-banner-navigation .section.closed ul {
     display: none;
   }
+  html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section:hover h2 {
+    background-color: #362042;
+  }
+  html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section:hover ul {
+    display: block;
+  }
   .dosa-banner .inner .dosa-banner-navigation .section h2 {
     position: absolute;
     top: 5px;
@@ -163,6 +169,15 @@ html.browser-lt-ie9 body .ie-too-old {
     text-transform: uppercase;
     color: white;
     z-index: 80;
+  }
+  .dosa-banner .inner .dosa-banner-navigation .section ul.departments-list {
+    -moz-column-count: 3;
+    /* Firefox */
+    -webkit-column-count: 3;
+    /* Safari and Chrome */
+    column-count: 3;
+    width: 150%;
+    right: 0;
   }
   .dosa-banner .inner .dosa-banner-navigation .section ul {
     position: absolute;
@@ -1847,6 +1862,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.dept-color-4 ~ .viewport .text-block .main-text blockquote:after {
   color: #46bab8;
 }
+.text-block .main-text .column-list.column-list-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
 .text-block .main-text p, .text-block .main-text .text-title {
   margin: 0 20px 10px 20px;
 }
@@ -2026,6 +2046,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 .stamp.dept-color-4 ~ .viewport .text-block .side-text blockquote:after {
   color: #46bab8;
+}
+.text-block .side-text .column-list.column-list-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
 }
 .text-block .side-text p, .text-block .side-text .text-title {
   margin: 0 27px 10px 20px;
@@ -2323,6 +2348,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.dept-color-4 ~ .viewport .basic-container .basic-text-container blockquote:after {
   color: #46bab8;
 }
+.basic-container .basic-text-container .column-list.column-list-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
 .basic-container .basic-text-container .before-text {
   margin-bottom: 10px;
 }
@@ -2617,6 +2647,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.dept-color-4 ~ .viewport .detail-container .detail-main blockquote:after {
   color: #46bab8;
 }
+.detail-container .detail-main .column-list.column-list-3 {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+}
 .detail-container .detail-aside {
   float: right;
   width: 35%;
@@ -2751,7 +2786,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-align: center;
   font-size: 1em;
   color: white;
-  cursor: pointer;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -2786,7 +2820,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-transform: uppercase;
   text-align: center;
   color: white;
-  cursor: pointer;
 }
 .department-header .department-header-inner .department-nav .section ul li {
   margin: 10px 20px;
@@ -2829,6 +2862,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 @media only screen and (min-width: 641px) and (max-width: 900px) {
   .department-header .department-header-inner .department-title {
     font-size: 2em;
+  }
+}
+@media screen and (min-width: 641px) {
+  .department-header .department-header-inner .department-title {
+    font-size: 2em;
+  }
+  html.allow-hover .department-header .department-header-inner .department-nav .section:hover ul {
+    display: block;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -3378,6 +3419,7 @@ body .viewport .main {
   right: 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   background-color: #eff1f1;
+  -webkit-overflow-scrolling: touch;
 }
 html.show-drawer.view-small body .viewport .main {
   -webkit-transform: translate3d(253px, 0, 0);
@@ -3397,7 +3439,6 @@ body .viewport .main .main-window .middle {
   color: black;
   margin: 0;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 html.show-drawer body .viewport .main .main-window .middle .middle-overlay {
   background-color: black;
