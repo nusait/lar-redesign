@@ -1770,6 +1770,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-decoration: underline;
   color: #006e8b;
 }
+.text-block .main-text a[href^="http://"]:after, .text-block .main-text a[href^="https://"]:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
+}
 .text-block .main-text h2 {
   font-weight: 300;
   font-size: 1.65em;
@@ -1949,6 +1954,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .text-block .side-text a {
   text-decoration: underline;
   color: #006e8b;
+}
+.text-block .side-text a[href^="http://"]:after, .text-block .side-text a[href^="https://"]:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
 }
 .text-block .side-text h2 {
   font-weight: 300;
@@ -2246,6 +2256,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-decoration: underline;
   color: #006e8b;
 }
+.basic-container .basic-text-container a[href^="http://"]:after, .basic-container .basic-text-container a[href^="https://"]:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
+}
 .basic-container .basic-text-container h2 {
   font-weight: 300;
   font-size: 1.65em;
@@ -2539,6 +2554,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .detail-container .detail-main a {
   text-decoration: underline;
   color: #006e8b;
+}
+.detail-container .detail-main a[href^="http://"]:after, .detail-container .detail-main a[href^="https://"]:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
 }
 .detail-container .detail-main h2 {
   font-weight: 300;
