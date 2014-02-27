@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(//fonts.googleapis.com/css?family=Lora:400,700);
+.mceContentBody {
+  background-color: #eff1f1;
+  font-size: 1.1em;
+}
+.mceContentBody * {
+  font-family: "Lora", serif;
+}
+.mceContentBody table.sa-table {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
+  width: 100%;
+  margin: 0;
+}
+.mceContentBody table.sa-table tbody th {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  text-align: center;
+}
+.mceContentBody table.sa-table tbody th .table-dropdown {
+  display: none;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #5c2483;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody table.sa-table tbody th {
+  background-color: #46bab8;
+}
+.mceContentBody table.sa-table tbody th[scope=row] {
+  text-align: left;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #3b1151;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #007b9a;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
+  background-color: #3b1151;
+}
+.mceContentBody table.sa-table tbody tr:nth-child(2n) {
+  background-color: #e4e3e4;
+}
+.mceContentBody table.sa-table tbody tr td {
+  padding: 10px;
+  vertical-align: text-top;
+}
+.mceContentBody a {
+  text-decoration: underline;
+  color: #006e8b;
+}
+.mceContentBody h2 {
+  font-weight: 300;
+  font-size: 1.65em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody h2 {
+  color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody h2 {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody h2 {
+  color: #5c2483;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody h2 {
+  color: #46bab8;
+}
+.mceContentBody h3 {
+  font-weight: 300;
+  font-size: 1.3em;
+  text-transform: none;
+  color: #646464;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+}
+.mceContentBody p {
+  margin: 0.7em 0;
+  padding: 0;
+  line-height: 1.4em;
+  font-family: "Lora", serif;
+}
+.mceContentBody blockquote {
+  position: relative;
+  left: 5px;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 98%;
+  width: calc(100% - 5px);
+  width: -webkit-calc(100% - 5px);
+  background-color: lightgray;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody blockquote {
+  box-shadow: -5px 5px 0px #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody blockquote {
+  box-shadow: -5px 5px 0px #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody blockquote {
+  box-shadow: -5px 5px 0px #5c2483;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody blockquote {
+  box-shadow: -5px 5px 0px #46bab8;
+}
+.mceContentBody blockquote p {
+  display: block;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-style: italic;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody blockquote p {
+  color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody blockquote p {
+  color: #3b1151;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody blockquote p {
+  color: #007b9a;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody blockquote p {
+  color: #3b1151;
+}
+.mceContentBody blockquote:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.mceContentBody blockquote:after {
+  content: '“';
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.stamp.dept-color-1 ~ .viewport .mceContentBody blockquote:after {
+  color: #3b1151;
+}
+.stamp.dept-color-2 ~ .viewport .mceContentBody blockquote:after {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .mceContentBody blockquote:after {
+  color: #5c2483;
+}
+.stamp.dept-color-4 ~ .viewport .mceContentBody blockquote:after {
+  color: #46bab8;
+}
+.mceContentBody h1, .mceContentBody h4, .mceContentBody h5, .mceContentBody h6 {
+  text-decoration: line-through;
+}
+.mceContentBody a[target=_blank], .mceContentBody a[target=blank] {
+  text-decoration: line-through;
+}

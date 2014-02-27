@@ -13,7 +13,6 @@ h1 {
 h2 {
   font-weight: 300;
   font-size: 1.75em;
-  text-transform: lowercase;
   font-family: 'Oswald', sans-serif;
   color: #5a308c;
 }
@@ -21,7 +20,6 @@ h2 {
 h3 {
   font-weight: 300;
   font-size: 1.5em;
-  text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   color: #5a308c;
 }
@@ -170,15 +168,6 @@ html.browser-lt-ie9 body .ie-too-old {
     color: white;
     z-index: 80;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section ul.departments-list {
-    -moz-column-count: 3;
-    /* Firefox */
-    -webkit-column-count: 3;
-    /* Safari and Chrome */
-    column-count: 3;
-    width: 150%;
-    right: 0;
-  }
   .dosa-banner .inner .dosa-banner-navigation .section ul {
     position: absolute;
     top: 3em;
@@ -264,7 +253,8 @@ html.browser-lt-ie9 body .ie-too-old {
 }
 @media only screen and (max-width: 640px) {
   .mobile-header {
-    position: fixed;
+    position: absolute;
+    top: 0;
     width: 100%;
     height: 3.66em;
     z-index: 200;
@@ -894,11 +884,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     width: 45%;
     width: calc(50% - 10px);
     width: -webkit-calc(50% - 10px);
-    height: 200px;
+    background: none;
   }
   .quicklinks-container .quick-links .row .link-item .link-img {
     position: relative;
-    height: 200px;
+    width: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -1862,11 +1852,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.dept-color-4 ~ .viewport .text-block .main-text blockquote:after {
   color: #46bab8;
 }
-.text-block .main-text .column-list.column-list-3 {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-}
 .text-block .main-text p, .text-block .main-text .text-title {
   margin: 0 20px 10px 20px;
 }
@@ -2046,11 +2031,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 .stamp.dept-color-4 ~ .viewport .text-block .side-text blockquote:after {
   color: #46bab8;
-}
-.text-block .side-text .column-list.column-list-3 {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
 }
 .text-block .side-text p, .text-block .side-text .text-title {
   margin: 0 27px 10px 20px;
@@ -2348,11 +2328,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.dept-color-4 ~ .viewport .basic-container .basic-text-container blockquote:after {
   color: #46bab8;
 }
-.basic-container .basic-text-container .column-list.column-list-3 {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
-}
 .basic-container .basic-text-container .before-text {
   margin-bottom: 10px;
 }
@@ -2646,11 +2621,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 .stamp.dept-color-4 ~ .viewport .detail-container .detail-main blockquote:after {
   color: #46bab8;
-}
-.detail-container .detail-main .column-list.column-list-3 {
-  -webkit-column-count: 3;
-  -moz-column-count: 3;
-  column-count: 3;
 }
 .detail-container .detail-aside {
   float: right;
@@ -3448,6 +3418,7 @@ html.show-drawer body .viewport .main .main-window .middle .middle-overlay {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 105;
 }
 body .viewport .main .main-window .middle .content .divider-h1 {
   margin: 0px 20px;

@@ -57,21 +57,21 @@
 						<th scope="col">Cost</th>
 					</tr>
 					<tr>
-						<th scope="row">Cat</th>
+						<td>Cat</td>
 						<td>Mewha</td>
 						<td>4</td>
 						<td>a lot of colors</td>
 						<td>free to $10293</td>
 					</tr>
 					<tr>
-						<th scope="row">Dogs</th>
+						<td>Dogs</td>
 						<td>Rufff</td>
 						<td>4</td>
 						<td>a lot of colors</td>
 						<td>free to $1203</td>
 					</tr>
 					<tr>
-						<th scope="row">Mouse</th>
+						<td>Mouse</td>
 						<td>Squeek</td>
 						<td>4</td>
 						<td>white, brown</td>
