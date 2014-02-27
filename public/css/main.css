@@ -834,7 +834,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   bottom: 10%;
   display: block;
   padding: 5px 10px;
-  background-color: #C0C0C0;
+  background-color: rgba(133, 128, 132, 0.95);
   color: white;
   width: 99%;
   text-transform: uppercase;
@@ -3001,8 +3001,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-weight: 300;
   text-transform: uppercase;
 }
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 > li {
+  border-bottom: 1px solid gray;
+}
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li:first-child {
   padding-top: 7px;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li:last-child {
+  border-bottom: none;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li ul {
   display: none;
@@ -3010,12 +3016,19 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li a {
   display: block;
   padding: 5px 0;
+  color: #333;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li a:hover {
+  color: #5c2483;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li a span.lvl-nav-title-info {
   display: none;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
-  text-decoration: underline;
+  color: #5c2483;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
+  margin-bottom: -10px;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul {
   list-style-type: none;
@@ -3034,8 +3047,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: gray;
   margin-left: 10px;
 }
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li a:hover {
+  color: #5c2483;
+}
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li.active > a {
   text-decoration: underline;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li:last-child {
+  margin-bottom: 8px;
 }
 
 @media only screen and (max-width: 640px) {

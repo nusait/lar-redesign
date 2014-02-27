@@ -23,26 +23,41 @@
 			font-weight: 300;
 			text-transform: uppercase;
 			
+			& > li {
+				border-bottom: 1px solid gray;
+			}
 
 			li {
 				&:first-child {
 					padding-top: 7px;
+				}
+				&:last-child {
+					border-bottom: none;
 				}
 				ul {
 					display: none;
 				}
 
 				a {
+
 					display: block;
 					padding: 5px 0;
+					color: #333;
+					&:hover {
+						color: $presidential;
+					}
 					span.lvl-nav-title-info {
 						display: none;
 					}
 				}
 				&.active > a {
-					text-decoration: underline;
+					color: $presidential;
+					// text-decoration: underline;
 				}
 				&.active.has-children {
+					& > a {
+						margin-bottom: -10px;
+					}
 					ul {
 						list-style-type: none;
 						display: block;
@@ -57,11 +72,18 @@
 								padding: 3px 0;
 								color: gray;
 								margin-left: 10px;
+								&:hover {
+									color: $presidential;
+								}
 							}
 							&.active > a {
 								text-decoration: underline;
 							}
+							&:last-child {
+								margin-bottom: 8px;
+							}
 						}
+
 					}
 				}
 			}
