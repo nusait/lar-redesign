@@ -16,9 +16,9 @@
 				font-size: .8em;
 				margin-top: 5px;
 				padding: 5px;
+				font-family: $text-font;
 				p {
 					$text-bg-color: darken($rock, 20%);
-					text-transform: uppercase;
 					margin: 0;
 					display: inline;
 					padding: 2px 0;

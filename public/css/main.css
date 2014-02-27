@@ -2160,9 +2160,9 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: .8em;
   margin-top: 5px;
   padding: 5px;
+  font-family: "Lora", serif;
 }
 .basic-container .basic-image-container .basic-image-item .basic-image-caption p {
-  text-transform: uppercase;
   margin: 0;
   display: inline;
   padding: 2px 0;
