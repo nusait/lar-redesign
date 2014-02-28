@@ -1761,10 +1761,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-decoration: underline;
   color: #006e8b;
 }
-.text-block .main-text a[href^="http://"]:after, .text-block .main-text a[href^="https://"]:after {
+.text-block .main-text a:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
+}
+.text-block .main-text a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .text-block .main-text h2 {
   font-weight: 300;
@@ -1946,10 +1949,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-decoration: underline;
   color: #006e8b;
 }
-.text-block .side-text a[href^="http://"]:after, .text-block .side-text a[href^="https://"]:after {
+.text-block .side-text a:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
+}
+.text-block .side-text a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .text-block .side-text h2 {
   font-weight: 300;
@@ -2247,10 +2253,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-decoration: underline;
   color: #006e8b;
 }
-.basic-container .basic-text-container a[href^="http://"]:after, .basic-container .basic-text-container a[href^="https://"]:after {
+.basic-container .basic-text-container a:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
+}
+.basic-container .basic-text-container a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .basic-container .basic-text-container h2 {
   font-weight: 300;
@@ -2546,10 +2555,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-decoration: underline;
   color: #006e8b;
 }
-.detail-container .detail-main a[href^="http://"]:after, .detail-container .detail-main a[href^="https://"]:after {
+.detail-container .detail-main a:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
+}
+.detail-container .detail-main a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .detail-container .detail-main h2 {
   font-weight: 300;

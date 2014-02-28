@@ -63,10 +63,13 @@
   text-decoration: underline;
   color: #006e8b;
 }
-.mceContentBody a[href^="http://"]:after, .mceContentBody a[href^="https://"]:after {
+.mceContentBody a:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
+}
+.mceContentBody a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .mceContentBody h2 {
   font-weight: 300;
