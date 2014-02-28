@@ -195,9 +195,6 @@ html.browser-lt-ie9 body .ie-too-old {
   .dosa-banner .inner .dosa-banner-navigation .section ul li a:hover {
     color: #46bab8;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section.departments:hover h2 {
-    background-color: #362042;
-  }
   .dosa-banner .inner .dosa-banner-navigation .section.departments h2 {
     left: 0;
   }
@@ -215,25 +212,19 @@ html.browser-lt-ie9 body .ie-too-old {
     width: 150%;
     right: 0;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section.topics:hover h2 {
-    background-color: #362042;
-  }
   .dosa-banner .inner .dosa-banner-navigation .section.topics h2 {
     left: 5.5em;
-  }
-  .dosa-banner .inner .dosa-banner-navigation .section.community:hover h2 {
-    background-color: #362042;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.community h2 {
     left: 11em;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.nuhelp h2 {
     left: 16.5em;
-    background-color: #46bab8;
+    background-color: #ad3f35;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul {
     right: 0;
-    background-color: #389594;
+    background-color: #8b5b57;
   }
   html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul li a:hover {
     color: #3b1151;
@@ -397,10 +388,10 @@ html.browser-lt-ie9 body .ie-too-old {
     margin: 10px 0;
   }
   .dosa .dosa-container .dosa-navigation .section.nuhelp h2 {
-    background-color: #46bab8;
+    background-color: #ad3f35;
   }
   .dosa .dosa-container .dosa-navigation .section.nuhelp ul {
-    background-color: #798787;
+    background-color: #806462;
   }
   .dosa .dosa-container .dosa-navigation .section.closed h2 {
     width: 183px;

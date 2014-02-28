@@ -1,4 +1,4 @@
-$nuhelp-background: $dillo;
+$nuhelp-background: saturate(#A24840, 10%);
 
 // Drawer
 $dosa-background-color: #D1D3D2;
@@ -172,7 +172,7 @@ $dosa-footer-text-color: #eeeeee;
                     }
                     &.departments {
                         &:hover h2 {
-                            background-color: desaturate($purple, 30%);
+                            // background-color: desaturate($purple, 30%);
                         }
                         h2 {
                             left: 0;
@@ -190,7 +190,7 @@ $dosa-footer-text-color: #eeeeee;
                     }
                     &.topics {
                         &:hover h2 {
-                            background-color: desaturate($purple, 30%);
+                            // background-color: desaturate($purple, 30%);
                         }
                         h2 {
                             left: $nav-width;
@@ -198,7 +198,7 @@ $dosa-footer-text-color: #eeeeee;
                     }
                     &.community {
                         &:hover h2 {
-                            background-color: desaturate($purple, 30%);
+                            // background-color: desaturate($purple, 30%);
                         }
                         h2 {
                             left: $nav-width * 2;
@@ -211,7 +211,7 @@ $dosa-footer-text-color: #eeeeee;
                         }
                         ul {
                             right: 0;
-                            background-color: darken($nuhelp-background, 10%);
+                            background-color: desaturate($nuhelp-background, 30%);
                             li {
                                 html.allow-hover & a:hover {
                                     color: $purple;
