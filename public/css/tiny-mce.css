@@ -59,11 +59,11 @@
   padding: 10px;
   vertical-align: text-top;
 }
-.mceContentBody a {
+.mceContentBody a.external {
   text-decoration: underline;
   color: #006e8b;
 }
-.mceContentBody a:after {
+.mceContentBody a.external:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;

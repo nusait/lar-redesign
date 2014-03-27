@@ -2,9 +2,7 @@ define(['jquery', 'browser'], function ($, Browser)
 	{
 		var DepartmentFooter = {
 			initialize: function () {
-				console.log(Browser);
 				this.addMediaQueryEvents();
-				console.log(Browser);
 				$(".footer .arrow-button").click(function () {
 					$(this).parent().parent().toggleClass('closed');
 					$('.main').scrollTop(99999); // Force to bottom
@@ -13,11 +11,11 @@ define(['jquery', 'browser'], function ($, Browser)
 
 			addMediaQueryEvents: function () {
 				var ins = this;
-				Browser.onMediumLargeView(this.close);
+				// Browser.onMediumLargeView(this.close);
 			},
 
 			close: function () {
-				console.log('footer close called');
+				console.log('footer closed');
 				$('.footer').addClass('closed');
 			}
 

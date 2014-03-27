@@ -1,4 +1,4 @@
-<div class="footer closed">
+<div class="footer">
   <div class="inner">
     <div class="arrow-button" aria-label="open footer"></div>
     <div class="details">

@@ -5,9 +5,10 @@
     "jquery": "2.*",
     "scss-mixins": "*",
     "requirejs": "*",
-    "swiper" : "*",
+    "swiper": "*",
     "simplecors": "*",
     "hammerjs": "1.0.5",
-    "components-underscore": "*"
+    "components-underscore": "*",
+    "leaflet-dist": "~0.7.2"
   }
 }

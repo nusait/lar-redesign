@@ -3,6 +3,7 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(//fonts.googleapis.com/css?family=Lora:400,700);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(../assets/leaflet-dist/leaflet.css);
 h1 {
   font-weight: 300;
   font-size: 2em;
@@ -1757,11 +1758,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.text-block .main-text a {
+.text-block .main-text a.external {
   text-decoration: underline;
   color: #006e8b;
 }
-.text-block .main-text a:after {
+.text-block .main-text a.external:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
@@ -1945,11 +1946,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.text-block .side-text a {
+.text-block .side-text a.external {
   text-decoration: underline;
   color: #006e8b;
 }
-.text-block .side-text a:after {
+.text-block .side-text a.external:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
@@ -2249,11 +2250,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.basic-container .basic-text-container a {
+.basic-container .basic-text-container a.external {
   text-decoration: underline;
   color: #006e8b;
 }
-.basic-container .basic-text-container a:after {
+.basic-container .basic-text-container a.external:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
@@ -2551,11 +2552,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.detail-container .detail-main a {
+.detail-container .detail-main a.external {
   text-decoration: underline;
   color: #006e8b;
 }
-.detail-container .detail-main a:after {
+.detail-container .detail-main a.external:after {
   content: ' \f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
@@ -2721,6 +2722,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 .basic-container .section-container:first-child .basic-heading-container {
   border-top: none;
+}
+
+.map-canvas {
+  height: 300px;
+  width: 100%;
 }
 
 .department-header {
