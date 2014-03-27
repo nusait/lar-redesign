@@ -1,4 +1,5 @@
 define(['leaflet', 'underscore'], function (L, _) {
+	L.Icon.Default.imagePath = 'assets/leaflet-dist/images';
 	var Map = function ($map) {
 		this.map = {};
 		this.options = {};
@@ -23,8 +24,8 @@ define(['leaflet', 'underscore'], function (L, _) {
 		processMap: function ($map) {
 			var options = {
 				canvasId: $map.data('canvas'),
-				center: [$map.data('center-lat'), $map.data('center-long')], 
-				zoom: $map.data('init-zoom'), 
+				center: [$map.data('center-lat'), $map.data('center-long')],
+				zoom: $map.data('init-zoom'),
 				minZoom: $map.data('min-zoom'),
 				maxZoom: $map.data('max-zoom'),
 				scrollWheelZoom: $map.data('scroll-zoom'),
@@ -68,7 +69,7 @@ define(['leaflet', 'underscore'], function (L, _) {
 	_.extend(Map.prototype, proto);
 
 	return Map;
-		
+
 	}
 );
 
