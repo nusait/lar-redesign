@@ -3,25 +3,10 @@
     <div class="sub-navigation-lvl-2-title">
       <span>Alumni</span>
     </div>
-    <nav class="sub-navigation-lvl-2">
-      <li>
-        <a href="/entity/open.act?type=page&amp;id=7a8d8cf0a57c421a41f5ad2bc6777e5c&amp;confId=7a8d8cf1a57c421a41f5ad2b7c7605da" target="_parent">History</a>
-      </li>
-      <li>
-        <a href="/entity/open.act?type=page&amp;id=7a8d9363a57c421a41f5ad2b321cc8d8&amp;confId=7a8d9363a57c421a41f5ad2b5266e10d" target="_parent">
-          <span class="lvl-nav-title-info">Submenu For :</span>Meet the staff</a>
-        <ul class="lvl-3">
-          <li>
-            <a href="/entity/open.act?type=page&amp;id=7a8d9048a57c421a41f5ad2be4918286&amp;confId=7a8d9049a57c421a41f5ad2bd1e9ff25" target="_parent">Visiting Hours</a>
-          </li>
-          <li>
-            <a href="/entity/open.act?type=page&amp;id=7a8d9233a57c421a41f5ad2b795ea265&amp;confId=7a8d9234a57c421a41f5ad2badbd1386" target="_parent">Contact Us</a>
-          </li>
-        </ul>
-      </li>
-      <li class="active no-children">
-        <a href="/entity/open.act?type=page&amp;id=7a8d9576a57c421a41f5ad2b0a37e79c&amp;confId=7a8d9576a57c421a41f5ad2bbc0126c9" target="_parent">What we do</a>
-      </li>
-    </nav>
+    
+
+    <nav class="sub-navigation-lvl-2"><li><a href="../our-office/index.html">Our Office</a></li><li><a href="../contact-us/index.html">Contact Us</a></li><li class="active has-children"><a href="index.html"><span class="lvl-nav-title-info">Submenu For :</span> Meet the Staff</a><ul class="lvl-3"><li><a href="dean-of-students-todd/index.html">Todd Adams</a></li><li><a href="administrative-melissa/index.html">Melissa Goldstein</a></li><li><a href="off-campus-life-director/index.html">Tony Kirchmeier</a></li><li><a href="disabilities-students-asst-dean/index.html">Alison May</a></li><li><a href="student-conduct-director/index.html">Tara Sullivan</a></li><li><a href="assistant-director-ssd/index.html">Tim Montogemery</a></li><li><a href="assistant-director-ssd2/index.html">Clay Littrell </a></li><li><a href="program-assistant-ssd/index.html">Candice Gant</a></li><li><a href="assistant-dean-sass/index.html">Mona Dugo</a></li><li><a href="assistant-dean-sass2/index.html">﻿Katrina Reynolds</a></li><li><a href="student-conduct-asst-director/index.html">Lance Watson</a></li><li><a href="student-conduct-asst-director-asst-director2/index.html">Michelle Enos</a></li><li><a href="graduate-assistant-andrew/index.html">Andrew Maxwell</a></li></ul></li><li><a href="../meet-the-students/index.html">Meet the Students</a></li><li><a href="../appointment/index.html">Make An Appointment</a></li><li><a href="../parking-map/index.html">Parking &amp; Directions</a></li><li><a href="../maps-directions/index.html">Maps &amp; Directions</a></li><li><a href="../form-example/index.html">Machform</a></li></nav>
+
+
   </div>
 </div>

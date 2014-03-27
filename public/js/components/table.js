@@ -4,6 +4,7 @@ define(['jquery', 'browser'], function ($, Browser)
 			this.$table;
 			this.headerCols = [];
 			this.categories = {};
+			this.hiddenCategories = [];
 			this.initialize($table);
 		};
 

@@ -3,6 +3,7 @@
 @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
 @import url(//fonts.googleapis.com/css?family=Lora:400,700);
 @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(../assets/leaflet-dist/leaflet.css);
 h1 {
   font-weight: 300;
   font-size: 2em;
@@ -13,7 +14,6 @@ h1 {
 h2 {
   font-weight: 300;
   font-size: 1.75em;
-  text-transform: lowercase;
   font-family: 'Oswald', sans-serif;
   color: #5a308c;
 }
@@ -21,7 +21,6 @@ h2 {
 h3 {
   font-weight: 300;
   font-size: 1.5em;
-  text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
   color: #5a308c;
 }
@@ -150,6 +149,9 @@ html.browser-lt-ie9 body .ie-too-old {
   .dosa-banner .inner .dosa-banner-navigation .section.closed ul {
     display: none;
   }
+  html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section:hover ul {
+    display: block;
+  }
   .dosa-banner .inner .dosa-banner-navigation .section h2 {
     position: absolute;
     top: 5px;
@@ -167,19 +169,22 @@ html.browser-lt-ie9 body .ie-too-old {
   .dosa-banner .inner .dosa-banner-navigation .section ul {
     position: absolute;
     top: 3em;
-    background-color: #35253d;
+    background: #3b1151;
     list-style: none;
     margin: 0;
+    margin-top: 6px;
     width: 80%;
     z-index: 70;
-    padding: 0;
+    padding: 10px 8px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    font-family: "Lora", serif;
+    font-size: 0.9em;
   }
   .dosa-banner .inner .dosa-banner-navigation .section ul li {
-    margin: 0;
+    margin: 7px 0;
   }
-  .dosa-banner .inner .dosa-banner-navigation .section ul li:nth-child(even) a {
-    background-color: rgba(255, 255, 255, 0.08);
+  .dosa-banner .inner .dosa-banner-navigation .section ul li:last-child {
+    border: none;
   }
   .dosa-banner .inner .dosa-banner-navigation .section ul li a {
     padding: 2px 10px;
@@ -188,11 +193,25 @@ html.browser-lt-ie9 body .ie-too-old {
     color: white;
     font-weight: 300;
   }
-  html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section ul li a:hover {
-    background-color: #3b1151;
+  .dosa-banner .inner .dosa-banner-navigation .section ul li a:hover {
+    color: #46bab8;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.departments h2 {
     left: 0;
+  }
+  .dosa-banner .inner .dosa-banner-navigation .section.departments ul {
+    -moz-column-count: 2;
+    /* Firefox */
+    -webkit-column-count: 2;
+    /* Safari and Chrome */
+    column-count: 2;
+    -moz-column-gap: 40px;
+    /* Firefox */
+    -webkit-column-gap: 40px;
+    /* Safari and Chrome */
+    column-gap: 40px;
+    width: 150%;
+    right: 0;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.topics h2 {
     left: 5.5em;
@@ -206,10 +225,10 @@ html.browser-lt-ie9 body .ie-too-old {
   }
   .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul {
     right: 0;
-    background-color: #806462;
+    background-color: #8b5b57;
   }
   html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul li a:hover {
-    background-color: #ad3f35;
+    color: #3b1151;
   }
   .dosa-banner .northwestern-title {
     font-family: "Lora", serif;
@@ -249,7 +268,8 @@ html.browser-lt-ie9 body .ie-too-old {
 }
 @media only screen and (max-width: 640px) {
   .mobile-header {
-    position: fixed;
+    position: absolute;
+    top: 0;
     width: 100%;
     height: 3.66em;
     z-index: 200;
@@ -829,7 +849,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   bottom: 10%;
   display: block;
   padding: 5px 10px;
-  background-color: #C0C0C0;
+  background-color: rgba(133, 128, 132, 0.95);
   color: white;
   width: 99%;
   text-transform: uppercase;
@@ -879,11 +899,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     width: 45%;
     width: calc(50% - 10px);
     width: -webkit-calc(50% - 10px);
-    height: 200px;
+    background: none;
   }
   .quicklinks-container .quick-links .row .link-item .link-img {
     position: relative;
-    height: 200px;
+    width: 100%;
     overflow: hidden;
     margin: 0;
     padding: 0;
@@ -1373,12 +1393,16 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   position: absolute;
   top: 0;
   right: 0;
-  height: 20px;
+  height: 40px;
   width: 70px;
   color: white;
   z-index: 10;
   font-size: 1.7em;
   text-align: center;
+  cursor: pointer;
+}
+.footer .inner .arrow-button:hover {
+  color: #317894;
 }
 .footer .inner .arrow-button:after {
   content: "\f107";
@@ -1481,6 +1505,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: 0.95em;
   font-weight: 200;
   font-size: 1em;
+  z-index: 5;
 }
 .footer .inner .links .social {
   position: absolute;
@@ -1733,9 +1758,17 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.text-block .main-text a {
+.text-block .main-text a.external {
   text-decoration: underline;
   color: #006e8b;
+}
+.text-block .main-text a.external:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
+}
+.text-block .main-text a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .text-block .main-text h2 {
   font-weight: 300;
@@ -1913,9 +1946,17 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.text-block .side-text a {
+.text-block .side-text a.external {
   text-decoration: underline;
   color: #006e8b;
+}
+.text-block .side-text a.external:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
+}
+.text-block .side-text a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .text-block .side-text h2 {
   font-weight: 300;
@@ -2127,9 +2168,9 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: .8em;
   margin-top: 5px;
   padding: 5px;
+  font-family: "Lora", serif;
 }
 .basic-container .basic-image-container .basic-image-item .basic-image-caption p {
-  text-transform: uppercase;
   margin: 0;
   display: inline;
   padding: 2px 0;
@@ -2209,9 +2250,17 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.basic-container .basic-text-container a {
+.basic-container .basic-text-container a.external {
   text-decoration: underline;
   color: #006e8b;
+}
+.basic-container .basic-text-container a.external:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
+}
+.basic-container .basic-text-container a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .basic-container .basic-text-container h2 {
   font-weight: 300;
@@ -2503,9 +2552,17 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.detail-container .detail-main a {
+.detail-container .detail-main a.external {
   text-decoration: underline;
   color: #006e8b;
+}
+.detail-container .detail-main a.external:after {
+  content: ' \f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
+}
+.detail-container .detail-main a[href*="northwestern.edu"]:after {
+  content: '';
 }
 .detail-container .detail-main h2 {
   font-weight: 300;
@@ -2667,6 +2724,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   border-top: none;
 }
 
+.map-canvas {
+  height: 300px;
+  width: 100%;
+}
+
 .department-header {
   clear: both;
   position: relative;
@@ -2746,7 +2808,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-align: center;
   font-size: 1em;
   color: white;
-  cursor: pointer;
   text-transform: uppercase;
   font-weight: 300;
 }
@@ -2781,7 +2842,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-transform: uppercase;
   text-align: center;
   color: white;
-  cursor: pointer;
 }
 .department-header .department-header-inner .department-nav .section ul li {
   margin: 10px 20px;
@@ -2824,6 +2884,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 @media only screen and (min-width: 641px) and (max-width: 900px) {
   .department-header .department-header-inner .department-title {
     font-size: 2em;
+  }
+}
+@media screen and (min-width: 641px) {
+  .department-header .department-header-inner .department-title {
+    font-size: 2em;
+  }
+  html.allow-hover .department-header .department-header-inner .department-nav .section:hover ul {
+    display: block;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -2985,8 +3053,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-weight: 300;
   text-transform: uppercase;
 }
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 > li {
+  border-bottom: 1px solid gray;
+}
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li:first-child {
   padding-top: 7px;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li:last-child {
+  border-bottom: none;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li ul {
   display: none;
@@ -2994,12 +3068,19 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li a {
   display: block;
   padding: 5px 0;
+  color: #333;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li a:hover {
+  color: #5c2483;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li a span.lvl-nav-title-info {
   display: none;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active > a {
-  text-decoration: underline;
+  color: #5c2483;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
+  margin-bottom: -10px;
 }
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul {
   list-style-type: none;
@@ -3018,8 +3099,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: gray;
   margin-left: 10px;
 }
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li a:hover {
+  color: #5c2483;
+}
 .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li.active > a {
   text-decoration: underline;
+}
+.sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li:last-child {
+  margin-bottom: 8px;
 }
 
 @media only screen and (max-width: 640px) {
@@ -3373,6 +3460,7 @@ body .viewport .main {
   right: 0;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   background-color: #eff1f1;
+  -webkit-overflow-scrolling: touch;
 }
 html.show-drawer.view-small body .viewport .main {
   -webkit-transform: translate3d(253px, 0, 0);
@@ -3392,7 +3480,6 @@ body .viewport .main .main-window .middle {
   color: black;
   margin: 0;
   overflow: auto;
-  -webkit-overflow-scrolling: touch;
 }
 html.show-drawer body .viewport .main .main-window .middle .middle-overlay {
   background-color: black;
@@ -3402,6 +3489,7 @@ html.show-drawer body .viewport .main .main-window .middle .middle-overlay {
   left: 0;
   right: 0;
   bottom: 0;
+  z-index: 105;
 }
 body .viewport .main .main-window .middle .content .divider-h1 {
   margin: 0px 20px;

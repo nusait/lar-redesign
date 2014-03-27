@@ -33,12 +33,16 @@ $footer-background-color: $purple;
 			position: absolute;
 			top: 0;
 			right: 0;
-			height: 20px;
+			height: 40px;
 			width: 70px;
 			color: white;
 			z-index: 10;
 			font-size: 1.7em;
 			text-align: center;
+			cursor: pointer;
+			&:hover {
+				color: $teal;
+			}
 			&:after {
 				@include icon(107);
 			}
@@ -90,7 +94,6 @@ $footer-background-color: $purple;
 				font-size: 1em;
 				word-wrap: break-word;
 				overflow-wrap: break-word;
-				// background-color: yellow;
 				a {
 					color: white;
 				}
@@ -109,7 +112,6 @@ $footer-background-color: $purple;
 				vertical-align: top;
 				float: none;
 				display: inline-block;
-				// background-color: green;
 				text-align: center;
 				img {
 					display: inline;
@@ -128,6 +130,7 @@ $footer-background-color: $purple;
 			border-top-color: rgba(255, 255, 255, 0.5);
 			@include text-font;
 			font-size: 1em;
+			z-index: 5;
 			.social {
 				// display: block;
 

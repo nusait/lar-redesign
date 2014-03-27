@@ -9,7 +9,7 @@
 				<div class="basic-image-item">
 					<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/600x600"/>
 					<div class="basic-image-caption">
-						<p>You'll want to swap in your own photo here - No Link</p>
+						<p>You'll want to swap in your own photo here. this is a longer text. really long text.  some is some more text for you to see - No Link</p>
 					</div>
 				</div><!--
 				--><a class="basic-image-item" href="http://www.google.com">
@@ -57,21 +57,21 @@
 						<th scope="col">Cost</th>
 					</tr>
 					<tr>
-						<th scope="row">Cat</th>
+						<td>Cat</td>
 						<td>Mewha</td>
 						<td>4</td>
 						<td>a lot of colors</td>
 						<td>free to $10293</td>
 					</tr>
 					<tr>
-						<th scope="row">Dogs</th>
+						<td>Dogs</td>
 						<td>Rufff</td>
 						<td>4</td>
 						<td>a lot of colors</td>
 						<td>free to $1203</td>
 					</tr>
 					<tr>
-						<th scope="row">Mouse</th>
+						<td>Mouse</td>
 						<td>Squeek</td>
 						<td>4</td>
 						<td>white, brown</td>

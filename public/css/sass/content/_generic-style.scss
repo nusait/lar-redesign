@@ -32,9 +32,21 @@
 		}
 	}
 	
-	a {
+	a.external {
+		&:after {
+			content: ' \f08e';
+			font-family: 'FontAwesome';
+			font-size: 0.7em;
+			// padding-left: 5px;
+		}
 		text-decoration: underline;
 		color: $blue;
+	}
+	
+	a[href*="northwestern.edu"] {
+		&:after {
+			content: '';
+		}
 	}
 	h2 {
 	    font-weight: 300;
@@ -102,6 +114,11 @@
 			@include dept-colors-main(color);
 		}
 	}
+	// .column-list {
+	// 	&.column-list-3 {
+	// 		@include column-count(3);
+	// 	}
+	// }
 }
 
 @mixin generic-content-style-small {
