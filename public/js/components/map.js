@@ -1,5 +1,5 @@
 define(['leaflet', 'underscore'], function (L, _) {
-	L.Icon.Default.imagePath = 'assets/leaflet-dist/images';
+	L.Icon.Default.imagePath = '//cdn.leafletjs.com/leaflet-0.7.2/images';
 	var Map = function ($map) {
 		this.map = {};
 		this.options = {};
