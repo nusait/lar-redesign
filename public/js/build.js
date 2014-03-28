@@ -14310,10 +14310,10 @@ define('components/map',['leaflet', 'underscore'], function (L, _) {
 			center: [42.0523583, -87.6787],
 			zoom: 14,
 			maxZoom: 18,
-			url: 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png',
+			url: 'https://{s}.cloudmade.com/b135a64751be40409a95313bc02891c6/997/256/{z}/{x}/{y}.png',
 			scrollWheelZoom: false,
-			subdomains: ['otile1','otile2','otile3','otile4'],
-			attribution: 'Mapping Data Provided by <a href="http://open.mapquest.co.uk" target="_blank">MapQuest</a>,<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.',
+			subdomains: ['ssl-tiles'],
+			attribution: 'Mapping Data Provided by <a href="http://www.cloudmade.com" target="_blank">Cloudmade</a>.',
 		},
 		initialize: function ($map) {
 			var options = this.processMap($map);
