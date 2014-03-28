@@ -14310,10 +14310,10 @@ define('components/map',['leaflet', 'underscore'], function (L, _) {
 			center: [42.0523583, -87.6787],
 			zoom: 14,
 			maxZoom: 18,
-			url: 'https://{s}.cloudmade.com/b135a64751be40409a95313bc02891c6/997/256/{z}/{x}/{y}.png',
+			url: 'https://{s}.tiles.mapbox.com/v3/nusaitweb.hl31on6d/{z}/{x}/{y}.png',
 			scrollWheelZoom: false,
-			subdomains: ['ssl-tiles'],
-			attribution: 'Mapping Data Provided by <a href="http://www.cloudmade.com" target="_blank">Cloudmade</a>.',
+			//subdomains: ['ssl-tiles'],
+			attribution: 'Data Provided by <a href="http://www.mapbox.com" target="_blank">Mapbox</a>.',
 		},
 		initialize: function ($map) {
 			var options = this.processMap($map);
