@@ -5,7 +5,7 @@
         <xsl:variable name="department-name"
             select="system-block/system-data-structure/redesign/sitename"/>
         <xsl:for-each select="system-block/system-data-structure[address-group]">
-            <div class="footer closed">
+            <div class="footer">
                 <div class="inner">
                     <div class="arrow-button" aria-label="open footer">
                         <xsl:text>&#160;</xsl:text>

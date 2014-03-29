@@ -1,8 +1,10 @@
-<system-index-block current-time="1392325663034" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1396017463417" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="2d0757aaa57c421a2e9f443432a437d6">
+        <system-page current="true" id="06f11154a57c421a39e32cd6f7420e58">
             <name>index</name>
             <is-published>true</is-published>
+            <last-published-on>1396017055030</last-published-on>
+            <last-published-by>cew904</last-published-by>
             <title>Map Title</title>
             <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
             <description>Change me to page description that Google may pass on to
@@ -12,24 +14,72 @@
             <site>SA-FOOD</site>
             <link>site://SA-FOOD/content-types/map/index</link>
             <created-by>cew904</created-by>
-            <created-on>1392324859617</created-on>
+            <created-on>1395980833052</created-on>
             <last-modified-by>cew904</last-modified-by>
-            <last-modified>1392325019472</last-modified>
+            <last-modified>1396016996819</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
             <system-data-structure definition-path="Redesign/Map Page Form">
-                <content-type-mao>
+                <content-type-map>
                     <value>Yes</value>
-                </content-type-mao>
-                <top-text>
-                    <p>This is some top text</p>
-                </top-text>
-                <map-id>zK5Z_vvM4yAM.kg870fooceco</map-id>
-                <height>300</height>
-                <bottom-text>
-                    <p>This is some bottom text</p>
-                </bottom-text>
+                </content-type-map>
+                <section>
+                    <marker>
+                        <lat>42.0529258</lat>
+                        <long>-87.678718</long>
+                        <open>
+                            <value>true</value>
+                        </open>
+                        <content>
+                            <p><strong>This is where SAIT is</strong> Here is some more text!</p>
+                        </content>
+                    </marker>
+                    <marker>
+                        <lat>42.050516</lat>
+                        <long>-87.6784764</long>
+                        <open>
+                            <value>false</value>
+                        </open>
+                        <content>
+                            <p>This is where a big dining hall is</p>
+                        </content>
+                    </marker>
+                    <section-heading>Heading Here</section-heading>
+                    <placement>
+                        <value>top</value>
+                    </placement>
+                    <center-lat>42.0530194</center-lat>
+                    <center-long>-87.67861</center-long>
+                    <init-zoom>
+                        <value>17</value>
+                    </init-zoom>
+                    <min-zoom>
+                        <value>13</value>
+                    </min-zoom>
+                    <max-zoom>
+                        <value>18</value>
+                    </max-zoom>
+                    <scroll-zoom>
+                        <value>false</value>
+                    </scroll-zoom>
+                    <data-dragging>
+                        <value>false</value>
+                    </data-dragging>
+                    <zoom>
+                        <value>false</value>
+                    </zoom>
+                    <height>400</height>
+                    <default>
+                        <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis.
+                            Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis
+                            santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé
+                            pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga.
+                            Sapien in monti palavris qui num significa nadis i pareci latim.
+                            Interessantiss quisso pudia ce receita de bolis, mais bolis eu num
+                            gostis.</p>
+                    </default>
+                </section>
             </system-data-structure>
         </system-page>
     </calling-page>
