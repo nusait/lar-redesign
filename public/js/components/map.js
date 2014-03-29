@@ -1,5 +1,5 @@
 define(['leaflet', 'underscore'], function (L, _) {
-	L.Icon.Default.imagePath = 'assets/leaflet-dist/images';
+	L.Icon.Default.imagePath = '//go.dosa.northwestern.edu/shared/lar-redesign/assets/leaflet-dist/images';
 	var Map = function ($map) {
 		this.map = {};
 		this.options = {};
@@ -11,10 +11,10 @@ define(['leaflet', 'underscore'], function (L, _) {
 			center: [42.0523583, -87.6787],
 			zoom: 14,
 			maxZoom: 18,
-			url: 'http://{s}.mqcdn.com/tiles/1.0.0/osm/{z}/{x}/{y}.png',
+			url: 'https://{s}.tiles.mapbox.com/v3/nusaitweb.hl31on6d/{z}/{x}/{y}.png',
 			scrollWheelZoom: false,
-			subdomains: ['otile1','otile2','otile3','otile4'],
-			attribution: 'Mapping Data Provided by <a href="http://open.mapquest.co.uk" target="_blank">MapQuest</a>,<a href="http://www.openstreetmap.org/" target="_blank">OpenStreetMap</a> and contributors.',
+			//subdomains: ['ssl-tiles'],
+			attribution: 'Data Provided by <a href="http://www.mapbox.com" target="_blank">Mapbox</a>.',
 		},
 		initialize: function ($map) {
 			var options = this.processMap($map);
