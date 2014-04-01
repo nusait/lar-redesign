@@ -84,7 +84,7 @@ html.browser-lt-ie9 body .ie-too-old {
   }
   .dosa-banner .inner {
     position: relative;
-    max-width: 68em;
+    max-width: 68rem;
     width: 100%;
     margin: 0 auto;
     padding: 0;
@@ -522,7 +522,7 @@ html.browser-lt-ie9 body .ie-too-old {
   .block-divider {
     position: relative;
     clear: both;
-    max-width: 64.6em;
+    max-width: 64.6rem;
     border-top: 5px double #bbbbbb;
     margin: 0 auto;
     margin-bottom: 10px;
@@ -534,7 +534,7 @@ html.browser-lt-ie9 body .ie-too-old {
     z-index: 0;
     left: -15px;
     width: 100%;
-    max-width: 68em;
+    max-width: 68rem;
     margin: 0 auto;
     margin-top: 0px;
     margin-bottom: 30px;
@@ -1303,7 +1303,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .dosa-footer .inner {
     color: #eeeeee;
-    max-width: 68em;
+    max-width: 68rem;
     width: 100%;
     margin: 0 auto;
   }
@@ -1373,6 +1373,8 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 .footer {
   clear: both;
+  background-color: #3b1151;
+  margin-top: 15px;
 }
 .footer.closed .inner .arrow-button:after {
   content: "\f106";
@@ -1385,9 +1387,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   z-index: -1;
 }
 .footer .inner {
-  background-color: #3b1151;
   position: relative;
-  margin-top: 30px;
+}
+.footer .inner a {
+  color: white;
 }
 .footer .inner .arrow-button {
   position: absolute;
@@ -1414,17 +1417,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-weight: 200;
   font-size: 0.8em;
   position: relative;
-  display: inline-block;
   color: white;
-  padding: 20px 20px;
+  padding: 20px 0;
   vertical-align: top;
-  height: 95%;
-  height: calc(100% - 40px);
-  height: -webkit-calc(100% - 40px);
   line-height: 1.6em;
-  width: 95%;
-  width: calc(100% - 40px);
-  width: -webkit-calc(100% - 40px);
+  max-width: 68rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow: auto;
 }
 .footer .inner .details .divider {
   position: absolute;
@@ -1445,7 +1445,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   vertical-align: top;
   font-size: 1em;
   display: inline-block;
-  width: calc(45% - 20px);
 }
 .footer .inner .details .address {
   float: left;
@@ -1453,9 +1452,9 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   width: 23%;
   width: calc(25% - 40px);
   width: -webkit-calc(25% - 40px);
-  clear: left;
+  clear: none;
+  float: none;
   vertical-align: top;
-  width: calc(45% - 20px);
   display: inline-block;
   font-size: 1em;
   word-wrap: break-word;
@@ -1474,9 +1473,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   display: inline-block;
   float: none;
 }
-.footer .inner .details .dosa-links a {
-  color: white;
-}
 .footer .inner .details .logo {
   float: left;
   padding: 0 20px;
@@ -1491,7 +1487,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .footer .inner .details .logo img {
   display: inline;
   width: 60%;
-  margin-top: 15px;
+  margin-top: 5px;
 }
 .footer .inner .links {
   position: relative;
@@ -1570,9 +1566,16 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .footer .inner .links {
     font-size: 0.8em;
   }
+  .footer .inner .logo img {
+    width: 70%;
+  }
 }
 @media only screen and (max-width: 640px) {
-  .footer .inner {
+  .footer {
+    margin-top: 0;
+  }
+  .footer .inner .details {
+    display: inline-block;
     margin-top: 0;
   }
   .footer .inner .details .divider {
@@ -1580,18 +1583,29 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .footer .inner .details .department-name {
     display: block;
-    width: auto;
+    width: 100%;
     margin-bottom: 15px;
+    padding: 0;
   }
   .footer .inner .details .address {
     display: block;
-    width: auto;
+    width: 100%;
+    padding: 0;
+  }
+  .footer .inner .details .address li {
+    display: inline-block;
   }
   .footer .inner .details .dosa-links {
     display: none;
+    padding: 0;
   }
   .footer .inner .details .logo {
-    display: none;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    padding: 0;
   }
   .footer .inner .links {
     text-align: right;
@@ -1691,7 +1705,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
 }
 .text-block {
-  max-width: 68em;
+  max-width: 68rem;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -2099,6 +2113,9 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin-left: 20px;
   margin-bottom: 10px;
 }
+.collapsable-container .collapsable-item {
+  margin-bottom: 10px;
+}
 .collapsable-container .collapsable-item.closed .collapsable-title:before {
   content: "\f067";
   font-family: FontAwesome;
@@ -2113,8 +2130,8 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .collapsable-container .collapsable-item .collapsable-title {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: 1.3em;
-  line-height: 1.8em;
+  font-size: 1.05em;
+  line-height: 1.6em;
   padding-left: 15px;
 }
 .collapsable-container .collapsable-item .collapsable-title:before {
@@ -2135,7 +2152,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .collapsable-container .collapsable-item .collapsable-title:after {
   content: "";
   width: 100%;
-  border-bottom: 1px solid black;
+  border-bottom: 1px dotted rgba(20, 20, 20, 0.5);
   display: block;
 }
 .collapsable-container .collapsable-item .collapsable-content {
@@ -2143,7 +2160,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: 0.95em;
   font-weight: 200;
   padding: 20px;
-  padding-top: 5px;
+  padding-top: 15px;
 }
 
 .basic-container {
@@ -2754,7 +2771,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: #46bab8;
 }
 .department-header .department-header-inner {
-  max-width: 68em;
+  max-width: 68rem;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -3499,7 +3516,7 @@ body .viewport .main .main-window .middle .content .divider-h1 {
   display: none;
 }
 body .viewport .main .main-window .middle .content .main-container {
-  max-width: 68em;
+  max-width: 68rem;
   width: 100%;
   margin: 0 auto;
 }
