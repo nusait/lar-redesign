@@ -54,7 +54,7 @@
       </div>-->
     </div>
     <div class="rich-extra-region">
-      <div class="rich-extra news-container">
+      <div class="rich-extra news-container" data-initial-slide="1">
         <h2 class="mobile-heading" id="main-headlines">News Headlines</h2>
         <div class="divider"> </div>
         <nav aria-labelledby="main-headlines" class="news" role="navigation">

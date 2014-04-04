@@ -13583,8 +13583,15 @@ define('carousel',['jquery', 'swiper', 'browser'], function ($, Swiper, Browser)
                 }
             },
             this.startSwiper = function () {
-                var ins = this,
-                    startSlide = Math.floor(Math.random() * $('.news .news-item').length);
+                var ins = this;
+                var startSlide;
+                var $container = $('.news-container');
+                    if (typeof $container.data('initial-slide') === 'undefined' || $container.data('initial-slide') == 'random') {
+                      var startSlide = Math.floor(Math.random() * $('.news .news-item').length);
+                    } else {
+                      var startSlide = $container.data('initial-slide') - 1;
+                    }
+
                 var swiper = new Swiper('.swiper-container', {
                     'mode' : 'horizontal',
                     'loop' : 'true',
@@ -13620,6 +13627,7 @@ define('carousel',['jquery', 'swiper', 'browser'], function ($, Swiper, Browser)
         return Carousel;
     }
 );
+
 /*global define:false, console:false, alert:false  */
 
 // author: Christopher E. Walker

@@ -1053,6 +1053,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .blog-container .blog-content .blog-entry .blog-text {
     color: #4b4a4b;
+    font: "Lora", serif;
   }
   .blog-container .blog-content .blog-entry .blog-date {
     border-top-width: 0px;
@@ -1567,7 +1568,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     font-size: 0.8em;
   }
   .footer .inner .logo img {
-    width: 70%;
+    width: 90%;
   }
 }
 @media only screen and (max-width: 640px) {
