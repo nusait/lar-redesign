@@ -1,235 +1,220 @@
-<system-index-block current-time="1390453788007" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1396634733099" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="b5bc48148169775b4f429bbbd25b1f12">
-            <name>delme-index2</name>
+        <system-page current="true" id="4662d3798169775b677bb8fe56ea7edc">
+            <name>index</name>
             <is-published>true</is-published>
-            <title>test</title>
-            <keywords>test, this</keywords>
-            <description>this is a test</description>
-            <display-name>test</display-name>
-            <path>/delme-index2</path>
-            <site>SA-FOOD</site>
-            <link>site://SA-FOOD/delme-index2</link>
-            <created-by>cew904</created-by>
-            <created-on>1390323451863</created-on>
-            <last-modified-by>cew904</last-modified-by>
-            <last-modified>1390453136847</last-modified>
+            <last-published-on>1396634234390</last-published-on>
+            <last-published-by>jmb250</last-published-by>
+            <title>2014 Commencement</title>
+            <keywords>commencement, northwestern, students, graduation, class of 2014</keywords>
+            <description>Northwestern's 2014 Commencement Information</description>
+            <display-name>Commencement</display-name>
+            <path>/index</path>
+            <site>SA-COMMENCEMENT</site>
+            <link>site://SA-COMMENCEMENT/index</link>
+            <created-by>xsitemanager</created-by>
+            <created-on>1392750285668</created-on>
+            <last-modified-by>jmb250</last-modified-by>
+            <last-modified>1392846774736</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
-            <system-data-structure definition-path="Redesign/Panel2 Page Form">
+            <system-data-structure definition-path="Redesign/Panel Page Form">
                 <content-type-panel>
                     <value>Yes</value>
                 </content-type-panel>
                 <panel-container>
                     <big-list type="block">
                         <content>
-                            <planitpurple>
-                                <event>
-                                    <title>Introduction to Mindfulness - Evanston Campus</title>
-                                    <date>January 23, 2014</date>
-                                    <time>11:00 AM - 12:00 PM</time>
-                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-23 11:00</isodate>
-                                    <location>Evanston</location>
-                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
-                                    <address>
-                <building_name>Searle Hall</building_name>
-                <address_1>633 Emerson Street</address_1>
-                <address_2>3rd Fl, Rm. 3-226</address_2>
-                <city>Evanston</city>
-                <state>IL</state>
-                <zip>60208</zip>
-            </address>
-                                    <contact>
-                                        <name>Courtney Albinson</name>
-                                        <email>c-albinson@northwestern.edu</email>
-                                        <phone>8474912151</phone>
-                                    </contact>
-                                    <group>
-                                        <name>Counseling and Psychological Services</name>
-                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
-                                    </group>
-                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/32</externalurl>
-                                    <ppurl>http://planitpurple.northwestern.edu/event/451114</ppurl>
-                                    <event_category_id>1</event_category_id>
-                                    <category-name>Academic</category-name>
-                                    <last_modified>December 23, 2013</last_modified>
-                                    <audience>Student</audience>
-                                    <cosponsors> </cosponsors>
-                                    <description>Mindfulness meditation is an empirically-supported
-                                        practice that can decrease stress, anxiety, and depression
-                                        through the cultivation of present-moment awareness,
-                                        clarity, and acceptance. Research on Mindfulness meditation
-                                        has also shown that it can decrease blood pressure, improve
-                                        immune function, and relieve chronic pain. Participants in
-                                        this multi-part workshop will be introduced to a number of
-                                        mind-body self-regulatory skills designed to improve
-                                        concentration and decrease reactivity to distressing
-                                        thoughts, emotions, and physical sensations. The
-                                        Introduction to Mindfulness workshop series will be held a
-                                        number of different times this quarter on the Chicago and
-                                        Evanston Campuses. Evanston Times and Locations:
-                                        Location: Searle Hall, 3rd Fl, Rm. 3-226, 633 Emerson St.
-                                        Times: Thursdays, 11:00 to 12:00 p.m. (A four-part workshop
-                                        series.) Group I: January 16, 23, 30, February 6Group
-                                        II: February 13, 20, 27, March 6 For more information and
-                                        registration, go
-                                        to: https://go.dosa.northwestern.edu/caps_workshops/workshops
-                                        [https://go.dosa.northwestern.edu/caps_workshops/workshops]</description>
-                                    <recurring>7994</recurring>
-                                </event>
-                                <event>
-                                    <title>Drop-In Stress Management Resource Center</title>
-                                    <date>January 23, 2014</date>
-                                    <time>1:00 PM - 3:00 PM</time>
-                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-23 13:00</isodate>
-                                    <location>Evanston</location>
-                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
-                                    <address>
-                <building_name>Searle Hall</building_name>
-                <address_1>633 Emerson Street</address_1>
-                <address_2>CAPS Stress Management Resource Center, 3rd Fl, Rm. 3-234</address_2>
-                <city>Evanston</city>
-                <state>IL</state>
-                <zip>60208</zip>
-            </address>
-                                    <contact>
-                                        <name>Courtney Albinson</name>
-                                        <email>c-albinson@northwestern.edu</email>
-                                        <phone>(847) 491-2151</phone>
-                                    </contact>
-                                    <group>
-                                        <name>Counseling and Psychological Services</name>
-                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
-                                    </group>
-                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/26</externalurl>
-                                    <ppurl>http://planitpurple.northwestern.edu/event/451262</ppurl>
-                                    <event_category_id>5</event_category_id>
-                                    <category-name>Lectures &amp; Meetings</category-name>
-                                    <last_modified>December 23, 2013</last_modified>
-                                    <audience>Student</audience>
-                                    <cosponsors> </cosponsors>
-                                    <description>Stressed out? Come unwind during the CAPS Stress
-                                        Management Resource Center (SMRC) drop-in hours! Consult
-                                        with CAPS staff and check out the egg chairs. The SMRC is an
-                                        individualized clinic designed to help you achieve peak
-                                        performance and enhanced well-being when you need it most.
-                                        Mondays, 2:30-4:30, Tuesdays 12:00-3:00 p.m, Thursdays
-                                        1-3pm, Fridays 10:30am-12pm. The SMRC provides: - A relaxing
-                                        experience in our "egg chairs" where you can listen to our
-                                        relaxation scripts (e.g., guided meditation, autogenic
-                                        training) and/or relaxing music of your choosing (use our
-                                        iPods or bring your own if you'd like). - Biofeedback
-                                        training, an empirically-supported method of treating
-                                        stress, anxiety, and chronic pain. - Strategies to modify
-                                        thinking patterns that increase stress and interfere with
-                                        performance and relationships. For more information, go
-                                        to: https://go.dosa.northwestern.edu/caps_workshops/workshops
-                                        [https://go.dosa.northwestern.edu/caps_workshops/workshops]
-                                         </description>
-                                    <recurring>8003</recurring>
-                                </event>
-                                <event>
-                                    <title>Relaxation Techniques</title>
-                                    <date>January 24, 2014</date>
-                                    <time>3:00 AM - 4:00 PM</time>
-                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-24 03:00</isodate>
-                                    <location>Evanston</location>
-                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
-                                    <address>
-                <building_name>Searle Hall</building_name>
-                <address_1>633 Emerson Street</address_1>
-                <address_2>3rd Floor, Rm. 3-226</address_2>
-                <city>Evanston</city>
-                <state>IL</state>
-                <zip>60208</zip>
-            </address>
-                                    <contact>
-                                        <name>Courtney Albinson</name>
-                                        <email>c-albinson@northwestern.edu</email>
-                                        <phone>8474912151</phone>
-                                    </contact>
-                                    <group>
-                                        <name>Counseling and Psychological Services</name>
-                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
-                                    </group>
-                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/24</externalurl>
-                                    <ppurl>http://planitpurple.northwestern.edu/event/451804</ppurl>
-                                    <event_category_id>5</event_category_id>
-                                    <category-name>Lectures &amp; Meetings</category-name>
-                                    <last_modified>January 14, 2014</last_modified>
-                                    <audience>Student</audience>
-                                    <cosponsors> </cosponsors>
-                                    <description>Learning ways to relax, unwind, and de-stress your
-                                        body can help you feel better, study more efficiently and
-                                        effectively, and be more healthy in mind, body, and spirit.
-                                        This module of the CAPS Stress Management Clinic teaches
-                                        students a variety of useful relaxation techniques. This
-                                        four-part workshop will be held a number of times this
-                                        quarter on Evanston Campus. Location: Searle Hall, 3rd
-                                        Floor, Rm. 3-226, 633 Emerson StreetTimes: Fridays, 3-4pm (a
-                                        four-part workshop) Group I: January 17, 24, 31, February 7
-                                        Group II: February 14, 21, 28, March 7</description>
-                                    <recurring>8005</recurring>
-                                </event>
-                                <event>
-                                    <title>Stress Strategies</title>
-                                    <date>January 24, 2014</date>
-                                    <time>1:00 PM - 2:00 PM</time>
-                                    <isodate format="YYYY-MM-DD HH24:MI">2014-01-24 13:00</isodate>
-                                    <location>Evanston</location>
-                                    <locationurl>http://maps.northwestern.edu/?lookupid=59</locationurl>
-                                    <address>
-                <building_name>Searle Hall</building_name>
-                <address_1>633 Emerson Street</address_1>
-                <address_2>3rd Fl, Rm. 3-226</address_2>
-                <city>Evanston</city>
-                <state>IL</state>
-                <zip>60208</zip>
-            </address>
-                                    <contact>
-                                        <name>Courtney Albinson</name>
-                                        <email>c-albinson@northwestern.edu</email>
-                                        <phone>8474912151</phone>
-                                    </contact>
-                                    <group>
-                                        <name>Counseling and Psychological Services</name>
-                                        <url>http://planitpurple.northwestern.edu/calendar/570</url>
-                                    </group>
-                                    <externalurl>https://go.dosa.northwestern.edu/caps_workshops/workshops/21</externalurl>
-                                    <ppurl>http://planitpurple.northwestern.edu/event/451130</ppurl>
-                                    <event_category_id>5</event_category_id>
-                                    <category-name>Lectures &amp; Meetings</category-name>
-                                    <last_modified>December 23, 2013</last_modified>
-                                    <audience>Student</audience>
-                                    <cosponsors> </cosponsors>
-                                    <description>Stress Strategies is a 4-part workshop series on
-                                        Stress Management, the Psychology of Performance, and
-                                        Emotional Intelligence. This workshop provides opportunities
-                                        to identify physical and emotional symptoms that let you
-                                        know when you are under stress, instruction in identifying
-                                        the types of situations that create stress for you, and
-                                        training in skills and techniques that will help you manage
-                                        the stress in your life more effectively. This workshop is
-                                        designed to serve as a resource for students who are
-                                        experiencing problems such as concentration difficulties,
-                                        procrastination, feelings of anxiety (including test
-                                        anxiety), or other forms of distress which arise in
-                                        connection with personal or academic stressors. This
-                                        workshop is offered by CAPS and meets once a week for four
-                                        weeks. Each session is one hour. This four-part workshop
-                                        will be held a number of different times on the Evanston
-                                        Campus. Location: Searle Hall, 3rd Floor, Rm. 3-226, 633
-                                        Emerson StreetTimes: Fridays, 1:00 to 2:00 p.m. (a four-part
-                                        workshop) Group I: January 17, 24, 31, February 7 Group
-                                        II: February 14, 21, 28, March 7</description>
-                                    <recurring>7995</recurring>
-                                </event>
-                            </planitpurple>
+                            <system-data-structure>
+                                <full-calendar>http://planitpurple.northwestern.edu/calendar/3847</full-calendar>
+                                <pip-feed type="block">
+                                    <content>
+                                        <planitpurple>
+                                            <event>
+                                                <title>President's Reception</title>
+                                                <date>June 19, 2014</date>
+                                                <time>11:00 AM - 1:00 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-19
+                                                  11:00</isodate>
+                                                <location>Evanston</location>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
+                                                <address>
+				<building_name>Norris University Center</building_name>
+				<address_1>1999 Campus Drive</address_1>
+				<address_2>East Lawn</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                                <contact>
+                                                  <name/>
+                                                  <email/>
+                                                  <phone/>
+                                                </contact>
+                                                <group>
+                                                  <name>Commencement</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
+                                                </group>
+                                                <externalurl>http://www.northwestern.edu/commencement/schedule/index.html</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/454307</ppurl>
+                                                <event_category_id>7</event_category_id>
+                                                <category-name>Other</category-name>
+                                                <last_modified>February 19, 2014</last_modified>
+                                                <audience>Faculty/Staff</audience>
+                                                <audience>Student</audience>
+                                                <audience>Public</audience>
+                                                <audience>Post Docs/Docs</audience>
+                                                <audience>Graduate Students</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>No tickets required Norris University
+                                                  Center, East Lawn, 1999 South Campus Drive,
+                                                  Graduates, their families, and guests are invited
+                                                  to attend this informal reception. The President
+                                                  of the University will be present to meet those
+                                                  attending.</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                            <event>
+                                                <title>Baccalaureate Service</title>
+                                                <date>June 19, 2014</date>
+                                                <time>4:00 PM - 6:00 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-19
+                                                  16:00</isodate>
+                                                <location>Evanston</location>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=108</locationurl>
+                                                <address>
+				<building_name>Pick-Staiger Concert Hall</building_name>
+				<address_1>50 Arts Circle Drive </address_1>
+				<address_2/>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                                <contact>
+                                                  <name>Jill Brazel</name>
+                                                  <email>jill-brazel@northwestern.edu</email>
+                                                  <phone/>
+                                                </contact>
+                                                <group>
+                                                  <name>Commencement</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
+                                                </group>
+                                                <externalurl/>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/454624</ppurl>
+                                                <event_category_id>7</event_category_id>
+                                                <category-name>Other</category-name>
+                                                <last_modified>February 21, 2014</last_modified>
+                                                <audience>Faculty/Staff</audience>
+                                                <audience>Student</audience>
+                                                <audience>Public</audience>
+                                                <audience>Post Docs/Docs</audience>
+                                                <audience>Graduate Students</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>No tickets required, Pick-Staiger
+                                                  Concert Hall, 50 Arts Circle Drive, University
+                                                  Chaplain Timothy Stevens invites graduates, their
+                                                  families, and guests to attend this interfaith
+                                                  service which incorporates the principal faith
+                                                  traditions of the University. Seating is on a
+                                                  first-come, first-served basis.</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                            <event>
+                                                <title>The 156th Annual Commencement</title>
+                                                <date>June 20, 2014</date>
+                                                <time>9:30 AM - 11:30 AM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-20
+                                                  09:30</isodate>
+                                                <location>Evanston</location>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=40</locationurl>
+                                                <address>
+				<building_name>Ryan Field</building_name>
+				<address_1>1501 Central Street</address_1>
+				<address_2/>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                                <contact>
+                                                  <name/>
+                                                  <email/>
+                                                  <phone/>
+                                                </contact>
+                                                <group>
+                                                  <name>Commencement</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
+                                                </group>
+                                                <externalurl>http://www.northwestern.edu/commencement/schedule/index.html</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/454309</ppurl>
+                                                <event_category_id>7</event_category_id>
+                                                <category-name>Other</category-name>
+                                                <last_modified>April 4, 2014</last_modified>
+                                                <audience>Faculty/Staff</audience>
+                                                <audience>Student</audience>
+                                                <audience>Public</audience>
+                                                <audience>Post Docs/Docs</audience>
+                                                <audience>Graduate Students</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>Admission by ticket only, Ryan Field,
+                                                  1501 Central Street, The ceremony begins with the
+                                                  procession of graduates, the faculty, and the
+                                                  President's party. The two-hour program includes
+                                                  the awarding of honorary degrees, a speaker, the
+                                                  President's message to graduates, and the
+                                                  conferring of degrees by school</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                            <event>
+                                                <title>Naval ROTC Commissioning Ceremony</title>
+                                                <date>June 21, 2014</date>
+                                                <time>3:30 PM - 5:00 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-21
+                                                  15:30</isodate>
+                                                <location>Evanston</location>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=119</locationurl>
+                                                <address>
+				<building_name>Harris Hall</building_name>
+				<address_1>1881 Sheridan Road</address_1>
+				<address_2>107</address_2>
+				<city>Evanston</city>
+				<state>IL</state>
+				<zip>60208</zip>
+			</address>
+                                                <contact>
+                                                  <name>Jill Brazel</name>
+                                                  <email>jill-brazel@northwestern.edu</email>
+                                                  <phone/>
+                                                </contact>
+                                                <group>
+                                                  <name>Commencement</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
+                                                </group>
+                                                <externalurl/>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/454610</ppurl>
+                                                <event_category_id>7</event_category_id>
+                                                <category-name>Other</category-name>
+                                                <last_modified>February 21, 2014</last_modified>
+                                                <audience>Faculty/Staff</audience>
+                                                <audience>Student</audience>
+                                                <audience>Public</audience>
+                                                <audience>Post Docs/Docs</audience>
+                                                <audience>Graduate Students</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>Admission is open</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                        </planitpurple>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/events/pip-calendar-feed</path>
+                                    <site>SA-COMMENCEMENT</site>
+                                    <name>pip-calendar-feed</name>
+                                </pip-feed>
+                            </system-data-structure>
                         </content>
-                        <path>/shared-assets/homepage/events/CAPS PiP Calendar Feed</path>
-                        <site>SA-FOOD</site>
-                        <name>CAPS PiP Calendar Feed</name>
+                        <path>/shared-assets/homepage/panel1/events/pip-feed-block</path>
+                        <site>SA-COMMENCEMENT</site>
+                        <name>pip-feed-block</name>
                     </big-list>
                     <rich-extra type="block">
                         <content>
@@ -237,56 +222,53 @@
                                 <content-type-carousel-block>
                                     <value>Yes</value>
                                 </content-type-carousel-block>
+                                <initial-slide>
+                                    <value>random</value>
+                                </initial-slide>
                                 <carousel-section>
-                                    <label>Bread</label>
+                                    <label>Riccardo Muti 2014 Commencement Speaker</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/carousel/images/bread-carousel.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/carousel/images/bread-carousel.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>bread-carousel.jpeg</name>
+                                        <path>/shared-assets/homepage/muti3.jpg</path>
+                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/muti3.jpg</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>muti3.jpg</name>
                                     </photo>
-                                    <alt>bread</alt>
+                                    <alt>Riccardo Muti is the 2014 commencement speaker</alt>
                                     <link type="symlink">
                                         <content>
-                                            <system-symlink>http://en.wikipedia.org/wiki/Bread</system-symlink>
+                                            <system-symlink>http://www.northwestern.edu/newscenter/stories/2014/04/riccardo-muti-will-address-class-of-2014.html</system-symlink>
                                         </content>
-                                        <path>/shared-assets/homepage/carousel/links/bread-wikipedia-page</path>
-                                        <site>SA-FOOD</site>
-                                        <name>bread-wikipedia-page</name>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/commencement
+                                            speaker</path>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>commencement speaker</name>
                                     </link>
                                 </carousel-section>
                                 <carousel-section>
-                                    <label>Trees</label>
+                                    <label>Enjoying Your Stay in Evanston</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/carousel/images/trees-carousel.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/carousel/images/trees-carousel.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>trees-carousel.jpeg</name>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/evanston.jpg</path>
+                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/carousel/images/evanston.jpg</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>evanston.jpg</name>
                                     </photo>
-                                    <alt>trees</alt>
-                                    <link type="page">
-                                        <content/>
-                                        <path>/retail-locations/index</path>
-                                        <dynamic-metadata>
-                                            <name>note</name>
-                                        </dynamic-metadata>
-                                        <link>site://SA-FOOD/retail-locations/index</link>
-                                        <site>SA-FOOD</site>
-                                        <name>index</name>
-                                        <display-name>Retail Locations</display-name>
-                                        <title>Retail Locations Title</title>
-                                        <keywords>decide, here, which, keywords, should, populate,
-                                            your, page</keywords>
-                                        <description>Change me to page description whch Google may
-                                            pass on to searchers</description>
+                                    <alt>grads excited for june</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.downtownevanston.org/visiting-evanston</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/downtown
+                                            evanston</path>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>downtown evanston</name>
                                     </link>
                                 </carousel-section>
                             </system-data-structure>
                         </content>
-                        <path>/shared-assets/homepage/carousel/carousel-block</path>
-                        <site>SA-FOOD</site>
+                        <path>/shared-assets/homepage/panel1/carousel/carousel-block</path>
+                        <site>SA-COMMENCEMENT</site>
                         <name>carousel-block</name>
                     </rich-extra>
                     <q-links type="block">
@@ -297,246 +279,126 @@
                                 </content-type-quick-links-block>
                                 <heading>Quick Links</heading>
                                 <section>
-                                    <label>Bike</label>
+                                    <label>Directions &amp; Maps</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/bike-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/bike-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>bike-ql.jpeg</name>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/map-icon-ql.jpg</path>
+                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/map-icon-ql.jpg</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>map-icon-ql.jpg</name>
                                     </photo>
-                                    <alt>bike</alt>
+                                    <alt>Transportation, Parking and maps for commencement</alt>
                                     <link type="page">
                                         <content/>
-                                        <path>/meal-plans/index</path>
+                                        <path>/families-and-guests/transportation/index</path>
                                         <dynamic-metadata>
                                             <name>note</name>
                                         </dynamic-metadata>
-                                        <link>site://SA-FOOD/meal-plans/index</link>
-                                        <site>SA-FOOD</site>
+                                        <link>site://SA-COMMENCEMENT/families-and-guests/transportation/index</link>
+                                        <site>SA-COMMENCEMENT</site>
                                         <name>index</name>
-                                        <display-name>Meal Plans</display-name>
-                                        <title>Meal Plans Title</title>
-                                        <keywords>decide, here, which, keywords, should, populate,
-                                            your, page</keywords>
-                                        <description>Change me to page description whch Google may
-                                            pass on to searchers</description>
+                                        <display-name>Shuttle Service, Parking &amp;
+                                            Maps</display-name>
+                                        <title>Shuttle Service, Parking &amp; Maps</title>
+                                        <keywords>faculty, parents, students, commencement,
+                                            schedule, guests, maps</keywords>
+                                        <description>Here parents and other guests of students can
+                                            find what they need to know regarding parking,
+                                            directions, and maps</description>
                                     </link>
                                 </section>
                                 <section>
-                                    <label>Karate</label>
+                                    <label>Web Cast</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/karate-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/karate-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>karate-ql.jpeg</name>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/webcast-ql.jpg</path>
+                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/webcast-ql.jpg</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>webcast-ql.jpg</name>
                                     </photo>
-                                    <alt>karate</alt>
-                                    <link type="symlink">
-                                        <content>
-                                            <system-symlink>http://en.wikipedia.org/wiki/Karate</system-symlink>
-                                        </content>
-                                        <path>/shared-assets/homepage/quick-links/links/karate-wikipedia-link</path>
-                                        <site>SA-FOOD</site>
-                                        <name>karate-wikipedia-link</name>
-                                    </link>
-                                </section>
-                                <section>
-                                    <label>Motorcycle</label>
-                                    <photo type="file">
-                                        <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>motorcycle-ql.jpeg</name>
-                                    </photo>
-                                    <alt>motorcycle</alt>
+                                    <alt>general information about live web cast of
+                                        commencement</alt>
                                     <link type="page">
                                         <content/>
-                                        <path>/about-us/index</path>
+                                        <path>/families-and-guests/webcast/index</path>
                                         <dynamic-metadata>
                                             <name>note</name>
                                         </dynamic-metadata>
-                                        <link>site://SA-FOOD/about-us/index</link>
-                                        <site>SA-FOOD</site>
+                                        <link>site://SA-COMMENCEMENT/families-and-guests/webcast/index</link>
+                                        <site>SA-COMMENCEMENT</site>
                                         <name>index</name>
-                                        <display-name>About Us</display-name>
-                                        <title>About Us Title</title>
-                                        <keywords>decide, here, which, keywords, should, populate,
-                                            your, page</keywords>
-                                        <description>Change me to page description whch Google may
-                                            pass on to searchers</description>
+                                        <display-name>Live Web Cast</display-name>
+                                        <title>Live Web Cast</title>
+                                        <keywords>guests, families, commencement</keywords>
+                                        <description>Here is infomration to see the live web
+                                            cast</description>
                                     </link>
                                 </section>
                                 <section>
-                                    <label>Sunset</label>
+                                    <label>Schedule</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>sunset-ql.jpeg</name>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/gallery.jpg</path>
+                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/gallery.jpg</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>gallery.jpg</name>
                                     </photo>
-                                    <alt>sunset</alt>
-                                    <link type="symlink">
-                                        <content>
-                                            <system-symlink>http://en.wikipedia.org/wiki/Sunset</system-symlink>
-                                        </content>
-                                        <path>/shared-assets/homepage/quick-links/links/sunset-wikipedia-link</path>
-                                        <site>SA-FOOD</site>
-                                        <name>sunset-wikipedia-link</name>
+                                    <alt>full schedule for commencement</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/ceremonies-and-events/weekend-events/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-COMMENCEMENT/ceremonies-and-events/weekend-events/index</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>index</name>
+                                        <display-name>Weekend Events</display-name>
+                                        <title>Weekend Schedule</title>
+                                        <keywords>convocations, commencement, northwestern,
+                                            students, graduation, class of 2014</keywords>
+                                        <description>Open events during commencement
+                                            weekend</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Future Dates</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/2017classphoto2.jpg</path>
+                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/2017classphoto2.jpg</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>2017classphoto2.jpg</name>
+                                    </photo>
+                                    <alt>future commencement dates</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/ceremonies-and-events/future-dates/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-COMMENCEMENT/ceremonies-and-events/future-dates/index</link>
+                                        <site>SA-COMMENCEMENT</site>
+                                        <name>index</name>
+                                        <display-name>Future Dates</display-name>
+                                        <title>Future Dates</title>
+                                        <keywords>future dates for commencement at
+                                            northwestern</keywords>
+                                        <description>Here are future dates for Commenecement at
+                                            Northwestern</description>
                                     </link>
                                 </section>
                             </system-data-structure>
                         </content>
-                        <path>/shared-assets/homepage/quick-links/quick-links-block</path>
-                        <site>SA-FOOD</site>
-                        <name>quick-links-block</name>
-                    </q-links>
-                </panel-container>
-                <panel-container>
-                    <big-list type="block">
-                        <content>
-                            <system-data-structure>
-                                <content-type-twitter-block>
-                                    <value>Yes</value>
-                                </content-type-twitter-block>
-                                <twitter-link>
-                                    <href>https://twitter.com/StudentAffNU</href>
-                                    <data-widget-id>381608580614336512</data-widget-id>
-                                </twitter-link>
-                                <twitter-link>
-                                    <href>https://twitter.com/StudentAffNU</href>
-                                    <data-widget-id>381609572332363776</data-widget-id>
-                                </twitter-link>
-                            </system-data-structure>
-                        </content>
-                        <path>/shared-assets/homepage/twitter/twitter-block</path>
-                        <site>SA-FOOD</site>
-                        <name>twitter-block</name>
-                    </big-list>
-                    <rich-extra type="block">
-                        <content>
-                            <system-data-structure>
-                                <content-type-blog-block>
-                                    <value>Yes</value>
-                                </content-type-blog-block>
-                                <url>//studentaffairsnu.wordpress.com/</url>
-                            </system-data-structure>
-                        </content>
-                        <path>/shared-assets/homepage/blog/blog-block</path>
-                        <site>SA-FOOD</site>
-                        <name>blog-block</name>
-                    </rich-extra>
-                    <q-links type="block">
-                        <content>
-                            <system-data-structure>
-                                <content-type-quick-links-block>
-                                    <value>Yes</value>
-                                </content-type-quick-links-block>
-                                <heading>Quick Links</heading>
-                                <section>
-                                    <label>Bike</label>
-                                    <photo type="file">
-                                        <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/bike-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/bike-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>bike-ql.jpeg</name>
-                                    </photo>
-                                    <alt>bike</alt>
-                                    <link type="page">
-                                        <content/>
-                                        <path>/meal-plans/index</path>
-                                        <dynamic-metadata>
-                                            <name>note</name>
-                                        </dynamic-metadata>
-                                        <link>site://SA-FOOD/meal-plans/index</link>
-                                        <site>SA-FOOD</site>
-                                        <name>index</name>
-                                        <display-name>Meal Plans</display-name>
-                                        <title>Meal Plans Title</title>
-                                        <keywords>decide, here, which, keywords, should, populate,
-                                            your, page</keywords>
-                                        <description>Change me to page description whch Google may
-                                            pass on to searchers</description>
-                                    </link>
-                                </section>
-                                <section>
-                                    <label>Karate</label>
-                                    <photo type="file">
-                                        <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/karate-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/karate-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>karate-ql.jpeg</name>
-                                    </photo>
-                                    <alt>karate</alt>
-                                    <link type="symlink">
-                                        <content>
-                                            <system-symlink>http://en.wikipedia.org/wiki/Karate</system-symlink>
-                                        </content>
-                                        <path>/shared-assets/homepage/quick-links/links/karate-wikipedia-link</path>
-                                        <site>SA-FOOD</site>
-                                        <name>karate-wikipedia-link</name>
-                                    </link>
-                                </section>
-                                <section>
-                                    <label>Motorcycle</label>
-                                    <photo type="file">
-                                        <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/motorcycle-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>motorcycle-ql.jpeg</name>
-                                    </photo>
-                                    <alt>motorcycle</alt>
-                                    <link type="page">
-                                        <content/>
-                                        <path>/about-us/index</path>
-                                        <dynamic-metadata>
-                                            <name>note</name>
-                                        </dynamic-metadata>
-                                        <link>site://SA-FOOD/about-us/index</link>
-                                        <site>SA-FOOD</site>
-                                        <name>index</name>
-                                        <display-name>About Us</display-name>
-                                        <title>About Us Title</title>
-                                        <keywords>decide, here, which, keywords, should, populate,
-                                            your, page</keywords>
-                                        <description>Change me to page description whch Google may
-                                            pass on to searchers</description>
-                                    </link>
-                                </section>
-                                <section>
-                                    <label>Sunset</label>
-                                    <photo type="file">
-                                        <content/>
-                                        <path>/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</path>
-                                        <link>site://SA-FOOD/shared-assets/homepage/quick-links/images/sunset-ql.jpeg</link>
-                                        <site>SA-FOOD</site>
-                                        <name>sunset-ql.jpeg</name>
-                                    </photo>
-                                    <alt>sunset</alt>
-                                    <link type="symlink">
-                                        <content>
-                                            <system-symlink>http://en.wikipedia.org/wiki/Sunset</system-symlink>
-                                        </content>
-                                        <path>/shared-assets/homepage/quick-links/links/sunset-wikipedia-link</path>
-                                        <site>SA-FOOD</site>
-                                        <name>sunset-wikipedia-link</name>
-                                    </link>
-                                </section>
-                            </system-data-structure>
-                        </content>
-                        <path>/shared-assets/homepage/quick-links/quick-links-block</path>
-                        <site>SA-FOOD</site>
+                        <path>/shared-assets/homepage/panel1/quick-links/quick-links-block</path>
+                        <site>SA-COMMENCEMENT</site>
                         <name>quick-links-block</name>
                     </q-links>
                 </panel-container>
                 <text-container>
-                    <main-content/>
+                    <main-content>
+                        <center id="yui_3_6_0_1_1391801389074_149"/>
+                    </main-content>
                     <side-title/>
                     <side-content/>
                 </text-container>
