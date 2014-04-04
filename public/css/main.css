@@ -1773,7 +1773,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.text-block .main-text a.external {
+.text-block .main-text a {
   text-decoration: underline;
   color: #006e8b;
 }
@@ -1961,7 +1961,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.text-block .side-text a.external {
+.text-block .side-text a {
   text-decoration: underline;
   color: #006e8b;
 }
@@ -2268,7 +2268,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.basic-container .basic-text-container a.external {
+.basic-container .basic-text-container a {
   text-decoration: underline;
   color: #006e8b;
 }
@@ -2570,7 +2570,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
-.detail-container .detail-main a.external {
+.detail-container .detail-main a {
   text-decoration: underline;
   color: #006e8b;
 }

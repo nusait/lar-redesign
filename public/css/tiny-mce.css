@@ -59,7 +59,7 @@
   padding: 10px;
   vertical-align: text-top;
 }
-.mceContentBody a.external {
+.mceContentBody a {
   text-decoration: underline;
   color: #006e8b;
 }

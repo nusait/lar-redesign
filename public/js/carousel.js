@@ -27,9 +27,9 @@ define(['jquery', 'swiper', 'browser'], function ($, Swiper, Browser)
                 var startSlide;
                 var $container = $('.news-container');
                     if (typeof $container.data('initial-slide') === 'undefined' || $container.data('initial-slide') == 'random') {
-                      var startSlide = Math.floor(Math.random() * $('.news .news-item').length);
+                      startSlide = Math.floor(Math.random() * $('.news .news-item').length);
                     } else {
-                      var startSlide = $container.data('initial-slide') - 1;
+                      startSlide = $container.data('initial-slide') - 1;
                     }
 
                 var swiper = new Swiper('.swiper-container', {
