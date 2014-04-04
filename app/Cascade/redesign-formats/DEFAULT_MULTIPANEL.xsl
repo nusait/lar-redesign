@@ -200,7 +200,7 @@
         <xsl:value-of select="'&#xA;'"/>
     </xsl:template>
     <xsl:template name="carousel">
-        <div class="rich-extra news-container">
+        <div class="rich-extra news-container" data-initial-slide="{initial-slide/value}">
             <h2 class="mobile-heading" id="main-headlines">News Headlines</h2>
             <div class="divider">
                 <xsl:text>&#160;</xsl:text>
