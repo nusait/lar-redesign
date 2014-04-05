@@ -1394,6 +1394,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: white;
 }
 .footer .inner .arrow-button {
+  display: none;
   position: absolute;
   top: 0;
   right: 0;
@@ -1454,7 +1455,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   width: calc(25% - 40px);
   width: -webkit-calc(25% - 40px);
   clear: none;
-  float: none;
   vertical-align: top;
   display: inline-block;
   font-size: 1em;
@@ -1472,7 +1472,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   width: -webkit-calc(25% - 40px);
   vertical-align: top;
   display: inline-block;
-  float: none;
 }
 .footer .inner .details .logo {
   float: left;
@@ -1481,7 +1480,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   width: calc(25% - 40px);
   width: -webkit-calc(25% - 40px);
   vertical-align: top;
-  float: none;
   display: inline-block;
   text-align: center;
 }
@@ -1575,6 +1573,9 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .footer {
     margin-top: 0;
   }
+  .footer .inner {
+    margin: 0 20px;
+  }
   .footer .inner .details {
     display: inline-block;
     margin-top: 0;
@@ -1589,9 +1590,9 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     padding: 0;
   }
   .footer .inner .details .address {
-    display: block;
     width: 100%;
     padding: 0;
+    display: none;
   }
   .footer .inner .details .address li {
     display: inline-block;
@@ -1622,7 +1623,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     width: 23%;
     width: calc(25% - 40px);
     width: -webkit-calc(25% - 40px);
-    float: none;
   }
   .footer .inner .details .address {
     float: left;
@@ -1630,7 +1630,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     width: 23%;
     width: calc(25% - 40px);
     width: -webkit-calc(25% - 40px);
-    float: none;
     clear: none;
   }
 }

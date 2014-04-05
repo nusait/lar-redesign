@@ -34,6 +34,7 @@ $footer-background-color: $purple;
 			color: white;
 		}
 		.arrow-button {
+			display: none;
 			position: absolute;
 			top: 0;
 			right: 0;
@@ -98,7 +99,7 @@ $footer-background-color: $purple;
 			.address {
 				@include detail-spacing;
 				clear:none;
-				float:none;
+				// float:none;
 				vertical-align: top;
 				// width: calc(45% - 20px);
 				display: inline-block;
@@ -113,12 +114,12 @@ $footer-background-color: $purple;
 				@include detail-spacing;
 				vertical-align: top;
 				display: inline-block;
-				float: none;
+				// float: none;
 			}
 			.logo {
 				@include detail-spacing;
 				vertical-align: top;
-				float: none;
+				// float: none;
 				display: inline-block;
 				text-align: center;
 				img {
@@ -239,6 +240,7 @@ $footer-background-color: $purple;
 		}
 	}
 	.inner {
+		margin: 0 20px;
 		.arrow-button {
 			&:after {
 			}
@@ -258,9 +260,10 @@ $footer-background-color: $purple;
 				padding: 0;
 			}
 			.address {
-				display: block;
+				// display: block;
 				width: 100%;
 				padding: 0;
+				display: none;
 				li {
 					display: inline-block;
 					a {
@@ -280,6 +283,7 @@ $footer-background-color: $purple;
 				position: relative;
 				top: 5px;
 				padding: 0;
+
 				img {
 				}
 			}
@@ -318,11 +322,11 @@ $footer-background-color: $purple;
 			}
 			.department-name {
 				@include detail-spacing;
-				float: none;
+				// float: none;
 			}
 			.address {
 				@include detail-spacing;
-				float: none;
+				// float: none;
 				clear: none;
 				a {
 				}
