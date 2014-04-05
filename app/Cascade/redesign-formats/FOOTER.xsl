@@ -23,25 +23,29 @@
                             <xsl:text>&#160;</xsl:text>
                         </div>
                         <div class="address">
-                            <xsl:for-each select="department-links/item">
-                                <li>
-                                    <a href="{link}">
-                                        <xsl:value-of select="label"/>
-                                    </a>
-                                </li>
-                            </xsl:for-each>
+                            <ul>
+                                <xsl:for-each select="department-links/item">
+                                    <li>
+                                        <a href="{link}">
+                                            <xsl:value-of select="label"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
                         </div>
                         <div class="divider">
                             <xsl:text>&#160;</xsl:text>
                         </div>
                         <div class="dosa-links">
-                            <xsl:for-each select="dosa-links/item">
-                                <li>
-                                    <a href="{link}">
-                                        <xsl:value-of select="label"/>
-                                    </a>
-                                </li>
-                            </xsl:for-each>
+                            <ul>
+                                <xsl:for-each select="dosa-links/item">
+                                    <li>
+                                        <a href="{link}">
+                                            <xsl:value-of select="label"/>
+                                        </a>
+                                    </li>
+                                </xsl:for-each>
+                            </ul>
                         </div>
                         <div class="divider">
                             <xsl:text>&#160;</xsl:text>
