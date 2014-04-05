@@ -9,16 +9,20 @@
         Phone: 847-491-5360
       </div><div class="divider"></div><!--
       --><div class="address">
+        <ul>
         <li><a href="">Dosa Home</a></li>
         <li><a href="">Dosa Events</a></li>
         <li><a href="">Map</a></li>
         <li><a href="">Dosa Events</a></li>
         <li><a href="">Map</a></li>
+        </ul>
       </div><div class="divider"></div><!--
       --><div class="dosa-links">
+        <ul>
         <li><a href="">Dosa Home</a></li>
         <li><a href="">Dosa Events</a></li>
         <li><a href="">Map</a></li>
+        </ul>
       </div><div class="divider"></div><!--
       --><div class="logo">
         <a href="http://www.northwestern.edu"><img src="//go.dosa.northwestern.edu/shared/redesign/public/img/nu_logo_white.png" alt="Northwestern Logo" /></a>
