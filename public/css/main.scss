@@ -69,7 +69,7 @@ body {
                     background-color: $bg-color;
                     color: black;
                     margin: 0;
-                    overflow: auto;
+                    overflow-x: hidden; //get rid of horizontal scroll
                     .middle-overlay {
                         html.show-drawer & {
                             background-color: black;

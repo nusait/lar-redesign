@@ -3506,7 +3506,7 @@ body .viewport .main .main-window .middle {
   background-color: #eff1f1;
   color: black;
   margin: 0;
-  overflow: auto;
+  overflow-x: hidden;
 }
 html.show-drawer body .viewport .main .main-window .middle .middle-overlay {
   background-color: black;
