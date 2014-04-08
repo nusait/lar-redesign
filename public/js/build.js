@@ -14051,8 +14051,8 @@ define('components/departmentFooter',['jquery', 'browser'], function ($, Browser
 			},
 			processEmailLink: function () {
 				var department = $('.footer .department-name').html();
-				var matchedEmail = department.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/);
-				if ( ! matchedEmail ) {
+				var email = department.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/);
+				if ( ! email ) {
 					return;
 				}
 				var emailLink = $('<a></a>').html(email.replace('@', '<wbr>@')).attr('href', 'mailto:' + email);
