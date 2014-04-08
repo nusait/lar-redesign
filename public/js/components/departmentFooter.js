@@ -12,7 +12,10 @@ define(['jquery', 'browser'], function ($, Browser)
 			},
 			processEmailLink: function () {
 				var department = $('.footer .department-name').html();
-				var email = department.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/)[0];
+				var matchedEmail = department.match(/([a-zA-Z0-9._-]+@[a-zA-Z0-9._-]+\.[a-zA-Z0-9._-]+)/);
+				if ( ! matchedEmail ) {
+					return;
+				}
 				var emailLink = $('<a></a>').html(email.replace('@', '<wbr>@')).attr('href', 'mailto:' + email);
 				department = department.replace(email, emailLink[0].outerHTML);
 				$('.footer .department-name').html(department);
