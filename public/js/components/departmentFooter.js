@@ -16,6 +16,7 @@ define(['jquery', 'browser'], function ($, Browser)
 				if ( ! email ) {
 					return;
 				}
+				email = email[0];
 				var emailLink = $('<a></a>').html(email.replace('@', '<wbr>@')).attr('href', 'mailto:' + email);
 				department = department.replace(email, emailLink[0].outerHTML);
 				$('.footer .department-name').html(department);
