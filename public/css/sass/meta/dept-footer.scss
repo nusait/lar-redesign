@@ -80,10 +80,11 @@ $footer-background-color: $purple;
 
 			.divider {
 				position: absolute;
-				display: inline-block;
-				width: 1px;
+				// display: inline-block;
+				width: 0px;
 				height: 75%;
 				background-color: rgba(white, 0.3);
+				// left: 50%;
 			}
 			.social {
 				display: none;
