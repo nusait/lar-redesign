@@ -6,6 +6,7 @@
         Asian/Asian American Student Affairs <br/>
         Rebecca Crown Evanston, IL 60208 <br/>
         v.redmond@northwestern.edu <br/>
+        v.test@northwesern.edu <br/>
         Phone: 847-491-5360
       </div><div class="divider"></div><!--
       --><div class="address">
