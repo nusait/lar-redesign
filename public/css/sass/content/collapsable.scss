@@ -46,6 +46,10 @@
 			@include text-font;
 			padding: 20px;
 			padding-top: 15px;
+			a {
+				text-decoration: underline;
+				color: $blue;
+			}
 		}
 	}
 }

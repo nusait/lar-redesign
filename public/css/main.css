@@ -2176,6 +2176,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 20px;
   padding-top: 15px;
 }
+.collapsable-container .collapsable-item .collapsable-content a {
+  text-decoration: underline;
+  color: #006e8b;
+}
 
 .basic-container {
   font-family: "Lora", serif;
