@@ -1121,7 +1121,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     display: none;
   }
   .news-container .news .news-item {
-    display: inline-block;
+    display: inline;
     padding: 5px 15px;
     margin: 0;
     color: white;
@@ -1139,6 +1139,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .news-container .news .news-item:nth-child(3n+2) {
     background-color: #7e7d7e;
+  }
+  .news-container .news .news-item .news-label {
+    position: relative;
+    top: 2px;
   }
 
   .swiper-container, .swiper-slide {

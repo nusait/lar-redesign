@@ -12,7 +12,7 @@
             margin: 10px 0;
             height: 2.3em;
             .news-item {
-                display:inline-block;
+                display:inline;
                 padding: 5px 15px;
                 margin: 0;
                 color: white;
@@ -28,6 +28,10 @@
                 }
                 &:nth-child(3n+2) {
                     background-color: $gray;
+                }
+                .news-label {
+                  position: relative;
+                  top: 2px;
                 }
             }
         }
