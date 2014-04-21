@@ -2091,7 +2091,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.dept-color-4 ~ .viewport .text-block .side-text blockquote:after {
   color: #46bab8;
 }
-.text-block .side-text p, .text-block .side-text .text-title {
+.text-block .side-text .text-title, .text-block .side-text > div {
   margin: 0 27px 10px 20px;
 }
 .text-block .side-text .text-title {

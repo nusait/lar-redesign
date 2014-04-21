@@ -143,11 +143,11 @@
       </div>
       <div class="side-text">
         <h3 class="text-title">Minor Title</h3>
-        <p>
+        <div class="text-content">
           <span>Here in the Maine woods, Ms. Quimby is flush with land she acquired after co-founding and later selling Burt’s Bees, the skin-care company known for its lip balm. She ranks 88th on the </span>
           <a href="http://fayranches.com/sites/default/files/2013_land_report_100_sponsored_by_fay_ranches.pdf">Land Report’s 2013 list</a>
           <span> of the nation’s 100 largest landowners and has been trying to establish a national park for years by giving away more than 100,000 acres to the federal government.</span>
-        </p>
+        </div>
       </div>
     </div>
   </div>

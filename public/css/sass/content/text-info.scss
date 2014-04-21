@@ -34,7 +34,7 @@
 		border-left-style: solid;
 		// text-align: ;
 		@include text-font;
-		p, .text-title {
+		.text-title, & > div {
 			margin: 0 27px 10px 20px;
 		}
 		.text-title {
