@@ -1,52 +1,20 @@
-<system-index-block current-time="1389488853298" name="SA-MAIN-homepage-settings-callingpage"
-    type="folder">
-    <system-folder id="7aaa5a11a57c421a41f5ad2b96adf0f6">
-        <name>programs</name>
-        <is-published>true</is-published>
-        <path>/programs</path>
-        <site>SA-MAIN</site>
-        <link>site://SA-MAIN/programs</link>
-        <created-by>cew904</created-by>
-        <created-on>1389332421056</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1389332421056</last-modified>
-    </system-folder>
-    <system-folder id="7a8d89a8a57c421a41f5ad2b93b9ced6">
-        <name>alumni</name>
-        <is-published>true</is-published>
-        <path>/alumni</path>
-        <site>SA-MAIN</site>
-        <link>site://SA-MAIN/alumni</link>
-        <created-by>cew904</created-by>
-        <created-on>1389330532695</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1389330532695</last-modified>
-    </system-folder>
-    <system-folder id="7a8bc8cfa57c421a41f5ad2be1a1ca7c">
-        <name>parents</name>
-        <is-published>true</is-published>
-        <path>/parents</path>
-        <site>SA-MAIN</site>
-        <link>site://SA-MAIN/parents</link>
-        <created-by>cew904</created-by>
-        <created-on>1389330417791</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1389330417791</last-modified>
-    </system-folder>
-    <system-page id="78d2fe2f8169775b5c17821b97a663a7">
+<system-index-block current-time="1398456869445" name="homepage-settings-callingpage" type="folder">
+    <system-page current="true" id="b78bbf8b8169775b492aa0bf66edbe95">
         <name>index</name>
         <is-published>true</is-published>
-        <title>Aliquam sit amet mauris</title>
-        <keywords>some, keywords, to, include</keywords>
-        <description>Change me as this is a generic description for homepages</description>
-        <display-name>Aliquam sit</display-name>
+        <last-published-on>1398379255432</last-published-on>
+        <last-published-by>jmb250</last-published-by>
+        <title>NuHelp</title>
+        <keywords>commencement, northwestern, students, graduation, class of 2014</keywords>
+        <description>Northwestern's 2014 Commencement Information</description>
+        <display-name>NuHelp</display-name>
         <path>/index</path>
-        <site>SA-MAIN</site>
-        <link>site://SA-MAIN/index</link>
-        <created-by>cew904</created-by>
-        <created-on>1389301530016</created-on>
-        <last-modified-by>hle276</last-modified-by>
-        <last-modified>1389390452356</last-modified>
+        <site>SA-NUHELP</site>
+        <link>site://SA-NUHELP/index</link>
+        <created-by>xsitemanager</created-by>
+        <created-on>1394648792941</created-on>
+        <last-modified-by>cew904</last-modified-by>
+        <last-modified>1397768841402</last-modified>
         <dynamic-metadata>
             <name>note</name>
         </dynamic-metadata>
@@ -54,301 +22,713 @@
             <content-type-panel>
                 <value>Yes</value>
             </content-type-panel>
-            <content-type>panel</content-type>
-            <panel>
-                <carousel-image-set>
-                    <carousel-section>
-                        <label>Trees Improve Our Lives</label>
-                        <photo>
-                            <content/>
-                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</path>
-                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/trees-carousel.jpeg</link>
-                            <site>SA-MAIN</site>
-                            <name>trees-carousel.jpeg</name>
-                        </photo>
-                        <alt>row of trees on fall day</alt>
-                        <link>http://google.com</link>
-                    </carousel-section>
-                    <carousel-section>
-                        <label>Bread Made Fresh</label>
-                        <photo>
-                            <content/>
-                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</path>
-                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/carousel-images/bread-carousel.jpeg</link>
-                            <site>SA-MAIN</site>
-                            <name>bread-carousel.jpeg</name>
-                        </photo>
-                        <alt>loaf of baked break</alt>
-                        <link>http://google.com</link>
-                    </carousel-section>
-                </carousel-image-set>
-                <event-set>
-                    <event>
-                        <title>Winter Job &amp; Internship Fair</title>
-                        <date>01-09-2014</date>
-                        <location>Norris 2nd Floor</location>
-                        <link>http://planitpurple.northwestern.edu/event/445957</link>
-                    </event>
-                    <event>
-                        <title>NU Women's Basketball vs. Purdue</title>
-                        <date>01-09-2014</date>
-                        <location>Welsh-Ryan Arena</location>
-                        <link>http://planitpurple.northwestern.edu/event/450274</link>
-                    </event>
-                    <event>
-                        <title>Soul On Ice Norris Ice Rink</title>
-                        <date>01-10-2014</date>
-                        <location>Norris-Ice Rink</location>
-                        <link>http://planitpurple.northwestern.edu/event/451491</link>
-                    </event>
-                    <event>
-                        <title>Winter Chamber Music Festival: Miró Quartet with Shai Wosner,
-                            piano</title>
-                        <date>01-10-2014</date>
-                        <location>Pick-Staiger Concert Hall</location>
-                        <link>http://planitpurple.northwestern.edu/event/450130</link>
-                    </event>
-                </event-set>
-                <quick-link-set>
-                    <heading>Quick Links</heading>
-                    <section>
-                        <label>Bicycles</label>
-                        <photo>
-                            <content/>
-                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</path>
-                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/bike-ql.jpeg</link>
-                            <site>SA-MAIN</site>
-                            <name>bike-ql.jpeg</name>
-                        </photo>
-                        <alt>People riding tandem bicycle</alt>
-                        <internal-link>
-                            <path>/</path>
-                        </internal-link>
-                        <external-link>
-                            <content>
-                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                            </content>
-                            <path>/_common/career-cat-external-link</path>
-                            <site>SA-MAIN</site>
-                            <name>career-cat-external-link</name>
-                        </external-link>
-                    </section>
-                    <section>
-                        <label>Exercise</label>
-                        <photo>
-                            <content/>
-                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</path>
-                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/karate-ql.jpeg</link>
-                            <site>SA-MAIN</site>
-                            <name>karate-ql.jpeg</name>
-                        </photo>
-                        <alt>Man kicking the sky</alt>
-                        <internal-link>
-                            <path>/</path>
-                        </internal-link>
-                        <external-link>
-                            <content>
-                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                            </content>
-                            <path>/_common/career-cat-external-link</path>
-                            <site>SA-MAIN</site>
-                            <name>career-cat-external-link</name>
-                        </external-link>
-                    </section>
-                    <section>
-                        <label>Racing</label>
-                        <photo>
-                            <content/>
-                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</path>
-                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/motorcycle-ql.jpeg</link>
-                            <site>SA-MAIN</site>
-                            <name>motorcycle-ql.jpeg</name>
-                        </photo>
-                        <alt>Motorcycle racing around dirt track</alt>
-                        <internal-link>
-                            <path>/</path>
-                        </internal-link>
-                        <external-link>
-                            <content>
-                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                            </content>
-                            <path>/_common/career-cat-external-link</path>
-                            <site>SA-MAIN</site>
-                            <name>career-cat-external-link</name>
-                        </external-link>
-                    </section>
-                    <section>
-                        <label>Scenery</label>
-                        <photo>
-                            <content/>
-                            <path>/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</path>
-                            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-panel/assets/quicklink-images/sunset-ql.jpeg</link>
-                            <site>SA-MAIN</site>
-                            <name>sunset-ql.jpeg</name>
-                        </photo>
-                        <alt>beautiful sunset</alt>
-                        <internal-link>
-                            <path>/</path>
-                        </internal-link>
-                        <external-link>
-                            <content>
-                                <system-symlink>https://northwestern-csm.symplicity.com/students/</system-symlink>
-                            </content>
-                            <path>/_common/career-cat-external-link</path>
-                            <site>SA-MAIN</site>
-                            <name>career-cat-external-link</name>
-                        </external-link>
-                    </section>
-                </quick-link-set>
-            </panel>
-            <main-content>
-                <p>
-                    <span>Consider this: Since Congress named </span>
-                    <a href="http://www.nps.gov/yell/index.htm">Yellowstone</a>
-                    <span> the first national park in 1872, it has conferred this prized title on
-                        only 58 other sites. And most, including the </span>
-                    <a href="http://www.nps.gov/grca/index.htm">Grand Canyon</a>
-                    <span>, received lesser designations, like national monument, long before they
-                        officially became parks. The most recent national park — </span>
-                    <a href="http://www.nps.gov/pinn/index.htm">Pinnacles,</a>
-                    <span> in California — was so designated in January, after being named a
-                        national monument in 1908.</span>
-                </p>
-                <p>
-                    <span>
-                        <span>The </span>
-                        <a
-                            href="http://www.nps.gov/history/history/hisnps/NPSHistory/philanthropy.HTM"
-                            >grand philanthropic gestures</a>
-                        <span> of families like the Rockefellers and Mellons, who helped build and
-                            expand the national parks, are now few and far between, and even for
-                            them it was not always easy. John D. Rockefeller Jr. </span>
-                        <a href="http://www.nps.gov/grte/planyourvisit/upload/creation.pdf">spent
-                            three torturous decades</a>
-                        <span> trying to overcome local opposition so he could add land to </span>
-                        <a href="http://www.nps.gov/grte/index.htm">Grand Teton National Park</a>
-                        <span>.</span>
-                    </span>
-                </p>
-            </main-content>
-            <side-title>Minor Title</side-title>
-            <side-content>
-                <p>
-                    <span>Here in the Maine woods, Ms. Quimby is flush with land she acquired after
-                        co-founding and later selling Burt’s Bees, the skin-care company known for
-                        its lip balm. She ranks 88th on the </span>
-                    <a
-                        href="http://fayranches.com/sites/default/files/2013_land_report_100_sponsored_by_fay_ranches.pdf"
-                        >Land Report’s 2013 list</a>
-                    <span> of the nation’s 100 largest landowners and has been trying to establish a
-                        national park for years by giving away more than 100,000 acres to the
-                        federal government.</span>
-                </p>
-            </side-content>
+            <panel-container>
+                <big-list type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-callouts-block>
+                                <value>Yes</value>
+                            </content-type-callouts-block>
+                            <heading>Immediate Help</heading>
+                            <section>
+                                <label>NU Police</label>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.nuhs.northwestern.edu/evanston/emergency.aspx</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/callouts/emergency-after-hours</path>
+                                    <site>SA-NUHELP</site>
+                                    <name>emergency-after-hours</name>
+                                </link>
+                                <icon-classname>exclamation</icon-classname>
+                            </section>
+                            <section>
+                                <label>Urgent Medical Care</label>
+                                <link type="page">
+                                    <content/>
+                                    <path>/index</path>
+                                    <dynamic-metadata>
+                                        <name>note</name>
+                                    </dynamic-metadata>
+                                    <link>site://SA-FOOD/index</link>
+                                    <site>SA-FOOD</site>
+                                    <name>index</name>
+                                    <display-name>Food Service</display-name>
+                                    <title>2014 Commencement</title>
+                                    <keywords>commencement, northwestern, students, graduation,
+                                        class of 2014</keywords>
+                                    <description>Northwestern's 2014 Commencement
+                                        Information</description>
+                                </link>
+                                <icon-classname>ambulance</icon-classname>
+                            </section>
+                            <section>
+                                <label>Dean On Call</label>
+                                <link type="page">
+                                    <content/>
+                                    <path>/get-help/index</path>
+                                    <dynamic-metadata>
+                                        <name>note</name>
+                                    </dynamic-metadata>
+                                    <link>site://SA-NUHELP/get-help/index</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>index</name>
+                                    <display-name>Get Help</display-name>
+                                    <title>Get Help</title>
+                                    <keywords>nuhelp, emergency, get help, northwestern
+                                        university</keywords>
+                                    <description>A go to resource when a student is in need at
+                                        Northwestern University.</description>
+                                </link>
+                                <icon-classname>male</icon-classname>
+                            </section>
+                            <section>
+                                <label>Report an Incident-CARE</label>
+                                <link type="page">
+                                    <content/>
+                                    <path>/index</path>
+                                    <dynamic-metadata>
+                                        <name>note</name>
+                                    </dynamic-metadata>
+                                    <link>site://SA-FOOD/index</link>
+                                    <site>SA-FOOD</site>
+                                    <name>index</name>
+                                    <display-name>Food Service</display-name>
+                                    <title>2014 Commencement</title>
+                                    <keywords>commencement, northwestern, students, graduation,
+                                        class of 2014</keywords>
+                                    <description>Northwestern's 2014 Commencement
+                                        Information</description>
+                                </link>
+                                <icon-classname>bullhorn</icon-classname>
+                            </section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/homepage/panel1/callouts/callouts-block</path>
+                    <site>SA-NUHELP</site>
+                    <name>callouts-block</name>
+                </big-list>
+                <rich-extra type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-carousel-block>
+                                <value>Yes</value>
+                            </content-type-carousel-block>
+                            <initial-slide>
+                                <value>random</value>
+                            </initial-slide>
+                            <carousel-section>
+                                <label>Exam Relief</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/carousel/images/norrisexamrelief2.jpg</path>
+                                    <link>site://SA-NUHELP/shared-assets/homepage/panel1/carousel/images/norrisexamrelief2.jpg</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>norrisexamrelief2.jpg</name>
+                                </photo>
+                                <alt>Exam Relief at Norris</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>http://www.norris.northwestern.edu/recreation/er/</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/carousel/links/exam-relief</path>
+                                    <site>SA-NUHELP</site>
+                                    <name>exam-relief</name>
+                                </link>
+                            </carousel-section>
+                            <carousel-section>
+                                <label>Sharing concern for a student</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/carousel/images/care-carousel.jpg</path>
+                                    <link>site://SA-NUHELP/shared-assets/homepage/panel1/carousel/images/care-carousel.jpg</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>care-carousel.jpg</name>
+                                </photo>
+                                <alt>student confiding in another</alt>
+                                <link type="symlink">
+                                    <content>
+                                        <system-symlink>https://publicdocs.maxient.com/reportingform.php?NorthwesternUniv&amp;layout_id=127</system-symlink>
+                                    </content>
+                                    <path>/shared-assets/homepage/panel1/carousel/links/care-report</path>
+                                    <site>SA-NUHELP</site>
+                                    <name>care-report</name>
+                                </link>
+                            </carousel-section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/homepage/panel1/carousel/carousel-block</path>
+                    <site>SA-NUHELP</site>
+                    <name>carousel-block</name>
+                </rich-extra>
+                <q-links type="block">
+                    <content>
+                        <system-data-structure>
+                            <content-type-quick-links-block>
+                                <value>Yes</value>
+                            </content-type-quick-links-block>
+                            <heading>Quick Links</heading>
+                            <section>
+                                <label>Get Help</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/get-help-ql.jpg</path>
+                                    <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/get-help-ql.jpg</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>get-help-ql.jpg</name>
+                                </photo>
+                                <alt>resources to get help quickly</alt>
+                                <link type="page">
+                                    <content/>
+                                    <path>/get-help/index</path>
+                                    <dynamic-metadata>
+                                        <name>note</name>
+                                    </dynamic-metadata>
+                                    <link>site://SA-NUHELP/get-help/index</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>index</name>
+                                    <display-name>Get Help</display-name>
+                                    <title>Get Help</title>
+                                    <keywords>nuhelp, emergency, get help, northwestern
+                                        university</keywords>
+                                    <description>A go to resource when a student is in need at
+                                        Northwestern University.</description>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Safety</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/safety-ql.jpg</path>
+                                    <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/safety-ql.jpg</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>safety-ql.jpg</name>
+                                </photo>
+                                <alt>safety and security resources</alt>
+                                <link type="page">
+                                    <content/>
+                                    <path>/safety/index</path>
+                                    <dynamic-metadata>
+                                        <name>note</name>
+                                    </dynamic-metadata>
+                                    <link>site://SA-NUHELP/safety/index</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>index</name>
+                                    <display-name>Safety &amp; Security</display-name>
+                                    <title>Safety &amp; Security</title>
+                                    <keywords>safety, security, northwestern, safe ride,
+                                        police</keywords>
+                                    <description>Safety &amp; security information for students and
+                                        parents at Northwestern</description>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Well Being</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/wellness-ql.jpg</path>
+                                    <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/wellness-ql.jpg</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>wellness-ql.jpg</name>
+                                </photo>
+                                <alt>resources for mental, physical, spiritual health</alt>
+                                <link type="page">
+                                    <content/>
+                                    <path>/well-being/index</path>
+                                    <dynamic-metadata>
+                                        <name>note</name>
+                                    </dynamic-metadata>
+                                    <link>site://SA-NUHELP/well-being/index</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>index</name>
+                                    <display-name>Well Being</display-name>
+                                    <title>Well Being</title>
+                                    <keywords>health, fitness, mental health, parents,
+                                        students</keywords>
+                                    <description>Information for parents and students to find
+                                        resources for staying healthy and fit.</description>
+                                </link>
+                            </section>
+                            <section>
+                                <label>Academic Support</label>
+                                <photo type="file">
+                                    <content/>
+                                    <path>/shared-assets/homepage/panel1/quick-links/images/academic-ql.jpg</path>
+                                    <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/academic-ql.jpg</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>academic-ql.jpg</name>
+                                </photo>
+                                <alt>resources for students needing academic support</alt>
+                                <link type="page">
+                                    <content/>
+                                    <path>/academic/index</path>
+                                    <dynamic-metadata>
+                                        <name>note</name>
+                                    </dynamic-metadata>
+                                    <link>site://SA-NUHELP/academic/index</link>
+                                    <site>SA-NUHELP</site>
+                                    <name>index</name>
+                                    <display-name>Academic Support</display-name>
+                                    <title>Academic Support &amp; Resources</title>
+                                    <keywords>faculty, parents, students, academic resources,
+                                        information</keywords>
+                                    <description>Information for students needing academic support
+                                        at Northwestern</description>
+                                </link>
+                            </section>
+                        </system-data-structure>
+                    </content>
+                    <path>/shared-assets/homepage/panel1/quick-links/quick-links-block</path>
+                    <site>SA-NUHELP</site>
+                    <name>quick-links-block</name>
+                </q-links>
+            </panel-container>
+            <text-container>
+                <main-content>NUhelp is designed to provide community members with access to
+                    university resources and services that serve NU students.  You may share a
+                    concern for a student, identify safety and security resources, discover health
+                    and wellness programs, and find academic assistance specific to a
+                    college/school. <center id="yui_3_6_0_1_1391801389074_149"/></main-content>
+                <side-title/>
+                <side-content>
+                    <div id="logo">
+                        <h1>
+                            <a class="active" href="https://asg.northwestern.edu/" title="Home page">
+                                <img alt="ASG Online" class="site-logo image-style-none"
+                                    src="https://asg.northwestern.edu/sites/asg/themes/asg/logo.png"
+                                    typeof="foaf:Image"/>
+                            </a>
+                        </h1>
+                        <div/>
+                    </div>
+                    <hgroup id="name-and-slogan"/>
+                </side-content>
+            </text-container>
         </system-data-structure>
     </system-page>
-    <system-folder id="6471c811a57c421a2488e6c734fcdd75">
-        <name>students</name>
-        <is-published>true</is-published>
-        <path>/students</path>
-        <site>SA-MAIN</site>
-        <link>site://SA-MAIN/students</link>
-        <created-by>cew904</created-by>
-        <created-on>1388959614934</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1388959614934</last-modified>
-    </system-folder>
-    <system-block id="01d373968169773801d70603d35776d3">
-        <name>Settings</name>
-        <path>/Settings</path>
-        <site>SA-MAIN</site>
-        <created-by>cew904</created-by>
-        <created-on>1297110757388</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1342110191857</last-modified>
-        <system-data-structure definition-path="Site Settings">
-            <googleanalyticsid>UA-3808778-11</googleanalyticsid>
-            <slug>studentaffairs</slug>
-            <sitename>Student Affairs</sitename>
-            <navigationtype>TopOnly</navigationtype>
-            <protocol>http</protocol>
-            <salogo>yes</salogo>
-            <URL>http://www.northwestern.edu/studentaffairs</URL>
+    <system-block id="b78bbe6a8169775b492aa0bfb7db8e27">
+        <name>_footer</name>
+        <path>/_footer</path>
+        <site>SA-NUHELP</site>
+        <created-by>xsitemanager</created-by>
+        <created-on>1394648792631</created-on>
+        <last-modified-by>xsitemanager</last-modified-by>
+        <last-modified>1394648792631</last-modified>
+        <system-data-structure definition-path="Redesign/Blocks/Footer Block Form">
+            <address-group>
+                <text-line>Commencement Office</text-line>
+                <text-line>847-491-3600</text-line>
+                <text-line>commencement@northwestern.edu</text-line>
+            </address-group>
+            <department-links>
+                <item>
+                    <label/>
+                    <link/>
+                </item>
+            </department-links>
+            <dosa-links>
+                <item>
+                    <label>Events</label>
+                    <link>http://planitpurple.northwestern.edu/feed/xml/876</link>
+                </item>
+                <item>
+                    <label>Campus Map</label>
+                    <link>http://maps.northwestern.edu/</link>
+                </item>
+            </dosa-links>
+            <bottom-links>
+                <item>
+                    <label/>
+                    <link/>
+                </item>
+            </bottom-links>
+            <social-links>
+                <facebook>http://www.facebook.com/studentaffnu</facebook>
+                <twitter>http://www.twitter.com/studentaffnu</twitter>
+            </social-links>
         </system-data-structure>
     </system-block>
-    <system-folder id="635d4f4aa57c421a2488e6c7b806f6fb">
-        <name>about-us</name>
-        <is-published>true</is-published>
-        <path>/about-us</path>
-        <site>SA-MAIN</site>
-        <link>site://SA-MAIN/about-us</link>
-        <created-by>cew904</created-by>
-        <created-on>1388941496085</created-on>
+    <system-block id="b78bbd788169775b492aa0bff5f2b5a8">
+        <name>site-settings</name>
+        <path>/site-settings</path>
+        <site>SA-NUHELP</site>
+        <created-by>xsitemanager</created-by>
+        <created-on>1394648792421</created-on>
         <last-modified-by>cew904</last-modified-by>
-        <last-modified>1388941496085</last-modified>
-    </system-folder>
-    <system-block id="703e8b26a57c421a2488e6c78ed56399">
-        <name>NEW-settings</name>
-        <path>/NEW-settings</path>
-        <site>SA-MAIN</site>
-        <created-by>cew904</created-by>
-        <created-on>1389157583612</created-on>
-        <last-modified-by>cew904</last-modified-by>
-        <last-modified>1389293697992</last-modified>
-        <system-data-structure definition-path="Redesign/Settings Form">
+        <last-modified>1398456787008</last-modified>
+        <system-data-structure definition-path="Redesign/Blocks/Settings Block Form">
             <redesign>
-                <sitename>Sample Department</sitename>
-                <googleanalyticsid>UA-3808778-XX</googleanalyticsid>
-                <stamp-class>dept-color-2</stamp-class>
+                <sitename>NuHelp</sitename>
+                <googleanalyticsid>UA-48940105-1</googleanalyticsid>
+                <stamp-class>dept-color-1</stamp-class>
+                <nav-options>
+                    <no-top-ribbon>
+                        <value>Yes</value>
+                    </no-top-ribbon>
+                    <no-top-navigation>
+                        <value>Yes</value>
+                    </no-top-navigation>
+                    <no-side-navigation/>
+                    <no-quicklinks/>
+                </nav-options>
             </redesign>
         </system-data-structure>
     </system-block>
+    <system-folder id="b78ba4d98169775b492aa0bf7886aef3">
+        <name>well-being</name>
+        <is-published>true</is-published>
+        <path>/well-being</path>
+        <site>SA-NUHELP</site>
+        <link>site://SA-NUHELP/well-being</link>
+        <created-by>xsitemanager</created-by>
+        <created-on>1394648786127</created-on>
+        <last-modified-by>xsitemanager</last-modified-by>
+        <last-modified>1394648786127</last-modified>
+    </system-folder>
+    <system-folder id="b78b7f708169775b492aa0bfda52b815">
+        <name>safety</name>
+        <is-published>true</is-published>
+        <path>/safety</path>
+        <site>SA-NUHELP</site>
+        <link>site://SA-NUHELP/safety</link>
+        <created-by>xsitemanager</created-by>
+        <created-on>1394648776554</created-on>
+        <last-modified-by>xsitemanager</last-modified-by>
+        <last-modified>1394648776554</last-modified>
+    </system-folder>
+    <system-folder id="b78b704a8169775b492aa0bfe6e4017e">
+        <name>academic</name>
+        <is-published>true</is-published>
+        <last-published-on>1397772197039</last-published-on>
+        <last-published-by>jmb250</last-published-by>
+        <path>/academic</path>
+        <site>SA-NUHELP</site>
+        <link>site://SA-NUHELP/academic</link>
+        <created-by>xsitemanager</created-by>
+        <created-on>1394648772675</created-on>
+        <last-modified-by>xsitemanager</last-modified-by>
+        <last-modified>1394648772675</last-modified>
+    </system-folder>
+    <system-folder id="b78b57388169775b492aa0bf94625497">
+        <name>get-help</name>
+        <is-published>true</is-published>
+        <last-published-on>1397851635767</last-published-on>
+        <last-published-by>jmb250</last-published-by>
+        <path>/get-help</path>
+        <site>SA-NUHELP</site>
+        <link>site://SA-NUHELP/get-help</link>
+        <created-by>xsitemanager</created-by>
+        <created-on>1394648766229</created-on>
+        <last-modified-by>xsitemanager</last-modified-by>
+        <last-modified>1394648766229</last-modified>
+    </system-folder>
     <calling-page>
-        <system-page current="true" id="83ee89bba57c421a41f5ad2bdf4fd235">
+        <system-page current="true" id="b78bbf8b8169775b492aa0bf66edbe95">
             <name>index</name>
             <is-published>true</is-published>
-            <title>ChangeMe Title</title>
-            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
-            <description>This is a description of the page. Change me.</description>
-            <display-name>ChangeMe</display-name>
-            <path>/_internal/redesign-base-assets/sa-main-collapsible/index</path>
-            <site>SA-MAIN</site>
-            <link>site://SA-MAIN/_internal/redesign-base-assets/sa-main-collapsible/index</link>
-            <created-by>cew904</created-by>
-            <created-on>1389487884630</created-on>
+            <last-published-on>1398379255432</last-published-on>
+            <last-published-by>jmb250</last-published-by>
+            <title>NuHelp</title>
+            <keywords>commencement, northwestern, students, graduation, class of 2014</keywords>
+            <description>Northwestern's 2014 Commencement Information</description>
+            <display-name>NuHelp</display-name>
+            <path>/index</path>
+            <site>SA-NUHELP</site>
+            <link>site://SA-NUHELP/index</link>
+            <created-by>xsitemanager</created-by>
+            <created-on>1394648792941</created-on>
             <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389488705414</last-modified>
+            <last-modified>1397768841402</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
-            <system-data-structure definition-path="Redesign/Collapsible Page Form">
-                <content-type-collapsible>
+            <system-data-structure definition-path="Redesign/Panel Page Form">
+                <content-type-panel>
                     <value>Yes</value>
-                </content-type-collapsible>
-                <collapsible-section>
-                    <subject>This is the first FAQ</subject>
-                    <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                            ad minim veniam,<br/> quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse<br/> cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non<br/> proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </content>
-                </collapsible-section>
-                <collapsible-section>
-                    <subject>This is the second FAQ</subject>
-                    <content>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                            eiusmod<br/> tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                            ad minim veniam,<br/> quis nostrud exercitation ullamco laboris nisi ut
-                            aliquip ex ea commodo<br/> consequat. Duis aute irure dolor in
-                            reprehenderit in voluptate velit esse<br/> cillum dolore eu fugiat nulla
-                            pariatur. Excepteur sint occaecat cupidatat non<br/> proident, sunt in
-                            culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </content>
-                </collapsible-section>
+                </content-type-panel>
+                <panel-container>
+                    <big-list type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-callouts-block>
+                                    <value>Yes</value>
+                                </content-type-callouts-block>
+                                <heading>Immediate Help</heading>
+                                <section>
+                                    <label>NU Police</label>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.nuhs.northwestern.edu/evanston/emergency.aspx</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/callouts/emergency-after-hours</path>
+                                        <site>SA-NUHELP</site>
+                                        <name>emergency-after-hours</name>
+                                    </link>
+                                    <icon-classname>exclamation</icon-classname>
+                                </section>
+                                <section>
+                                    <label>Urgent Medical Care</label>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Food Service</display-name>
+                                        <title>2014 Commencement</title>
+                                        <keywords>commencement, northwestern, students, graduation,
+                                            class of 2014</keywords>
+                                        <description>Northwestern's 2014 Commencement
+                                            Information</description>
+                                    </link>
+                                    <icon-classname>ambulance</icon-classname>
+                                </section>
+                                <section>
+                                    <label>Dean On Call</label>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/get-help/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-NUHELP/get-help/index</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>index</name>
+                                        <display-name>Get Help</display-name>
+                                        <title>Get Help</title>
+                                        <keywords>nuhelp, emergency, get help, northwestern
+                                            university</keywords>
+                                        <description>A go to resource when a student is in need at
+                                            Northwestern University.</description>
+                                    </link>
+                                    <icon-classname>male</icon-classname>
+                                </section>
+                                <section>
+                                    <label>Report an Incident-CARE</label>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-FOOD/index</link>
+                                        <site>SA-FOOD</site>
+                                        <name>index</name>
+                                        <display-name>Food Service</display-name>
+                                        <title>2014 Commencement</title>
+                                        <keywords>commencement, northwestern, students, graduation,
+                                            class of 2014</keywords>
+                                        <description>Northwestern's 2014 Commencement
+                                            Information</description>
+                                    </link>
+                                    <icon-classname>bullhorn</icon-classname>
+                                </section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/callouts/callouts-block</path>
+                        <site>SA-NUHELP</site>
+                        <name>callouts-block</name>
+                    </big-list>
+                    <rich-extra type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-carousel-block>
+                                    <value>Yes</value>
+                                </content-type-carousel-block>
+                                <initial-slide>
+                                    <value>random</value>
+                                </initial-slide>
+                                <carousel-section>
+                                    <label>Exam Relief</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/norrisexamrelief2.jpg</path>
+                                        <link>site://SA-NUHELP/shared-assets/homepage/panel1/carousel/images/norrisexamrelief2.jpg</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>norrisexamrelief2.jpg</name>
+                                    </photo>
+                                    <alt>Exam Relief at Norris</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.norris.northwestern.edu/recreation/er/</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/exam-relief</path>
+                                        <site>SA-NUHELP</site>
+                                        <name>exam-relief</name>
+                                    </link>
+                                </carousel-section>
+                                <carousel-section>
+                                    <label>Sharing concern for a student</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/care-carousel.jpg</path>
+                                        <link>site://SA-NUHELP/shared-assets/homepage/panel1/carousel/images/care-carousel.jpg</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>care-carousel.jpg</name>
+                                    </photo>
+                                    <alt>student confiding in another</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>https://publicdocs.maxient.com/reportingform.php?NorthwesternUniv&amp;layout_id=127</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/care-report</path>
+                                        <site>SA-NUHELP</site>
+                                        <name>care-report</name>
+                                    </link>
+                                </carousel-section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/carousel/carousel-block</path>
+                        <site>SA-NUHELP</site>
+                        <name>carousel-block</name>
+                    </rich-extra>
+                    <q-links type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-quick-links-block>
+                                    <value>Yes</value>
+                                </content-type-quick-links-block>
+                                <heading>Quick Links</heading>
+                                <section>
+                                    <label>Get Help</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/get-help-ql.jpg</path>
+                                        <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/get-help-ql.jpg</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>get-help-ql.jpg</name>
+                                    </photo>
+                                    <alt>resources to get help quickly</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/get-help/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-NUHELP/get-help/index</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>index</name>
+                                        <display-name>Get Help</display-name>
+                                        <title>Get Help</title>
+                                        <keywords>nuhelp, emergency, get help, northwestern
+                                            university</keywords>
+                                        <description>A go to resource when a student is in need at
+                                            Northwestern University.</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Safety</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/safety-ql.jpg</path>
+                                        <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/safety-ql.jpg</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>safety-ql.jpg</name>
+                                    </photo>
+                                    <alt>safety and security resources</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/safety/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-NUHELP/safety/index</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>index</name>
+                                        <display-name>Safety &amp; Security</display-name>
+                                        <title>Safety &amp; Security</title>
+                                        <keywords>safety, security, northwestern, safe ride,
+                                            police</keywords>
+                                        <description>Safety &amp; security information for students
+                                            and parents at Northwestern</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Well Being</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/wellness-ql.jpg</path>
+                                        <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/wellness-ql.jpg</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>wellness-ql.jpg</name>
+                                    </photo>
+                                    <alt>resources for mental, physical, spiritual health</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/well-being/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-NUHELP/well-being/index</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>index</name>
+                                        <display-name>Well Being</display-name>
+                                        <title>Well Being</title>
+                                        <keywords>health, fitness, mental health, parents,
+                                            students</keywords>
+                                        <description>Information for parents and students to find
+                                            resources for staying healthy and fit.</description>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Academic Support</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/academic-ql.jpg</path>
+                                        <link>site://SA-NUHELP/shared-assets/homepage/panel1/quick-links/images/academic-ql.jpg</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>academic-ql.jpg</name>
+                                    </photo>
+                                    <alt>resources for students needing academic support</alt>
+                                    <link type="page">
+                                        <content/>
+                                        <path>/academic/index</path>
+                                        <dynamic-metadata>
+                                            <name>note</name>
+                                        </dynamic-metadata>
+                                        <link>site://SA-NUHELP/academic/index</link>
+                                        <site>SA-NUHELP</site>
+                                        <name>index</name>
+                                        <display-name>Academic Support</display-name>
+                                        <title>Academic Support &amp; Resources</title>
+                                        <keywords>faculty, parents, students, academic resources,
+                                            information</keywords>
+                                        <description>Information for students needing academic
+                                            support at Northwestern</description>
+                                    </link>
+                                </section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/quick-links/quick-links-block</path>
+                        <site>SA-NUHELP</site>
+                        <name>quick-links-block</name>
+                    </q-links>
+                </panel-container>
+                <text-container>
+                    <main-content>NUhelp is designed to provide community members with access to
+                        university resources and services that serve NU students.  You may share a
+                        concern for a student, identify safety and security resources, discover
+                        health and wellness programs, and find academic assistance specific to a
+                        college/school. <center id="yui_3_6_0_1_1391801389074_149"/></main-content>
+                    <side-title/>
+                    <side-content>
+                        <div id="logo">
+                            <h1>
+                                <a class="active" href="https://asg.northwestern.edu/"
+                                    title="Home page">
+                                    <img alt="ASG Online" class="site-logo image-style-none"
+                                        src="https://asg.northwestern.edu/sites/asg/themes/asg/logo.png"
+                                        typeof="foaf:Image"/>
+                                </a>
+                            </h1>
+                            <div/>
+                        </div>
+                        <hgroup id="name-and-slogan"/>
+                    </side-content>
+                </text-container>
             </system-data-structure>
         </system-page>
     </calling-page>
