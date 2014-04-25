@@ -3407,6 +3407,22 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     content: '';
   }
 }
+.stamp.no-top-ribbon ~ * .department-ribbon-region {
+  display: none !important;
+}
+
+.stamp.no-top-navigation ~ * .department-nav {
+  display: none !important;
+}
+
+.stamp.no-side-navigation ~ * .sub-navigation-lvl-2-region {
+  display: none !important;
+}
+
+.stamp.no-quicklinks ~ * .dept-quick-links-region {
+  display: none !important;
+}
+
 #main {
   margin-top: 30px;
   overflow: hidden;
