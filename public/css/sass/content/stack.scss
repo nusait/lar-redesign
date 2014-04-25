@@ -1,5 +1,7 @@
 $anchor-icon: 18e;
-
+.stamp.no-side-navigation.no-quicklinks ~ * .stack-container{
+	@include prefix(column-count, 4);
+}
 .stack-container {
 	@include prefix(column-count, 3);
 	@include prefix(column-gap, 0);
@@ -40,12 +42,18 @@ $anchor-icon: 18e;
 }
 
 @media #{$medium} {
+	.stamp.no-side-navigation.no-quicklinks ~ * .stack-container{
+		@include prefix(column-count, 2);
+	}
 	.stack-container {
 		@include prefix(column-count, 2);
 	}
 }
 
 @media #{$small} {
+	.stamp.no-side-navigation.no-quicklinks ~ * .stack-container{
+		@include prefix(column-count, 1);
+	}
 	.stack-container {
 		@include prefix(column-count, 1);
 	}

@@ -24,14 +24,14 @@
         <div class="stack-description">Description: I'm quiet.</div>
       </div>
     </div>
-    <div class="stack-item">
+<!--     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/city/" /></div>
       <div class="stack-text">
         <div class="stack-title">John asdf</div>
         <div class="stack-subtitle">Title: Administrator</div>
         <div class="stack-description">Description: I'm awesome too!!</div>
       </div>
-    </div>
+    </div> -->
 <!--     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/abstract/" /></div>
       <div class="stack-text">

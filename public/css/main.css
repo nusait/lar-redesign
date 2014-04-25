@@ -1647,6 +1647,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     clear: none;
   }
 }
+.stamp.no-side-navigation.no-quicklinks ~ * .stack-container {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  -o-column-count: 4;
+  -ms-column-count: 4;
+  column-count: 4;
+}
+
 .stack-container {
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -1701,6 +1709,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 
 @media only screen and (min-width: 641px) and (max-width: 900px) {
+  .stamp.no-side-navigation.no-quicklinks ~ * .stack-container {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -ms-column-count: 2;
+    column-count: 2;
+  }
+
   .stack-container {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -1710,6 +1726,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
 }
 @media only screen and (max-width: 640px) {
+  .stamp.no-side-navigation.no-quicklinks ~ * .stack-container {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    -o-column-count: 1;
+    -ms-column-count: 1;
+    column-count: 1;
+  }
+
   .stack-container {
     -webkit-column-count: 1;
     -moz-column-count: 1;
