@@ -688,6 +688,7 @@ html.allow-hover .events-container .events .event-item:hover {
 
 .generic-container .generic-list {
   margin: 0 15px 0 30px;
+  max-height: none;
 }
 .generic-container .generic-list .generic-item {
   margin: 10px 0;
