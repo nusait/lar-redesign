@@ -13,7 +13,15 @@
                         <div class="detail-item">
                             <img data-height="900" data-width="600" src="{stack-section/photo/link}" alt="{stack-section/photo-alt-text}" class="detail-img" />
                                 <div class="detail-desc">
-                                    <xsl:value-of select="stack-section/description" />
+                                    <div class="stack-title">
+                                        <xsl:value-of select="stack-section/title"/>
+                                    </div>
+                                    <div class="stack-subtitle">
+                                        <xsl:value-of select="stack-section/subtitle"/>
+                                    </div>
+                                    <div class="stack-description">
+                                        <xsl:value-of select="stack-section/description"/>
+                                    </div>
                                 </div>
                         </div>   
                     </div>  

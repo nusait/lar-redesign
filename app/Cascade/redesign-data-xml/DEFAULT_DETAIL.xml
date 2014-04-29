@@ -1,20 +1,22 @@
-<system-index-block current-time="1389496164959" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1397850938551" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="8454fc8ba57c421a41f5ad2b871b0c66">
+        <system-page current="true" id="db52add0a57c421a10d58f09ddfad76d">
             <name>index</name>
             <is-published>true</is-published>
-            <title>What We Do Title</title>
-            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
-            <description>Change me to page description whch Google may pass on to
-                searchers</description>
-            <display-name>What We Do</display-name>
-            <path>/about-us/what-we-do/index</path>
-            <site>SA-MAIN</site>
-            <link>site://SA-MAIN/about-us/what-we-do/index</link>
-            <created-by>cew904</created-by>
-            <created-on>1389494598701</created-on>
+            <last-published-on>1397850529684</last-published-on>
+            <last-published-by>ngandhi</last-published-by>
+            <title>Patricia Hilkert</title>
+            <keywords>Patti Hilkert</keywords>
+            <description>Patricia Hilkert, Director of the Office of New Student and Family
+                Programs</description>
+            <display-name>Patricia Hilkert</display-name>
+            <path>/about-us/meet-the-staff/patti-hilkert/index</path>
+            <site>SA-ORIENTATION</site>
+            <link>site://SA-ORIENTATION/about-us/meet-the-staff/patti-hilkert/index</link>
+            <created-by>dsm138</created-by>
+            <created-on>1395249032292</created-on>
             <last-modified-by>cew904</last-modified-by>
-            <last-modified>1389495283812</last-modified>
+            <last-modified>1397850764551</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
@@ -23,35 +25,42 @@
                     <value>Yes</value>
                 </content-type-detail>
                 <default>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    <p>consequat. Vivamus at viverra erat. Quisque lobortis justo et dui aliquet
-                        pulvinar. Ut ac nibh nulla. Ut odio massa, mollis a est a, tincidunt auctor
-                        sem. Sed a ullamcorper ipsum. Quisque venenatis luctus lacinia. Morbi eu
-                        tincidunt tellus, sed tempus felis. Vivamus at faucibus ante. Vivamus
-                        elementum suscipit mauris quis scelerisque. Nullam pharetra libero in ligula
-                        accumsan, et mollis libero accumsan. Donec ut auctor tellus.</p>
+                    <p id="yui_3_6_0_1_1395245566915_110"><strong id="yui_3_6_0_1_1395245566915_538"
+                            >Patricia Hilkert</strong> is currently the <strong
+                            id="yui_3_6_0_1_1395245566915_326">Director of New Student and Family
+                            Programs (NSFP)</strong> at NorthwesternUniversity. In this position,
+                        she is responsible for planning,organizing and overseeing all facets of
+                        Wildcat Welcome, Northwestern’s fall orientation program for new students,
+                        and other various new student and family initiatives, including Family
+                        Weekend.</p>
+                    <p id="yui_3_6_0_1_1395245566915_314">Originally from North Riverside, IL,
+                        “Patti” received a B.S. degree in Speech Communication and Public Relations
+                        from Southern Illinois University at Carbondale and a Masters of Education,
+                        specializing in Student Personnel Administration, from Kent State University
+                        in Kent, OH.  Previously, Patti was the Director of Orientation and New
+                        Student Programs at Purdue University in West Lafayette, IN and served on
+                        the Board of Directors for the National Orientation Directors Association
+                        (NODA).</p>
+                    <p id="yui_3_6_0_1_1395245566915_371">Patti loves the fun and highly engaging
+                        Northwestern students, as well as the picturesque campus set on beautiful
+                        Lake Michigan.  Patti currently resides in La grange, IL with her husband
+                        Scott and two small children, Lexi and Aaron. Go 'Cats!</p>
+                    <p class="active" id="yui_3_6_0_1_1395245566915_375">
+                        <span id="yui_3_6_0_1_1395245566915_490">Strengths (StrengthsQuest):
+                            Arranger, Communication, Maximizer, Woo, Adaptability</span>
+                    </p>
                 </default>
                 <stack-section>
-                    <photo>
+                    <photo type="file">
                         <content/>
-                        <path>/about-us/what-we-do/assets/ansari-aziz-pointing.jpg</path>
-                        <link>site://SA-MAIN/about-us/what-we-do/assets/ansari-aziz-pointing.jpg</link>
-                        <site>SA-MAIN</site>
-                        <name>ansari-aziz-pointing.jpg</name>
+                        <path>/about-us/assets/Patti Headshot.jpg</path>
+                        <link>site://SA-ORIENTATION/about-us/assets/Patti Headshot.jpg</link>
+                        <site>SA-ORIENTATION</site>
+                        <name>Patti Headshot.jpg</name>
                     </photo>
-                    <photo-alt-text>Change this alt text</photo-alt-text>
-                    <description>this is where I can talk a bit more about stuff</description>
+                    <title>Patricia Hilkert</title>
+                    <subtitle>Director</subtitle>
+                    <description>lksdafj</description>
                 </stack-section>
             </system-data-structure>
         </system-page>
