@@ -1,7 +1,7 @@
   <div class="title-lvl-2-container"><h3 class="title-lvl-2">meet the staff</h3></div>
   <div class="stack-container">
     <a class="stack-item" href="http://www.google.com">
-      <div class="stack-image"><img src="http://lorempixel.com/360/240/animals/" /></div>
+      <div class="stack-image"><img src="http://lorempixel.com/500/500/animals/" /></div>
       <div class="stack-text">
         <div class="stack-title">Hao Luo</div>
         <div class="stack-subtitle">Title: Administrator</div>
@@ -9,7 +9,7 @@
       </div>
     </a>
     <div class="stack-item">
-      <div class="stack-image"><img src="http://lorempixel.com/360/240/fashion/" /></div>
+      <div class="stack-image"><img src="http://lorempixel.com/500/500/fashion/" /></div>
       <div class="stack-text">
         <div class="stack-title">John Smith</div>
         <div class="stack-subtitle">Title: Administrator</div>
@@ -17,7 +17,15 @@
       </div>
     </div>
     <div class="stack-item">
-      <div class="stack-image"><img src="http://lorempixel.com/360/240/cats/" /></div>
+      <div class="stack-image"><img src="http://lorempixel.com/500/500/cats/" /></div>
+      <div class="stack-text">
+        <div class="stack-title">John FINDFLSDIF</div>
+        <div class="stack-subtitle">Title: Administrator</div>
+        <div class="stack-description">Description: I'm quiet.</div>
+      </div>
+    </div>
+    <div class="stack-item">
+      <div class="stack-image"><img src="http://lorempixel.com/500/500/cats/" /></div>
       <div class="stack-text">
         <div class="stack-title">John FINDFLSDIF</div>
         <div class="stack-subtitle">Title: Administrator</div>

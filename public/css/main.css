@@ -1728,19 +1728,19 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 @media only screen and (max-width: 640px) {
   .stamp.no-side-navigation.no-quicklinks ~ * .stack-container {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    -o-column-count: 1;
-    -ms-column-count: 1;
-    column-count: 1;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -ms-column-count: 2;
+    column-count: 2;
   }
 
   .stack-container {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    -o-column-count: 1;
-    -ms-column-count: 1;
-    column-count: 1;
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    -o-column-count: 2;
+    -ms-column-count: 2;
+    column-count: 2;
   }
 }
 .text-block {
@@ -2787,6 +2787,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .map-canvas {
   height: 300px;
   width: 100%;
+}
+
+.embed-wrapper object {
+  width: 100%;
+  min-height: 500px;
 }
 
 .department-header {

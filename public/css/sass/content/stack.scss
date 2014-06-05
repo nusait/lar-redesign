@@ -52,9 +52,9 @@ $anchor-icon: 18e;
 
 @media #{$small} {
 	.stamp.no-side-navigation.no-quicklinks ~ * .stack-container{
-		@include prefix(column-count, 1);
+		@include prefix(column-count, 2);
 	}
 	.stack-container {
-		@include prefix(column-count, 1);
+		@include prefix(column-count, 2);
 	}
 }

@@ -12,14 +12,14 @@ use Redesign\Support\AwesomeTemplateTransformer as Transformer;
 |
 */
 
-Route::get('test/{name}', function ($name = null) 
+Route::get('test/{name}', function ($name = null)
 {
 	if ( ! is_null($name)) {
 		return get_region($name);
 	}
 });
 
-Route::get('debug', function () 
+Route::get('debug', function ()
 {
 	$t = new Transformer(app_path('Cascade/newest-template/redesign-template.xml'));
 	dd($t->transform());
@@ -41,7 +41,7 @@ Route::get('/', function()
 // 	return View::make('pages.' . $type);
 // });
 
-Route::get('basic', function () 
+Route::get('basic', function ()
 {
 	generate_shared();
 	$DEFAULT = get_default('basic');
@@ -49,7 +49,7 @@ Route::get('basic', function ()
 	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
-Route::get('collapsible', function () 
+Route::get('collapsible', function ()
 {
 	generate_shared();
 	$DEFAULT = get_default('collapsible');
@@ -57,7 +57,7 @@ Route::get('collapsible', function ()
 	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
-Route::get('panel', function () 
+Route::get('panel', function ()
 {
 	generate_shared();
 	return View::make(get_template(), [
@@ -68,7 +68,7 @@ Route::get('panel', function ()
 	]);
 });
 
-Route::get('detail', function () 
+Route::get('detail', function ()
 {
 	generate_shared();
 	$DEFAULT = get_default('detail');
@@ -76,7 +76,7 @@ Route::get('detail', function ()
 	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
-Route::get('multipanel', function () 
+Route::get('multipanel', function ()
 {
 	generate_shared();
 	return View::make(get_template(), [
@@ -87,7 +87,7 @@ Route::get('multipanel', function ()
 	]);
 });
 
-Route::get('stack', function () 
+Route::get('stack', function ()
 {
 	generate_shared();
 	$DEFAULT = get_default('stack');
@@ -123,3 +123,9 @@ Route::get('video', function () {
 	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
 
+Route::get('embed', function () {
+	generate_shared();
+	$DEFAULT = get_default('embed');
+	$type = 'embed';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
+});
