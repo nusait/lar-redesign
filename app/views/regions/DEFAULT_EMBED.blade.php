@@ -15,9 +15,9 @@
 		    <!-- <param name="allowFullScreen" value="true" /> -->
 		    <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
 		    <!--[if !IE]>-->
-		    <object data="img/Comm.swf">
+		    <object data="img/Comm.swf" style="height:200px;">
 		      <!--<![endif]-->
-					<!-- <param name="movie" value="{{asset('img/Comm.swf')}}" /> -->
+					<!-- <param name="movie" value="img/Comm.swf" /> -->
 		      <!-- <param name="quality" value="high" /> -->
 		      <!-- <param name="wmode" value="opaque" /> -->
 		      <!-- <param name="swfversion" value="6.0.65.0" /> -->

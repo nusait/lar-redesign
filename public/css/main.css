@@ -2791,7 +2791,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 
 .embed-wrapper object {
   width: 100%;
-  min-height: 500px;
+  height: 500px;
 }
 
 .department-header {
