@@ -1,9 +1,9 @@
-<system-index-block current-time="1392415276809" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1401986623327" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="3253f92d8169775b677bb8fe4c9aa568">
+        <system-page current="true" id="464efa9c8169775b677bb8fecb18df18">
             <name>index</name>
             <is-published>true</is-published>
-            <last-published-on>1392414956431</last-published-on>
+            <last-published-on>1397866138042</last-published-on>
             <last-published-by>cew904</last-published-by>
             <title>Video Title</title>
             <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
@@ -14,9 +14,9 @@
             <site>SA-FOOD</site>
             <link>site://SA-FOOD/content-types/video/index</link>
             <created-by>cew904</created-by>
-            <created-on>1392413767920</created-on>
+            <created-on>1392748984923</created-on>
             <last-modified-by>hle276</last-modified-by>
-            <last-modified>1392415254542</last-modified>
+            <last-modified>1401986584051</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
@@ -24,13 +24,19 @@
                 <content-type-video>
                     <value>Yes</value>
                 </content-type-video>
-                <top-text>
-                    <p>This is some top text</p>
-                </top-text>
+                <top-text/>
                 <type>
-                    <value>vimeo</value>
+                    <value>swf</value>
                 </type>
-                <video-id>74904021</video-id>
+                <video-id>OEWbuyy_C9w</video-id>
+                <swf-height>300</swf-height>
+                <swf-file type="file">
+                    <content/>
+                    <path>/content-types/video/assets/Comm.swf</path>
+                    <link>site://SA-FOOD/content-types/video/assets/Comm.swf</link>
+                    <site>SA-FOOD</site>
+                    <name>Comm.swf</name>
+                </swf-file>
                 <bottom-text>
                     <p>This is some bottom text</p>
                 </bottom-text>

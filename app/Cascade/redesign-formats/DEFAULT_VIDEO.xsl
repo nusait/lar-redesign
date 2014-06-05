@@ -28,10 +28,21 @@
                         <div class="before-text">
                             <xsl:copy-of select="top-text/node()"/>
                         </div>
-                        <div class="video-wrapper">
-                            <iframe src="{$iframe-src}" frameborder="0"
-                                allowfullscreen="allowfullscreen"> </iframe>
-                        </div>
+                        <xsl:choose>
+                            <xsl:when test="$type = 'swf'">
+                                <div class="embed-wrapper">
+                                    <object data="[system-asset]{swf-file/link}[/system-asset]" style="height: {swf-height}px">
+                                        <param name="allowFullScreen" value="true"/>
+                                    </object>
+                                </div>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <div class="video-wrapper">
+                                    <iframe src="{$iframe-src}" frameborder="0"
+                                        allowfullscreen="allowfullscreen"> </iframe>
+                                </div>        
+                            </xsl:otherwise>
+                        </xsl:choose>        
                         <div class="after-text">
                             <xsl:copy-of select="bottom-text/node()"/>
                         </div>
