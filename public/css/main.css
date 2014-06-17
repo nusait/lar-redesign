@@ -3515,6 +3515,10 @@ a img {
   border: 0;
 }
 
+body .ie-too-old a {
+  text-decoration: underline;
+  color: blue;
+}
 body .viewport {
   overflow: hidden;
   position: absolute;

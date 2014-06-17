@@ -22,6 +22,12 @@ a {
 }
 
 body {
+    .ie-too-old {
+      a {
+        text-decoration: underline;
+        color: blue;
+      }
+    }
     .viewport {
         html.browser-lt-ie9 & {
             display: none;
