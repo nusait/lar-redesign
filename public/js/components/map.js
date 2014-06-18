@@ -19,6 +19,7 @@ define(['leaflet', 'underscore'], function (L, _) {
 		initialize: function ($map) {
 			var options = this.processMap($map);
 			_.extend(this.options, this.defaultOptions, options);
+			this.setHeight();
 			this.newMap(options.canvasId);
 		},
 		processMap: function ($map) {
@@ -30,13 +31,13 @@ define(['leaflet', 'underscore'], function (L, _) {
 				maxZoom: $map.data('max-zoom'),
 				scrollWheelZoom: $map.data('scroll-zoom'),
 				dragging: $map.data('dragging'),
+				height: $map.data('height')
 			};
 			if ( typeof $map.data('zoom') != 'undefined') {
 				options.zoomControl = $map.data('zoom');
 				options.doubleClickZoom = $map.data('zoom');
 				options.touchZoom = $map.data('zoom');
 				options.boxZoom = $map.data('zoom');
-
 			}
 			return options;
 		},
@@ -48,7 +49,7 @@ define(['leaflet', 'underscore'], function (L, _) {
 		},
 		newMap: function (id) {
 			this.map = L.map(id, this.getMapOptions());
-			console.log(this.getMapOptions());
+			// console.log(this.getMapOptions());
 			var mapquest = new L.TileLayer(this.options.url, this.getTileOptions());
 			mapquest.addTo(this.map);
 			// this.disableScrollZoom();
@@ -59,6 +60,9 @@ define(['leaflet', 'underscore'], function (L, _) {
 		getTileOptions: function () {
 			return _.pick(this.options, ['subdomains', 'attribution', 'minZoom', 'maxZoom']);
 		},
+		setHeight: function () {
+			$('#' + this.options.canvasId).css({height: this.options.height + 'px'});
+		}
 		// disableScrollZoom: function () {
 		// 	if ( ! this.options.scrollWheelZoom) {
 		// 		this.map.scrollWheelZoom.disable();

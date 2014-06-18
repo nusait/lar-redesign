@@ -12,7 +12,7 @@
 					<!--Start of map -->
 					<div class="map-wrapper">
 						<div class="map-canvas"></div>
-						<div class="map-data hidden" data-init-zoom="17" data-min-zoom="13" data-max-zoom="19" data-center-lat="42.0530194" data-center-long="-87.67861" data-scroll-zoom="false" data-dragging="false" data-zoom="false" data-height="400">
+						<div class="map-data hidden" data-init-zoom="17" data-min-zoom="13" data-max-zoom="19" data-center-lat="42.0530194" data-center-long="-87.67861" data-scroll-zoom="false" data-dragging="false" data-zoom="false" data-height="500">
 							<ul class="markerss">
 								<li class="marker" data-point-lat="42.0529258" data-point-long="-87.678718" data-open="true">
 									<strong>This is where SAIT is</strong><br/>
@@ -65,7 +65,7 @@
 						</div>
 					</div>
 					<!--End of map-->
-					
+
 				</div>
 			</div>
 			<div class="basic-text-container">
