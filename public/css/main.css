@@ -699,6 +699,15 @@ html.allow-hover .events-container .events .event-item:hover {
   font-family: "Oswald", sans-serif;
   font-weight: 300;
 }
+.stamp.first-callout-item-red ~ .viewport .generic-container .generic-list .generic-item:first-child {
+  background-color: #b03f30;
+}
+.stamp.first-callout-item-red ~ .viewport .generic-container .generic-list .generic-item:first-child:hover {
+  background-color: #9c382b;
+}
+.stamp.first-callout-item-red ~ .viewport .generic-container .generic-list .generic-item:first-child .generic-icon {
+  background-color: #b03f30;
+}
 html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: #3b1151;
 }
