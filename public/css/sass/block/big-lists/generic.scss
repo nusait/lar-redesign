@@ -1,5 +1,7 @@
 $generic-panel-list-color: $dillo;
 
+$generic-item-red: #B03F30;
+
 .generic-container {
     .generic-list {
         margin: 0 15px 0 30px;
@@ -11,6 +13,15 @@ $generic-panel-list-color: $dillo;
             background-color: $generic-panel-list-color;
             display: block;
             @include main-font(300);
+            .stamp.first-callout-item-red ~ .viewport &:first-child {
+              background-color: $generic-item-red;
+              &:hover {
+                background-color: darken($generic-item-red, 5%);
+              }
+              & .generic-icon {
+                background-color: $generic-item-red;
+              }
+            }
             html.allow-hover &:hover {
                 background-color: $purple;
             }
