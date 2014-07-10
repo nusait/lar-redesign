@@ -1,5 +1,5 @@
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="xml" omit-xml-declaration="yes" indent="yes"/>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+    <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
     <xsl:template match="system-index-block/calling-page/system-page">
         <div>
             <div class="title-lvl-2-container">
@@ -14,11 +14,11 @@
                     <xsl:variable name="iframe-src">
                         <xsl:choose>
                             <xsl:when test="$type = 'vimeo'">
-                                <xsl:value-of select="'///player.vimeo.com/video/'"/>
+                                <xsl:value-of select="'//player.vimeo.com/video/'"/>
                                 <xsl:value-of select="$video-id"/>
                             </xsl:when>
                             <xsl:when test="$type = 'youtube'">
-                                <xsl:value-of select="'///www.youtube.com/embed/'"/>
+                                <xsl:value-of select="'//www.youtube.com/embed/'"/>
                                 <xsl:value-of select="$video-id"/>
                                 <xsl:value-of select="'?rel=0'"/>
                             </xsl:when>
@@ -31,18 +31,19 @@
                         <xsl:choose>
                             <xsl:when test="$type = 'swf'">
                                 <div class="embed-wrapper">
-                                    <object data="[system-asset]{swf-file/link}[/system-asset]" style="height: {swf-height}px">
+                                    <object data="[system-asset]{swf-file/link}[/system-asset]"
+                                        style="height: {swf-height}px">
                                         <param name="allowFullScreen" value="true"/>
                                     </object>
                                 </div>
                             </xsl:when>
                             <xsl:otherwise>
                                 <div class="video-wrapper">
-                                    <iframe src="{$iframe-src}" frameborder="0"
-                                        allowfullscreen="allowfullscreen"> </iframe>
-                                </div>        
+                                    <iframe allowfullscreen="allowfullscreen" frameborder="0"
+                                        src="{$iframe-src}"/>
+                                </div>
                             </xsl:otherwise>
-                        </xsl:choose>        
+                        </xsl:choose>
                         <div class="after-text">
                             <xsl:copy-of select="bottom-text/node()"/>
                         </div>
