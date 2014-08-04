@@ -7,12 +7,30 @@ define(['jquery'], function ($)
 				this.openSectionOnClick();
 				this.closeSectionOnClick();
 				this.toggleMobileMenuOnClick();
+				this.openSectionOnFocus();
 				console.log('department header loaded');
 			};
 
 			this.closeAll = function () {
 				this.$el.find('.section').addClass('closed');
 			};
+			this.openSectionOnFocus = function () {
+				var ins = this;
+				this.$el.find('.section').focus(function () {
+					console.log('focused');
+					ins.closeAll();
+					$(this).removeClass('closed');
+				});
+				//TODO fix on blur on the last dropdown link
+				this.$el.find('a').blur(function () {
+					console.log('blurred');
+					if ($(this).siblings($(':focus')).length > 0) {
+						console.log('has it!!!');
+						return;
+					}
+					// ins.closeAll();
+				})
+			}
 
 			this.openSectionOnClick = function () {
 				var ins = this;

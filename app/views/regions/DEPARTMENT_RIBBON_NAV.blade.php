@@ -4,8 +4,8 @@
       <a class="department-title" href="http://www.google.com">Sample Department</a>
       <nav class="department-nav closed" role="navigation">
         <button class="mobile-menu-button"> </button>
-        <div class="section closed">
-          <div class="navigation-item-title" tabindex="0">
+        <div class="section closed" tabindex="0">
+          <div class="navigation-item-title">
             <span class="inner">About Us</span>
           </div>
           <ul>
@@ -21,8 +21,8 @@
             </li>
           </ul>
         </div><!--
-        --><div class="section closed">
-          <div class="navigation-item-title" tabindex="0">
+        --><div class="section closed" tabindex="0">
+          <div class="navigation-item-title">
             <span class="inner">Students</span>
           </div>
           <ul>
@@ -41,8 +41,8 @@
             </li>
           </ul>
         </div><!--
-        --><div class="section closed">
-          <div class="navigation-item-title" tabindex="0">
+        --><div class="section closed" tabindex="0">
+          <div class="navigation-item-title">
             <span class="inner">Parents</span>
           </div>
           <ul>
@@ -58,8 +58,8 @@
             </li>
           </ul>
         </div><!--
-        --><div class="section closed active">
-          <div class="navigation-item-title" tabindex="0">
+        --><div class="section closed active" tabindex="0">
+          <div class="navigation-item-title">
             <span class="inner">Alumni</span>
           </div>
           <ul>
@@ -75,8 +75,8 @@
             </li>
           </ul>
         </div><!--
-        --><div class="section closed">
-          <div class="navigation-item-title" tabindex="0">
+        --><div class="section closed" tabindex="0">
+          <div class="navigation-item-title">
             <span class="inner">Programs</span>
           </div>
           <ul>
