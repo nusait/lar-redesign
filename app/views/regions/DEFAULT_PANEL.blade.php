@@ -119,7 +119,7 @@
   <div class="secondary text-block">
     <div class="text-block">
       <div class="main-text">
-        <h3 class="text-title">Aliquam sit amet mauris</h3>
+        <h3 class="text-title">Aliquam sit amet mauris something something life</h3>
         <p>
           <span>Consider this: Since Congress named </span>
           <a href="http://www.nps.gov/yell/index.htm">Yellowstone</a>

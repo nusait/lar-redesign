@@ -2140,18 +2140,26 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .text-block .main-text {
     display: block;
     width: auto;
+    padding-left: 18px;
   }
   .text-block .main-text .text-title {
     font-size: 2em;
+  }
+  .text-block .main-text p, .text-block .main-text .text-title {
+    margin: 0 20px 10px 0px;
   }
   .text-block .side-text {
     position: relative;
     display: block;
     width: auto;
     float: left;
+    padding-left: 18px;
   }
   .text-block .side-text .text-title {
     font-size: 1.8em;
+  }
+  .text-block .side-text .text-title, .text-block .side-text > div {
+    margin: 0 27px 10px 0px;
   }
 }
 .collapsable-container .collapsible-text {

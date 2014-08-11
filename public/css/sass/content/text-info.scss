@@ -52,8 +52,12 @@
 	.main-text {
 		display: block;
 		width: auto;
+		padding-left: 18px;
 		.text-title {
 			font-size: 2em;
+		}
+		p, .text-title {
+			margin: 0 20px 10px 0px;
 		}
 	}
 	.side-text {
@@ -61,8 +65,12 @@
 		display: block;
 		width: auto;
 		float: left;
+		padding-left: 18px;
 		.text-title {
 			font-size: 1.8em;
+		}
+		.text-title, & > div {
+			margin: 0 27px 10px 0px;
 		}
 	}
 }
