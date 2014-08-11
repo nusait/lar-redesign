@@ -43,6 +43,7 @@ Route::get('/', function()
 
 Route::get('basic', function ()
 {
+	transform_stamp_xml('basic');
 	generate_shared();
 	$DEFAULT = get_default('basic');
 	$type = 'basic';
@@ -51,6 +52,7 @@ Route::get('basic', function ()
 
 Route::get('collapsible', function ()
 {
+	transform_stamp_xml('collapsible');
 	generate_shared();
 	$DEFAULT = get_default('collapsible');
 	$type = 'collapsible';
@@ -59,6 +61,7 @@ Route::get('collapsible', function ()
 
 Route::get('panel', function ()
 {
+	transform_stamp_xml('panel');
 	generate_shared();
 	return View::make(get_template(), [
 		'DEFAULT' => get_default('panel'),
@@ -70,6 +73,7 @@ Route::get('panel', function ()
 
 Route::get('detail', function ()
 {
+	transform_stamp_xml('detail');
 	generate_shared();
 	$DEFAULT = get_default('detail');
 	$type = 'detail';
@@ -78,6 +82,7 @@ Route::get('detail', function ()
 
 Route::get('multipanel', function ()
 {
+	transform_stamp_xml('panel');
 	generate_shared();
 	return View::make(get_template(), [
 		'DEFAULT' => get_default('multipanel'),
@@ -89,6 +94,7 @@ Route::get('multipanel', function ()
 
 Route::get('stack', function ()
 {
+	transform_stamp_xml('stack');
 	generate_shared();
 	$DEFAULT = get_default('stack');
 	$type = 'stack';
@@ -96,6 +102,7 @@ Route::get('stack', function ()
 });
 
 Route::get('form', function () {
+	transform_stamp_xml('form');
 	generate_shared();
 	$DEFAULT = get_default('form');
 	$tyle = 'form';
@@ -103,6 +110,7 @@ Route::get('form', function () {
 });
 
 Route::get('section', function () {
+	transform_stamp_xml('section');
 	generate_shared();
 	$DEFAULT = get_default('section');
 	$type = 'section';
@@ -110,6 +118,7 @@ Route::get('section', function () {
 });
 
 Route::get('map', function () {
+	transform_stamp_xml('map');
 	 generate_shared();
 	 $DEFAULT = get_default('map');
 	 $type = 'map';
@@ -117,6 +126,7 @@ Route::get('map', function () {
 });
 
 Route::get('video', function () {
+	transform_stamp_xml('video');
 	generate_shared();
 	$DEFAULT = get_default('video');
 	$type = 'video';
@@ -124,6 +134,7 @@ Route::get('video', function () {
 });
 
 Route::get('embed', function () {
+	transform_stamp_xml('embed');
 	generate_shared();
 	$DEFAULT = get_default('embed');
 	$type = 'embed';

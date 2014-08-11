@@ -3248,6 +3248,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     font-family: FontAwesome;
     font-size: 1.4em;
   }
+  .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul li a:hover {
+    color: white;
+    text-decoration: underline;
+  }
   .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children.active.closed ul {
     display: none;
   }

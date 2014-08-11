@@ -9,7 +9,7 @@
             <span class="inner">About Us</span>
           </div>
           <ul>
-            <li class="section-title" role="presentation">About Us</li>
+            <li class="section-title" aria-hidden="true">About Us</li>
             <li>
               <a href="/entity/open.act?type=page&amp;id=794bae818169775b5c17821bd0f0d7bc&amp;confId=794bae828169775b5c17821ba83e1a35" target="_parent">History</a>
             </li>
@@ -26,7 +26,7 @@
             <span class="inner">Students</span>
           </div>
           <ul>
-            <li class="section-title" role="presentation">Students</li>
+            <li class="section-title" aria-hidden="true">Students</li>
             <li>
               <a href="/entity/open.act?type=page&amp;id=7a69107f8169775b5c17821bc1145cc3&amp;confId=7a69107f8169775b5c17821bab2805ab" target="_parent">Get a room</a>
             </li>
@@ -46,7 +46,7 @@
             <span class="inner">Parents</span>
           </div>
           <ul>
-            <li class="section-title" role="presentation">Parents</li>
+            <li class="section-title" aria-hidden="true">Parents</li>
             <li>
               <a href="/entity/open.act?type=page&amp;id=7a8bccd4a57c421a41f5ad2b7bc00f8e&amp;confId=7a8bccd5a57c421a41f5ad2b74db321d" target="_parent">History</a>
             </li>
@@ -63,7 +63,7 @@
             <span class="inner">Alumni</span>
           </div>
           <ul>
-            <li class="section-title" role="presentation">Alumni</li>
+            <li class="section-title" aria-hidden="true">Alumni</li>
             <li>
               <a href="/entity/open.act?type=page&amp;id=7a8d8cf0a57c421a41f5ad2bc6777e5c&amp;confId=7a8d8cf1a57c421a41f5ad2b7c7605da" target="_parent">History</a>
             </li>
@@ -80,7 +80,7 @@
             <span class="inner">Programs</span>
           </div>
           <ul>
-            <li class="section-title" role="presentation">Programs</li>
+            <li class="section-title" aria-hidden="true">Programs</li>
             <li>
               <a href="/entity/open.act?type=page&amp;id=7aaa6330a57c421a41f5ad2b3ba0afca&amp;confId=7aaa6331a57c421a41f5ad2b45d28a0b" target="_parent">Get a room</a>
             </li>

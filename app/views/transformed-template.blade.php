@@ -13,14 +13,14 @@
         {{$HEAD_ELEMENTS}}
         
         
-        <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon57.png" sizes="57x57">
-        <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon72.png" sizes="72x72">
-        <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon76.png" sizes="76x76">
-        <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon114.png" sizes="114x114">
-        <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon120.png" sizes="120x120">
-        <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon144.png" sizes="144x144">
-        <link rel="apple-touch-icon" href="//go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon152.png" sizes="152x152">   
-        <link rel="stylesheet" href="//go.dosa.northwestern.edu/shared/lar-redesign/css/main.css" />
+        <link rel="apple-touch-icon" href="{{asset('img/icons/icon57.png')}}" sizes="57x57">
+        <link rel="apple-touch-icon" href="{{asset('img/icons/icon72.png')}}" sizes="72x72">
+        <link rel="apple-touch-icon" href="{{asset('img/icons/icon76.png')}}" sizes="76x76">
+        <link rel="apple-touch-icon" href="{{asset('img/icons/icon114.png')}}" sizes="114x114">
+        <link rel="apple-touch-icon" href="{{asset('img/icons/icon120.png')}}" sizes="120x120">
+        <link rel="apple-touch-icon" href="{{asset('img/icons/icon144.png')}}" sizes="144x144">
+        <link rel="apple-touch-icon" href="{{asset('img/icons/icon152.png')}}" sizes="152x152">   
+        <link rel="stylesheet" href="{{asset('css/main.css')}}" />
         
         
     </head>
@@ -55,7 +55,7 @@
                         <div class="nu-logo">
                             <a href="http://www.northwestern.edu/">
                                 
-                                <img src="//go.dosa.northwestern.edu/shared/lar-redesign/img/NU_Logo_purple.png" alt="" />
+                                <img src="{{asset('img/NU_Logo_purple.png')}}" alt="" />
                                 
                             </a></div>
                         <div class="extra-navigation">
@@ -130,7 +130,7 @@
         </div>
         
         
-        <script src="//go.dosa.northwestern.edu/shared/lar-redesign/js/build-min.js"></script>
+        <script src="{{asset('js/build-min.js')}}"></script>
         
 
         

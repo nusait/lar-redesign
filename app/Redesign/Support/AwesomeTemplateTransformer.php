@@ -18,6 +18,7 @@ class AwesomeTemplateTransformer {
 		$this->removeConditionalComments('passthrough');
 		$this->removeCDDATA();
 		$this->replaceSystemRegion();
+		$this->replaceAssetLinks();
 		return $this->content;
 	}
 
@@ -53,5 +54,13 @@ class AwesomeTemplateTransformer {
 		$pattern = '/(<html xmlns="http:\/\/www.w3.org\/1999\/xhtml" class="show-top allow-hover" lang="en"><!--<!\[endif\]-->)\s(.+\s)(<!DOCTYPE html>\s)(<!--\[if lt IE 9 \]>.+\s.+\s)(<!--\[if !\(IE\)\]><!-->)(\s#protect-top\]\]>)/';
 		$dest = '$3$4$5$1';
 		$this->content = preg_replace($pattern, $dest, $this->content);
+	}
+
+	protected function replaceAssetLinks()
+	{
+		$pattern = '/(.+)(\/\/go.dosa.northwestern.edu\/shared\/lar-redesign\/)(\S+)(\".+)/';
+		$dest = "$1{{asset('$3')}}$4";
+		$this->content = preg_replace($pattern, $dest, $this->content);
+
 	}
 }

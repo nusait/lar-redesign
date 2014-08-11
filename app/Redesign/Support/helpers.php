@@ -185,3 +185,14 @@ if ( ! function_exists('generate_shared')) {
 		share_region('DEPARTMENT_QUICKLINKS');
 	}
 }
+
+if ( ! function_exists('transform_stamp_xml')) {
+	function transform_stamp_xml($name) {
+		$path = app_path('Cascade/redesign-data-xml/STAMP.xml');
+		$content = File::get($path);
+		$pattern = '/(<\/?content-type-)(.+)(>)/';
+		$dest = "$1$name$3";
+		$content = preg_replace($pattern, $dest, $content);
+		File::put($path, $content);
+	}
+}

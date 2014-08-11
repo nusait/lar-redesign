@@ -1,1 +1,1 @@
-<div class="stamp dept-color-2 type-basic" data-googleanalyticsid="UA-3808778-XX" data-sitename="Sample Department"> </div>
+<div class="stamp dept-color-2 type-basic"> </div>
