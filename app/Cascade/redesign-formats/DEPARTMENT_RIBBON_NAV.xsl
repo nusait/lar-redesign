@@ -15,14 +15,14 @@
                     <nav class="department-nav closed" role="navigation">
                         <button class="mobile-menu-button"><xsl:text>&#160;</xsl:text></button>
                         <xsl:for-each select="system-folder">
-                            <div>
+                            <div tabindex="0">
                                 <xsl:attribute name="class">
                                     <xsl:value-of select="'section closed'" />
                                     <xsl:if test="descendant::system-page[@current='true']">
                                         <xsl:value-of select="' active'" />
                                     </xsl:if>
                                 </xsl:attribute>
-                                <div class="navigation-item-title" tabindex="0">
+                                <div class="navigation-item-title">
                                     <span class="inner">
                                         <xsl:for-each select="system-page">
                                             <xsl:if test="name[text()='index']">
