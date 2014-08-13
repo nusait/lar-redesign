@@ -73,7 +73,7 @@
                             <span role="heading" class="logo">Division of Student Affairs</span>
                         </span>
                     </header>
-                    <div class="middle" role="main">
+                    <div class="middle">
                       <div class="inner">
                         <header class="dosa-banner" role="banner" aria-labelledby="banner-title">
                           <div class="inner-left"></div>
@@ -91,7 +91,7 @@
                             <nav class="dosa-banner-navigation" role="navigation" aria-label="Student Affairs Top Links">
                               {{$DOSA_NAV_DESKTOP}}
                             </nav>
-                            <div class="northwestern-title">Northwestern University</div>
+                            <a class="northwestern-title" href="http://www.northwestern.edu">Northwestern University</a>
                           </div>
 
                           <div class="inner-right"></div>
