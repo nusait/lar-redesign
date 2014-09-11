@@ -7,7 +7,7 @@
                 <div>
                     <xsl:for-each select="panel-container">
                         <xsl:if test="position() &gt; 1">
-                            <div class="block-divider">
+                            <div class="new-block-divider">
                                 <xsl:text>&#160;</xsl:text>
                             </div>
                         </xsl:if>
@@ -22,8 +22,7 @@
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </xsl:attribute>
-                            <xsl:for-each
-                                select="big-list/content/planitpurple | big-list/content/system-data-structure">
+                            <xsl:for-each select="big-list/content/system-data-structure">
                                 <xsl:variable name="class">
                                     <xsl:text>big-list-region</xsl:text>
                                     <!--<xsl:if test="count(content-type-twitter-block) &gt; 0">
@@ -35,8 +34,11 @@
                                         <xsl:when test="count(content-type-twitter-block) &gt; 0">
                                             <xsl:call-template name="twitter"/>
                                         </xsl:when>
-                                        <xsl:when test="name(.) = 'planitpurple'">
+                                        <xsl:when test="count(pip-feed) &gt; 0">
                                             <xsl:call-template name="planitpurple"/>
+                                        </xsl:when>
+                                        <xsl:when test="count(content-type-callouts-block) &gt; 0">
+                                            <xsl:call-template name="callouts"/>
                                         </xsl:when>
                                     </xsl:choose>
                                 </div>
@@ -47,7 +49,7 @@
                                         <xsl:when test="count(content-type-blog-block) &gt; 0">
                                             <div class="rich-extra blog-container">
                                                 <div class="blog-content">
-                                                  <xsl:text/>
+                                                    <xsl:text/>
                                                 </div>
                                                 <a class="blog-label" href="{url}">Student Blog</a>
                                             </div>
@@ -61,8 +63,7 @@
                             <xsl:for-each select="q-links/content/system-data-structure">
                                 <div class="q-links-region">
                                     <xsl:choose>
-                                        <xsl:when
-                                            test="count(content-type-quick-links-block) &gt; 0">
+                                        <xsl:when test="count(content-type-quick-links-block) &gt; 0">
                                             <xsl:call-template name="quick-links"/>
                                         </xsl:when>
                                     </xsl:choose>
@@ -95,9 +96,45 @@
             </xsl:for-each>
         </xsl:for-each>
     </xsl:template>
+    <xsl:template name="callouts">
+        <div class="big-list generic-container">
+            <h2 class="mobile-heading">
+                <xsl:value-of select="heading"/>
+            </h2>
+            <div class="divider"><xsl:value-of select="'&#xA;'"/></div>
+            <div class="generic-list">
+                <xsl:for-each select="section">
+                    <xsl:variable name="icon-classname" select="icon-classname"/>
+                    <xsl:variable name="href">
+                        <xsl:choose>
+                            <xsl:when test="link[@type='page']">
+                                <xsl:value-of select="link/link"/>
+                            </xsl:when>
+                            <xsl:when test="link[@type='file']">
+                                <xsl:value-of select="link/link"/>
+                            </xsl:when>
+                            <xsl:when test="link[@type='symlink']">
+                                <xsl:value-of select="link/content/system-symlink"/>
+                            </xsl:when>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <a class="generic-item" href="{$href}">
+                        <div class="generic-icon">
+                            <i class="fa fa-{$icon-classname}">
+                                <xsl:value-of select="'&#xA;'"/>
+                            </i>
+                        </div>
+                        <div class="generic-text">
+                            <xsl:value-of select="label"/>
+                        </div>
+                    </a>
+                </xsl:for-each>
+            </div>
+        </div>
+    </xsl:template>
     <xsl:template name="planitpurple">
         <xsl:variable name="full-calendar-href">
-            <xsl:value-of select="event[1]/group/url"/>
+            <xsl:value-of select="full-calendar"/>
         </xsl:variable>
         <div class="big-list events-container">
             <h2 class="mobile-heading" id="main-events">Events</h2>
@@ -105,17 +142,24 @@
                 <xsl:text>&#160;</xsl:text>
             </div>
             <div aria-labelledby="main-events" class="events">
-                <xsl:for-each select="event">
+                <xsl:for-each select="pip-feed/content/planitpurple/event">
                     <xsl:if test="position() &lt; 5">
                         <a class="event-item" href="{ppurl}">
                             <div class="event-date">
-                                <xsl:value-of select="translate(substring(isodate, 6, 5), '-', '.')"
-                                />
+                                <xsl:value-of select="translate(substring(isodate, 6, 5), '-', '.')"/>
                             </div>
                             <div class="event-desc">
                                 <xsl:value-of select="title"/>
                                 <div class="event-detail">
-                                    <xsl:value-of select="address/building_name"/>
+                                    <xsl:choose>
+                                        <xsl:when test="address/building_name != ''">
+                                            <xsl:value-of select="address/building_name"/>   
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:comment>keepme</xsl:comment>   
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                    
                                 </div>
                             </div>
                         </a>
@@ -131,17 +175,13 @@
         <div class="big-list twitter-container">
             <div class="inner-container">
                 <div class="short">
-                    <a class="twitter-timeline" data-dnt="true"
-                        data-widget-id="{twitter-link[1]/data-widget-id}" height="480"
-                        href="{twitter-link[1]/href}" width="100%">Loading Twitter ...</a>
+                    <a class="twitter-timeline" data-dnt="true" data-widget-id="{twitter-link[1]/data-widget-id}" height="480" href="{twitter-link[1]/href}" width="100%">Loading Twitter ...</a>
                 </div>
                 <div class="tall hidden">
-                    <a class="twitter-timeline" data-dnt="true"
-                        data-widget-id="{twitter-link[2]/data-widget-id}" height="685"
-                        href="{twitter-link[2]/href}" width="100%">Loading Twitter ...</a>
+                    <a class="twitter-timeline" data-dnt="true" data-widget-id="{twitter-link[2]/data-widget-id}" height="685" href="{twitter-link[2]/href}" width="100%">Loading Twitter ...</a>
                 </div>
                 <script>!function(d,s,id){var
-                js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
             </div>
         </div>
     </xsl:template>
@@ -190,8 +230,7 @@
         </xsl:variable>
         <a class="link-item" href="{$href}">
             <div class="link-img">
-                <img alt="{$section/alt}" data-height="600" data-width="600"
-                    src="{$section/photo/link}"/>
+                <img alt="{$section/alt}" data-height="600" data-width="600" src="{$section/photo/link}"/>
             </div>
             <span class="link-label">
                 <xsl:value-of select="$section/label"/>
@@ -207,12 +246,16 @@
             </div>
             <nav aria-labelledby="main-headlines" class="news" role="navigation">
                 <div class="swiper-container news-img-container">
+                    <div class="swiper-prev swiper-direction" data-direction="prev">
+                        <div class="prev-icon icon"> </div>
+                    </div>
+                    <div class="swiper-next swiper-direction" data-direction="next">
+                        <div class="next-icon icon"> </div>
+                    </div>
                     <div class="swiper-wrapper">
                         <xsl:for-each select="carousel-section">
                             <div class="swiper-slide news-img">
-                                <img alt="{alt}" class="news-img" data-height="300"
-                                    data-src="[system-asset]{photo/link}[/system-asset]"
-                                    data-width="750"/>
+                                <img alt="{alt}" class="news-img" data-height="300" data-src="[system-asset]{photo/link}[/system-asset]" data-width="750"/>
                             </div>
                         </xsl:for-each>
                     </div>

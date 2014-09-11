@@ -1,21 +1,21 @@
-<system-index-block current-time="1396634733099" name="ANYSITE-just-current-page" type="folder">
+<system-index-block current-time="1410467101738" name="ANYSITE-just-current-page" type="folder">
     <calling-page>
-        <system-page current="true" id="4662d3798169775b677bb8fe56ea7edc">
+        <system-page current="true" id="bd1bacb38169775b579347e827102e1c">
             <name>index</name>
             <is-published>true</is-published>
-            <last-published-on>1396634234390</last-published-on>
-            <last-published-by>jmb250</last-published-by>
-            <title>2014 Commencement</title>
-            <keywords>commencement, northwestern, students, graduation, class of 2014</keywords>
-            <description>Northwestern's 2014 Commencement Information</description>
-            <display-name>Commencement</display-name>
+            <last-published-on>1410449749718</last-published-on>
+            <last-published-by>hle276</last-published-by>
+            <title>Student Affairs</title>
+            <keywords>northwestern, students, services, student affairs</keywords>
+            <description>Northwestern's Student Affairs and Departments</description>
+            <display-name>Student Affairs</display-name>
             <path>/index</path>
-            <site>SA-COMMENCEMENT</site>
-            <link>site://SA-COMMENCEMENT/index</link>
+            <site>SA-STUDENTAFFAIRS</site>
+            <link>site://SA-STUDENTAFFAIRS/index</link>
             <created-by>xsitemanager</created-by>
-            <created-on>1392750285668</created-on>
-            <last-modified-by>jmb250</last-modified-by>
-            <last-modified>1392846774736</last-modified>
+            <created-on>1399037078675</created-on>
+            <last-modified-by>hle276</last-modified-by>
+            <last-modified>1410454010892</last-modified>
             <dynamic-metadata>
                 <name>note</name>
             </dynamic-metadata>
@@ -27,193 +27,212 @@
                     <big-list type="block">
                         <content>
                             <system-data-structure>
-                                <full-calendar>http://planitpurple.northwestern.edu/calendar/3847</full-calendar>
+                                <full-calendar>http://planitpurple.northwestern.edu/calendar/3901</full-calendar>
                                 <pip-feed type="block">
                                     <content>
                                         <planitpurple>
                                             <event>
-                                                <title>President's Reception</title>
-                                                <date>June 19, 2014</date>
-                                                <time>11:00 AM - 1:00 PM</time>
-                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-19
-                                                  11:00</isodate>
+                                                <title>New Student Move In Day - First-Year &amp;
+                                                  Transfer Students</title>
+                                                <date>September 15, 2014</date>
+                                                <time>8:00 AM - 4:00 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-09-15
+                                                  08:00</isodate>
+                                                <location>No Location</location>
+                                                <locationurl/>
+                                                <address>
+				<building_name/>
+				<address_1/>
+				<address_2/>
+				<city/>
+				<state/>
+				<zip/>
+			</address>
+                                                <contact>
+                                                  <name>Daniel Mackenzie</name>
+                                                  <email>daniel.mackenzie@northwestern.edu</email>
+                                                  <phone>8474673977</phone>
+                                                </contact>
+                                                <group>
+                                                  <name>Student Affairs Main Web Feed</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3901</url>
+                                                </group>
+                                                <externalurl>http://www.northwestern.edu/living/students/move-in-2014/new-student-move-in-2014/index.html</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/462053</ppurl>
+                                                <event_category_id>7</event_category_id>
+                                                <category-name>Other</category-name>
+                                                <last_modified>August 19, 2014</last_modified>
+                                                <audience>Faculty/Staff</audience>
+                                                <audience>Student</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description>New student move-in begins at 8:00 a.m.
+                                                  and ends at 4:00 p.m. on Monday, September 15,
+                                                  2014.</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                            <event>
+                                                <title>2014 Wildcat Welcome - March Through the
+                                                  Arch</title>
+                                                <date>September 16, 2014</date>
+                                                <time/>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-09-16
+                                                  00:00</isodate>
+                                                <location>No Location</location>
+                                                <locationurl/>
+                                                <address>
+				<building_name/>
+				<address_1/>
+				<address_2/>
+				<city/>
+				<state/>
+				<zip/>
+			</address>
+                                                <contact>
+                                                  <name>Daniel Scott MacKenzie</name>
+                                                  <email>daniel.mackenzie@northwestern.edu</email>
+                                                  <phone>(847) 467-3977 </phone>
+                                                </contact>
+                                                <group>
+                                                  <name>Student Affairs Main Web Feed</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3901</url>
+                                                </group>
+                                                <externalurl>http://www.northwestern.edu/orientation/incoming-students/wildcat-welcome/index.html</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/461320</ppurl>
+                                                <event_category_id>7</event_category_id>
+                                                <category-name>Other</category-name>
+                                                <last_modified>August 8, 2014</last_modified>
+                                                <cost audience="">Free</cost>
+                                                <audience>Student</audience>
+                                                <cosponsors> </cosponsors>
+                                                <description> Wildcat Welcome is Northwestern's
+                                                  weeklong orientation for all new students
+                                                  (mandatory for both freshmen and transfer
+                                                  students). Wildcat Welcome discusses college
+                                                  transition issues, advising and course
+                                                  registration for your first quarter and provides
+                                                  an opportunity to meet your entire class. We
+                                                  define it as the best week of your first year at
+                                                  Northwestern, but we may be a bit biased! The
+                                                  schedule for Wildcat Welcome 2014 will be released
+                                                  during the summer months.</description>
+                                                <recurring>0</recurring>
+                                            </event>
+                                            <event>
+                                                <title>Norris At Night</title>
+                                                <date>September 19, 2014</date>
+                                                <time>9:00 PM - 11:30 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-09-19
+                                                  21:00</isodate>
                                                 <location>Evanston</location>
                                                 <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
                                                 <address>
 				<building_name>Norris University Center</building_name>
 				<address_1>1999 Campus Drive</address_1>
-				<address_2>East Lawn</address_2>
+				<address_2>Norris University Center</address_2>
 				<city>Evanston</city>
 				<state>IL</state>
 				<zip>60208</zip>
 			</address>
                                                 <contact>
-                                                  <name/>
-                                                  <email/>
-                                                  <phone/>
+                                                  <name>Debra Blade</name>
+                                                  <email>d-blade@NORTHWESTERN.EDU</email>
+                                                  <phone>847.491.2307</phone>
                                                 </contact>
                                                 <group>
-                                                  <name>Commencement</name>
-                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
+                                                  <name>Student Affairs Main Web Feed</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3901</url>
                                                 </group>
-                                                <externalurl>http://www.northwestern.edu/commencement/schedule/index.html</externalurl>
-                                                <ppurl>http://planitpurple.northwestern.edu/event/454307</ppurl>
-                                                <event_category_id>7</event_category_id>
-                                                <category-name>Other</category-name>
-                                                <last_modified>February 19, 2014</last_modified>
+                                                <externalurl>http://www.northwestern.edu/norris/events/special-events/norris-at-night/index.html</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/462393</ppurl>
+                                                <event_category_id>4</event_category_id>
+                                                <category-name>Social</category-name>
+                                                <last_modified>August 27, 2014</last_modified>
                                                 <audience>Faculty/Staff</audience>
                                                 <audience>Student</audience>
-                                                <audience>Public</audience>
-                                                <audience>Post Docs/Docs</audience>
-                                                <audience>Graduate Students</audience>
                                                 <cosponsors> </cosponsors>
-                                                <description>No tickets required Norris University
-                                                  Center, East Lawn, 1999 South Campus Drive,
-                                                  Graduates, their families, and guests are invited
-                                                  to attend this informal reception. The President
-                                                  of the University will be present to meet those
-                                                  attending.</description>
+                                                <description>Meet us at Norris at Night for the
+                                                  fun-filled event that introduces you to all of the
+                                                  offerings at the Norris University Center. With
+                                                  activities throughout the building, you will learn
+                                                  where to go to relax, meet up, eat, and get more
+                                                  involved at NU. This year’s Norris at Night
+                                                  features a photo booth, caricaturists, henna
+                                                  artists, free food, giveaways, prizes, and live
+                                                  performances by student organizations. Many more
+                                                  surprises await! WIN PRIZES! GET FREE
+                                                  STUFF!</description>
                                                 <recurring>0</recurring>
                                             </event>
                                             <event>
-                                                <title>Baccalaureate Service</title>
-                                                <date>June 19, 2014</date>
-                                                <time>4:00 PM - 6:00 PM</time>
-                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-19
-                                                  16:00</isodate>
+                                                <title>Making Mona Lisa Exhibition</title>
+                                                <date>September 24, 2014</date>
+                                                <time>10:00 AM - 10:00 PM</time>
+                                                <isodate format="YYYY-MM-DD HH24:MI">2014-09-24
+                                                  10:00</isodate>
                                                 <location>Evanston</location>
-                                                <locationurl>http://maps.northwestern.edu/?lookupid=108</locationurl>
+                                                <locationurl>http://maps.northwestern.edu/?lookupid=110</locationurl>
                                                 <address>
-				<building_name>Pick-Staiger Concert Hall</building_name>
-				<address_1>50 Arts Circle Drive </address_1>
-				<address_2/>
+				<building_name>Norris University Center</building_name>
+				<address_1>1999 Campus Drive</address_1>
+				<address_2>Dittmar Gallery</address_2>
 				<city>Evanston</city>
 				<state>IL</state>
 				<zip>60208</zip>
 			</address>
                                                 <contact>
-                                                  <name>Jill Brazel</name>
-                                                  <email>jill-brazel@northwestern.edu</email>
-                                                  <phone/>
+                                                  <name>Debra Blade </name>
+                                                  <email>dittmargallery@northwestern.edu</email>
+                                                  <phone>847.491.2348 </phone>
                                                 </contact>
                                                 <group>
-                                                  <name>Commencement</name>
-                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
+                                                  <name>Student Affairs Main Web Feed</name>
+                                                  <url>http://planitpurple.northwestern.edu/calendar/3901</url>
                                                 </group>
-                                                <externalurl/>
-                                                <ppurl>http://planitpurple.northwestern.edu/event/454624</ppurl>
-                                                <event_category_id>7</event_category_id>
-                                                <category-name>Other</category-name>
-                                                <last_modified>February 21, 2014</last_modified>
+                                                <externalurl>http://planitpurple.northwestern.edu/event/462317</externalurl>
+                                                <ppurl>http://planitpurple.northwestern.edu/event/462392</ppurl>
+                                                <event_category_id>2</event_category_id>
+                                                <category-name>Fine Arts</category-name>
+                                                <last_modified>August 27, 2014</last_modified>
                                                 <audience>Faculty/Staff</audience>
                                                 <audience>Student</audience>
                                                 <audience>Public</audience>
                                                 <audience>Post Docs/Docs</audience>
                                                 <audience>Graduate Students</audience>
                                                 <cosponsors> </cosponsors>
-                                                <description>No tickets required, Pick-Staiger
-                                                  Concert Hall, 50 Arts Circle Drive, University
-                                                  Chaplain Timothy Stevens invites graduates, their
-                                                  families, and guests to attend this interfaith
-                                                  service which incorporates the principal faith
-                                                  traditions of the University. Seating is on a
-                                                  first-come, first-served basis.</description>
-                                                <recurring>0</recurring>
-                                            </event>
-                                            <event>
-                                                <title>The 156th Annual Commencement</title>
-                                                <date>June 20, 2014</date>
-                                                <time>9:30 AM - 11:30 AM</time>
-                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-20
-                                                  09:30</isodate>
-                                                <location>Evanston</location>
-                                                <locationurl>http://maps.northwestern.edu/?lookupid=40</locationurl>
-                                                <address>
-				<building_name>Ryan Field</building_name>
-				<address_1>1501 Central Street</address_1>
-				<address_2/>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
-                                                <contact>
-                                                  <name/>
-                                                  <email/>
-                                                  <phone/>
-                                                </contact>
-                                                <group>
-                                                  <name>Commencement</name>
-                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
-                                                </group>
-                                                <externalurl>http://www.northwestern.edu/commencement/schedule/index.html</externalurl>
-                                                <ppurl>http://planitpurple.northwestern.edu/event/454309</ppurl>
-                                                <event_category_id>7</event_category_id>
-                                                <category-name>Other</category-name>
-                                                <last_modified>April 4, 2014</last_modified>
-                                                <audience>Faculty/Staff</audience>
-                                                <audience>Student</audience>
-                                                <audience>Public</audience>
-                                                <audience>Post Docs/Docs</audience>
-                                                <audience>Graduate Students</audience>
-                                                <cosponsors> </cosponsors>
-                                                <description>Admission by ticket only, Ryan Field,
-                                                  1501 Central Street, The ceremony begins with the
-                                                  procession of graduates, the faculty, and the
-                                                  President's party. The two-hour program includes
-                                                  the awarding of honorary degrees, a speaker, the
-                                                  President's message to graduates, and the
-                                                  conferring of degrees by school</description>
-                                                <recurring>0</recurring>
-                                            </event>
-                                            <event>
-                                                <title>Naval ROTC Commissioning Ceremony</title>
-                                                <date>June 21, 2014</date>
-                                                <time>3:30 PM - 5:00 PM</time>
-                                                <isodate format="YYYY-MM-DD HH24:MI">2014-06-21
-                                                  15:30</isodate>
-                                                <location>Evanston</location>
-                                                <locationurl>http://maps.northwestern.edu/?lookupid=119</locationurl>
-                                                <address>
-				<building_name>Harris Hall</building_name>
-				<address_1>1881 Sheridan Road</address_1>
-				<address_2>107</address_2>
-				<city>Evanston</city>
-				<state>IL</state>
-				<zip>60208</zip>
-			</address>
-                                                <contact>
-                                                  <name>Jill Brazel</name>
-                                                  <email>jill-brazel@northwestern.edu</email>
-                                                  <phone/>
-                                                </contact>
-                                                <group>
-                                                  <name>Commencement</name>
-                                                  <url>http://planitpurple.northwestern.edu/calendar/3847</url>
-                                                </group>
-                                                <externalurl/>
-                                                <ppurl>http://planitpurple.northwestern.edu/event/454610</ppurl>
-                                                <event_category_id>7</event_category_id>
-                                                <category-name>Other</category-name>
-                                                <last_modified>February 21, 2014</last_modified>
-                                                <audience>Faculty/Staff</audience>
-                                                <audience>Student</audience>
-                                                <audience>Public</audience>
-                                                <audience>Post Docs/Docs</audience>
-                                                <audience>Graduate Students</audience>
-                                                <cosponsors> </cosponsors>
-                                                <description>Admission is open</description>
+                                                <description>  Priscilla Briggs is an artist whose
+                                                  work engages in conversation about the shifts in
+                                                  identity and values in the system of the global
+                                                  market. In Making Mona Lisa, she specifically
+                                                  explores the Wushipu and Haicang oil-painting
+                                                  communities of Xiamen, China to discuss how mass
+                                                  production has changed understandings of
+                                                  authorship, authenticity, labor and the artist. In
+                                                  focusing on this billion dollar industry, Briggs
+                                                  draws upon mass production’s influence on labor
+                                                  practices as they relate to art and craft. Briggs'
+                                                  works include still-life photographs of the
+                                                  painters' live/work paces and commissioned
+                                                  paintings of her photographic portraits of the
+                                                  workers. This combination brings attention to the
+                                                  ways in which the replica is created, draws
+                                                  attention to art as laborious work, and acts as a
+                                                  metaphor for the complexities of the global market
+                                                  system. Exhibiton Dates: September 18th - October
+                                                  24thReception: September, 18th 6-8 pm For more
+                                                  information please visit: dittmar.northwestern.edu
+                                                  https://www.facebook.com/DittmarGallery</description>
                                                 <recurring>0</recurring>
                                             </event>
                                         </planitpurple>
                                     </content>
                                     <path>/shared-assets/homepage/panel1/events/pip-calendar-feed</path>
-                                    <site>SA-COMMENCEMENT</site>
+                                    <site>SA-STUDENTAFFAIRS</site>
                                     <name>pip-calendar-feed</name>
                                 </pip-feed>
                             </system-data-structure>
                         </content>
                         <path>/shared-assets/homepage/panel1/events/pip-feed-block</path>
-                        <site>SA-COMMENCEMENT</site>
+                        <site>SA-STUDENTAFFAIRS</site>
                         <name>pip-feed-block</name>
                     </big-list>
                     <rich-extra type="block">
@@ -226,49 +245,87 @@
                                     <value>random</value>
                                 </initial-slide>
                                 <carousel-section>
-                                    <label>Riccardo Muti 2014 Commencement Speaker</label>
+                                    <label>Six Tips for New Northwestern Students</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/muti3.jpg</path>
-                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/muti3.jpg</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>muti3.jpg</name>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/blog-carousel.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/carousel/images/blog-carousel.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>blog-carousel.jpg</name>
                                     </photo>
-                                    <alt>Riccardo Muti is the 2014 commencement speaker</alt>
+                                    <alt>students ready for the new year</alt>
                                     <link type="symlink">
                                         <content>
-                                            <system-symlink>http://www.northwestern.edu/newscenter/stories/2014/04/riccardo-muti-will-address-class-of-2014.html</system-symlink>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/students/student-blog/index.html</system-symlink>
                                         </content>
-                                        <path>/shared-assets/homepage/panel1/carousel/links/commencement
-                                            speaker</path>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>commencement speaker</name>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/student-blog</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>student-blog</name>
                                     </link>
                                 </carousel-section>
                                 <carousel-section>
-                                    <label>Enjoying Your Stay in Evanston</label>
+                                    <label>UCS Fall Internship &amp; Job Fair Sept. 30 &amp; Oct.
+                                        1</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/panel1/carousel/images/evanston.jpg</path>
-                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/carousel/images/evanston.jpg</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>evanston.jpg</name>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/jobfair2014-carousel.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/carousel/images/jobfair2014-carousel.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>jobfair2014-carousel.jpg</name>
                                     </photo>
-                                    <alt>grads excited for june</alt>
+                                    <alt>student meeting a potential employer at a job fair</alt>
                                     <link type="symlink">
                                         <content>
-                                            <system-symlink>http://www.downtownevanston.org/visiting-evanston</system-symlink>
+                                            <system-symlink>http://www.northwestern.edu/careers/programs-and-events/UCS-Sponsored-Events.html</system-symlink>
                                         </content>
-                                        <path>/shared-assets/homepage/panel1/carousel/links/downtown
-                                            evanston</path>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>downtown evanston</name>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/ucs2014jobfair</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>ucs2014jobfair</name>
+                                    </link>
+                                </carousel-section>
+                                <carousel-section>
+                                    <label>MOVE-IN PROCESS FOR NEW STUDENTS</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/movein.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/carousel/images/movein.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>movein.jpg</name>
+                                    </photo>
+                                    <alt>students helping students moving in</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/living/students/move-in-2014/new-student-move-in-2014/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/movein</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>movein</name>
+                                    </link>
+                                </carousel-section>
+                                <carousel-section>
+                                    <label>Wildcat Welcome!</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel/images/wildcatwelcome.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/carousel/images/wildcatwelcome.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>wildcatwelcome.jpg</name>
+                                    </photo>
+                                    <alt>students and families cheering during march through the
+                                        arch</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/orientation/incoming-students/wildcat-welcome/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel/links/wildcatwelcome</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>wildcatwelcome</name>
                                     </link>
                                 </carousel-section>
                             </system-data-structure>
                         </content>
                         <path>/shared-assets/homepage/panel1/carousel/carousel-block</path>
-                        <site>SA-COMMENCEMENT</site>
+                        <site>SA-STUDENTAFFAIRS</site>
                         <name>carousel-block</name>
                     </rich-extra>
                     <q-links type="block">
@@ -279,126 +336,259 @@
                                 </content-type-quick-links-block>
                                 <heading>Quick Links</heading>
                                 <section>
-                                    <label>Directions &amp; Maps</label>
+                                    <label>Mission</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/panel1/quick-links/images/map-icon-ql.jpg</path>
-                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/map-icon-ql.jpg</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>map-icon-ql.jpg</name>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/first-block/mission.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/first-block/mission.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>mission.jpg</name>
+                                        <display-name>mission.jpg</display-name>
                                     </photo>
-                                    <alt>Transportation, Parking and maps for commencement</alt>
-                                    <link type="page">
-                                        <content/>
-                                        <path>/families-and-guests/transportation/index</path>
-                                        <dynamic-metadata>
-                                            <name>note</name>
-                                        </dynamic-metadata>
-                                        <link>site://SA-COMMENCEMENT/families-and-guests/transportation/index</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>index</name>
-                                        <display-name>Shuttle Service, Parking &amp;
-                                            Maps</display-name>
-                                        <title>Shuttle Service, Parking &amp; Maps</title>
-                                        <keywords>faculty, parents, students, commencement,
-                                            schedule, guests, maps</keywords>
-                                        <description>Here parents and other guests of students can
-                                            find what they need to know regarding parking,
-                                            directions, and maps</description>
+                                    <alt>student affairs staff members meeting together for
+                                        discussion</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/strategic-plan/vision-mission/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/mission</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>mission</name>
                                     </link>
                                 </section>
                                 <section>
-                                    <label>Web Cast</label>
+                                    <label>Nuhelp</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/panel1/quick-links/images/webcast-ql.jpg</path>
-                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/webcast-ql.jpg</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>webcast-ql.jpg</name>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/first-block/nuhelp.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/first-block/nuhelp.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>nuhelp.jpg</name>
+                                        <display-name>nuhelp.jpg</display-name>
                                     </photo>
-                                    <alt>general information about live web cast of
-                                        commencement</alt>
-                                    <link type="page">
-                                        <content/>
-                                        <path>/families-and-guests/webcast/index</path>
-                                        <dynamic-metadata>
-                                            <name>note</name>
-                                        </dynamic-metadata>
-                                        <link>site://SA-COMMENCEMENT/families-and-guests/webcast/index</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>index</name>
-                                        <display-name>Live Web Cast</display-name>
-                                        <title>Live Web Cast</title>
-                                        <keywords>guests, families, commencement</keywords>
-                                        <description>Here is infomration to see the live web
-                                            cast</description>
+                                    <alt>students walking together</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/nuhelp/</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/first-block/nuhelp</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>nuhelp</name>
                                     </link>
                                 </section>
                                 <section>
-                                    <label>Schedule</label>
+                                    <label>Norris Center</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/panel1/quick-links/images/gallery.jpg</path>
-                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/gallery.jpg</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>gallery.jpg</name>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/norris-sa.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/norris-sa.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>norris-sa.jpg</name>
                                     </photo>
-                                    <alt>full schedule for commencement</alt>
-                                    <link type="page">
-                                        <content/>
-                                        <path>/ceremonies-and-events/weekend-events/index</path>
-                                        <dynamic-metadata>
-                                            <name>note</name>
-                                        </dynamic-metadata>
-                                        <link>site://SA-COMMENCEMENT/ceremonies-and-events/weekend-events/index</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>index</name>
-                                        <display-name>Weekend Events</display-name>
-                                        <title>Weekend Schedule</title>
-                                        <keywords>convocations, commencement, northwestern,
-                                            students, graduation, class of 2014</keywords>
-                                        <description>Open events during commencement
-                                            weekend</description>
+                                    <alt>norris</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/norris/</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/norris</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>norris</name>
                                     </link>
                                 </section>
                                 <section>
-                                    <label>Future Dates</label>
+                                    <label>Giving</label>
                                     <photo type="file">
                                         <content/>
-                                        <path>/shared-assets/homepage/panel1/quick-links/images/2017classphoto2.jpg</path>
-                                        <link>site://SA-COMMENCEMENT/shared-assets/homepage/panel1/quick-links/images/2017classphoto2.jpg</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>2017classphoto2.jpg</name>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/first-block/giving.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/first-block/giving.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>giving.jpg</name>
+                                        <display-name>giving.jpg</display-name>
                                     </photo>
-                                    <alt>future commencement dates</alt>
-                                    <link type="page">
-                                        <content/>
-                                        <path>/ceremonies-and-events/future-dates/index</path>
-                                        <dynamic-metadata>
-                                            <name>note</name>
-                                        </dynamic-metadata>
-                                        <link>site://SA-COMMENCEMENT/ceremonies-and-events/future-dates/index</link>
-                                        <site>SA-COMMENCEMENT</site>
-                                        <name>index</name>
-                                        <display-name>Future Dates</display-name>
-                                        <title>Future Dates</title>
-                                        <keywords>future dates for commencement at
-                                            northwestern</keywords>
-                                        <description>Here are future dates for Commenecement at
-                                            Northwestern</description>
+                                    <alt>wrapped birthday gift</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/about-us/giving/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/giving</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>giving</name>
                                     </link>
                                 </section>
                             </system-data-structure>
                         </content>
                         <path>/shared-assets/homepage/panel1/quick-links/quick-links-block</path>
-                        <site>SA-COMMENCEMENT</site>
+                        <site>SA-STUDENTAFFAIRS</site>
                         <name>quick-links-block</name>
                     </q-links>
                 </panel-container>
+                <panel-container>
+                    <big-list type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-twitter-block>
+                                    <value>Yes</value>
+                                </content-type-twitter-block>
+                                <twitter-link>
+                                    <href>https://twitter.com/StudentAffNU</href>
+                                    <data-widget-id>381608580614336512</data-widget-id>
+                                </twitter-link>
+                                <twitter-link>
+                                    <href>https://twitter.com/StudentAffNU</href>
+                                    <data-widget-id>381609572332363776</data-widget-id>
+                                </twitter-link>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/twitter/studentaffairs-twitter</path>
+                        <site>SA-STUDENTAFFAIRS</site>
+                        <name>studentaffairs-twitter</name>
+                    </big-list>
+                    <rich-extra type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-carousel-block>
+                                    <value>Yes</value>
+                                </content-type-carousel-block>
+                                <initial-slide>
+                                    <value>random</value>
+                                </initial-slide>
+                                <carousel-section>
+                                    <label>Six Tips for New Northwestern Students</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel-2/images/blog-carousel.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/carousel-2/images/blog-carousel.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>blog-carousel.jpg</name>
+                                    </photo>
+                                    <alt>students ready for the new year</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/students/student-blog/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel-2/links/student-blog</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>student-blog</name>
+                                    </link>
+                                </carousel-section>
+                                <carousel-section>
+                                    <label>Wildcat Welcome!</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/carousel-2/images/wildcatwelcome.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/carousel-2/images/wildcatwelcome.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>wildcatwelcome.jpg</name>
+                                    </photo>
+                                    <alt>students and families cheering during march through the
+                                        arch</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/orientation/incoming-students/wildcat-welcome/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/carousel-2/links/wildcatwelcome</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>wildcatwelcome</name>
+                                    </link>
+                                </carousel-section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/carousel-2/carousel-block</path>
+                        <site>SA-STUDENTAFFAIRS</site>
+                        <name>carousel-block</name>
+                    </rich-extra>
+                    <q-links type="block">
+                        <content>
+                            <system-data-structure>
+                                <content-type-quick-links-block>
+                                    <value>Yes</value>
+                                </content-type-quick-links-block>
+                                <heading>Quick Links Second Part</heading>
+                                <section>
+                                    <label>Vice President</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/second-block/vice_president.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/second-block/vice_president.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>vice_president.jpg</name>
+                                    </photo>
+                                    <alt>Patricia Telles-Irvin head shot</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/second-block/vice-president</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>vice-president</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Dean of Students</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/second-block/dean_of_students.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/second-block/dean_of_students.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>dean_of_students.jpg</name>
+                                    </photo>
+                                    <alt>Todd Adams head shot</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/dos/</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/second-block/dean-of-students</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>dean-of-students</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Student Services</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/second-block/auxiliary.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/second-block/auxiliary.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>auxiliary.jpg</name>
+                                    </photo>
+                                    <alt>Julie Payne-Kirchmeier head shot</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/about-us/auxiliary-services/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/second-block/student-services</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>student-services</name>
+                                    </link>
+                                </section>
+                                <section>
+                                    <label>Student Engagement</label>
+                                    <photo type="file">
+                                        <content/>
+                                        <path>/shared-assets/homepage/panel1/quick-links/images/second-block/engagement.jpg</path>
+                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/quick-links/images/second-block/engagement.jpg</link>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>engagement.jpg</name>
+                                    </photo>
+                                    <alt>Burgwell Howard head shot</alt>
+                                    <link type="symlink">
+                                        <content>
+                                            <system-symlink>http://www.northwestern.edu/studentaffairs/student-engagement/index.html</system-symlink>
+                                        </content>
+                                        <path>/shared-assets/homepage/panel1/quick-links/links/second-block/student-engagement</path>
+                                        <site>SA-STUDENTAFFAIRS</site>
+                                        <name>student-engagement</name>
+                                    </link>
+                                </section>
+                            </system-data-structure>
+                        </content>
+                        <path>/shared-assets/homepage/panel1/quick-links/quick-links-second-block</path>
+                        <site>SA-STUDENTAFFAIRS</site>
+                        <name>quick-links-second-block</name>
+                    </q-links>
+                </panel-container>
                 <text-container>
-                    <main-content>
-                        <center id="yui_3_6_0_1_1391801389074_149"/>
-                    </main-content>
+                    <main-content/>
                     <side-title/>
                     <side-content/>
                 </text-container>
