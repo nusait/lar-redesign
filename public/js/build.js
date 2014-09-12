@@ -13599,6 +13599,7 @@ define('carousel',['jquery', 'swiper', 'browser'], function ($, Swiper, Browser)
         };
 
         Carousel.prototype.createSingleImage = function () {
+            this.el.find('.pagination-container').addClass('hidden');
             this.el.find('.swiper-direction').addClass('hidden');
         }
 
