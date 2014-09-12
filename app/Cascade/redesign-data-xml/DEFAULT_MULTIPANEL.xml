@@ -453,25 +453,6 @@
                                     <value>random</value>
                                 </initial-slide>
                                 <carousel-section>
-                                    <label>Six Tips for New Northwestern Students</label>
-                                    <photo type="file">
-                                        <content/>
-                                        <path>/shared-assets/homepage/panel1/carousel-2/images/blog-carousel.jpg</path>
-                                        <link>site://SA-STUDENTAFFAIRS/shared-assets/homepage/panel1/carousel-2/images/blog-carousel.jpg</link>
-                                        <site>SA-STUDENTAFFAIRS</site>
-                                        <name>blog-carousel.jpg</name>
-                                    </photo>
-                                    <alt>students ready for the new year</alt>
-                                    <link type="symlink">
-                                        <content>
-                                            <system-symlink>http://www.northwestern.edu/studentaffairs/vice-president/students/student-blog/index.html</system-symlink>
-                                        </content>
-                                        <path>/shared-assets/homepage/panel1/carousel-2/links/student-blog</path>
-                                        <site>SA-STUDENTAFFAIRS</site>
-                                        <name>student-blog</name>
-                                    </link>
-                                </carousel-section>
-                                <carousel-section>
                                     <label>Wildcat Welcome!</label>
                                     <photo type="file">
                                         <content/>
