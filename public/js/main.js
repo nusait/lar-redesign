@@ -4,13 +4,11 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
     browser = Browser.start();
 
     dosa = new Dosa();
-    carousel = new Carousel();
     quicklinks = new Quicklinks();
     twitter = new Twitter();
     blog = new Blog();
     departmentHeader = new DepartmentHeader();
 
-    carousel.initialize();
     iphoneViewportFixer.init();
     quicklinks.initialize();
     twitter.initialize();
@@ -51,6 +49,16 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
             });
             maps.push(map);
         });
+    }
+
+    if ($('.swiper-container').length >= 1) {
+        window.carousels = [];
+        $('.news-container').each(function (index, news) {
+            var $news = $(news);
+            var carousel = new Carousel($news);
+            carousels.push(carousel);
+        });
+        console.log('loaded carousels');
     }
 
     console.log("main.js finished loading");
