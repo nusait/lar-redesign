@@ -247,10 +247,10 @@
             <nav aria-labelledby="main-headlines" class="news" role="navigation">
                 <div class="swiper-container news-img-container">
                     <div class="swiper-prev swiper-direction" data-direction="prev">
-                        <div class="prev-icon icon"> </div>
+                        <div class="prev-icon icon"><xsl:comment>keepme</xsl:comment></div>
                     </div>
                     <div class="swiper-next swiper-direction" data-direction="next">
-                        <div class="next-icon icon"> </div>
+                        <div class="next-icon icon"><xsl:comment>keepme</xsl:comment></div>
                     </div>
                     <div class="swiper-wrapper">
                         <xsl:for-each select="carousel-section">
