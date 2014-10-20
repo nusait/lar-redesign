@@ -6,4 +6,5 @@ composer.lock
 /.sass-cache
 /node_modules
 app/Redesign/rendered/*.html
+*.css.map
 *.swp
