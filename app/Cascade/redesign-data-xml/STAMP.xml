@@ -19,16 +19,16 @@
             <name>note</name>
         </dynamic-metadata>
         <system-data-structure definition-path="Redesign/Panel Page Form">
-            <content-type-panel>
+            <content-type-basic>
                 <value>Yes</value>
-            </content-type-panel>
+            </content-type-basic>
             <panel-container>
                 <big-list type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-panel>
+                            <content-type-basic>
                                 <value>Yes</value>
-                            </content-type-panel>
+                            </content-type-basic>
                             <heading>Immediate Help</heading>
                             <section>
                                 <label>NU Police</label>
@@ -111,9 +111,9 @@
                 <rich-extra type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-panel>
+                            <content-type-basic>
                                 <value>Yes</value>
-                            </content-type-panel>
+                            </content-type-basic>
                             <initial-slide>
                                 <value>random</value>
                             </initial-slide>
@@ -164,9 +164,9 @@
                 <q-links type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-panel>
+                            <content-type-basic>
                                 <value>Yes</value>
-                            </content-type-panel>
+                            </content-type-basic>
                             <heading>Quick Links</heading>
                             <section>
                                 <label>Get Help</label>
@@ -443,16 +443,16 @@
                 <name>note</name>
             </dynamic-metadata>
             <system-data-structure definition-path="Redesign/Panel Page Form">
-                <content-type-panel>
+                <content-type-basic>
                     <value>Yes</value>
-                </content-type-panel>
+                </content-type-basic>
                 <panel-container>
                     <big-list type="block">
                         <content>
                             <system-data-structure>
-                                <content-type-panel>
+                                <content-type-basic>
                                     <value>Yes</value>
-                                </content-type-panel>
+                                </content-type-basic>
                                 <heading>Immediate Help</heading>
                                 <section>
                                     <label>NU Police</label>
@@ -535,9 +535,9 @@
                     <rich-extra type="block">
                         <content>
                             <system-data-structure>
-                                <content-type-panel>
+                                <content-type-basic>
                                     <value>Yes</value>
-                                </content-type-panel>
+                                </content-type-basic>
                                 <initial-slide>
                                     <value>random</value>
                                 </initial-slide>
@@ -588,9 +588,9 @@
                     <q-links type="block">
                         <content>
                             <system-data-structure>
-                                <content-type-panel>
+                                <content-type-basic>
                                     <value>Yes</value>
-                                </content-type-panel>
+                                </content-type-basic>
                                 <heading>Quick Links</heading>
                                 <section>
                                     <label>Get Help</label>
