@@ -5,22 +5,26 @@
 		margin-bottom: 10px;
 	}
 	.collapsable-item {
-		$plus: '067';
+		$plus: "067";
 		// $plus: 196;
 
-		$minus: '068';
+		$minus: "068";
 		// $minus: 147;
 		margin-bottom: 10px;
 		&.closed {
 			.collapsable-title:before {
-				@include icon($plus);
+				// @include icon($plus);
+				content: "\F067";
+				font-family: FontAwesome;
 			}
 			.collapsable-content {
 				display: none;
 			}
 		}
 		.collapsable-title:before {
-			@include icon($minus);
+			// @include icon($minus);
+			content: "\F068";
+			font-family: FontAwesome;
 		}
 
 		.collapsable-title {

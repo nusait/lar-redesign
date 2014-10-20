@@ -129,7 +129,9 @@
 						pointer-events: none;
 						&:before {
 							margin: 0 10px;
-							@include icon('107');
+							// @include icon("107");
+							content: "\F107";
+							font-family: FontAwesome;
 							font-size: 1.4em;
 						}
 					}
@@ -151,7 +153,9 @@
 						}
 						& > a {
 							&:before {
-								@include icon('105');
+								// @include icon("105");
+								content: "\F105";
+								font-family: FontAwesome;
 							}
 						}
 					}

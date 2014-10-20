@@ -1,4 +1,4 @@
-$anchor-icon: 18e;
+$anchor-icon: "18e";
 .stamp.no-side-navigation.no-quicklinks ~ * .stack-container{
 	@include prefix(column-count, 4);
 }
@@ -20,7 +20,9 @@ $anchor-icon: 18e;
 			position: absolute;
 			right: 10px;
 			bottom: 10px;
-			@include icon($anchor-icon);
+			// @include icon($anchor-icon);
+			content: "\F18E";
+			font-family: FontAwesome;
 			font-size: 30px;
 			font-weight: 20px;
 		}

@@ -16,7 +16,7 @@ $text-font: 'Lora', serif;
     font-size: 0.95em;
     font-weight: 200;
 }
-@mixin icon($icon-code) {
-    content: "\f#{$icon-code}";
-    font-family: FontAwesome;
-}
+// @mixin icon($icon-code) {
+//     content: "\F#{$icon-code}";
+//     font-family: FontAwesome;
+// }

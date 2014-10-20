@@ -16,7 +16,9 @@ $footer-background-color: $purple;
 		.inner {
 			.arrow-button {
 				&:after {
-					@include icon(106);
+					// @include icon("106");
+					content: "\F106";
+					font-family: FontAwesome;
 				}
 			}
 			.details {
@@ -49,7 +51,9 @@ $footer-background-color: $purple;
 				color: $teal;
 			}
 			&:after {
-				@include icon(107);
+				// @include icon("107");
+				content: "\F107";
+				font-family: FontAwesome;
 			}
 		}
 		.details {

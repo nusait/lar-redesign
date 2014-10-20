@@ -64,7 +64,7 @@
   color: #006e8b;
 }
 .mceContentBody a.external:after {
-  content: ' \f08e';
+  content: '\f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
 }

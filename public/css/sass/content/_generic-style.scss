@@ -38,7 +38,7 @@
 
 	a.external {
 		&:after {
-			content: ' \f08e';
+			content: '\f08e';
 			font-family: 'FontAwesome';
 			font-size: 0.7em;
 			// padding-left: 5px;
@@ -134,7 +134,9 @@
 						position: absolute;
 						right: 10px;
 						top: 5px;
-						@include icon(107);
+						// @include icon("107");
+						content: "\F107";
+						font-family: FontAwesome;
 						font-size: 2em;
 						z-index: 0;
 					}
@@ -166,7 +168,9 @@
 							top: 0;
 							padding: 5px 10px;
 							&:after {
-								@include icon(106);
+								// @include icon("106");
+								content: "\F106";
+								font-family: FontAwesome;
 								font-size: 2em;
 							}
 						}

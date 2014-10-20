@@ -108,7 +108,8 @@
     .swiper-prev {
         .prev-icon {
             &:after {
-                @include icon('053');
+                content: "\F053";
+                font-family: FontAwesome;
             }
         }
     }
@@ -116,7 +117,8 @@
         right: 0;
         .next-icon {
             &:after {
-                @include icon('054');
+                content: "\F054";
+                font-family: FontAwesome;
             }
         }
     }

@@ -11,7 +11,9 @@
 		.crumb-item {
 			display: inline;
 			&:after {
-				@include icon(105);
+				// @include icon("105");
+				content: "\F105";
+				font-family: FontAwesome;
 				margin-left: 5px;
 			}
 			&:last-child {

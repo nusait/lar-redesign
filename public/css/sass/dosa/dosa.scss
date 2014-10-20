@@ -400,7 +400,7 @@ $dosa-footer-text-color: #eeeeee;
                     &.closed h2 {
                         width: $drawer-width - 70px;
                         &:before {
-                            content: "\f105";
+                            content: "\F105";
                             font-family: FontAwesome;
                         }
                     }
@@ -421,7 +421,7 @@ $dosa-footer-text-color: #eeeeee;
                         background-color: $dosa-heading-background-color;
                         &:before {
                             padding: 0 10px;
-                            content: "\f107";
+                            content: "\F107";
                             border-right: 1px solid white;
                             font-family: FontAwesome;
                         }

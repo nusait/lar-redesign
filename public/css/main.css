@@ -403,7 +403,7 @@ html.browser-lt-ie9 body .ie-too-old {
     width: 183px;
   }
   .dosa .dosa-container .dosa-navigation .section.closed h2:before {
-    content: "\f105";
+    content: "\F105";
     font-family: FontAwesome;
   }
   .dosa .dosa-container .dosa-navigation .section h2 {
@@ -421,7 +421,7 @@ html.browser-lt-ie9 body .ie-too-old {
   }
   .dosa .dosa-container .dosa-navigation .section h2:before {
     padding: 0 10px;
-    content: "\f107";
+    content: "\F107";
     border-right: 1px solid white;
     font-family: FontAwesome;
   }
@@ -1229,7 +1229,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
 
   .swiper-prev .prev-icon:after {
-    content: "053";
+    content: "\F053";
     font-family: FontAwesome;
   }
 
@@ -1237,7 +1237,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     right: 0;
   }
   .swiper-next .next-icon:after {
-    content: "054";
+    content: "\F054";
     font-family: FontAwesome;
   }
 
@@ -1397,7 +1397,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin-top: 15px;
 }
 .footer.closed .inner .arrow-button:after {
-  content: "106";
+  content: "\F106";
   font-family: FontAwesome;
 }
 .footer.closed .inner .details {
@@ -1429,7 +1429,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: #317894;
 }
 .footer .inner .arrow-button:after {
-  content: "107";
+  content: "\F107";
   font-family: FontAwesome;
 }
 .footer .inner .details {
@@ -1698,7 +1698,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   position: absolute;
   right: 10px;
   bottom: 10px;
-  content: "18e";
+  content: "\F18E";
   font-family: FontAwesome;
   font-size: 30px;
   font-weight: 20px;
@@ -1830,7 +1830,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: #006e8b;
 }
 .text-block .main-text a.external:after {
-  content: ' \f08e';
+  content: '\f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
 }
@@ -2018,7 +2018,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: #006e8b;
 }
 .text-block .side-text a.external:after {
-  content: ' \f08e';
+  content: '\f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
 }
@@ -2178,14 +2178,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin-bottom: 10px;
 }
 .collapsable-container .collapsable-item.closed .collapsable-title:before {
-  content: "067";
+  content: "\F067";
   font-family: FontAwesome;
 }
 .collapsable-container .collapsable-item.closed .collapsable-content {
   display: none;
 }
 .collapsable-container .collapsable-item .collapsable-title:before {
-  content: "068";
+  content: "\F068";
   font-family: FontAwesome;
 }
 .collapsable-container .collapsable-item .collapsable-title {
@@ -2337,7 +2337,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: #006e8b;
 }
 .basic-container .basic-text-container a.external:after {
-  content: ' \f08e';
+  content: '\f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
 }
@@ -2528,7 +2528,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     position: absolute;
     right: 10px;
     top: 5px;
-    content: "107";
+    content: "\F107";
     font-family: FontAwesome;
     font-size: 2em;
     z-index: 0;
@@ -2562,7 +2562,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     padding: 5px 10px;
   }
   .basic-container .basic-text-container table.sa-table tbody tr th .table-dropdown .close-button:after {
-    content: "106";
+    content: "\F106";
     font-family: FontAwesome;
     font-size: 2em;
   }
@@ -2639,7 +2639,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: #006e8b;
 }
 .detail-container .detail-main a.external:after {
-  content: ' \f08e';
+  content: '\f08e';
   font-family: 'FontAwesome';
   font-size: 0.7em;
 }
@@ -3047,7 +3047,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     color: white;
   }
   .department-header .department-header-inner .department-nav .section.closed .navigation-item-title:before {
-    content: "105";
+    content: "\F105";
     font-family: FontAwesome;
     padding-left: 5px;
     padding-right: 4px;
@@ -3057,7 +3057,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     color: white;
   }
   .department-header .department-header-inner .department-nav .section .navigation-item-title:before {
-    content: "107";
+    content: "\F107";
     font-family: FontAwesome;
     font-size: 1.4em;
     margin: 0 10px;
@@ -3257,7 +3257,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a:before {
     margin: 0 10px;
-    content: "107";
+    content: "\F107";
     font-family: FontAwesome;
     font-size: 1.4em;
   }
@@ -3269,7 +3269,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     display: none;
   }
   .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children.active.closed > a:before {
-    content: "105";
+    content: "\F105";
     font-family: FontAwesome;
   }
   .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children ul {
@@ -3455,7 +3455,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     display: inline;
   }
   .breadcrumbs .crumb-item:after {
-    content: "105";
+    content: "\F105";
     font-family: FontAwesome;
     margin-left: 5px;
   }

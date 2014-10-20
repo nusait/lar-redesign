@@ -251,7 +251,9 @@
 						.navigation-item-title {
 							color: white;
 							&:before {
-								@include icon(105);
+								// @include icon("105");
+								content: "\F105";
+								font-family: FontAwesome;
 								padding-left: 5px;
 								padding-right: 4px;
 							}
@@ -264,7 +266,9 @@
 						text-align: left;
 						color: white;
 						&:before {
-							@include icon(107);
+							// @include icon("107");
+							content: "\F107";
+							font-family: FontAwesome;
 							font-size: 1.4em;
 							margin: 0 10px;
 						}
