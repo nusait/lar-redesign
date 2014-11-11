@@ -102,6 +102,7 @@ if ( ! function_exists('transform'))
 	{
 		$rendered_name = $rendered_name ?: basename($xml_name, '.xml') . '.html';
 		$xml = new DOMDocument;
+		Log::info(xml_path($xml_name));
 		$xml->loadXML(File::get(xml_path($xml_name)));
 
 		$xsl = new DOMDocument;

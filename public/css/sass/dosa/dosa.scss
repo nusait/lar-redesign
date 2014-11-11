@@ -55,7 +55,7 @@ $dosa-footer-text-color: #eeeeee;
                 display: block;
                 position: absolute;
                 left: 28%;
-                bottom: 3px;
+                bottom: 3.5px; //we are not crazy. for some reason, the .5 solves the different pixel interpretation between chrome and firefox.
                 height: $dosa-banner-height;
                 vertical-align: top;
                 background-color: $purple;

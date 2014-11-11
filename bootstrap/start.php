@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Create The Application
@@ -10,28 +9,20 @@
 | the IoC container for the system binding all of the various parts.
 |
 */
-
 $app = new Illuminate\Foundation\Application;
-
-$app->redirectIfTrailingSlash();
-
 /*
 |--------------------------------------------------------------------------
 | Detect The Application Environment
 |--------------------------------------------------------------------------
 |
 | Laravel takes a dead simple approach to your application environments
-| so you can just specify a machine name or HTTP host that matches a
+| so you can just specify a machine name for the host that matches a
 | given environment, then we will automatically detect it for you.
 |
 */
-
 $env = $app->detectEnvironment(array(
-
-	'local' => array('skip-saf-ngari-2.local', 'SAF-Hollywood.local', 'saf-hollywood.ads.northwestern.edu', 'saf-hollywood'),
-
+'local' => array('homestead'),
 ));
-
 /*
 |--------------------------------------------------------------------------
 | Bind Paths
@@ -42,24 +33,20 @@ $env = $app->detectEnvironment(array(
 | may do so within the paths.php file and they will be bound here.
 |
 */
-
 $app->bindInstallPaths(require __DIR__.'/paths.php');
-
 /*
 |--------------------------------------------------------------------------
 | Load The Application
 |--------------------------------------------------------------------------
 |
-| Here we will load the Illuminate application. We'll keep this is in a
+| Here we will load this Illuminate application. We will keep this in a
 | separate location so we can isolate the creation of an application
 | from the actual running of the application with a given request.
 |
 */
-
-$framework = $app['path.base'].'/vendor/laravel/framework/src';
-
+$framework = $app['path.base'].
+'/vendor/laravel/framework/src';
 require $framework.'/Illuminate/Foundation/start.php';
-
 /*
 |--------------------------------------------------------------------------
 | Return The Application
@@ -70,5 +57,4 @@ require $framework.'/Illuminate/Foundation/start.php';
 | from the actual running of the application and sending responses.
 |
 */
-
 return $app;
