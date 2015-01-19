@@ -19,16 +19,16 @@
             <name>note</name>
         </dynamic-metadata>
         <system-data-structure definition-path="Redesign/Panel Page Form">
-            <content-type-basic>
+            <content-type-stack>
                 <value>Yes</value>
-            </content-type-basic>
+            </content-type-stack>
             <panel-container>
                 <big-list type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-basic>
+                            <content-type-stack>
                                 <value>Yes</value>
-                            </content-type-basic>
+                            </content-type-stack>
                             <heading>Immediate Help</heading>
                             <section>
                                 <label>NU Police</label>
@@ -111,9 +111,9 @@
                 <rich-extra type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-basic>
+                            <content-type-stack>
                                 <value>Yes</value>
-                            </content-type-basic>
+                            </content-type-stack>
                             <initial-slide>
                                 <value>random</value>
                             </initial-slide>
@@ -164,9 +164,9 @@
                 <q-links type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-basic>
+                            <content-type-stack>
                                 <value>Yes</value>
-                            </content-type-basic>
+                            </content-type-stack>
                             <heading>Quick Links</heading>
                             <section>
                                 <label>Get Help</label>
@@ -362,12 +362,8 @@
                 <googleanalyticsid>UA-48940105-1</googleanalyticsid>
                 <stamp-class>dept-color-1</stamp-class>
                 <nav-options>
-                    <no-top-ribbon>
-                        <value>Yes</value>
-                    </no-top-ribbon>
-                    <no-top-navigation>
-                        <value>Yes</value>
-                    </no-top-navigation>
+                    <no-top-ribbon/>
+                    <no-top-navigation/>
                     <no-side-navigation/>
                     <no-quicklinks/>
                 </nav-options>
@@ -443,16 +439,16 @@
                 <name>note</name>
             </dynamic-metadata>
             <system-data-structure definition-path="Redesign/Panel Page Form">
-                <content-type-basic>
+                <content-type-stack>
                     <value>Yes</value>
-                </content-type-basic>
+                </content-type-stack>
                 <panel-container>
                     <big-list type="block">
                         <content>
                             <system-data-structure>
-                                <content-type-basic>
+                                <content-type-stack>
                                     <value>Yes</value>
-                                </content-type-basic>
+                                </content-type-stack>
                                 <heading>Immediate Help</heading>
                                 <section>
                                     <label>NU Police</label>
@@ -535,9 +531,9 @@
                     <rich-extra type="block">
                         <content>
                             <system-data-structure>
-                                <content-type-basic>
+                                <content-type-stack>
                                     <value>Yes</value>
-                                </content-type-basic>
+                                </content-type-stack>
                                 <initial-slide>
                                     <value>random</value>
                                 </initial-slide>
@@ -588,9 +584,9 @@
                     <q-links type="block">
                         <content>
                             <system-data-structure>
-                                <content-type-basic>
+                                <content-type-stack>
                                     <value>Yes</value>
-                                </content-type-basic>
+                                </content-type-stack>
                                 <heading>Quick Links</heading>
                                 <section>
                                     <label>Get Help</label>

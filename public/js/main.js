@@ -28,6 +28,23 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
     $('.sa-table').each(function (index, table) {
         new Table($(table));
     });
+    /** Hack for stack page **/
+    (function() {
+        console.log('hi just testing here');
+        var ua = navigator.userAgent.toLowerCase();
+        var items;
+        if (ua.indexOf('safari') != -1) {
+            if (ua.indexOf('chrome') <= -1) {
+                items = document.querySelectorAll('.stack-item');
+                [].forEach.call(items, function (item) {
+                    item.style.overflow = "visible";
+                    item.style["-webkit-filter"] = "none";
+                });
+            }
+        }
+    })();
+
+    /** End of hack for stack page **/
 
     if ($('.stamp.type-map').length == 1 ) {
         window.maps = [];

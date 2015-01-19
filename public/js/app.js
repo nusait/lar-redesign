@@ -34,5 +34,21 @@ function fixHeaderWhenNoCSSCalc() {
         logo.style.marginLeft = marginLeft + 'px';
     }
 }
+
+function fixImageNotShowingOnSafariOnStackPage() {
+    console.log('hi just testing here');
+    var ua = navigator.userAgent.toLowerCase();
+    var items;
+    if (ua.indexOf('safari') != -1) {
+        if (ua.indexOf('chrome') <= -1) {
+            items = document.querySelectorAll('.stack-item');
+            [].forEach.call(items, function (item) {
+                item.style.overflow = "visible";
+            });
+        }
+    }
+}
+
 fixHeaderWhenNoCSSCalc();
+fixImageNotShowingOnSafariOnStackPage();
 window.addEventListener('resize', fixHeaderWhenNoCSSCalc);

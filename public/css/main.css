@@ -1461,7 +1461,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 0 20px;
   width: 23%;
   width: calc(25% - 40px);
-  width: -webkit-calc(25% - 40px);
   vertical-align: top;
   font-size: 1em;
   display: inline-block;
@@ -1471,7 +1470,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 0 20px;
   width: 23%;
   width: calc(25% - 40px);
-  width: -webkit-calc(25% - 40px);
   clear: none;
   vertical-align: top;
   display: inline-block;
@@ -1491,7 +1489,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 0 20px;
   width: 23%;
   width: calc(25% - 40px);
-  width: -webkit-calc(25% - 40px);
   vertical-align: top;
   display: inline-block;
 }
@@ -1504,7 +1501,6 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 0 20px;
   width: 23%;
   width: calc(25% - 40px);
-  width: -webkit-calc(25% - 40px);
   vertical-align: top;
   display: inline-block;
   text-align: center;
@@ -1551,22 +1547,22 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: white;
   font-size: 2em;
 }
-.footer .inner .links .social a[href*=".twitter.com"]:before {
+.footer .inner .links .social a[href*="twitter.com"]:before {
   content: "\f081";
 }
-.footer .inner .links .social a[href*=".facebook.com"]:before {
+.footer .inner .links .social a[href*="facebook.com"]:before {
   content: "\f082";
 }
-.footer .inner .links .social a[href*=".pinterest.com"]:before {
+.footer .inner .links .social a[href*="pinterest.com"]:before {
   content: "\f0d3";
 }
-.footer .inner .links .social a[href*=".linkedin.com"]:before {
+.footer .inner .links .social a[href*="linkedin.com"]:before {
   content: "\f08c";
 }
-.footer .inner .links .social a[href*=".vimeo.com"]:before {
+.footer .inner .links .social a[href*="vimeo.com"]:before {
   content: "\f16a";
 }
-.footer .inner .links .social a[href*=".youtube.com"]:before {
+.footer .inner .links .social a[href*="youtube.com"]:before {
   content: "\f16a";
 }
 .footer .inner .links ul {
@@ -1651,14 +1647,12 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     padding: 0 20px;
     width: 23%;
     width: calc(25% - 40px);
-    width: -webkit-calc(25% - 40px);
   }
   .footer .inner .details .address {
     float: left;
     padding: 0 20px;
     width: 23%;
     width: calc(25% - 40px);
-    width: -webkit-calc(25% - 40px);
     clear: none;
   }
 }
@@ -3378,7 +3372,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .dept-quick-links-outer .dept-quick-links-container:before {
   width: 90%;
   width: calc(100% - 20px);
-  width: -webkit-calc(100%-20px);
+  width: -webkit-calc(100% - 20px);
 }
 .dept-quick-links-outer .dept-quick-links-container .dept-quick-links-title {
   font-size: 0.9em;

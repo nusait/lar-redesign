@@ -6,7 +6,6 @@ $footer-background-color: $purple;
 	padding: 0 $padding;
 	width: 23%;
 	width: calc(25% - #{$padding * 2});
-	width: -webkit-calc(25% - #{$padding * 2});
 }
 .footer {
 	clear: both;
@@ -183,22 +182,22 @@ $footer-background-color: $purple;
 				    //     content: "\f081";
 				    // }
 				}
-				a[href*=".twitter.com"]:before {
+				a[href*="twitter.com"]:before {
 					content: "\f081";
 				}
-				a[href*=".facebook.com"]:before {
+				a[href*="facebook.com"]:before {
 					content: "\f082";
 				}
-				a[href*=".pinterest.com"]:before {
+				a[href*="pinterest.com"]:before {
 					content: "\f0d3";
 				}
-				a[href*=".linkedin.com"]:before {
+				a[href*="linkedin.com"]:before {
 					content: "\f08c";
 				}
-				a[href*=".vimeo.com"]:before {
+				a[href*="vimeo.com"]:before {
 					content: "\f16a";
 				}
-				a[href*=".youtube.com"]:before {
+				a[href*="youtube.com"]:before {
 					content: "\f16a";
 				}
 			}
