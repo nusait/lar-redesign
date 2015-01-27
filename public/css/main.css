@@ -1679,23 +1679,36 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-overflow: none;
 }
 .stack-container a.stack-item {
-  position: relative;
   display: block;
   color: black;
+  transition: background-color 0.3s;
 }
 .stack-container a.stack-item:hover {
-  -ms-filter: opacity(75%);
-  -webkit-filter: opacity(75%);
-  filter: opacity(75%);
+  color: white;
 }
-.stack-container a.stack-item:before {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-  content: "\F18E";
-  font-family: FontAwesome;
-  font-size: 30px;
-  font-weight: 20px;
+.stamp.dept-color-1 ~ .viewport .stack-container a.stack-item:hover {
+  background-color: #3B1151;
+}
+.stamp.dept-color-2 ~ .viewport .stack-container a.stack-item:hover {
+  background-color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .stack-container a.stack-item:hover {
+  background-color: #5C2483;
+}
+.stamp.dept-color-4 ~ .viewport .stack-container a.stack-item:hover {
+  background-color: #46BAB8;
+}
+.stamp.dept-color-1 ~ .viewport .stack-container a.stack-item .stack-text {
+  outline: #3B1151 5px solid;
+}
+.stamp.dept-color-2 ~ .viewport .stack-container a.stack-item .stack-text {
+  outline: #006e8b 5px solid;
+}
+.stamp.dept-color-3 ~ .viewport .stack-container a.stack-item .stack-text {
+  outline: #5C2483 5px solid;
+}
+.stamp.dept-color-4 ~ .viewport .stack-container a.stack-item .stack-text {
+  outline: #46BAB8 5px solid;
 }
 .stack-container .stack-item {
   -webkit-column-break-inside: avoid;
@@ -1709,11 +1722,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   overflow: hidden;
   margin-left: 10px;
   margin-bottom: 10px;
+  line-height: 0;
 }
 .stack-container .stack-item .stack-image img {
   width: 100%;
 }
 .stack-container .stack-item .stack-text {
+  line-height: normal;
   padding: 10px;
 }
 

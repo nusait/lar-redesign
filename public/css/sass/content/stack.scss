@@ -8,36 +8,41 @@ $anchor-icon: "18e";
 	padding-right: 20px;
 	text-overflow: none;
 	a.stack-item {
-		position: relative;
+//		position: relative;  /*due to bug in chrome, second column in mobile cannot be tapped*/
 		display:block;
 		color: black;
+		transition: background-color 0.3s;
 		&:hover {
-			-ms-filter: opacity(75%);
-			-webkit-filter: opacity(75%);
-			filter: opacity(75%);
+			@include dept-colors-main('background-color');
+			color: white;
 		}
-		&:before {
-			position: absolute;
-			right: 10px;
-			bottom: 10px;
+		.stack-text {
+			@include dept-colors-main('outline', null, 5px solid);
+		}
+//		&:before {
+//			position: absolute;
+//			right: 10px;
+//			bottom: 10px;
 			// @include icon($anchor-icon);
-			content: "\F18E";
-			font-family: FontAwesome;
-			font-size: 30px;
-			font-weight: 20px;
-		}
+//			content: "\F18E";
+//			font-family: FontAwesome;
+//			font-size: 30px;
+//			font-weight: 20px;
+//		}
 	}
 	.stack-item {
 		@include prefix(column-break-inside, avoid);
 		@include card;
 		margin-left: 10px;
 		margin-bottom: 10px;
+		line-height: 0;
 		.stack-image {
 			img {
 				width: 100%;
 			}
 		}
 		.stack-text {
+			line-height: normal;
 			padding: 10px;
 		}
 	}

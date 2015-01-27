@@ -32,6 +32,46 @@
         <div class="stack-description">Description: I'm quiet.</div>
       </div>
     </div>
+      <a class="stack-item" href="http://www.google.com">
+          <div class="stack-image"><img src="http://lorempixel.com/500/500/animals/" /></div>
+          <div class="stack-text">
+              <div class="stack-title">Hao Luo</div>
+              <div class="stack-subtitle">Title: Administrator</div>
+              <div class="stack-description">Description: YAY!! I'm here!!</div>
+          </div>
+      </a>
+      <a class="stack-item" href="http://www.google.com">
+          <div class="stack-image"><img src="http://lorempixel.com/500/500/animals/" /></div>
+          <div class="stack-text">
+              <div class="stack-title">Hao Luo</div>
+              <div class="stack-subtitle">Title: Administrator</div>
+              <div class="stack-description">Description: YAY!! I'm here!!</div>
+          </div>
+      </a>
+      <a class="stack-item" href="http://www.google.com">
+          <div class="stack-image"><img src="http://lorempixel.com/500/500/animals/" /></div>
+          <div class="stack-text">
+              <div class="stack-title">Hao Luo</div>
+              <div class="stack-subtitle">Title: Administrator</div>
+              <div class="stack-description">Description: YAY!! I'm here!!</div>
+          </div>
+      </a>
+      <a class="stack-item" href="http://www.google.com">
+          <div class="stack-image"><img src="http://lorempixel.com/500/500/animals/" /></div>
+          <div class="stack-text">
+              <div class="stack-title">Hao Luo</div>
+              <div class="stack-subtitle">Title: Administrator</div>
+              <div class="stack-description">Description: YAY!! I'm here!!</div>
+          </div>
+      </a>
+      <a class="stack-item" href="http://www.google.com">
+          <div class="stack-image"><img src="http://lorempixel.com/500/500/animals/" /></div>
+          <div class="stack-text">
+              <div class="stack-title">Hao Luo</div>
+              <div class="stack-subtitle">Title: Administrator</div>
+              <div class="stack-description">Description: YAY!! I'm here!!</div>
+          </div>
+      </a>
 <!--     <div class="stack-item">
       <div class="stack-image"><img src="http://lorempixel.com/360/240/city/" /></div>
       <div class="stack-text">
