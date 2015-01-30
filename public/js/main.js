@@ -1,5 +1,5 @@
-require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms', 'components/basicImage', 'components/map'],
-    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms, BasicImage, SaMap) {
+require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms', 'components/basicImage', 'components/map', 'removeTabIndexOnMobileNav', 'forceDownloadLink'],
+    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms, BasicImage, SaMap, RemoveTabIndex, ForceDownloadLink) {
 
     browser = Browser.start();
 
@@ -20,6 +20,8 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
     DepartmentFooter.initialize();
     Collapsable.initialize();
     LevelNavigation.initialize();
+    RemoveTabIndex.initialize();
+    ForceDownloadLink.initialize();
 
     Machforms.makeForm();
     BasicImage.initialize();
@@ -77,6 +79,10 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
         });
         console.log('loaded carousels');
     }
+
+    /** Remove Nav TabIndex **/
+
+    /** End Remove nav TabIndex **/
 
     console.log("main.js finished loading");
 });

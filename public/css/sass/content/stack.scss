@@ -17,7 +17,7 @@ $anchor-icon: "18e";
 			color: white;
 		}
 		.stack-text {
-			@include dept-colors-main('outline', null, 5px solid);
+			@include dept-colors-main('border-top', null, 5px solid);
 		}
 //		&:before {
 //			position: absolute;

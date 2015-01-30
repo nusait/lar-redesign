@@ -1699,16 +1699,16 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: #46BAB8;
 }
 .stamp.dept-color-1 ~ .viewport .stack-container a.stack-item .stack-text {
-  outline: #3B1151 5px solid;
+  border-top: #3B1151 5px solid;
 }
 .stamp.dept-color-2 ~ .viewport .stack-container a.stack-item .stack-text {
-  outline: #006e8b 5px solid;
+  border-top: #006e8b 5px solid;
 }
 .stamp.dept-color-3 ~ .viewport .stack-container a.stack-item .stack-text {
-  outline: #5C2483 5px solid;
+  border-top: #5C2483 5px solid;
 }
 .stamp.dept-color-4 ~ .viewport .stack-container a.stack-item .stack-text {
-  outline: #46BAB8 5px solid;
+  border-top: #46BAB8 5px solid;
 }
 .stack-container .stack-item {
   -webkit-column-break-inside: avoid;
@@ -3690,6 +3690,12 @@ body .viewport .main .main-window .middle .content .main-container {
   }
   html.division-page body .viewport .main .main-window .middle .content .divider-h1 {
     display: block;
+  }
+  body .viewport .main .main-window .middle .content ul {
+    padding-left: 1.1em;
+  }
+  body .viewport .main .main-window .middle .content ol {
+    padding-left: 1.3em;
   }
 }
 

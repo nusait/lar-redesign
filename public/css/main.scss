@@ -162,7 +162,7 @@ body {
                     .content {
                         .title {
                             position: relative;
-                            //background-color: blue;
+                            //background-color: blue
                             margin: 5px 40px;
                             margin-top: 20px;
                             @include display(flex);
@@ -201,6 +201,12 @@ body {
                             }
                         }
                         .divider {
+                        }
+                        ul {
+                            padding-left: 1.1em;
+                        }
+                        ol {
+                            padding-left: 1.3em;
                         }
                         h2 {
                         }

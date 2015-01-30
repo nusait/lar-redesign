@@ -14533,8 +14533,88 @@ define('components/map',['leaflet', 'underscore'], function (L, _) {
 // 	}
 // );
 
-require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms', 'components/basicImage', 'components/map'],
-    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms, BasicImage, SaMap) {
+define('removeTabIndexOnMobileNav',['jquery', 'browser'], function ($, Browser) {
+    var removeTabIndex = {
+        initialize: function() {
+            function removeTabIndexOnNav() {
+                $('.department-header-inner .department-nav .section').removeAttr('tabindex');
+            }
+
+            function addTabIndexOnNav() {
+                $('.department-header-inner .department-nav .section').attr('tabindex', '0');
+            }
+
+            Browser.onSmallView(function () {
+                removeTabIndexOnNav();
+            });
+            Browser.onMediumLargeView(function () {
+                addTabIndexOnNav();
+            });
+
+            $(document.documentElement).one('touchstart', function () {
+                if (Browser.detectView() === 'small') {
+                    removeTabIndexOnNav();
+                }
+            });
+        }
+    };
+    return removeTabIndex;
+});
+define('forceDownloadLink',['jquery'], function ($) {
+    var forceDownloadLink = {
+        pattern: /^sa-downloadfile-/,
+        initialize: function() {
+            var ins = this;
+           $('#main a').each(function (index) {
+                $link = $(this);
+               var url = $link.attr('href');
+               if (ins.isDownload(ins.getLastSegment(url))) {
+                   $link.attr('download', ins.getDownloadFileName(ins.getLastSegment(url)));
+               }
+           });
+        },
+        isDownload:function (fileName) {
+            return this.pattern.test(fileName);
+        },
+        getDownloadFileName: function (fileName) {
+            var str = fileName.replace('sa-downloadfile-', '');
+            var length = str.lastIndexOf('.');
+            return str.substr(0, length);
+        },
+        getLastSegment: function(url) {
+            var str = url;
+            var fileNameIndex;
+            var noSlash;
+            var length;
+            var filename;
+
+            if (str.indexOf('http://') > -1 || str.indexOf('https://') > -1) {
+                noSlash = str.replace('//', '');
+                fileNameIndex = noSlash.lastIndexOf("/") + 1;
+                lastIndex = noSlash.indexOf('?');
+                if (fileNameIndex == 0) {
+                    return false;
+                } else if (lastIndex > -1) {
+                    length = lastIndex - fileNameIndex;
+                    return noSlash.substr(fileNameIndex, length);
+                }
+
+                return noSlash.substr(fileNameIndex);
+            }
+
+            fileNameIndex = str.lastIndexOf("/") + 1;
+            lastIndex = str.indexOf('?');
+            if (lastIndex > -1) {
+                length = lastIndex - fileNameIndex;
+                return str.substr(fileNameIndex, length);
+            }
+            return str.substr(fileNameIndex);
+        }
+    };
+    return forceDownloadLink;
+});
+require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms', 'components/basicImage', 'components/map', 'removeTabIndexOnMobileNav', 'forceDownloadLink'],
+    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms, BasicImage, SaMap, RemoveTabIndex, ForceDownloadLink) {
 
     browser = Browser.start();
 
@@ -14555,6 +14635,8 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
     DepartmentFooter.initialize();
     Collapsable.initialize();
     LevelNavigation.initialize();
+    RemoveTabIndex.initialize();
+    ForceDownloadLink.initialize();
 
     Machforms.makeForm();
     BasicImage.initialize();
@@ -14612,6 +14694,10 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
         });
         console.log('loaded carousels');
     }
+
+    /** Remove Nav TabIndex **/
+
+    /** End Remove nav TabIndex **/
 
     console.log("main.js finished loading");
 });
