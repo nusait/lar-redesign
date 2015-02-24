@@ -144,6 +144,9 @@
 					</tr>
 				</tbody>
 			</table>
+			<a title="Activate Audio Player for Air" href="http://www.northwestern.edu/religious-life/wp-content/uploads/02%20Air%20de%20Trompette%20(T).mp3">Listen to Air De Trompette</a><br>
+			<a title="Activate Audio Player for In dir" href="http://www.northwestern.edu/religious-life/wp-content/uploads/03%20In%20dir%20ist%20Freude%20(_In%20Thee%20is%20Gladness_)%20(O).mp3">Listen to In dir ist Freude</a><br>
+			<a title="Activate Audio Player for Jesu" href="http://www.northwestern.edu/religious-life/wp-content/uploads/04%20Jesu,%20Joy%20of%20Our%20Desiring%20(O,%20T,%20Str.,%20arr.%20for%20others).mp3">Listen to Jesu, Joy of Our Desiring</a><br>
 		</div>
 	</div>
 </div>
