@@ -1,0 +1,51 @@
+<system-index-block current-time="1427918548231" name="ANYSITE-just-current-page" type="folder">
+    <calling-page>
+        <system-page current="true" id="768d4cd98169775b2006c9b279ed3989">
+            <name>index</name>
+            <is-published>true</is-published>
+            <last-published-on>1427918401926</last-published-on>
+            <last-published-by>cew904</last-published-by>
+            <title>Elder Hall Example</title>
+            <keywords>change, the, keywords, you, want, to, key, in, on</keywords>
+            <description>Change me to page description that Google may pass on to
+                searchers</description>
+            <display-name>Elder Hall Example</display-name>
+            <path>/requests/support-request/iframe-container-example/index</path>
+            <site>SA-SAIT</site>
+            <link>site://SA-SAIT/requests/support-request/iframe-container-example/index</link>
+            <created-by>cew904</created-by>
+            <created-on>1427918113963</created-on>
+            <last-modified-by>cew904</last-modified-by>
+            <last-modified>1427918382887</last-modified>
+            <dynamic-metadata>
+                <name>note</name>
+            </dynamic-metadata>
+            <system-data-structure definition-path="Redesign/iFrame Form">
+                <content-type-iframe>
+                    <value>Yes</value>
+                </content-type-iframe>
+                <top-text>
+                    <p>
+                        <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut commodo ex
+                            in felis interdum pellentesque. Aliquam lobortis turpis in est molestie,
+                            vitae dapibus diam molestie.</span>
+                    </p>
+                </top-text>
+                <iframe-url>http://go.dosa.northwestern.edu/shared/panofiles/output/ElderDouble.html</iframe-url>
+                <height>530px</height>
+                <width>100%</width>
+                <bottom-text>
+                    <p>
+                        <span>Nunc ac eros tellus. Praesent gravida dui sagittis lorem varius, non
+                            vehicula nulla malesuada. Integer ex sem, tempus id magna ac, interdum
+                            dapibus eros. Sed facilisis turpis sit amet orci dapibus porta. Fusce
+                            suscipit est a nunc convallis, at vulputate nisi pretium. Donec feugiat
+                            dignissim velit, quis dictum ex lobortis sed. Pellentesque feugiat
+                            turpis elit. Integer et dolor sollicitudin, bibendum diam at, consequat
+                            leo.</span>
+                    </p>
+                </bottom-text>
+            </system-data-structure>
+        </system-page>
+    </calling-page>
+</system-index-block>
