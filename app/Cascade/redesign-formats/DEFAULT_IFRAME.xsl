@@ -21,7 +21,7 @@
                             <xsl:copy-of select="top-text/node()"/>
                         </div>
 
-                        <iframe class="sa-iframe" height="{$height}" width="{$width}" frameborder="0" src="{$iframe-url}"><xsl:text> </xsl:text></iframe>
+                        <iframe allowfullscreen="allowfullscreen" class="sa-iframe" height="{$height}" width="{$width}" frameborder="0" src="{$iframe-url}"><xsl:text> </xsl:text></iframe>
 
                         <div class="after-text">
                             <xsl:copy-of select="bottom-text/node()"/>
