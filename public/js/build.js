@@ -14718,7 +14718,7 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
 
     Machforms.makeForm();
     BasicImage.initialize();
-    
+
     window.tables = [];
     $('.sa-table').each(function (index, table) {
         new Table($(table));

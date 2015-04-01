@@ -140,3 +140,11 @@ Route::get('embed', function () {
 	$type = 'embed';
 	return View::make(get_template(), compact('DEFAULT', 'type'));
 });
+
+Route::get('iframe', function () {
+	transform_stamp_xml('iframe');
+	generate_shared();
+	$DEFAULT = get_default('iframe');
+	$type = 'iframe';
+	return View::make(get_template(), compact('DEFAULT', 'type'));
+});

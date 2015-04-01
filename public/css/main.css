@@ -3549,6 +3549,10 @@ a img {
   border: 0;
 }
 
+.sa-iframe {
+  border: none;
+}
+
 body .ie-too-old a {
   text-decoration: underline;
   color: blue;

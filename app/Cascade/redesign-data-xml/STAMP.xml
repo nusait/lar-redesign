@@ -19,16 +19,16 @@
             <name>note</name>
         </dynamic-metadata>
         <system-data-structure definition-path="Redesign/Panel Page Form">
-            <content-type-basic>
+            <content-type-collapsible>
                 <value>Yes</value>
-            </content-type-basic>
+            </content-type-collapsible>
             <panel-container>
                 <big-list type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-basic>
+                            <content-type-collapsible>
                                 <value>Yes</value>
-                            </content-type-basic>
+                            </content-type-collapsible>
                             <heading>Immediate Help</heading>
                             <section>
                                 <label>NU Police</label>
@@ -111,9 +111,9 @@
                 <rich-extra type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-basic>
+                            <content-type-collapsible>
                                 <value>Yes</value>
-                            </content-type-basic>
+                            </content-type-collapsible>
                             <initial-slide>
                                 <value>random</value>
                             </initial-slide>
@@ -164,9 +164,9 @@
                 <q-links type="block">
                     <content>
                         <system-data-structure>
-                            <content-type-basic>
+                            <content-type-collapsible>
                                 <value>Yes</value>
-                            </content-type-basic>
+                            </content-type-collapsible>
                             <heading>Quick Links</heading>
                             <section>
                                 <label>Get Help</label>
