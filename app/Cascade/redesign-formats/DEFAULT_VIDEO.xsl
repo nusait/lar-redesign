@@ -40,7 +40,7 @@
                             <xsl:otherwise>
                                 <div class="video-wrapper">
                                     <iframe allowfullscreen="allowfullscreen" frameborder="0"
-                                        src="{$iframe-src}"/>
+                                        src="{$iframe-src}"><xsl:text> </xsl:text></iframe>
                                 </div>
                             </xsl:otherwise>
                         </xsl:choose>
