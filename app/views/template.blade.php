@@ -22,7 +22,12 @@
         <link rel="apple-touch-icon" href="{{asset('img/icons/icon152.png')}}" sizes="152x152">
 
         <link rel="stylesheet" href="{{asset('css/main.css')}}{{'?'.rand(0,10000)}}" />
-
+        @if (App::environment() === 'local')
+            <script id="script-dev" src="{{asset('js/requireconfig.js')}}"></script>
+            <script data-main="{{asset('js/main')}}" src="{{asset('assets/requirejs/require.js')}}"></script>
+        @else
+            <script src="{{asset('js/build-min.js')}}"></script>
+        @endif
     </head>
     <body>
         <div class="stamp dept-color-2 type-{{$type}}"></div>
@@ -123,12 +128,7 @@
             </div>
         </div>
 
-        @if (App::environment() === 'local')
-          <script id="script-dev" src="{{asset('js/requireconfig.js')}}"></script>
-          <script data-main="{{asset('js/main')}}" src="{{asset('assets/requirejs/require.js')}}"></script>
-        @else
-          <script src="{{asset('js/build-min.js')}}"></script>
-        @endif
+
 
     </body>
 </html>
