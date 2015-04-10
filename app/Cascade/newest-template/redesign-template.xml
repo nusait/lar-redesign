@@ -100,7 +100,7 @@
                                     <nav aria-label="Student Affairs Top Links" class="dosa-banner-navigation" role="navigation">
                                         <system-region name="DOSA_NAV_DESKTOP"/>
                                     </nav>
-                                    <a href="http://www.northwestern.edu" class="northwestern-title">Northwestern University</a>
+                                    <a class="northwestern-title" href="http://www.northwestern.edu">Northwestern University</a>
                                 </div>
                                 <div class="inner-right"></div>
                             </header>
@@ -131,10 +131,6 @@
             </div>
         </div>
         
-        <!--#protect
-        <script src="//go.dosa.northwestern.edu/shared/lar-redesign/js/build-min.js"></script>
-        #protect-->
-
         <!--#passthrough
         <script>
         

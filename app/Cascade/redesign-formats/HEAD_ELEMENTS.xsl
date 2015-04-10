@@ -3,9 +3,7 @@
     <xsl:output indent="yes" method="xml" omit-xml-declaration="yes"/>
     <xsl:template match="/">
         <xsl:variable name="sitename">
-            <xsl:value-of
-                select="system-index-block/system-block[name='Settings']/system-data-structure/sitename"
-            />
+            <xsl:value-of select="system-index-block/system-block[name='Settings']/system-data-structure/sitename"/>
         </xsl:variable>
         <xsl:for-each select="system-index-block/calling-page/system-page">
             <title><xsl:value-of select="title"/> : <xsl:value-of select="$sitename"/> |
@@ -18,5 +16,6 @@
             img[onclick]{
                 display:none !important;
             }</style>
+        <script src="//go.dosa.northwestern.edu/shared/lar-redesign/js/build-min.js"></script>
     </xsl:template>
 </xsl:stylesheet>
