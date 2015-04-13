@@ -13,19 +13,10 @@
                         <div>
                             <xsl:copy-of select="default/node()"/>
                         </div>
-                        <div>
-                            <style scoped="scoped" type="text/css">
-                                @import url(https://static.forms.northwestern.edu/1/css/bootstrap.min.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/bootstrap-responsive.min.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/northwestern-bootstrap.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/northwestern-forms.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/northwestern-forms-print.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/northwestern-forms-responsive.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/northwestern-layout.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/northwestern-layout-responsive.css);
-                                @import url(https://static.forms.northwestern.edu/1/css/weinberg.css);
-                            </style>
-                            <div id="form-container"> </div>                          
+                        <div class="bootstrap-styles" style="background-color: transparent">
+                        
+                            <div id="form-container"> </div>  
+                            
                         </div>
                         
                     </div>

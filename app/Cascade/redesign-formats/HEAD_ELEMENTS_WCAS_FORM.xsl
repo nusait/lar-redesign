@@ -34,17 +34,9 @@
                 display:none !important;
             }</style>
             
-        <!--    
-        <link href="//static.forms.northwestern.edu/1/css/bootstrap.min.css" rel="stylesheet"/>
-        <link href="//static.forms.northwestern.edu/1/css/bootstrap-responsive.min.css" rel="stylesheet"/> 
-        <link href="//static.forms.northwestern.edu/1/css/northwestern-bootstrap.css" rel="stylesheet"/> 
-        <link href="//static.forms.northwestern.edu/1/css/northwestern-forms.css" rel="stylesheet"/> 
-        <link href="//static.forms.northwestern.edu/1/css/northwestern-forms-print.css" rel="stylesheet"/> 
-        <link href="//static.forms.northwestern.edu/1/css/northwestern-forms-responsive.css" rel="stylesheet"/> 
-        <link href="//static.forms.northwestern.edu/1/css/northwestern-layout.css" rel="stylesheet"/> 
-        <link href="//static.forms.northwestern.edu/1/css/northwestern-layout-responsive.css" rel="stylesheet"/> 
-        <link href="//static.forms.northwestern.edu/1/css/weinberg.css" rel="stylesheet"/> 
-        -->
+           
+        <link href="https://static.forms.northwestern.edu/1/css/bootstrap.namespaced.min.css" rel="stylesheet"/>
+        <link href="https://static.forms.northwestern.edu/1/css/bootstrap-responsive.namespaced.min.css" rel="stylesheet"/> 
         
         <link href="https://go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon57.png" rel="apple-touch-icon" sizes="57x57"/>
         <link href="https://go.dosa.northwestern.edu/shared/lar-redesign/img/icons/icon72.png" rel="apple-touch-icon" sizes="72x72"/>
