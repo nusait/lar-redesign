@@ -40,8 +40,38 @@
                                 <xsl:value-of select="'basic-image-container image-'"/>
                                 <xsl:value-of select="placement/value"/>
                             </xsl:attribute>
-                            <div class="basic-image-item">
-                                <img src="{photo/link}" alt="{alt-text}"/>
+                            <xsl:variable name="element">
+                                <xsl:choose>
+                                    <xsl:when
+                                            test="photo-link[@type='symlink'] or photo-link[@type='file'] or photo-link[@type='page']">
+                                        <xsl:value-of select="'a'"/>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="'div'"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </xsl:variable>
+                            <xsl:element name="{$element}">
+                                <xsl:attribute name="class">
+                                    <xsl:value-of select="'basic-image-item'"/>
+                                </xsl:attribute>
+                                <xsl:if test="$element = 'a'">
+                                    <xsl:attribute name="href">
+                                        <xsl:choose>
+                                            <xsl:when test="photo-link[@type='page']">
+                                                <xsl:value-of select="photo-link/link"/>
+                                            </xsl:when>
+                                            <xsl:when test="photo-link[@type='file']">
+                                                <xsl:value-of select="photo-link/link"/>
+                                            </xsl:when>
+                                            <xsl:when test="photo-link[@type='symlink']">
+                                                <xsl:value-of select="photo-link/content/system-symlink"
+                                                        />
+                                            </xsl:when>
+                                        </xsl:choose>
+                                    </xsl:attribute>
+                                </xsl:if>
+                                <img src="{photo/link}" alt="{alt-text}" />
                                 <xsl:if test="description != ''">
                                     <div class="basic-image-caption">
                                         <p>
@@ -49,8 +79,62 @@
                                         </p>
                                     </div>
                                 </xsl:if>
-                            </div>
+                            </xsl:element>
+                            <!--<div class="basic-image-item">-->
+                                <!--<img src="{photo/link}" alt="{alt-text}"/>-->
+                                <!--<xsl:if test="description != ''">-->
+                                    <!--<div class="basic-image-caption">-->
+                                        <!--<p>-->
+                                            <!--<xsl:value-of select="description"/>-->
+                                        <!--</p>-->
+                                    <!--</div>-->
+                                <!--</xsl:if>-->
+                            <!--</div>-->
                         </div>
+
+                        <!--<xsl:variable name="element">-->
+                            <!--<xsl:choose>-->
+                                <!--<xsl:when-->
+                                        <!--test="photo-link[@type='symlink'] or photo-link[@type='file'] or photo-link[@type='page']">-->
+                                    <!--<xsl:value-of select="'a'"/>-->
+                                <!--</xsl:when>-->
+                                <!--<xsl:otherwise>-->
+                                    <!--<xsl:value-of select="'div'"/>-->
+                                <!--</xsl:otherwise>-->
+                            <!--</xsl:choose>-->
+                        <!--</xsl:variable>-->
+                        <!--<xsl:element name="{$element}">-->
+                            <!--<xsl:attribute name="class">-->
+                                <!--<xsl:value-of select="'basic-image-container image-'"/>-->
+                                <!--<xsl:value-of select="placement/value"/>-->
+                            <!--</xsl:attribute>-->
+                            <!--<xsl:if test="$element = 'a'">-->
+                                <!--<xsl:attribute name="href">-->
+                                    <!--<xsl:choose>-->
+                                        <!--<xsl:when test="link[@type='page']">-->
+                                            <!--<xsl:value-of select="photo-link/link"/>-->
+                                        <!--</xsl:when>-->
+                                        <!--<xsl:when test="link[@type='file']">-->
+                                            <!--<xsl:value-of select="photo-link/link"/>-->
+                                        <!--</xsl:when>-->
+                                        <!--<xsl:when test="link[@type='symlink']">-->
+                                            <!--<xsl:value-of select="photo-link/content/system-symlink"-->
+                                                    <!--/>-->
+                                        <!--</xsl:when>-->
+                                    <!--</xsl:choose>-->
+                                <!--</xsl:attribute>-->
+                            <!--</xsl:if>-->
+                            <!--<div class="basic-image-item">-->
+                                <!--<img src="{photo/link}" alt="{alt-text}" />-->
+                                <!--<xsl:if test="description != ''">-->
+                                    <!--<div class="basic-image-caption">-->
+                                        <!--<p>-->
+                                            <!--<xsl:value-of select="description"/>-->
+                                        <!--</p>-->
+                                    <!--</div>-->
+                                <!--</xsl:if>-->
+                            <!--</div>-->
+                        <!--</xsl:element>-->
                         <div class="basic-text-container">
                             <xsl:copy-of select="default/node()"/>
                         </div>

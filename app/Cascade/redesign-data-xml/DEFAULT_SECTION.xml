@@ -106,11 +106,14 @@
                         <site>SA-FOOD</site>
                         <name>TAJ-Presenting-2012.jpg</name>
                     </photo>
+                    <photo-link type="symlink">
+                        <path>/</path>
+                    </photo-link>
                     <placement>
                         <value>right</value>
                     </placement>
                     <alt-text>Change this alt text</alt-text>
-                    <description>Here is a description</description>
+                    <description>Here is a new description</description>
                 </section>
             </system-data-structure>
         </system-page>

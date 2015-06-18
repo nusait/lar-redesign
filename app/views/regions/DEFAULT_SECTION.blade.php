@@ -36,12 +36,12 @@
 			<h2>Some Heading</h2>
 		</div>
 		<div class="basic-image-container">
-			<div class="basic-image-item">
+			<a class="basic-image-item" href="http://google.com">
 				<img alt="a placeholder image of height and width 600 pixels" src="http://placehold.it/600x600"/>
 				<div class="basic-image-caption">
 					<p>You'll want to swap in your own photo here - No Link</p>
 				</div>
-			</div>
+			</a>
 		</div>
 		<div class="basic-text-container">
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi odio mauris, auctor ut varius non, tempus nec nisi. Quisque at tellus risus. Aliquam erat volutpat. Proin et dolor magna. Sed vel metus justo. Mauris eu metus massa. Duis viverra ultricies nisl, ut pharetra eros hendrerit non. Phasellus laoreet libero non eros rhoncus sed iaculis ante molestie. Etiam arcu purus, dictum a tincidunt id, ornare sed orci. Curabitur ornare ornare nulla quis tincidunt. Morbi nisi elit, mattis nec bibendum vel, facilisis eu ipsum. Phasellus non dolor erat, in placerat lacus. Aliquam pulvinar, est eu commodo vulputate, neque elit molestie lorem, sed vestibulum felis erat et risus. Nulla non velit odio.
