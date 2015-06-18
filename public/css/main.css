@@ -1560,10 +1560,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   content: "\f08c";
 }
 .footer .inner .links .social a[href*="vimeo.com"]:before {
-  content: "\f16a";
+  content: "\f194";
 }
 .footer .inner .links .social a[href*="youtube.com"]:before {
-  content: "\f16a";
+  content: "\f166";
+}
+.footer .inner .links .social a[href*="instagram.com"]:before {
+  content: "\f16d";
 }
 .footer .inner .links ul {
   display: inline-block;

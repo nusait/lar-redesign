@@ -195,11 +195,14 @@ $footer-background-color: $purple;
 					content: "\f08c";
 				}
 				a[href*="vimeo.com"]:before {
-					content: "\f16a";
+					content: "\f194";
 				}
 				a[href*="youtube.com"]:before {
-					content: "\f16a";
+					content: "\f166";
 				}
+        a[href*="instagram.com"]:before {
+          content: "\f16d";
+        }
 			}
 			ul {
 				display: inline-block;

@@ -69,10 +69,34 @@
                             </xsl:for-each>
                         </ul>
                         <div class="social">
-                            <a class="facebook" href="{social-links/facebook}" aria-label="Facebook"
-                                >Facebook</a>
-                            <a class="twitter" href="{social-links/twitter}" aria-label="Twitter"
-                                >Twitter</a>
+                            <xsl:if test="social-links/facebook != ''">
+                                <a class="facebook" href="{social-links/facebook}" aria-label="Facebook"
+                                        >Facebook</a>
+                            </xsl:if>
+                            <xsl:if test="social-links/twitter != ''">
+                                <a class="twitter" href="{social-links/twitter}" aria-label="Twitter"
+                                        >Twitter</a>
+                            </xsl:if>
+                            <xsl:if test="social-links/youtube != ''">
+                                <a class="youtube" href="{social-links/youtube}" aria-label="YouTube"
+                                        >YouTube</a>
+                            </xsl:if>
+                            <xsl:if test="social-links/linkedin != ''">
+                                <a class="linkedin" href="{social-links/linkedin}" aria-label="LinkedIn"
+                                        >LinkedIn</a>
+                            </xsl:if>
+                            <xsl:if test="social-links/vimeo != ''">
+                                <a class="vimeo" href="{social-links/vimeo}" aria-label="Vimeo"
+                                        >Vimeo</a>
+                            </xsl:if>
+                            <xsl:if test="social-links/pintrest != ''">
+                                <a class="pintrest" href="{social-links/pintrest}" aria-label="Pintrest"
+                                        >Pintrest</a>
+                            </xsl:if>
+                            <xsl:if test="social-links/instagram != ''">
+                                <a class="instagram" href="{social-links/instagram}" aria-label="Instagram"
+                                        >Instagram</a>
+                            </xsl:if>
                         </div>
                     </div>
                 </div>
