@@ -9,6 +9,11 @@
                     <xsl:value-of select="title"/>
                 </h3>
             </div>
+            <xsl:if test="count(system-data-structure/top-text/*) &gt; 0">
+                <div class="before-text">
+                    <xsl:copy-of select="system-data-structure/top-text/node()"/>
+                </div>
+            </xsl:if>
             <div class="basic-container">
                 <xsl:for-each select="system-data-structure/section">
                     <div class="section-container">

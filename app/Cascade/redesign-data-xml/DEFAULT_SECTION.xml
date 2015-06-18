@@ -27,8 +27,11 @@
                 <show-first-section-heading>
                     <value>Yes</value>
                 </show-first-section-heading>
+                <top-text>
+
+                </top-text>
                 <section>
-                    <section-heading>Funding for Students</section-heading>
+                    <section-heading>Fundin for Students</section-heading>
                     <default>
                         <p>We are happy to refer students to academic support/resources available at
                             Northwestern to assist with achieving their academic goals.</p>

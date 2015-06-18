@@ -1,3 +1,9 @@
+.stamp.type-section ~ .viewport .before-text {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  @include text-font;
+}
+
 .basic-container {
 	.section-container {
 		clear: right;

@@ -2,6 +2,13 @@ $anchor-icon: "18e";
 .stamp.no-side-navigation.no-quicklinks ~ * .stack-container{
 	@include prefix(column-count, 4);
 }
+
+.stamp.type-stack ~ .viewport .before-text {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  @include text-font;
+}
+
 .stack-container {
 	@include prefix(column-count, 3);
 	@include prefix(column-gap, 0);

@@ -1667,6 +1667,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   column-count: 4;
 }
 
+.stamp.type-stack ~ .viewport .before-text {
+  margin-left: 10px;
+  margin-bottom: 20px;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
+}
+
 .stack-container {
   -webkit-column-count: 3;
   -moz-column-count: 3;
@@ -2794,6 +2802,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     padding-bottom: 10px;
   }
 }
+.stamp.type-section ~ .viewport .before-text {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
+}
+
 .basic-container .section-container {
   clear: right;
 }

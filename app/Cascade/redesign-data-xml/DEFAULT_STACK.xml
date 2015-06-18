@@ -22,6 +22,8 @@
                 <content-type-stack>
                     <value>Yes</value>
                 </content-type-stack>
+                <top-text>
+                </top-text>
                 <stack-section>
                     <link type="symlink">
                         <content>

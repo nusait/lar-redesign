@@ -1,4 +1,7 @@
   <div class="title-lvl-2-container"><h3 class="title-lvl-2">meet the staff</h3></div>
+  <div class="before-text">
+      Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.
+  </div>
   <div class="stack-container">
     <a class="stack-item" href="http://www.google.com/sa-downloadfile-something.png?something=1232">
       <div class="stack-image"><img src="http://lorempixel.com/500/500/animals/" /></div>
