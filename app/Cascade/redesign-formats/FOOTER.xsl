@@ -2,12 +2,11 @@
     <xsl:output indent="no" method="xml" omit-xml-declaration="yes"/>
     <!-- xsl:template match="system-index-block|system-data-structure" -->
     <xsl:template match="system-index-block">
-        <xsl:variable name="department-name"
-            select="system-block/system-data-structure/redesign/sitename"/>
+        <xsl:variable name="department-name" select="system-block/system-data-structure/redesign/sitename"/>
         <xsl:for-each select="system-block/system-data-structure[address-group]">
             <div class="footer">
                 <div class="inner">
-                    <div class="arrow-button" aria-label="open footer">
+                    <div aria-label="open footer" class="arrow-button">
                         <xsl:text>&#160;</xsl:text>
                     </div>
                     <div class="details">
@@ -52,9 +51,7 @@
                         </div>
                         <div class="logo">
                             <a href="http://www.northwestern.edu">
-                                <img data-imgrewrite="no"
-                                    src="https://go.dosa.northwestern.edu/shared/lar-redesign/img/nu_logo_white.png"
-                                    alt="Northwestern Logo"/>
+                                <img alt="Northwestern Logo" data-imgrewrite="no" src="https://go.dosa.northwestern.edu/shared/lar-redesign/img/nu_logo_white.png"/>
                             </a>
                         </div>
                     </div>

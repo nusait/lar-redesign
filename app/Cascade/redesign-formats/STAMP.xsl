@@ -16,6 +16,7 @@
                 <xsl:when test="calling-page/system-page/system-data-structure/content-type-map">map</xsl:when>
                 <xsl:when test="calling-page/system-page/system-data-structure/content-type-video">video</xsl:when>
                 <xsl:when test="calling-page/system-page/system-data-structure/content-type-iframe">iframe</xsl:when>
+                <xsl:when test="calling-page/system-page/system-data-structure/content-type-wcasform">wcasform</xsl:when>
                 <xsl:otherwise>none</xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
