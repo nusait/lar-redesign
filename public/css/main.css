@@ -2188,11 +2188,176 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
 }
 .collapsable-container .collapsible-text {
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.collapsable-container .collapsible-text table.sa-table {
   font-family: "Lora", serif;
   font-size: 0.95em;
   font-weight: 200;
-  margin-left: 20px;
-  margin-bottom: 10px;
+  width: 100%;
+  margin: 0;
+}
+.collapsable-container .collapsible-text table.sa-table tbody th {
+  font-family: "Oswald", sans-serif;
+  color: white;
+  font-weight: 300;
+  padding: 10px;
+  text-align: center;
+}
+.collapsable-container .collapsible-text table.sa-table tbody th .table-dropdown {
+  display: none;
+}
+.stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th {
+  background-color: #3B1151;
+}
+.stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th {
+  background-color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th {
+  background-color: #5C2483;
+}
+.stamp.dept-color-4 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th {
+  background-color: #46BAB8;
+}
+.collapsable-container .collapsible-text table.sa-table tbody th[scope=row] {
+  text-align: left;
+}
+.stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th[scope=row] {
+  background-color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th[scope=row] {
+  background-color: #3B1151;
+}
+.stamp.dept-color-3 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th[scope=row] {
+  background-color: #007B9A;
+}
+.stamp.dept-color-4 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th[scope=row] {
+  background-color: #3B1151;
+}
+.collapsable-container .collapsible-text table.sa-table tbody tr:nth-child(2n) {
+  background-color: #e4e3e4;
+}
+.collapsable-container .collapsible-text table.sa-table tbody tr td {
+  padding: 10px;
+  vertical-align: text-top;
+}
+.collapsable-container .collapsible-text a {
+  text-decoration: underline;
+  color: #006e8b;
+}
+.collapsable-container .collapsible-text a.external:after {
+  content: '\f08e';
+  font-family: 'FontAwesome';
+  font-size: 0.7em;
+}
+.collapsable-container .collapsible-text a[href*="northwestern.edu"]:after {
+  content: '';
+}
+.collapsable-container .collapsible-text h2 {
+  font-weight: 300;
+  font-size: 1.65em;
+  text-transform: none;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+}
+.stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text h2 {
+  color: #3B1151;
+}
+.stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text h2 {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .collapsable-container .collapsible-text h2 {
+  color: #5C2483;
+}
+.stamp.dept-color-4 ~ .viewport .collapsable-container .collapsible-text h2 {
+  color: #46BAB8;
+}
+.collapsable-container .collapsible-text h3 {
+  font-weight: 300;
+  font-size: 1.3em;
+  text-transform: none;
+  color: #646464;
+  margin: 0.3em 0;
+  font-family: 'Oswald', sans-serif;
+}
+.collapsable-container .collapsible-text p {
+  margin: 0.7em 0;
+  padding: 0;
+  line-height: 1.4em;
+  font-family: "Lora", serif;
+}
+.collapsable-container .collapsible-text blockquote {
+  position: relative;
+  left: 5px;
+  margin: 10px 0;
+  padding: 10px 0;
+  width: 98%;
+  width: calc(100% - 5px);
+  width: -webkit-calc(100% - 5px);
+  background-color: lightgray;
+}
+.stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text blockquote {
+  box-shadow: -5px 5px 0px #3B1151;
+}
+.stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text blockquote {
+  box-shadow: -5px 5px 0px #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .collapsable-container .collapsible-text blockquote {
+  box-shadow: -5px 5px 0px #5C2483;
+}
+.stamp.dept-color-4 ~ .viewport .collapsable-container .collapsible-text blockquote {
+  box-shadow: -5px 5px 0px #46BAB8;
+}
+.collapsable-container .collapsible-text blockquote p {
+  display: block;
+  margin: 0 20px;
+  margin-top: 5px;
+  margin-left: 40px;
+  font-style: italic;
+}
+.stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text blockquote p {
+  color: #006e8b;
+}
+.stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text blockquote p {
+  color: #3B1151;
+}
+.stamp.dept-color-3 ~ .viewport .collapsable-container .collapsible-text blockquote p {
+  color: #007B9A;
+}
+.stamp.dept-color-4 ~ .viewport .collapsable-container .collapsible-text blockquote p {
+  color: #3B1151;
+}
+.collapsable-container .collapsible-text blockquote:before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: 40px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: lightgray;
+  border-left: 10px solid transparent;
+  border-top: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+.collapsable-container .collapsible-text blockquote:after {
+  content: '“';
+  font-size: 5em;
+  position: absolute;
+  top: 0;
+  left: 5px;
+}
+.stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text blockquote:after {
+  color: #3B1151;
+}
+.stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text blockquote:after {
+  color: #006e8b;
+}
+.stamp.dept-color-3 ~ .viewport .collapsable-container .collapsible-text blockquote:after {
+  color: #5C2483;
+}
+.stamp.dept-color-4 ~ .viewport .collapsable-container .collapsible-text blockquote:after {
+  color: #46BAB8;
 }
 .collapsable-container .collapsable-item {
   margin-bottom: 10px;

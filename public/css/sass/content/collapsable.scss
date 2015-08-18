@@ -1,6 +1,6 @@
 .collapsable-container {
 	.collapsible-text {
-		@include text-font;
+		@include generic-content-style;
 		margin-left: 20px;
 		margin-bottom: 10px;
 	}
