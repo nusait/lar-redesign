@@ -1845,6 +1845,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding: 10px;
   vertical-align: text-top;
 }
+.text-block .main-text li {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
+}
 .text-block .main-text a {
   text-decoration: underline;
   color: #006e8b;
@@ -2032,6 +2037,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .text-block .side-text table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
+}
+.text-block .side-text li {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
 }
 .text-block .side-text a {
   text-decoration: underline;
@@ -2241,6 +2251,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .collapsable-container .collapsible-text table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
+}
+.collapsable-container .collapsible-text li {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
 }
 .collapsable-container .collapsible-text a {
   text-decoration: underline;
@@ -2516,6 +2531,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .basic-container .basic-text-container table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
+}
+.basic-container .basic-text-container li {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
 }
 .basic-container .basic-text-container a {
   text-decoration: underline;
@@ -2818,6 +2838,11 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .detail-container .detail-main table.sa-table tbody tr td {
   padding: 10px;
   vertical-align: text-top;
+}
+.detail-container .detail-main li {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
 }
 .detail-container .detail-main a {
   text-decoration: underline;

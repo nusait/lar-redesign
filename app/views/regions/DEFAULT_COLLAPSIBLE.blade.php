@@ -2,7 +2,11 @@
 <div class="collapsable-container">
   <div class="collapsible-text">
       <h3>HI This is some more text!!!</h3>
-    <p> THIS is Some Text!!</p>
+    <ul>
+        <li>This is a test 1</li>
+        <li>This is a test 2</li>
+        <li>this is a test 3</li>
+    </ul>
   </div>
   <div class="collapsable-item closed">
   	<div class="collapsable-title">Who are we?</div>

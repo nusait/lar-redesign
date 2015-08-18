@@ -59,6 +59,11 @@
   padding: 10px;
   vertical-align: text-top;
 }
+.mceContentBody li {
+  font-family: "Lora", serif;
+  font-size: 0.95em;
+  font-weight: 200;
+}
 .mceContentBody a {
   text-decoration: underline;
   color: #006e8b;

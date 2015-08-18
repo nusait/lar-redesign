@@ -31,6 +31,11 @@
 			}
 		}
 	}
+
+  li {
+    @include text-font;
+  }
+
 	a {
 		text-decoration: underline;
 		color: $blue;
