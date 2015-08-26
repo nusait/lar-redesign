@@ -51,7 +51,7 @@
                         </div>
                         <div class="logo">
                             <a href="http://www.northwestern.edu">
-                                <img alt="Northwestern Logo" data-imgrewrite="no" src="https://go.dosa.northwestern.edu/shared/lar-redesign/img/nu_logo_white.png"/>
+                                <img alt="Northwestern Logo" data-imgrewrite="no" src="http://www.northwestern.edu/studentaffairs/global-assets/public/img/nu_logo_white.png"/>
                             </a>
                         </div>
                     </div>
