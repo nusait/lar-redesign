@@ -1,5 +1,5 @@
 define(['leaflet', 'underscore'], function (L, _) {
-	L.Icon.Default.imagePath = '//go.dosa.northwestern.edu/shared/lar-redesign/assets/leaflet-dist/images';
+	L.Icon.Default.imagePath = '//www.northwestern.edu/studentaffairs/global-assets/public/assets/leaflet-dist/images/';
 	var Map = function ($map) {
 		this.map = {};
 		this.options = {};
