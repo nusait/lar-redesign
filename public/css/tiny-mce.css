@@ -1,32 +1,91 @@
 @charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=Lora:400,700);
+/* @import must be at top of file, otherwise CSS will not work */
+@font-face {
+  font-family: "Akkurat Pro Light";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Light Italic";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Regular";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Italic";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Bold";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Bold Italic";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProBoldItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Book";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Bold";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Extra Bold";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonExtraBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Extra Light";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 .mceContentBody {
   background-color: #eff1f1;
   font-size: 1.1em;
 }
 .mceContentBody * {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .mceContentBody table.sa-table {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0;
 }
 .mceContentBody table.sa-table tbody th {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: white;
   font-weight: 300;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 .mceContentBody table.sa-table tbody th .table-dropdown {
   display: none;
 }
 .stamp.dept-color-1 ~ .viewport .mceContentBody table.sa-table tbody th {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .mceContentBody table.sa-table tbody th {
   background-color: #006e8b;
@@ -41,7 +100,7 @@
   text-align: left;
 }
 .stamp.dept-color-1 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
-  background-color: #006e8b;
+  background-color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .mceContentBody table.sa-table tbody th[scope=row] {
   background-color: #3B1151;
@@ -60,7 +119,7 @@
   vertical-align: text-top;
 }
 .mceContentBody li {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -81,10 +140,10 @@
   font-size: 1.65em;
   text-transform: none;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .stamp.dept-color-1 ~ .viewport .mceContentBody h2 {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .mceContentBody h2 {
   color: #006e8b;
@@ -101,13 +160,13 @@
   text-transform: none;
   color: #646464;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .mceContentBody p {
   margin: 0.7em 0;
   padding: 0;
   line-height: 1.4em;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .mceContentBody blockquote {
   position: relative;
@@ -120,7 +179,7 @@
   background-color: lightgray;
 }
 .stamp.dept-color-1 ~ .viewport .mceContentBody blockquote {
-  box-shadow: -5px 5px 0px #3B1151;
+  box-shadow: -5px 5px 0px #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .mceContentBody blockquote {
   box-shadow: -5px 5px 0px #006e8b;
@@ -139,7 +198,7 @@
   font-style: italic;
 }
 .stamp.dept-color-1 ~ .viewport .mceContentBody blockquote p {
-  color: #006e8b;
+  color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .mceContentBody blockquote p {
   color: #3B1151;
@@ -170,7 +229,7 @@
   left: 5px;
 }
 .stamp.dept-color-1 ~ .viewport .mceContentBody blockquote:after {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .mceContentBody blockquote:after {
   color: #006e8b;

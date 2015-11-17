@@ -81,7 +81,7 @@ $dosa-footer-text-color: #eeeeee;
 
             }
             .dosa-banner-navigation {
-                $nav-width: 5.5em;
+                $nav-width: 6.5em;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -116,15 +116,15 @@ $dosa-footer-text-color: #eeeeee;
 
                     h2 {
                         position: absolute;
-                        top: 5px;
+                        top: 6px;
                         display: inline-block;
                         width: $nav-width;
                         background-color: desaturate($purple, 30%);
-                        font-size: 1em;
-                        height: 2em;
+                        font-size: 0.9em;
+                        height: 2.2em;
                         line-height: 2em;
                         text-align: center;
-                        text-transform: uppercase;
+                        // text-transform: uppercase;
                         color: white;
                         z-index: 80;
                     }

@@ -10,9 +10,9 @@
 		display: inline-block;
 		// background-color: $department-color-1;
 		color: white;
-		font-size: 2.5em;
+		font-size: 2em;
 		font-weight: 300;
-		padding: 0 20px;
+		padding: 10px 25px 5px 25px;
 		margin: 0 20px 20px 20px;
 		@include slanted-shadow(-5deg, 5px, $university);
 		@include dept-colors-main(background-color);

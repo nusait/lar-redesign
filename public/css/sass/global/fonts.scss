@@ -1,8 +1,80 @@
-@import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=Lora:400,700);
+// @import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
+// @import url(//fonts.googleapis.com/css?family=Lora:400,700);
 
-$display-font: 'Oswald', sans-serif;
-$text-font: 'Lora', serif;
+/* @import must be at top of file, otherwise CSS will not work */
+
+@font-face {
+    font-family: "Akkurat Pro Light";
+    src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Akkurat Pro Light Italic";
+    src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Akkurat Pro Regular";
+    src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Akkurat Pro Italic";
+    src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Akkurat Pro Bold";
+    src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Akkurat Pro Bold Italic";
+    src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProBoldItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Book";
+    src: url("//common.northwestern.edu/v8/css/fonts/CamptonBook.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Bold";
+    src: url("//common.northwestern.edu/v8/css/fonts/CamptonBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Extra Bold";
+    src: url("//common.northwestern.edu/v8/css/fonts/CamptonExtraBold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Campton Extra Light";
+    src: url("//common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+$display-font: 'Campton Book', sans-serif;
+$text-font: 'Akkurat Pro Regular', serif;
 
 @mixin main-font( $weight: 300) {
     font-family: $display-font;

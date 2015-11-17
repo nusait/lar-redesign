@@ -1,27 +1,86 @@
 @charset "UTF-8";
 @import url(../assets/swiper/dist/idangerous.swiper.css);
-@import url(//fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(//fonts.googleapis.com/css?family=Lora:400,700);
+/* @import must be at top of file, otherwise CSS will not work */
 @import url(//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css);
 @import url(../assets/leaflet-dist/leaflet.css);
+@font-face {
+  font-family: "Akkurat Pro Light";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Light Italic";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProLightItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Regular";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProRegular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Italic";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Bold";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Akkurat Pro Bold Italic";
+  src: url("//common.northwestern.edu/v8/css/fonts/AkkuratProBoldItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Book";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Bold";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Extra Bold";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonExtraBold.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Campton Extra Light";
+  src: url("//common.northwestern.edu/v8/css/fonts/CamptonExtraLight.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 h1 {
   font-weight: 300;
   font-size: 2em;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 
 h2 {
   font-weight: 300;
   font-size: 1.75em;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: #5a308c;
 }
 
 h3 {
   font-weight: 300;
   font-size: 1.5em;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: #5a308c;
 }
 
@@ -31,7 +90,7 @@ p {
 }
 
 a {
-  color: #3B1151;
+  color: #4E2A84;
 }
 
 .hidden {
@@ -53,7 +112,7 @@ body {
   bottom: 0;
   left: 0;
   right: 0;
-  font-family: Oswald;
+  font-family: "Campton Book", sans-serif;
   font-size: 100%;
   -webkit-text-size-adjust: none;
 }
@@ -77,7 +136,7 @@ html.browser-lt-ie9 body .ie-too-old {
     z-index: 1000;
   }
   .dosa-banner .inner-left {
-    background-color: #3B1151;
+    background-color: #4E2A84;
     position: absolute;
     width: 41%;
     height: 100%;
@@ -97,7 +156,7 @@ html.browser-lt-ie9 body .ie-too-old {
     font-size: 1.5em;
     display: inline-block;
     line-height: 1.1em;
-    color: #3B1151;
+    color: #4E2A84;
     padding: 0 15px;
     margin-bottom: 0;
   }
@@ -108,7 +167,7 @@ html.browser-lt-ie9 body .ie-too-old {
     bottom: 3.5px;
     height: 3.25em;
     vertical-align: top;
-    background-color: #3B1151;
+    background-color: #4E2A84;
     z-index: 200;
     padding: 0 20px 0 10px;
   }
@@ -141,10 +200,10 @@ html.browser-lt-ie9 body .ie-too-old {
     position: absolute;
     right: 0;
     top: 2px;
-    width: 22em;
+    width: 26em;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.closed h2 {
-    background-color: #3B1151;
+    background-color: #4E2A84;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.closed ul {
     display: none;
@@ -154,22 +213,21 @@ html.browser-lt-ie9 body .ie-too-old {
   }
   .dosa-banner .inner .dosa-banner-navigation .section h2 {
     position: absolute;
-    top: 5px;
+    top: 6px;
     display: inline-block;
-    width: 5.5em;
-    background-color: #362042;
-    font-size: 1em;
-    height: 2em;
+    width: 6.5em;
+    background-color: #53446a;
+    font-size: 0.9em;
+    height: 2.2em;
     line-height: 2em;
     text-align: center;
-    text-transform: uppercase;
     color: white;
     z-index: 80;
   }
   .dosa-banner .inner .dosa-banner-navigation .section ul {
     position: absolute;
     top: 3em;
-    background: #3B1151;
+    background: #4E2A84;
     list-style: none;
     margin: 0;
     margin-top: 6px;
@@ -177,7 +235,7 @@ html.browser-lt-ie9 body .ie-too-old {
     z-index: 70;
     padding: 10px 8px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
-    font-family: "Lora", serif;
+    font-family: "Akkurat Pro Regular", serif;
     font-size: 0.9em;
   }
   .dosa-banner .inner .dosa-banner-navigation .section ul li {
@@ -219,13 +277,13 @@ html.browser-lt-ie9 body .ie-too-old {
     column-break-inside: avoid;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.topics h2 {
-    left: 5.5em;
+    left: 6.5em;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.community h2 {
-    left: 11em;
+    left: 13em;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.nuhelp h2 {
-    left: 16.5em;
+    left: 19.5em;
     background-color: #ad3f35;
   }
   .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul {
@@ -233,22 +291,22 @@ html.browser-lt-ie9 body .ie-too-old {
     background-color: #8b5b57;
   }
   html.allow-hover .dosa-banner .inner .dosa-banner-navigation .section.nuhelp ul li a:hover {
-    color: #3B1151;
+    color: #4E2A84;
   }
   .dosa-banner .northwestern-title {
-    font-family: "Lora", serif;
+    font-family: "Akkurat Pro Regular", serif;
     font-size: 0.95em;
     font-weight: 200;
     font-size: 1.2em;
     font-weight: 400;
-    color: #3B1151;
+    color: #4E2A84;
     position: absolute;
     right: 0;
     top: 0;
     margin: -5px 5px 0 10px;
   }
   .dosa-banner .inner-right {
-    background-color: #3B1151;
+    background-color: #4E2A84;
     position: absolute;
     right: 0;
     bottom: 0;
@@ -278,7 +336,7 @@ html.browser-lt-ie9 body .ie-too-old {
     width: 100%;
     height: 3.66em;
     z-index: 200;
-    background-color: #3B1151;
+    background-color: #4E2A84;
     height: 0;
     -webkit-transition: height 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
     transition: height 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
@@ -412,7 +470,7 @@ html.browser-lt-ie9 body .ie-too-old {
     font-size: 1.5em;
     margin: 0;
     color: #eeeeee;
-    background-color: #3B1151;
+    background-color: #4E2A84;
   }
   .dosa .dosa-container .dosa-navigation .section h2 .inner {
     display: inline-block;
@@ -499,7 +557,7 @@ html.browser-lt-ie9 body .ie-too-old {
   .block .divider {
     margin: 0 20px;
     height: 1px;
-    background: #3B1151;
+    background: #4E2A84;
   }
   .block .big-list-region {
     -webkit-box-ordinal-group: 4;
@@ -578,11 +636,11 @@ html.browser-lt-ie9 body .ie-too-old {
   color: white;
   background-color: #317894;
   display: block;
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   font-weight: 300;
 }
 html.allow-hover .events-container .events .event-item:hover {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .events-container .events .event-item .event-date {
   padding-right: 10px;
@@ -701,7 +759,7 @@ html.allow-hover .events-container .events .event-item:hover {
   color: white;
   background-color: #46BAB8;
   display: block;
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   font-weight: 300;
 }
 .stamp.first-callout-item-red ~ .viewport .generic-container .generic-list .generic-item:first-child {
@@ -714,7 +772,7 @@ html.allow-hover .events-container .events .event-item:hover {
   background-color: #B03F30;
 }
 html.allow-hover .generic-container .generic-list .generic-item:hover {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .generic-container .generic-list .generic-item .generic-icon {
   padding-right: 10px;
@@ -835,7 +893,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin: 5px;
 }
 .stamp.dept-color-1 ~ .viewport html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-img {
-  box-shadow: -5px 5px 0px #3B1151;
+  box-shadow: -5px 5px 0px #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport html.allow-hover .quicklinks-container .quick-links .row .link-item:hover .link-img {
   box-shadow: -5px 5px 0px #006e8b;
@@ -857,7 +915,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin-bottom: -5px;
 }
 .quicklinks-container .quick-links .row .link-item .link-label {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   font-weight: 300;
   font-size: 1.1em;
   position: absolute;
@@ -878,7 +936,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   border: solid transparent;
   content: "";
   pointer-events: none;
-  border-bottom-color: #3B1151;
+  border-bottom-color: #4E2A84;
   border-width: 8px;
   z-index: 4;
   box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5) inset;
@@ -979,8 +1037,8 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .quicklinks-container .quick-links .row .link-item:last-child .link-label:after {
     right: 0;
     border-width: 8px;
-    border-bottom-color: #3B1151;
-    border-left-color: #3B1151;
+    border-bottom-color: #4E2A84;
+    border-left-color: #4E2A84;
   }
 }
 @media screen and (min-width: 901px) {
@@ -1017,8 +1075,8 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .quicklinks-container .quick-links .row .link-item:last-child .link-label:after {
     right: 0;
     border-width: 8px;
-    border-bottom-color: #3B1151;
-    border-left-color: #3B1151;
+    border-bottom-color: #4E2A84;
+    border-left-color: #4E2A84;
   }
 }
 @media only screen and (max-width: 640px) {
@@ -1052,7 +1110,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     margin-bottom: 0px;
   }
   html.allow-hover .blog-container .blog-content .blog-entry .blog-title:hover {
-    color: #3B1151;
+    color: #4E2A84;
   }
   .blog-container .blog-content .blog-entry .blog-author {
     position: absolute;
@@ -1068,7 +1126,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .blog-container .blog-content .blog-entry .blog-text {
     color: #4b4a4b;
-    font: "Lora", serif;
+    font: "Akkurat Pro Regular", serif;
   }
   .blog-container .blog-content .blog-entry .blog-date {
     border-top-width: 0px;
@@ -1080,7 +1138,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     margin-top: 5px;
     margin-right: 90px;
     text-align: left;
-    color: #3B1151;
+    color: #4E2A84;
   }
   .blog-container .blog-label {
     position: absolute;
@@ -1099,7 +1157,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     box-shadow: -3px 2px 4px rgba(0, 0, 0, 0.2);
   }
   html.allow-hover .blog-container .blog-label:hover {
-    background-color: #5a1a7b;
+    background-color: #6536ab;
   }
   .blog-container .blog-label:after {
     position: absolute;
@@ -1110,8 +1168,8 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     border: solid transparent;
     content: "";
     pointer-events: none;
-    border-left-color: #3B1151;
-    border-bottom-color: #3B1151;
+    border-left-color: #4E2A84;
+    border-bottom-color: #4E2A84;
     border-width: 10px;
     z-index: -20;
     box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5) inset;
@@ -1140,14 +1198,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     padding: 5px 15px;
     margin: 0;
     color: white;
-    font-family: "Oswald", sans-serif;
+    font-family: "Campton Book", sans-serif;
     font-weight: 300;
     font-size: 1.2em;
     font-weight: 400;
     text-transform: uppercase;
   }
   .news-container .news .news-item:nth-child(3n) {
-    background-color: #3B1151;
+    background-color: #4E2A84;
   }
   .news-container .news .news-item:nth-child(3n+1) {
     background-color: #317894;
@@ -1191,7 +1249,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     box-shadow: -3px 2px 4px rgba(0, 0, 0, 0.2);
   }
   html.allow-hover .news-container .news .news-item.active:hover {
-    background-color: #5a1a7b;
+    background-color: #6536ab;
   }
   .news-container .news .news-item.active:after {
     position: absolute;
@@ -1202,8 +1260,8 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     border: solid transparent;
     content: "";
     pointer-events: none;
-    border-left-color: #3B1151;
-    border-bottom-color: #3B1151;
+    border-left-color: #4E2A84;
+    border-bottom-color: #4E2A84;
     border-width: 10px;
     z-index: -20;
     box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.5) inset;
@@ -1223,7 +1281,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     color: white;
   }
   .swiper-direction .icon {
-    color: #3B1151;
+    color: #4E2A84;
     font-size: 3em;
     line-height: 3em;
   }
@@ -1259,7 +1317,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
 
   .swiper-active-switch {
-    background: #3B1151;
+    background: #4E2A84;
   }
 
   .swiper-container {
@@ -1393,7 +1451,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 .footer {
   clear: both;
-  background-color: #3B1151;
+  background-color: #4E2A84;
   margin-top: 15px;
 }
 .footer.closed .inner .arrow-button:after {
@@ -1433,7 +1491,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-family: FontAwesome;
 }
 .footer .inner .details {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   font-size: 0.8em;
@@ -1518,7 +1576,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   border-top-width: 3px;
   border-top-style: double;
   border-top-color: rgba(255, 255, 255, 0.5);
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   font-size: 1em;
@@ -1670,7 +1728,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.type-stack ~ .viewport .before-text {
   margin-left: 10px;
   margin-bottom: 20px;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -1698,7 +1756,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   color: white;
 }
 .stamp.dept-color-1 ~ .viewport .stack-container a.stack-item:hover {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .stack-container a.stack-item:hover {
   background-color: #006e8b;
@@ -1710,7 +1768,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: #46BAB8;
 }
 .stamp.dept-color-1 ~ .viewport .stack-container a.stack-item .stack-text {
-  border-top: #3B1151 5px solid;
+  border-top: #4E2A84 5px solid;
 }
 .stamp.dept-color-2 ~ .viewport .stack-container a.stack-item .stack-text {
   border-top: #006e8b 5px solid;
@@ -1790,29 +1848,29 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   width: 70%;
   width: calc(70% - 5px);
   width: -webkit-calc(70% - 5px);
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
 .text-block .main-text table.sa-table {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0;
 }
 .text-block .main-text table.sa-table tbody th {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: white;
   font-weight: 300;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 .text-block .main-text table.sa-table tbody th .table-dropdown {
   display: none;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .main-text table.sa-table tbody th {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .main-text table.sa-table tbody th {
   background-color: #006e8b;
@@ -1827,7 +1885,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-align: left;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .main-text table.sa-table tbody th[scope=row] {
-  background-color: #006e8b;
+  background-color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .main-text table.sa-table tbody th[scope=row] {
   background-color: #3B1151;
@@ -1846,7 +1904,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   vertical-align: text-top;
 }
 .text-block .main-text li {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -1867,10 +1925,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: 1.65em;
   text-transform: none;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .main-text h2 {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .main-text h2 {
   color: #006e8b;
@@ -1887,13 +1945,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-transform: none;
   color: #646464;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .text-block .main-text p {
   margin: 0.7em 0;
   padding: 0;
   line-height: 1.4em;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .text-block .main-text blockquote {
   position: relative;
@@ -1906,7 +1964,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: lightgray;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .main-text blockquote {
-  box-shadow: -5px 5px 0px #3B1151;
+  box-shadow: -5px 5px 0px #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .main-text blockquote {
   box-shadow: -5px 5px 0px #006e8b;
@@ -1925,7 +1983,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-style: italic;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .main-text blockquote p {
-  color: #006e8b;
+  color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .main-text blockquote p {
   color: #3B1151;
@@ -1956,7 +2014,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   left: 5px;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .main-text blockquote:after {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .main-text blockquote:after {
   color: #006e8b;
@@ -1983,29 +2041,29 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   border-left-width: 1px;
   border-left-color: #cacaca;
   border-left-style: solid;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
 .text-block .side-text table.sa-table {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0;
 }
 .text-block .side-text table.sa-table tbody th {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: white;
   font-weight: 300;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 .text-block .side-text table.sa-table tbody th .table-dropdown {
   display: none;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .side-text table.sa-table tbody th {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .side-text table.sa-table tbody th {
   background-color: #006e8b;
@@ -2020,7 +2078,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-align: left;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .side-text table.sa-table tbody th[scope=row] {
-  background-color: #006e8b;
+  background-color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .side-text table.sa-table tbody th[scope=row] {
   background-color: #3B1151;
@@ -2039,7 +2097,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   vertical-align: text-top;
 }
 .text-block .side-text li {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -2060,10 +2118,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: 1.65em;
   text-transform: none;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .side-text h2 {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .side-text h2 {
   color: #006e8b;
@@ -2080,13 +2138,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-transform: none;
   color: #646464;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .text-block .side-text p {
   margin: 0.7em 0;
   padding: 0;
   line-height: 1.4em;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .text-block .side-text blockquote {
   position: relative;
@@ -2099,7 +2157,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: lightgray;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .side-text blockquote {
-  box-shadow: -5px 5px 0px #3B1151;
+  box-shadow: -5px 5px 0px #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .side-text blockquote {
   box-shadow: -5px 5px 0px #006e8b;
@@ -2118,7 +2176,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-style: italic;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .side-text blockquote p {
-  color: #006e8b;
+  color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .side-text blockquote p {
   color: #3B1151;
@@ -2149,7 +2207,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   left: 5px;
 }
 .stamp.dept-color-1 ~ .viewport .text-block .side-text blockquote:after {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .text-block .side-text blockquote:after {
   color: #006e8b;
@@ -2202,24 +2260,24 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin-bottom: 10px;
 }
 .collapsable-container .collapsible-text table.sa-table {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0;
 }
 .collapsable-container .collapsible-text table.sa-table tbody th {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: white;
   font-weight: 300;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 .collapsable-container .collapsible-text table.sa-table tbody th .table-dropdown {
   display: none;
 }
 .stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th {
   background-color: #006e8b;
@@ -2234,7 +2292,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-align: left;
 }
 .stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th[scope=row] {
-  background-color: #006e8b;
+  background-color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text table.sa-table tbody th[scope=row] {
   background-color: #3B1151;
@@ -2253,7 +2311,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   vertical-align: text-top;
 }
 .collapsable-container .collapsible-text li {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -2274,10 +2332,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: 1.65em;
   text-transform: none;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text h2 {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text h2 {
   color: #006e8b;
@@ -2294,13 +2352,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-transform: none;
   color: #646464;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .collapsable-container .collapsible-text p {
   margin: 0.7em 0;
   padding: 0;
   line-height: 1.4em;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .collapsable-container .collapsible-text blockquote {
   position: relative;
@@ -2313,7 +2371,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: lightgray;
 }
 .stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text blockquote {
-  box-shadow: -5px 5px 0px #3B1151;
+  box-shadow: -5px 5px 0px #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text blockquote {
   box-shadow: -5px 5px 0px #006e8b;
@@ -2332,7 +2390,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-style: italic;
 }
 .stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text blockquote p {
-  color: #006e8b;
+  color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text blockquote p {
   color: #3B1151;
@@ -2363,7 +2421,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   left: 5px;
 }
 .stamp.dept-color-1 ~ .viewport .collapsable-container .collapsible-text blockquote:after {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .collapsable-container .collapsible-text blockquote:after {
   color: #006e8b;
@@ -2399,7 +2457,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   padding-right: 10px;
 }
 .stamp.dept-color-1 ~ .viewport .collapsable-container .collapsable-item .collapsable-title:before {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .collapsable-container .collapsable-item .collapsable-title:before {
   color: #006e8b;
@@ -2417,7 +2475,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   display: block;
 }
 .collapsable-container .collapsable-item .collapsable-content {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   padding: 20px;
@@ -2429,7 +2487,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 
 .basic-container {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -2445,12 +2503,12 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   width: 100%;
 }
 .basic-container .basic-image-container .basic-image-item .basic-image-caption {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   font-weight: 300;
   font-size: .8em;
   margin-top: 5px;
   padding: 5px;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .basic-container .basic-image-container .basic-image-item .basic-image-caption p {
   margin: 0;
@@ -2482,24 +2540,24 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin-right: 20px;
 }
 .basic-container .basic-text-container table.sa-table {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0;
 }
 .basic-container .basic-text-container table.sa-table tbody th {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: white;
   font-weight: 300;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 .basic-container .basic-text-container table.sa-table tbody th .table-dropdown {
   display: none;
 }
 .stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container table.sa-table tbody th {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container table.sa-table tbody th {
   background-color: #006e8b;
@@ -2514,7 +2572,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-align: left;
 }
 .stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container table.sa-table tbody th[scope=row] {
-  background-color: #006e8b;
+  background-color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container table.sa-table tbody th[scope=row] {
   background-color: #3B1151;
@@ -2533,7 +2591,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   vertical-align: text-top;
 }
 .basic-container .basic-text-container li {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -2554,10 +2612,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: 1.65em;
   text-transform: none;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container h2 {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container h2 {
   color: #006e8b;
@@ -2574,13 +2632,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-transform: none;
   color: #646464;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .basic-container .basic-text-container p {
   margin: 0.7em 0;
   padding: 0;
   line-height: 1.4em;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .basic-container .basic-text-container blockquote {
   position: relative;
@@ -2593,7 +2651,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: lightgray;
 }
 .stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container blockquote {
-  box-shadow: -5px 5px 0px #3B1151;
+  box-shadow: -5px 5px 0px #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container blockquote {
   box-shadow: -5px 5px 0px #006e8b;
@@ -2612,7 +2670,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-style: italic;
 }
 .stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container blockquote p {
-  color: #006e8b;
+  color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container blockquote p {
   color: #3B1151;
@@ -2643,7 +2701,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   left: 5px;
 }
 .stamp.dept-color-1 ~ .viewport .basic-container .basic-text-container blockquote:after {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .basic-container .basic-text-container blockquote:after {
   color: #006e8b;
@@ -2700,7 +2758,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     z-index: 4;
     height: 3em;
     width: 100%;
-    font-family: "Oswald", sans-serif;
+    font-family: "Campton Book", sans-serif;
     content: '← SWIPE →';
     font-size: 3em;
     line-height: 3em;
@@ -2741,7 +2799,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .basic-container .basic-text-container table.sa-table tbody tr th .table-dropdown {
     display: block;
     position: absolute;
-    background-color: #3B1151;
+    background-color: #4E2A84;
     top: 0;
     left: 0;
     right: 0;
@@ -2758,7 +2816,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     background-color: green;
   }
   .basic-container .basic-text-container table.sa-table tbody tr th .table-dropdown .dropdown-category:hover {
-    background-color: #2c0d3c;
+    background-color: #432471;
   }
   .basic-container .basic-text-container table.sa-table tbody tr th .table-dropdown .close-button {
     position: absolute;
@@ -2784,29 +2842,29 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   margin-left: 20px;
   padding-right: 20px;
   overflow: hidden;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
 .detail-container .detail-main table.sa-table {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
   width: 100%;
   margin: 0;
 }
 .detail-container .detail-main table.sa-table tbody th {
-  font-family: "Oswald", sans-serif;
+  font-family: "Campton Book", sans-serif;
   color: white;
   font-weight: 300;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 .detail-container .detail-main table.sa-table tbody th .table-dropdown {
   display: none;
 }
 .stamp.dept-color-1 ~ .viewport .detail-container .detail-main table.sa-table tbody th {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .detail-container .detail-main table.sa-table tbody th {
   background-color: #006e8b;
@@ -2821,7 +2879,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-align: left;
 }
 .stamp.dept-color-1 ~ .viewport .detail-container .detail-main table.sa-table tbody th[scope=row] {
-  background-color: #006e8b;
+  background-color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .detail-container .detail-main table.sa-table tbody th[scope=row] {
   background-color: #3B1151;
@@ -2840,7 +2898,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   vertical-align: text-top;
 }
 .detail-container .detail-main li {
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -2861,10 +2919,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-size: 1.65em;
   text-transform: none;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .stamp.dept-color-1 ~ .viewport .detail-container .detail-main h2 {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .detail-container .detail-main h2 {
   color: #006e8b;
@@ -2881,13 +2939,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   text-transform: none;
   color: #646464;
   margin: 0.3em 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Campton Book", sans-serif;
 }
 .detail-container .detail-main p {
   margin: 0.7em 0;
   padding: 0;
   line-height: 1.4em;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
 }
 .detail-container .detail-main blockquote {
   position: relative;
@@ -2900,7 +2958,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   background-color: lightgray;
 }
 .stamp.dept-color-1 ~ .viewport .detail-container .detail-main blockquote {
-  box-shadow: -5px 5px 0px #3B1151;
+  box-shadow: -5px 5px 0px #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .detail-container .detail-main blockquote {
   box-shadow: -5px 5px 0px #006e8b;
@@ -2919,7 +2977,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-style: italic;
 }
 .stamp.dept-color-1 ~ .viewport .detail-container .detail-main blockquote p {
-  color: #006e8b;
+  color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .detail-container .detail-main blockquote p {
   color: #3B1151;
@@ -2950,7 +3008,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   left: 5px;
 }
 .stamp.dept-color-1 ~ .viewport .detail-container .detail-main blockquote:after {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .detail-container .detail-main blockquote:after {
   color: #006e8b;
@@ -2995,7 +3053,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stamp.type-section ~ .viewport .before-text {
   margin-left: 20px;
   margin-bottom: 20px;
-  font-family: "Lora", serif;
+  font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
 }
@@ -3047,7 +3105,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   z-index: -1;
 }
 .stamp.dept-color-1 ~ .viewport .department-header .department-header-bg {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .department-header .department-header-bg {
   background-color: #006e8b;
@@ -3069,12 +3127,12 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   display: inline-block;
   -webkit-transition: text-shadow 0.3s;
   transition: text-shadow 0.3s;
-  margin: 20px 35px 0 15px;
-  padding-bottom: 10px;
+  margin: 27px 35px 0 15px;
+  padding-bottom: 2px;
   color: white;
   text-transform: uppercase;
-  font-size: 3.5em;
-  line-height: 1.3em;
+  font-size: 2.8em;
+  line-height: 1em;
   font-weight: 300;
 }
 .department-header .department-header-inner .department-nav {
@@ -3095,7 +3153,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   z-index: 1;
 }
 .stamp.dept-color-1 ~ .viewport .department-header .department-header-inner .department-nav .section.active {
-  background-color: #0d0412;
+  background-color: #2c184a;
 }
 .stamp.dept-color-2 ~ .viewport .department-header .department-header-inner .department-nav .section.active {
   background-color: #00313f;
@@ -3128,7 +3186,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   display: block;
 }
 .stamp.dept-color-1 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
-  background-color: #006e8b;
+  background-color: #007FA4;
 }
 .stamp.dept-color-2 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
   background-color: #3B1151;
@@ -3154,14 +3212,13 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 }
 .department-header .department-header-inner .department-nav .section ul li a {
   color: white;
-  text-transform: uppercase;
   font-weight: 300;
   display: block;
   padding: 0;
   letter-spacing: 0.5px;
 }
 .department-header .department-header-inner .department-nav .section ul li a:active {
-  color: #3B1151;
+  color: #4E2A84;
 }
 .department-header .department-header-inner .department-nav .section ul li a:hover {
   text-decoration: underline;
@@ -3227,7 +3284,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     display: none;
   }
   .department-header .department-header-inner .department-nav .mobile-menu-button {
-    font-family: "Oswald", sans-serif;
+    font-family: "Campton Book", sans-serif;
     outline: none;
     display: block;
     position: absolute;
@@ -3242,7 +3299,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     border-radius: 55px;
     font-size: 1em;
     text-transform: uppercase;
-    color: #3B1151;
+    color: #4E2A84;
     z-index: 10;
   }
   .department-header .department-header-inner .department-nav .mobile-menu-button:after {
@@ -3281,14 +3338,14 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     margin: 0 10px;
   }
   .department-header .department-header-inner .department-nav .section .navigation-item-title:active {
-    color: #3B1151;
+    color: #4E2A84;
   }
   .department-header .department-header-inner .department-nav .section ul {
     position: static;
     background-color: transparent;
   }
   .stamp.dept-color-1 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
-    background-color: #3B1151;
+    background-color: #4E2A84;
   }
   .stamp.dept-color-2 ~ .viewport .department-header .department-header-inner .department-nav .section ul {
     background-color: #006e8b;
@@ -3316,7 +3373,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     padding-left: 60px;
   }
   .department-header .department-header-inner .department-nav .section ul li a:active {
-    color: #3B1151;
+    color: #4E2A84;
   }
   .department-header .department-header-inner .department-nav .section ul li:nth-child(2) {
     border-top-style: solid;
@@ -3441,7 +3498,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     display: block;
   }
   .stamp.dept-color-1 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children {
-    background-color: #3B1151;
+    background-color: #4E2A84;
   }
   .stamp.dept-color-2 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children {
     background-color: #006e8b;
@@ -3462,7 +3519,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
     pointer-events: none;
   }
   .stamp.dept-color-1 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
-    background-color: #0d0412;
+    background-color: #2c184a;
   }
   .stamp.dept-color-2 ~ .viewport .sub-navigation-lvl-2-outer .sub-navigation-lvl-2-container .sub-navigation-lvl-2 li.active.has-children > a {
     background-color: #00313f;
@@ -3510,9 +3567,9 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   position: relative;
   display: inline-block;
   color: white;
-  font-size: 2.5em;
+  font-size: 2em;
   font-weight: 300;
-  padding: 0 20px;
+  padding: 10px 25px 5px 25px;
   margin: 0 20px 20px 20px;
 }
 .title-lvl-2-container .title-lvl-2::before, .title-lvl-2-container .title-lvl-2:before {
@@ -3535,7 +3592,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   transform-origin: 0px 0px;
 }
 .stamp.dept-color-1 ~ .viewport .title-lvl-2-container .title-lvl-2 {
-  background-color: #3B1151;
+  background-color: #4E2A84;
 }
 .stamp.dept-color-2 ~ .viewport .title-lvl-2-container .title-lvl-2 {
   background-color: #006e8b;
@@ -3827,7 +3884,7 @@ body .viewport .main .main-window .middle .content .divider-h1 {
   margin: 0px 20px;
   position: relative;
   height: 2px;
-  background-color: #3B1151;
+  background-color: #4E2A84;
   display: none;
 }
 body .viewport .main .main-window .middle .content .main-container {
@@ -3876,7 +3933,7 @@ body .viewport .main .main-window .middle .content .main-container {
   html.division-page body .viewport .main .main-window .middle .content .title h1 {
     display: inline-block;
     position: relative;
-    color: #3B1151;
+    color: #4E2A84;
     font-size: 1.5em;
     left: -15px;
     margin-bottom: 0px;
@@ -3892,7 +3949,7 @@ body .viewport .main .main-window .middle .content .main-container {
   body .viewport .main .main-window .middle .content .title button.menu {
     -webkit-appearance: none;
     height: 2.5em;
-    background-color: #3B1151;
+    background-color: #4E2A84;
     color: white;
     border: none;
     padding: 0px 8px;

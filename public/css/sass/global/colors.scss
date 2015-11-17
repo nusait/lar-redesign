@@ -8,11 +8,14 @@ $lakefill: #007B9A;
 $rock: #7E7D7E;
 $university: #C1C0C0;
 
+$newPurple: #4E2A84;
+$newTeal: #007FA4;
+$newRed: #D85820;
 // $purple: #732f7e;
 // $purple: lighten(#4E3872, 6%);
 
 // $purple: #412157;
-$purple: $primal;
+$purple: $newPurple;
 $gray: $rock;
 $teal: #317894;
 $bg-color: #eff1f1;
@@ -26,8 +29,8 @@ $dept-blue: #006e8b;
 $dept-green: $presidential;
 $dept-teal: $dillo;
 
-$department-color-1-main: $primal;
-$department-color-1-secondary: #006e8b;
+$department-color-1-main: $newPurple;
+$department-color-1-secondary: $newTeal;
 $department-color-2-main: #006e8b;
 $department-color-2-secondary: $primal;
 $department-color-3-main: $presidential;

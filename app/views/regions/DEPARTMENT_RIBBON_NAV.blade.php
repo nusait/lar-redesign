@@ -1,7 +1,7 @@
 <div class="department-header">
   <div class="department-header-bg">
     <div class="department-header-inner">
-      <a class="department-title" href="http://www.google.com">Sample Department</a>
+      <a class="department-title" href="http://www.google.com">Counseling</a>
       <nav class="department-nav closed" role="navigation">
         <button class="mobile-menu-button"> </button>
         <div class="section closed" tabindex="0">

@@ -9,19 +9,19 @@ h1 {
     font-weight: 300;
     font-size: 2em;
     text-transform:uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: $display-font;
 }
 h2 {
     font-weight: 300;
     font-size: 1.75em;
-    font-family: 'Oswald', sans-serif;
+    font-family: $display-font;
     color: #5a308c;
 }
 
 h3 {
     font-weight: 300;
     font-size: 1.5em;
-    font-family: 'Oswald', sans-serif;
+    font-family: $display-font;
     color: #5a308c;
 }
 
@@ -52,7 +52,8 @@ body {
     bottom: 0;
     left: 0;
     right: 0;
-    font-family: Oswald;
+    // font-family: Oswald;
+    font-family: $display-font;
     font-size: 100%;
     -webkit-text-size-adjust: none;
     .ie-too-old {
