@@ -1,5 +1,5 @@
-require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms', 'components/basicImage', 'components/map', 'removeTabIndexOnMobileNav', 'forceDownloadLink', 'insertAudioTagsFromLinks'],
-    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms, BasicImage, SaMap, RemoveTabIndex, ForceDownloadLink, InsertAudioTagsFromLinks) {
+require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quicklinks', 'twitter', 'blog', 'mobilemenu', 'disallowHover','carouselImages', 'components/departmentHeader', 'components/departmentFooter', 'components/collapsable', 'components/levelNavigation', 'components/table', 'components/machforms', 'components/basicImage', 'components/map', 'removeTabIndexOnMobileNav', 'forceDownloadLink', 'insertAudioTagsFromLinks', 'components/quickExit'],
+    function ($, Browser, Dosa, Carousel, iphoneViewportFixer, Quicklinks, Twitter, Blog, MobileMenu, DisallowHover, CarouselImages, DepartmentHeader, DepartmentFooter, Collapsable, LevelNavigation, Table, Machforms, BasicImage, SaMap, RemoveTabIndex, ForceDownloadLink, InsertAudioTagsFromLinks, QuickExit) {
 
     $(document).ready(function () {
 
@@ -28,6 +28,7 @@ require(['jquery', 'browser', 'dosa', 'carousel', 'iphoneViewportFixer','quickli
 
         Machforms.makeForm();
         BasicImage.initialize();
+        QuickExit.initialize();
 
         window.tables = [];
         $('.sa-table').each(function (index, table) {
