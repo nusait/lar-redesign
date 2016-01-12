@@ -30,6 +30,6 @@
         <link href="http://www.northwestern.edu/studentaffairs/global-assets/public/img/icons/icon152.png" rel="apple-touch-icon" sizes="152x152"/>
         <link href="http://www.northwestern.edu/studentaffairs/global-assets/public/css/main.css" rel="stylesheet"/>
         <!-- script src="//go.dosa.northwestern.edu/shared/lar-redesign/js/build-min.js"></script -->
-        <script src="http://www.northwestern.edu/studentaffairs/global-assets/public/js/build-min.js"></script>
+        <script src="http://www.northwestern.edu/studentaffairs/global-assets/public/js/build-min.js">/* keep me */</script>
     </xsl:template>
 </xsl:stylesheet>
