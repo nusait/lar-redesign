@@ -13,5 +13,8 @@
     {{link_to('basic?original_temp=true&no_transform=true', 'Basic')}}
     {{link_to('detail?original_temp=true&no_transform=true', 'Detail')}}
     {{link_to('iframe?original_temp=true&no_transform=true', 'IFrame')}}
+    {{link_to('video?original_temp=true&no_transform=true', 'Video')}}
+    {{link_to('map?original_temp=true&no_transform=true', 'Map')}}
+    {{link_to('embedded?original_temp=true&no_transform=true', 'Embedded')}}
 </body>
 </html>
