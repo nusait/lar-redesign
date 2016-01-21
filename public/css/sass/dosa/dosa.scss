@@ -405,7 +405,7 @@ $dosa-footer-text-color: #eeeeee;
                 margin: 0;
                 height: 100%;
                 width: $button-width;
-                background-color: rgb(65, 33, 87);;
+                background-color: darken($purple, 12%);
                 font: italic 150% FontAwesome;
                 span {
                     width: 1px;
@@ -425,7 +425,7 @@ $dosa-footer-text-color: #eeeeee;
 
         .logo-container {
             height: 100%;
-            background-image: url(../img/purple-background.png);
+            // background-image: url(../img/purple-background.png);
             @include flex(1);
             display: block;
             opacity: 0;
