@@ -377,7 +377,7 @@ $dosa-footer-text-color: #eeeeee;
 }
 
 @media #{$small} {
-    $logo-width: 6.5em;
+    $logo-width: 170px;
     $button-width: 2em;
     .mobile-header {
         // position: fixed;
@@ -451,6 +451,8 @@ $dosa-footer-text-color: #eeeeee;
                 margin-left: auto;
                 margin-left: -webkit-calc( 50% - #{$logo-width/2} - #{$button-width/2} - 5px);
                 margin-left: calc( 50% - #{$logo-width/2} - #{$button-width/2} - 5px);
+                position: relative;
+                top: 3px;
                 text-align: center;
             }
         }
@@ -520,7 +522,7 @@ $dosa-footer-text-color: #eeeeee;
 
                         display: block;
                         //width: calc(100% - $padding * 2) ;
-                        font-size: 1.5em;
+                        font-size: 1.1em;
                         margin: 0;
                         color: $dosa-heading-text-color;
                         background-color: $dosa-heading-background-color;
@@ -576,7 +578,7 @@ $dosa-footer-text-color: #eeeeee;
                     a {
                         text-align: center;
                         display: inline-block;
-                        width: 45%;
+                        width: 44%;
                         padding: 5px 5px;
                         margin-bottom: 2px;
                         background-color: $teal;

@@ -410,12 +410,14 @@ html.browser-lt-ie9 body .ie-too-old {
     height: 4.6em;
     background-repeat: no-repeat;
     display: block;
-    width: 6.5em;
+    width: 170px;
     font-weight: 300;
     text-transform: uppercase;
     margin-left: auto;
-    margin-left: -webkit-calc( 50% - 3.25em - 1em - 5px);
-    margin-left: calc( 50% - 3.25em - 1em - 5px);
+    margin-left: -webkit-calc( 50% - 85px - 1em - 5px);
+    margin-left: calc( 50% - 85px - 1em - 5px);
+    position: relative;
+    top: 3px;
     text-align: center;
   }
 
@@ -471,7 +473,7 @@ html.browser-lt-ie9 body .ie-too-old {
   .dosa .dosa-container .dosa-navigation .section h2 {
     padding: 0;
     display: block;
-    font-size: 1.5em;
+    font-size: 1.1em;
     margin: 0;
     color: #eeeeee;
     background-color: #4E2A84;
@@ -527,7 +529,7 @@ html.browser-lt-ie9 body .ie-too-old {
   .dosa .dosa-container .dosa-extra .extra-navigation a {
     text-align: center;
     display: inline-block;
-    width: 45%;
+    width: 44%;
     padding: 5px 5px;
     margin-bottom: 2px;
     background-color: #317894;
@@ -3319,6 +3321,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .department-header .department-header-inner .department-nav.closed .mobile-menu-button:after {
     content: "menu";
+    font-size: 0.8em;
     display: relative;
     width: 30px;
     z-index: 11;
@@ -3347,6 +3350,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .department-header .department-header-inner .department-nav .mobile-menu-button:after {
     content: "close";
+    font-size: 0.7em;
     display: relative;
     width: 30px;
     z-index: 11;
