@@ -58,7 +58,7 @@ $dosa-footer-text-color: #eeeeee;
                 width: 300px;
                 top: 0px;
                 height: 55px;
-                background-image: url(../img/Division_line.svg);
+                background-image: url('//go.dosa.northwestern.edu/shared/lar-redesign/img/Division_line.svg'); /* I cannot get to the svg with a relative path, because it won't be available on checksix. So I decided to use an absolute path on checksix */
                 background-size: 300px 100px;
                 background-repeat: no-repeat;
                 background-position: 50% 50%;
