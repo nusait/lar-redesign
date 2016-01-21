@@ -33,18 +33,25 @@
 			</div>
 		</div>
 		<div class="basic-text-container">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper enim a est 
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper enim a est
 				<a href="https://www.google.com/">scelerisque mattis</a>
-				. Morbi non velit blandit lacus fermentum venenatis. Proin a metus mollis, porta quam fermentum, aliquet neque. Mauris interdum euismod aliquam. Sed non consequat tortor, quis ultrices elit. Nulla facilisi. 
+				. Morbi non velit blandit lacus fermentum venenatis. Proin a metus mollis, porta quam fermentum, aliquet neque. Mauris interdum euismod aliquam. Sed non consequat tortor, quis ultrices elit. Nulla facilisi.
 				<a href="https://www.google.com/">Vestibulum tempor neque</a>
 				eget congue mattis. Curabitur nec sem eget diam posuere sodales sed eget felis. Sed velit libero, facilisis quis tellus id, sollicitudin viverra leo. Donec rhoncus egestas augue sed dapibus.:</p>
 			<ol>
 				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-				<li>Aliquam tincidunt 
+				<li>Aliquam tincidunt
 					<a href="https://www.google.com/">mauris</a>
 					eu risus.</li>
 				<li>Vestibulum auctor dapibus neque.</li>
 			</ol>
+			<ul>
+				<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+				<li>Aliquam tincidunt
+					<a href="https://www.google.com/">mauris</a>
+					eu risus.</li>
+				<li>Vestibulum auctor dapibus neque.</li>
+			</ul>
 			<h2> This is a Heading 2</h2>
 			<h3> This is Heading 3</h3>
 			<table class="sa-table">
@@ -90,26 +97,26 @@
 			</blockquote>
 			<h2>Heading Level 2</h2>
 			<p>
-				<strong>Pellentesque habitant morbi tristique</strong>senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+				<strong>Pellentesque habitant morbi tristique</strong>senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
 				<a href="https://www.google.com/">Donec eu libero</a>
-				sit amet quam egestas semper. 
+				sit amet quam egestas semper.
 				<em>Aenean ultricies mi vitae est.</em>
 				<a href="https://www.google.com/">Mauris placerat</a>
-				eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, 
+				eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
 				<code>commodo vitae</code>
-				, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. 
+				, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
 				<a href="#">Donec non enim</a>
 				in turpis pulvinar facilisis. Ut felis.</p>
 			<h2>Also Level 2</h2>
 			<p>
-				<strong>Pellentesque habitant morbi tristique</strong>senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. 
+				<strong>Pellentesque habitant morbi tristique</strong>senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
 				<a href="https://www.google.com/">Donec eu libero</a>
-				sit amet quam egestas semper. 
+				sit amet quam egestas semper.
 				<em>Aenean ultricies mi vitae est.</em>
 				<a href="https://www.google.com/">Mauris placerat</a>
-				eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, 
+				eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed,
 				<code>commodo vitae</code>
-				, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. 
+				, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
 				<a href="#">Donec non enim</a>
 				in turpis pulvinar facilisis. Ut felis.</p>
 			<table class="sa-table">

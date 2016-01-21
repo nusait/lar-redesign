@@ -51,6 +51,17 @@ $anchor-icon: "18e";
 		.stack-text {
 			line-height: normal;
 			padding: 10px;
+			@include text-font;
+		}
+		.stack-title {
+			font-weight: bolder;
+			font-size: 1.2em;
+			@include display-font;
+			margin-bottom: 5px;
+		}
+		.stack-description {
+			margin-top: 5px;
+			line-height: 1.2em;
 		}
 	}
 }

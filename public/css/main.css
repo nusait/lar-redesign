@@ -150,20 +150,24 @@ html.browser-lt-ie9 body .ie-too-old {
     z-index: 1;
   }
   .dosa-banner .inner #banner-title {
-    text-transform: uppercase;
-    font-weight: 300;
     background-color: #eff1f1;
-    font-size: 1.5em;
-    display: inline-block;
-    line-height: 1.1em;
-    color: #4E2A84;
-    padding: 0 15px;
-    margin-bottom: 0;
+    display: block;
+    position: relative;
+    padding-left: 30px;
+    color: transparent;
+    text-indent: -9999px;
+    width: 300px;
+    top: 0px;
+    height: 55px;
+    background-image: url(../img/Division_line.svg);
+    background-size: 300px 100px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
   }
   .dosa-banner .inner .search {
     display: block;
     position: absolute;
-    left: 28%;
+    left: 31%;
     bottom: 3.5px;
     height: 3.25em;
     vertical-align: top;
@@ -219,7 +223,7 @@ html.browser-lt-ie9 body .ie-too-old {
     background-color: #53446a;
     font-size: 0.9em;
     height: 2.2em;
-    line-height: 2em;
+    line-height: 2.2em;
     text-align: center;
     color: white;
     z-index: 80;
@@ -299,7 +303,7 @@ html.browser-lt-ie9 body .ie-too-old {
     font-weight: 200;
     font-size: 1.2em;
     font-weight: 400;
-    color: #4E2A84;
+    color: #eff1f1;
     position: absolute;
     right: 0;
     top: 0;
@@ -1799,6 +1803,19 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .stack-container .stack-item .stack-text {
   line-height: normal;
   padding: 10px;
+  font-family: "Akkurat Pro Regular", serif;
+  font-size: 0.95em;
+  font-weight: 200;
+}
+.stack-container .stack-item .stack-title {
+  font-weight: bolder;
+  font-size: 1.2em;
+  font-family: "Campton Book", sans-serif;
+  margin-bottom: 5px;
+}
+.stack-container .stack-item .stack-description {
+  margin-top: 5px;
+  line-height: 1.2em;
 }
 
 @media only screen and (min-width: 641px) and (max-width: 900px) {
@@ -1907,6 +1924,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
+  line-height: 1.4em;
 }
 .text-block .main-text a {
   text-decoration: underline;
@@ -2100,6 +2118,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
+  line-height: 1.4em;
 }
 .text-block .side-text a {
   text-decoration: underline;
@@ -2314,6 +2333,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
+  line-height: 1.4em;
 }
 .collapsable-container .collapsible-text a {
   text-decoration: underline;
@@ -2594,6 +2614,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
+  line-height: 1.4em;
 }
 .basic-container .basic-text-container a {
   text-decoration: underline;
@@ -2901,6 +2922,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-family: "Akkurat Pro Regular", serif;
   font-size: 0.95em;
   font-weight: 200;
+  line-height: 1.4em;
 }
 .detail-container .detail-main a {
   text-decoration: underline;
@@ -3215,6 +3237,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   font-weight: 300;
   display: block;
   padding: 0;
+  margin: 15px 0px;
   letter-spacing: 0.5px;
 }
 .department-header .department-header-inner .department-nav .section ul li a:active {

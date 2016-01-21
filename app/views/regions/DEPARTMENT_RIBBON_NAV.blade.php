@@ -14,7 +14,7 @@
               <a href="/entity/open.act?type=page&amp;id=794bae818169775b5c17821bd0f0d7bc&amp;confId=794bae828169775b5c17821ba83e1a35" target="_parent">History</a>
             </li>
             <li>
-              <a href="/entity/open.act?type=page&amp;id=794c76b98169775b5c17821bb014b5af&amp;confId=794c76b98169775b5c17821bb8778601" target="_parent">Meet the staff</a>
+              <a href="/entity/open.act?type=page&amp;id=794c76b98169775b5c17821bb014b5af&amp;confId=794c76b98169775b5c17821bb8778601" target="_parent">Meet the staff and other people</a>
             </li>
             <li>
               <a href="/entity/open.act?type=page&amp;id=795438368169775b5c17821bae393068&amp;confId=795438368169775b5c17821b892ed2b6" target="_parent">What we do</a>
