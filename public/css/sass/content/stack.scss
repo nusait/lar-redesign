@@ -10,7 +10,7 @@ $anchor-icon: "18e";
 }
 
 .stack-container {
-	@include prefix(column-count, 3);
+	@include prefix(column-count, 4);
 	@include prefix(column-gap, 0);
 	padding-right: 20px;
 	text-overflow: none;
@@ -68,10 +68,10 @@ $anchor-icon: "18e";
 
 @media #{$medium} {
 	.stamp.no-side-navigation.no-quicklinks ~ * .stack-container{
-		@include prefix(column-count, 2);
+		@include prefix(column-count, 3);
 	}
 	.stack-container {
-		@include prefix(column-count, 2);
+		@include prefix(column-count, 3);
 	}
 }
 
