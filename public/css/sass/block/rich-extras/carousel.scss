@@ -31,7 +31,7 @@
                 }
                 .news-label {
                   position: relative;
-                  top: 2px;
+                  top: 3px;
                 }
             }
         }
@@ -48,6 +48,10 @@
             .news-item {
                 z-index: 20;
                 display: none;
+                .news-label {
+                  position: relative;
+                  top: 4px;
+                }
                 &.active {
                     position: absolute;
                     bottom: 10px;

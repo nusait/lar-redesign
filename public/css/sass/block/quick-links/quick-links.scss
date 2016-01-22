@@ -44,7 +44,7 @@ $ribbon-offset: -16px;
                 }
                 .link-label {
                     @include main-font();
-                    font-size: 1.1em;
+                    font-size: 1em;
                     position: absolute;
                     bottom: 10%;
                     display: block;
@@ -127,6 +127,7 @@ $ribbon-offset: -16px;
                     .link-label {
                         margin: 0;
                         padding: 0;
+                        padding-top: 3px;
                         width: 103%;
                         width: calc(100% + 10px);
                         width: -webkit-calc(100% + 10px);

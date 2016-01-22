@@ -639,6 +639,7 @@ html.browser-lt-ie9 body .ie-too-old {
 .events-container .events .event-item {
   margin: 10px 0;
   padding: 10px;
+  padding-top: 15px;
   color: white;
   background-color: #317894;
   display: block;
@@ -649,13 +650,13 @@ html.allow-hover .events-container .events .event-item:hover {
   background-color: #4E2A84;
 }
 .events-container .events .event-item .event-date {
-  padding-right: 10px;
-  font-size: 1.8em;
+  padding-right: 15px;
+  font-size: 1.3em;
   width: 2em;
 }
 .events-container .events .event-item .event-desc {
-  font-size: 1.2em;
-  line-height: 1.2em;
+  font-size: 1.1em;
+  line-height: 1.1em;
 }
 .events-container .events .event-item .event-desc .event-detail {
   font-size: 0.8em;
@@ -727,6 +728,9 @@ html.allow-hover .events-container .events .event-item:hover {
     display: -webkit-flex;
     display: -moz-box;
     display: flex;
+  }
+  .events-container .events .event-item .event-date {
+    padding-right: 20px;
   }
   .events-container .events .event-item .event-desc {
     -webkit-box-flex: 1;
@@ -923,7 +927,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
 .quicklinks-container .quick-links .row .link-item .link-label {
   font-family: "Campton Book", sans-serif;
   font-weight: 300;
-  font-size: 1.1em;
+  font-size: 1em;
   position: absolute;
   bottom: 10%;
   display: block;
@@ -995,6 +999,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .quicklinks-container .quick-links .row .link-item .link-label {
     margin: 0;
     padding: 0;
+    padding-top: 3px;
     width: 103%;
     width: calc(100% + 10px);
     width: -webkit-calc(100% + 10px);
@@ -1221,7 +1226,7 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   }
   .news-container .news .news-item .news-label {
     position: relative;
-    top: 2px;
+    top: 3px;
   }
 
   .swiper-container, .swiper-slide {
@@ -1238,6 +1243,10 @@ html.allow-hover .generic-container .generic-list .generic-item:hover {
   .news-container .news .news-item {
     z-index: 20;
     display: none;
+  }
+  .news-container .news .news-item .news-label {
+    position: relative;
+    top: 4px;
   }
   .news-container .news .news-item.active {
     position: absolute;
