@@ -226,6 +226,7 @@ html.browser-lt-ie9 body .ie-too-old {
     height: 2.2em;
     line-height: 2.2em;
     text-align: center;
+    text-transform: capitalize;
     color: white;
     z-index: 80;
   }
